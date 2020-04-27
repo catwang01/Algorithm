@@ -89,6 +89,8 @@
 
 7. 不那么双指针的双指针 [面试题58 - I. 翻转单词顺序 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)
 
+8. 类似于快排中的双指针，只不过数组被分成三部分，而快排中是两部分 [75. 颜色分类 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-colors/)
+
 ### 滑动窗口
 
 1. 推荐 [209. 长度最小的子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
@@ -177,13 +179,9 @@
 
 5. [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/)
 
-6. 面试：[25. K 个一组翻转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
-
-当时思路是对的，但还是没有做出来
+6. 面试：[25. K 个一组翻转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) 当时思路是对的，但还是没有做出来
 
 7. [92. 反转链表 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
-
-3. 推荐， [328. 奇偶链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/odd-even-linked-list/)
 
 ### 链表 + 双指针
 
@@ -192,6 +190,8 @@
 2. [19. 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/)
 
 3. [141. 环形链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/linked-list-cycle/)
+
+3. 推荐， [328. 奇偶链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/odd-even-linked-list/)
 
 4. [160. 相交链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 
@@ -202,6 +202,8 @@
 注意添加虚拟结点和哨兵结点的使用
 
 1. [21. 合并两个有序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-two-sorted-lists/) 比较简单，可以练手
+进阶：[23. 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
+进阶：[148. 排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-list/)
 
 4. 推荐，注意使用虚拟结点 [203. 移除链表元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-linked-list-elements/)
 

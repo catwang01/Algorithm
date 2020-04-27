@@ -101,16 +101,23 @@
 | 2020-04-25 | |
 | Leetcode-剑指offer | [Leetcode 343. 整数拆分.md](Leetcode/Leetcode%20343.%20整数拆分.md) | | ||
 | Leetcode-剑指offer | [Leetcode 160. 相交链表.md](Leetcode/Leetcode%20160.%20相交链表.md) | | ||
-| Leetcode-剑指offer | [面试题41. 数据流中的中位数.md](Leetcode/面试题41.%20数据流中的中位数.md) | | | 堆;二分法;中位数 |
+| Leetcode-剑指offer | [面试题41. 数据流中的中位数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/) | [面试题41. 数据流中的中位数.md](Leetcode/面试题41.%20数据流中的中位数.md) | | 堆;二分法;中位数 |
 | Nowcoder-剑指offer | [Nowcoder 两个链表的第一个公共结点.md](Leetcode/Nowcoder%20两个链表的第一个公共结点.md) | | ||
 | 2020-04-26 | | | |
-| Leetcode | [Leetcode 21. 合并两个有序链表.md](Leetcode/Leetcode%2021.%20合并两个有序链表.md) | | 基础的链表题；注意设置头指针| 链表 |
-| Leetcode | [23. 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/)| [Leetcode 23. 合并K个排序链表.md](Leetcode/Leetcode%2023.%20合并K个排序链表.md) | | 学习了c++中priority_queue 的使用 | 堆;分治|
+| | [Leetcode 21. 合并两个有序链表.md](Leetcode/Leetcode%2021.%20合并两个有序链表.md) | | 基础的链表题；注意设置头指针| 链表 |
+| | [23. 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/)| [Leetcode 23. 合并K个排序链表.md](Leetcode/Leetcode%2023.%20合并K个排序链表.md) | | 学习了c++中priority_queue 的使用 | 堆;分治|
 | Leetcode 周赛| [Leetcode 5394. 对角线遍历 II.md](Leetcode/Leetcode%205394.%20对角线遍历%20II.md) | | ||
 | Leetcode 周赛| [5180. 带限制的子序列和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/constrained-subset-sum/) | [Leetcode 5180. 带限制的子序列和.md](Leetcode/Leetcode%205180.%20带限制的子序列和.md) | | 单调队列 |
 | Leetcode 周赛| [5392. 分割字符串的最大得分 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/) | [Leetcode 5392. 分割字符串的最大得分.md](Leetcode/Leetcode%205392.%20分割字符串的最大得分.md) | | 这个比较简单。没有什么知识点 |
 | 推荐Leetcode 周赛| [5180. 带限制的子序列和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/constrained-subset-sum/) | | | 单调队列 |
 | Leetcode-剑指offer | [面试题41. 数据流中的中位数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/) | [Leetcode 面试题41. 数据流中的中位数.md](Leetcode/Leetcode%20面试题41.%20数据流中的中位数.md) | | 单调队列 |
-| 推荐 Leetcode 面试被问到了 | [25. K 个一组翻转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Leetcode 25. K 个一组翻转链表.md](Leetcode/Leetcode%2025.%20K%20个一组翻转链表.md) | | 链表 |
-| 推荐 Leetcode| [92. 反转链表 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list-ii/)| [Leetcode 92. 反转链表 II.md](Leetcode/Leetcode%2092.%20反转链表%20II.md) | | 链表 |
-# References
+| 推荐 面试被问到了 | [25. K 个一组翻转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Leetcode 25. K 个一组翻转链表.md](Leetcode/Leetcode%2025.%20K%20个一组翻转链表.md) | | 链表 |
+| 推荐 | [92. 反转链表 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list-ii/)| [Leetcode 92. 反转链表 II.md](Leetcode/Leetcode%2092.%20反转链表%20II.md) | | 链表 |
+| 2020-04-27 | | | |
+| 推荐 | [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Leetcode 33. 搜索旋转排序数组.md](Leetcode/Leetcode%2033.%20搜索旋转排序数组.md) |       |  二分法   | 
+| 推荐 |  [876. 链表的中间结点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/middle-of-the-linked-list/) | [Leetcode 876. 链表的中间结点.md](Leetcode/Leetcode%20876.%20链表的中间结点.md) |       |    链表;快慢指针  |   
+| 推荐 | [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/) | [Leetcode 206. 反转链表.md](Leetcode/Leetcode%20206.%20反转链表.md) |    注意要调整head->next=NULL!   |     递归    |
+| 推荐 |   [148. 排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-list/) | [Leetcode 148. 排序链表.md](Leetcode/Leetcode%20148.%20排序链表.md) |       |   链表;归并排序   |   
+| 比较推荐 |  [75. 颜色分类 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-colors/) | [Leetcode 75. 颜色分类.md](Leetcode/Leetcode%2075.%20颜色分类.md) |   学到了switch使用;学习了循环不变式的使用,具体可以看 [快速排序 partition 过程（重点在设计循环不变量） - 颜色分类 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-colors/solution/kuai-su-pai-xu-partition-guo-cheng-she-ji-xun-huan/)  |   双指针;快排 |  
+
+
