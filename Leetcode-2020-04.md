@@ -1,8 +1,6 @@
 [toc]
 
-# Leetcode
-
-# 牛客
+# Leetcode 4月刷题记录
 
 | 时间| 题目链接 | 题解| 备注| tag |
 | :----: | ------------------------------------------------------------ | ---------------------------- | ----------------------------------------- | ------------ |
@@ -111,7 +109,7 @@
 | Leetcode 周赛| [5392. 分割字符串的最大得分 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/) | [Leetcode 5392. 分割字符串的最大得分.md](Leetcode/Leetcode%205392.%20分割字符串的最大得分.md) | | 这个比较简单。没有什么知识点 |
 | 推荐Leetcode 周赛| [5180. 带限制的子序列和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/constrained-subset-sum/) | | | 单调队列 |
 | Leetcode-剑指offer | [面试题41. 数据流中的中位数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/) | [Leetcode 面试题41. 数据流中的中位数.md](Leetcode/Leetcode%20面试题41.%20数据流中的中位数.md) | | 单调队列 |
-| 推荐 面试被问到了 | [25. K 个一组翻转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Leetcode 25. K 个一组翻转链表.md](Leetcode/Leetcode%2025.%20K%20个一组翻转链表.md) | | 链表 |
+| 推荐 面试被问到了 | [25. K 个一组翻转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Leetcode 25. K 个一组翻转链表.md](Leetcode/Leetcode%2025.%20K%20个一组翻转链表.md) | 学到了断链操作 | 链表 |
 | 推荐 | [92. 反转链表 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list-ii/)| [Leetcode 92. 反转链表 II.md](Leetcode/Leetcode%2092.%20反转链表%20II.md) | | 链表 |
 | 2020-04-27 | | | |
 | 推荐 | [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Leetcode 33. 搜索旋转排序数组.md](Leetcode/Leetcode%2033.%20搜索旋转排序数组.md) |       |  二分法   | 
@@ -119,5 +117,11 @@
 | 推荐 | [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/) | [Leetcode 206. 反转链表.md](Leetcode/Leetcode%20206.%20反转链表.md) |    注意要调整head->next=NULL!   |     递归    |
 | 推荐 |   [148. 排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-list/) | [Leetcode 148. 排序链表.md](Leetcode/Leetcode%20148.%20排序链表.md) |       |   链表;归并排序   |   
 | 比较推荐 |  [75. 颜色分类 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-colors/) | [Leetcode 75. 颜色分类.md](Leetcode/Leetcode%2075.%20颜色分类.md) |   学到了switch使用;学习了循环不变式的使用,具体可以看 [快速排序 partition 过程（重点在设计循环不变量） - 颜色分类 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-colors/solution/kuai-su-pai-xu-partition-guo-cheng-she-ji-xun-huan/)  |   双指针;快排 |  
-
-
+| |  [61. 旋转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/rotate-list/) | [Leetcode 61. 旋转链表.md](Leetcode/Leetcode%2061.%20旋转链表.md) |       |      | 
+| 推荐！可以综合三个链表题的知识 |    [143. 重排链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reorder-list/) | [Leetcode 143. 重排链表.md](Leetcode/Leetcode%20143.%20重排链表.md) |       |   链表  |  
+| 比较推荐 |  [83. 删除排序链表中的重复元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [Leetcode 83. 删除排序链表中的重复元素.md](Leetcode/Leetcode%2083.%20删除排序链表中的重复元素.md) | 比较简单的链表  |   链表  |  
+| 比较推荐 |  [82. 删除排序链表中的重复元素 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) | [Leetcode 82. 删除排序链表中的重复元素 II.md](Leetcode/Leetcode%2082.%20删除排序链表中的重复元素%20II.md) |       |    链表  |       
+| Leetcode-剑指offer  | [面试题18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | [Leetcode 面试题18. 删除链表的节点.md](Leetcode/Leetcode%20面试题18.%20删除链表的节点.md) |       |    链表  |  
+| Leetcode-剑指offer| [面试题35. 复杂链表的复制 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/) | [Leetcode 面试题35. 复杂链表的复制.md](Leetcode/Leetcode%20面试题35.%20复杂链表的复制.md) |    这个比较难想到   |   链表 |     
+| | [86. 分隔链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-list/) | [Leetcode 86. 分隔链表.md](Leetcode/Leetcode%2086.%20分隔链表.md) |    注意断链！   |    链表  |  
+|   |  [234. 回文链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindrome-linked-list/)   | [Leetcode 234. 回文链表.md](Leetcode/Leetcode%20234.%20回文链表.md) |       |   链表   |     

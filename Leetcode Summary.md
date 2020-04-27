@@ -172,7 +172,6 @@
  3. dp [1335. 工作计划的最低难度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule/)
 
 ## 链表相关
-
 ### 反转链表
 
 2. 推荐，这个比较难 [24. 两两交换链表中的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
@@ -195,6 +194,16 @@
 
 4. [160. 相交链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 
+### 删除链表
+
+4. 推荐，注意使用虚拟结点 [203. 移除链表元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-linked-list-elements/)
+
+[面试题18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) 
+
+7. 比较简单 [83. 删除排序链表中的重复元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
+
+[82. 删除排序链表中的重复元素 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) 
+
 ### 其它
 
 [快慢指针（注意链表长度为偶数时，返回第 2 个结点的细节） - 链表的中间结点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/middle-of-the-linked-list/solution/kuai-man-zhi-zhen-zhu-yao-zai-yu-diao-shi-by-liwei/)
@@ -203,15 +212,22 @@
 
 1. [21. 合并两个有序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-two-sorted-lists/) 比较简单，可以练手
 进阶：[23. 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
-进阶：[148. 排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-list/)
+进阶：推荐：[148. 排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-list/)
 
-4. 推荐，注意使用虚拟结点 [203. 移除链表元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-linked-list-elements/)
+5. [61. 旋转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/rotate-list/) 
+
+6. 推荐；这个 [143. 重排链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reorder-list/) 
 
 这个面试考了，当时不会
 [445. 两数相加 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-two-numbers-ii/)
 
-## 动态规划
+[面试题35. 复杂链表的复制 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/)
 
+[86. 分隔链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-list/)
+
+[234. 回文链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindrome-linked-list/)  
+
+## 动态规划
 
 比较难的 [887. 鸡蛋掉落 - 力扣（LeetCode）](https://leetcode-cn.com/problems/super-egg-drop/)
 
