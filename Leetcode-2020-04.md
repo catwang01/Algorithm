@@ -125,3 +125,5 @@
 | Leetcode-剑指offer| [面试题35. 复杂链表的复制 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/) | [Leetcode 面试题35. 复杂链表的复制.md](Leetcode/Leetcode%20面试题35.%20复杂链表的复制.md) |    这个比较难想到   |   链表 |     
 | | [86. 分隔链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-list/) | [Leetcode 86. 分隔链表.md](Leetcode/Leetcode%2086.%20分隔链表.md) |    注意断链！   |    链表  |  
 |   |  [234. 回文链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindrome-linked-list/)   | [Leetcode 234. 回文链表.md](Leetcode/Leetcode%20234.%20回文链表.md) |       |   链表   |     
+| 2020-04-28 | | | |
+| Leetcode-剑指offer | [面试题52. 两个链表的第一个公共节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/comments/) | [Leetcode 面试题52. 两个链表的第一个公共节点.md](Leetcode/Leetcode%20面试题52.%20两个链表的第一个公共节点.md) |   套路    |    链表  |   
