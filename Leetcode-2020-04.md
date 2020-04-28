@@ -112,7 +112,7 @@
 | 推荐 面试被问到了 | [25. K 个一组翻转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Leetcode 25. K 个一组翻转链表.md](Leetcode/Leetcode%2025.%20K%20个一组翻转链表.md) | 学到了断链操作 | 链表 |
 | 推荐 | [92. 反转链表 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list-ii/)| [Leetcode 92. 反转链表 II.md](Leetcode/Leetcode%2092.%20反转链表%20II.md) | | 链表 |
 | 2020-04-27 | | | |
-| 推荐 | [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Leetcode 33. 搜索旋转排序数组.md](Leetcode/Leetcode%2033.%20搜索旋转排序数组.md) |       |  二分法   | 
+| 面试题 | [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Leetcode 33. 搜索旋转排序数组.md](Leetcode/Leetcode%2033.%20搜索旋转排序数组.md) |       |  二分法   | 
 | 推荐 |  [876. 链表的中间结点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/middle-of-the-linked-list/) | [Leetcode 876. 链表的中间结点.md](Leetcode/Leetcode%20876.%20链表的中间结点.md) |       |    链表;快慢指针  |   
 | 推荐 | [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/) | [Leetcode 206. 反转链表.md](Leetcode/Leetcode%20206.%20反转链表.md) |    注意要调整head->next=NULL!   |     递归    |
 | 推荐 |   [148. 排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-list/) | [Leetcode 148. 排序链表.md](Leetcode/Leetcode%20148.%20排序链表.md) |       |   链表;归并排序   |   
@@ -127,3 +127,7 @@
 |   |  [234. 回文链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindrome-linked-list/)   | [Leetcode 234. 回文链表.md](Leetcode/Leetcode%20234.%20回文链表.md) |       |   链表   |     
 | 2020-04-28 | | | |
 | Leetcode-剑指offer | [面试题52. 两个链表的第一个公共节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/comments/) | [Leetcode 面试题52. 两个链表的第一个公共节点.md](Leetcode/Leetcode%20面试题52.%20两个链表的第一个公共节点.md) |   套路    |    链表  |   
+| 面试题 |  [284. 顶端迭代器 - 力扣（LeetCode）](https://leetcode-cn.com/problems/peeking-iterator/) | [Leetcode 284. 顶端迭代器.md](Leetcode/Leetcode%20284.%20顶端迭代器.md) |       |      | 
+| 面试题 | [105. 从前序与中序遍历序列构造二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Leetcode 105. 从前序与中序遍历序列构造二叉树.md](Leetcode/Leetcode%20105.%20从前序与中序遍历序列构造二叉树.md) |       |      | 
+| 面试题 | [面试题45. 把数组排成最小的数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | [Leetcode 面试题45. 把数组排成最小的数.md](Leetcode/Leetcode%20面试题45.%20把数组排成最小的数.md) |       |      | 
+| 面试题;快排 | [912. 排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-an-array/) | [Leetcode 912. 排序数组.md](Leetcode/Leetcode%20912.%20排序数组.md) |       |      | 

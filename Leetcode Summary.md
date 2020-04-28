@@ -2,6 +2,10 @@
 
 # Leetcode 题目分类总结
 
+## 排序
+
+自定义排序规则 [面试题45. 把数组排成最小的数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)
+
 ## 加法进位类型
 
 如果不考虑进位，每一位是 a + b。如果考虑进位，每一位是 a + b + carry(carry表示进位）
@@ -12,11 +16,9 @@
 
 ## 位运算
 
-
 [1386. 安排电影院座位 - 力扣（LeetCode）](https://leetcode-cn.com/problems/cinema-seat-allocation/)
 
 ## 贪心
-
 
 1. [1405. 最长快乐字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-happy-string/)
 2.  [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/)
@@ -32,7 +34,6 @@
 4. [并查集的实现_牛客网](https://www.nowcoder.com/practice/e7ed657974934a30b2010046536a5372?tpId=101&&tqId=33134&rp=1&ru=/activity/oj&qru=/ta/programmer-code-interview-guide/question-ranking)
 
 5. [200. 岛屿数量 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-islands/)
-
 
 ## bfs && dfs
 
@@ -320,8 +321,6 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 [129. 求根到叶子节点数字之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
 
 [257. 二叉树的所有路径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-paths/)
-
-### 
 
 [101. 对称二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/symmetric-tree/)
 
