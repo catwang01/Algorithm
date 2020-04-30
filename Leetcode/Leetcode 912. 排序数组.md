@@ -2,6 +2,8 @@
 
 # Leetcode 912. 排序数组
 
+## 问题描述
+
 这个题目就是单纯的排序算法。可以用这个来验证自己的手写的排序算法到底有没有bug。
 
 [912. 排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-an-array/)
@@ -10,9 +12,9 @@
 
 ### 解法1. 快排
 
-#### 解法1：实现1
+#### 解法1：实现1：递归
 
-##### 解法1:c++
+##### 解法1:实现1:c++
 
 ```
 class Solution {
@@ -42,7 +44,7 @@ public:
 };
 ```
 
-##### 解法1:java
+##### 解法1:实现1:java
 
 ```
 import java.util.Arrays;
@@ -80,7 +82,7 @@ class Solution {
 }
 ```
 
-##### 解法1:python
+##### 解法1:实现1:python
 
 ```
 class Solution:
@@ -119,7 +121,7 @@ high-1 为 pivot
 3. 循环条件
 i < high - 1
 
-##### 解法1: 实现2: c++
+##### 解法1:实现2:c++
 
 ```
 class Solution {
@@ -128,7 +130,6 @@ public:
         quickSort(0, nums.size(), nums);
         return nums;
     }
-    
     // 注意这里实现是左闭右开区间的情况
     void quickSort(int low, int high, vector<int>& nums) {
         if (low < high) {
@@ -149,11 +150,48 @@ public:
 };
 ```
 
-### 2. 归并
+#### 解法1:实现2:非递归
 
-#### 归并实现
+非递归实现就只是引入栈。用来保存 low 和 high
 
-##### 归并：c++
+##### 解法1:实现2:c++
+
+```
+class Solution {
+public:
+    vector<int> sortArray(vector<int>& nums) {
+        stack<pair<int, int>> s;
+        s.push({0, nums.size()});
+        int low, high;
+        while (!s.empty()) {
+            low = s.top().first;
+            high = s.top().second;
+            s.pop();
+            if (low < high) {
+                int left = low, i = low;
+                int pivot = nums[high-1];
+                while (i < high-1) {
+                    if (nums[i] <= pivot) {
+                        swap(nums[left], nums[i]);
+                        left++;
+                    }
+                    i++;
+                }
+                swap(nums[left], nums[high-1]);
+                s.push({low, left});
+                s.push({left+1, high});
+            }
+        }
+        return nums;
+    }
+};
+```
+
+### 解法2:归并
+
+#### 解法2:归并实现
+
+##### 解法2:归并:c++
 
 ```
 class Solution {
@@ -198,8 +236,7 @@ public:
 };
 ```
 
-
-##### 归并：java
+##### 解法2:归并:java
 
 ```
 class Solution {

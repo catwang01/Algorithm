@@ -131,3 +131,10 @@
 | 面试题 | [105. 从前序与中序遍历序列构造二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Leetcode 105. 从前序与中序遍历序列构造二叉树.md](Leetcode/Leetcode%20105.%20从前序与中序遍历序列构造二叉树.md) |       |      | 
 | 面试题 | [面试题45. 把数组排成最小的数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | [Leetcode 面试题45. 把数组排成最小的数.md](Leetcode/Leetcode%20面试题45.%20把数组排成最小的数.md) |       |      | 
 | 面试题;快排 | [912. 排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-an-array/) | [Leetcode 912. 排序数组.md](Leetcode/Leetcode%20912.%20排序数组.md) |       |      | 
+| 2020-04-29 | | | |
+|  | [1095. 山脉数组中查找目标值 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-in-mountain-array/) | [Leetcode 1095. 山脉数组中查找目标值.md](Leetcode/Leetcode%201095.%20山脉数组中查找目标值.md) |       |   二分法   | 
+| 面试题|  [二叉搜索树与双向链表_牛客网](https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5?tpId=13&tqId=11179&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tPage=2) |  [Nowcoder 两个链表的第一个公共结点.md](Nowcoder/Nowcoder\ 两个链表的第一个公共结点.md) |   |    二分法   | 
+| 面试题 |  [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/submissions/) | [Leetcode 69. x 的平方根.md](Leetcode/Leetcode%2069.%20x%20的平方根.md) |       |      | 
+| 面试题 todo | [470. 用 Rand7() 实现 Rand10() - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) | [Leetcode 470. 用 Rand7() 实现 Rand10().md](Leetcode/Leetcode%20470.%20用%20Rand7()%20实现%20Rand10().md) |       |      | 
+| 面试题todo | [152. 乘积最大子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/submissions/) | [Leetcode 152. 乘积最大子数组.md](Leetcode/Leetcode%20152.%20乘积最大子数组.md) |       |  dp    | 
+| 面试题 快排| [912. 排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-an-array/) | [Leetcode 912. 排序数组.md](Leetcode/Leetcode%20912.%20排序数组.md) |     学习了快排的非递归写法  |      | 

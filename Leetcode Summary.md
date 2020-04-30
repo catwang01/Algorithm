@@ -150,10 +150,9 @@
 
 8. 前缀和 + 二分法 [209. 长度最小的子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
 
-
 9. 前缀和 + 二分 [丰收_牛客网](https://www.nowcoder.com/practice/83b419c027fa490aa60669b0e7dc06a3?tpId=98&tqId=32834&tPage=1&rp=1&ru=%2Fta%2F2019test&qru=%2Fta%2F2019test%2Fquestion-ranking)
 
-9. [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/submissions/)
+9. 面试题 [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/submissions/)
 
 10. 不推荐，太特殊，需要证明 [162. 寻找峰值 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-peak-element/)
 
@@ -173,6 +172,7 @@
  3. dp [1335. 工作计划的最低难度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule/)
 
 ## 链表相关
+
 ### 反转链表
 
 2. 推荐，这个比较难 [24. 两两交换链表中的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
@@ -352,6 +352,7 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 [230. 二叉搜索树中第K小的元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)
 
+面试题 [二叉搜索树与双向链表_牛客网](https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5?tpId=13&tqId=11179&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tPage=2)
 
 ### 路径相关
 
@@ -368,10 +369,11 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 [124. 二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
 
-
 ## 分治
 
 [240. 搜索二维矩阵 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)
+
+[23. 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
 
 ## n数之和系列
 
@@ -382,7 +384,6 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 [16. 最接近的三数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/3sum-closest/)
 
 [560. 和为K的子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
-
 
 ## 单调队列
 
@@ -403,4 +404,8 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 1. [1103. 分糖果 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/distribute-candies-to-people/)
 
 2. 推荐 难 [面试题62. 圆圈中最后剩下的数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)
+
+## 其它
+
+[470. 用 Rand7() 实现 Rand10() - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-rand10-using-rand7/)
 
