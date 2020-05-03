@@ -138,3 +138,8 @@
 | 面试题 todo | [470. 用 Rand7() 实现 Rand10() - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) | [Leetcode 470. 用 Rand7() 实现 Rand10().md](Leetcode/Leetcode%20470.%20用%20Rand7()%20实现%20Rand10().md) |       |      | 
 | 面试题todo | [152. 乘积最大子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/submissions/) | [Leetcode 152. 乘积最大子数组.md](Leetcode/Leetcode%20152.%20乘积最大子数组.md) |       |  dp    | 
 | 面试题 快排| [912. 排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-an-array/) | [Leetcode 912. 排序数组.md](Leetcode/Leetcode%20912.%20排序数组.md) |     学习了快排的非递归写法  |      | 
+| 面试题 微软算法| [450. 删除二叉搜索树中的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/delete-node-in-a-bst/) | [Leetcode 450. 删除二叉搜索树中的节点.md](Leetcode/Leetcode%20450.%20删除二叉搜索树中的节点.md) |       |      | 
+| 面试题 京东算法 | [面试题09. 用两个栈实现队列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [Leetcode 面试题09. 用两个栈实现队列 232. 用栈实现队列.md](Leetcode/Leetcode%20面试题09.%20用两个栈实现队列%20232.%20用栈实现队列.md) |       |      | 
+| 面试题 华为AI nlp |  [739. 每日温度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/daily-temperatures/) | [Leetcode 739. 每日温度.md](Leetcode/Leetcode%20739.%20每日温度.md) |       |   单调栈   | 
+|  |  [496. 下一个更大元素 I - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-element-i/) | [Leetcode 496. 下一个更大元素 I.md](Leetcode/Leetcode%20496.%20下一个更大元素%20I.md) |     |    单调栈  | 
+|  | [503. 下一个更大元素 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-element-ii/) | [Leetcode 503. 下一个更大元素 II.md](Leetcode/Leetcode%20503.%20下一个更大元素%20II.md) |       |      | 

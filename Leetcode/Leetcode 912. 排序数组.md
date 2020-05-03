@@ -271,3 +271,37 @@ class Solution {
     }
 }
 ```
+
+### 解法3: 插入排序
+
+#### 解法3:实现
+
+##### 解法3:  c++
+
+```
+class Solution {
+public:
+    vector<int> sortArray(vector<int>& nums) {
+        if (nums.size() <= 1) return nums;
+
+        // [0, i) 已排序 [i, n) 未排序
+        // j 表示新的数字的插入位置
+        int n = nums.size(), i, j, num;
+
+        for (i=0; i<n; i++) {
+            num = nums[i];
+            j = 0; 
+            while (j < i && nums[j] <= nums[i]) {
+                j++;
+            }
+            for (int k=i; k>j; k--) {
+                nums[k] = nums[k-1];
+            }
+            nums[j] = num;
+        }
+        return nums;
+    }
+};
+```
+
+
