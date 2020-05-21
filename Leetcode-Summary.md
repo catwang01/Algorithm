@@ -215,6 +215,8 @@
 进阶：[23. 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
 进阶：推荐：[148. 排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-list/)
 
+[147. 对链表进行插入排序 - 力扣（LeetCode）](https://leetcode-cn.com/problems/insertion-sort-list/) | [Leetcode 147. 对链表进行插入排序.md](Leetcode/Leetcode%20147.%20对链表进行插入排序.md) 
+
 5. [61. 旋转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/rotate-list/) 
 
 6. 推荐；这个 [143. 重排链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reorder-list/) 
