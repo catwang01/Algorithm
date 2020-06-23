@@ -66,6 +66,7 @@
 
 1. 回溯 [46. 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/)
 2. 回溯 [47. 全排列 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations-ii/)
+4. 回溯 [60. 第k个排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutation-sequence/)
 3. 推荐 [22. 括号生成 - 力扣（LeetCode）](https://leetcode-cn.com/problems/generate-parentheses/)
 4. [78. 子集 - 力扣（LeetCode）](https://leetcode-cn.com/problems/subsets/)
 5. 回溯 经典问题 [51. N皇后 - 力扣（LeetCode）](https://leetcode-cn.com/problems/n-queens/)
