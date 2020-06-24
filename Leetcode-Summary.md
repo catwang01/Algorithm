@@ -234,6 +234,8 @@
 
 11. 注意使用虚拟头结点：[707. 设计链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/design-linked-list/)
 
+12. [725. 分隔链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
+
 ## 动态规划
 
 比较难的 [887. 鸡蛋掉落 - 力扣（LeetCode）](https://leetcode-cn.com/problems/super-egg-drop/)
