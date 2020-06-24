@@ -17,6 +17,9 @@
 | 2020-06-24 ||||
 |  | [707. 设计链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/design-linked-list/)  | [Leetcode-707. 设计链表.md](Leetcode/Leetcode-707.%20设计链表.md) |    注意使用虚拟头结点   |    链表  | 
 |  | [725. 分隔链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/split-linked-list-in-parts/)  | [Leetcode-725. 分隔链表.md](Leetcode/Leetcode-725.%20分隔链表.md) |   不是很难，注意要断链    |      链表 | 
+|  | [1019. 链表中的下一个更大节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/)  | [Leetcode-1019. 链表中的下一个更大节点.md](Leetcode/Leetcode-1019.%20链表中的下一个更大节点.md) |       |   链表   | 
+|  |  [27. 移除元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-element/) | [Leetcode-27. 移除元素.md](Leetcode/Leetcode-27.%20移除元素.md) |   弄清楚循环不变式    |   双指针   | 
+
 
 
 
