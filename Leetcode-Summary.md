@@ -213,23 +213,26 @@
 注意添加虚拟结点和哨兵结点的使用
 
 1. [21. 合并两个有序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-two-sorted-lists/) 比较简单，可以练手
-进阶：[23. 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
-进阶：推荐：[148. 排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-list/)
 
-[147. 对链表进行插入排序 - 力扣（LeetCode）](https://leetcode-cn.com/problems/insertion-sort-list/) | [Leetcode 147. 对链表进行插入排序.md](Leetcode/Leetcode%20147.%20对链表进行插入排序.md) 
+2. 进阶：[23. 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
+
+3. 进阶：推荐：[148. 排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-list/)
+
+4. [147. 对链表进行插入排序 - 力扣（LeetCode）](https://leetcode-cn.com/problems/insertion-sort-list/) | [Leetcode 147. 对链表进行插入排序.md](Leetcode/Leetcode%20147.%20对链表进行插入排序.md) 
 
 5. [61. 旋转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/rotate-list/) 
 
 6. 推荐；这个 [143. 重排链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reorder-list/) 
 
-这个面试考了，当时不会
-[445. 两数相加 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-two-numbers-ii/)
+7. 这个面试考了，当时不会 [445. 两数相加 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-two-numbers-ii/)
 
-[面试题35. 复杂链表的复制 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/)
+8. [面试题35. 复杂链表的复制 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/)
 
-[86. 分隔链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-list/)
+9. [86. 分隔链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-list/)
 
-[234. 回文链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindrome-linked-list/)  
+10. [234. 回文链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindrome-linked-list/)  
+
+11. 注意使用虚拟头结点：[707. 设计链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/design-linked-list/)
 
 ## 动态规划
 
