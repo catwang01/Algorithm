@@ -42,13 +42,17 @@ def getLink(output):
     # print(r.text)
 
 if __name__ == '__main__':
-    path = '/Users/ed/Git/Algorithm/Leetcode'
-    cmd = 'ls -t {path}'.format(path=path)
-    
-    description = execute_cmd(cmd)
-    url = 'Leetcode/' + description.replace(' ', '%20')
-    output = '|  |   | [{description}]({url}) |       |      | '.format(description = description, url = url)
-    print(output)
+    paths = ['/Users/ed/Git/Algorithm/Leetcode', "/Users/ed/Git/Algorithm/Nowcoder"] 
 
-    cmd = "echo '%s' | pbcopy"%output
+    outputs = []
+    for path in paths:
+
+        cmd = 'ls -t {path}'.format(path=path)
+        
+        description = execute_cmd(cmd)
+        url = 'Leetcode/' + description.replace(' ', '%20')
+        output = '|  |   | [{description}]({url}) |       |      | '.format(description = description, url = url)
+        outputs.append(output)
+
+    cmd = "echo '%s' | pbcopy" % '\n'.join(outputs)
     execute_cmd(cmd)

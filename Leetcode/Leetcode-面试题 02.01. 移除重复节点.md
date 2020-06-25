@@ -6,7 +6,6 @@
 
 [面试题 02.01. 移除重复节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/)
 
-
 ## 算法
 
 ### 解法1: hast表

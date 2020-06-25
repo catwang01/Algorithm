@@ -244,7 +244,7 @@
 
 15. [1019. 链表中的下一个更大节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/)
 
-16.
+16. [LRU Cache_牛客网](https://www.nowcoder.com/practice/3da4aeb1c76042f2bc70dbcb94513338?tpId=182&&tqId=34883&rp=1&ru=/activity/oj&qru=/ta/exam-all/question-ranking)
 
 ## 动态规划
 
