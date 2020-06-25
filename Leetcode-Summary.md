@@ -228,7 +228,9 @@
 
 8. [面试题35. 复杂链表的复制 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/)
 
-9. [86. 分隔链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-list/)
+9. 
+    - [86. 分隔链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-list/)
+    - [面试题 02.04. 分割链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-list-lcci/)
 
 10. [234. 回文链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindrome-linked-list/)  
 
@@ -241,6 +243,8 @@
 14. [面试题 02.01. 移除重复节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/)
 
 15. [1019. 链表中的下一个更大节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/)
+
+16.
 
 ## 动态规划
 

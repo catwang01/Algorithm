@@ -22,6 +22,8 @@
 | todo |  [面试题 02.01. 移除重复节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/) | [Leetcode/Leetcode-面试题 02.01. 移除重复节点.md](Leetcode/Leetcode-面试题%2002.01.%20移除重复节点.md)  | 注意是无序。  | 链表 | 
 | 2020-06-25 ||||
 |  todo 使用前缀和的看不懂 | [1171. 从链表中删去总和值为零的连续节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)  | [Leetcode-1171. 从链表中删去总和值为零的连续节点.md](Leetcode/Leetcode-1171.%20从链表中删去总和值为零的连续节点.md) |       |   链表   | 
+|  |   [面试题 02.04. 分割链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-list-lcci/)  | [Leetcode-面试题 02.04. 分割链表.md](Leetcode/Leetcode-面试题%2002.04.%20分割链表.md) |       |     链表 | 
+
 
 
 
