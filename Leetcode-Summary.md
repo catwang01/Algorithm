@@ -236,6 +236,12 @@
 
 12. [725. 分隔链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
 
+13. [1171. 从链表中删去总和值为零的连续节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
+
+14. [面试题 02.01. 移除重复节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/)
+
+15. [1019. 链表中的下一个更大节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/)
+
 ## 动态规划
 
 比较难的 [887. 鸡蛋掉落 - 力扣（LeetCode）](https://leetcode-cn.com/problems/super-egg-drop/)
@@ -411,6 +417,8 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 6. 华为AI nlp [739. 每日温度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/daily-temperatures/)
 
 7. 和上面的很像 [496. 下一个更大元素 I - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-element-i/)
+
+8. [1019. 链表中的下一个更大节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/)
 
 ## 圆圈相关
 
