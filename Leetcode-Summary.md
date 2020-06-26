@@ -124,8 +124,9 @@
 
 4. 推荐 桶思想 [220. 存在重复元素 III - 力扣（LeetCode）](https://leetcode-cn.com/problems/contains-duplicate-iii/submissions/)
 
-## top k
+5. [41. 缺失的第一个正数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/first-missing-positive/)
 
+## top k
 
 1. [692. 前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/)
 

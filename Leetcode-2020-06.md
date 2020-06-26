@@ -24,6 +24,13 @@
 |  todo 使用前缀和的看不懂 | [1171. 从链表中删去总和值为零的连续节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)  | [Leetcode-1171. 从链表中删去总和值为零的连续节点.md](Leetcode/Leetcode-1171.%20从链表中删去总和值为零的连续节点.md) |       |   链表   | 
 |  |   [面试题 02.04. 分割链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-list-lcci/)  | [Leetcode-面试题 02.04. 分割链表.md](Leetcode/Leetcode-面试题%2002.04.%20分割链表.md) |       |     链表 | 
 | 貌似是某个公司的面试题  | [LRU Cache_牛客网](https://www.nowcoder.com/practice/3da4aeb1c76042f2bc70dbcb94513338?tpId=182&&tqId=34883&rp=1&ru=/activity/oj&qru=/ta/exam-all/question-ranking)  | [Nowcoder-LRU Cache.md](Leetcode/Nowcoder-LRU%20Cache.md) |   这里使用的方法可以在 deque 中以常数时间找到元素   |    链表,hashtab | 
+| 2020-06-26 ||||
+|  | [求两个多项式的和_牛客网](https://www.nowcoder.com/practice/a9901ba9163549a590d1d1c245f14d2a?tpId=40&&tqId=21534&rp=1&ru=/activity/oj&qru=/ta/kaoyan/question-ranking)  | [Nowcoder-求两个多项式的和.md](Nowcoder/Nowcoder-求两个多项式的和.md) |  不难，感觉不重要     |   map   | 
+|  | [104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)  | [Leetcode-104. 二叉树的最大深度.md](Leetcode/Leetcode-104.%20二叉树的最大深度.md) |       |      | 
+|  | [41. 缺失的第一个正数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/first-missing-positive/)  | [Leetcode-41. 缺失的第一个正数.md](Leetcode/Leetcode-41.%20缺失的第一个正数.md) |       |   原地hash   | 
+
+
+
 
 
 
