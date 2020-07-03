@@ -1,3 +1,4 @@
+
 [toc]
 
 # Leetcode 23. 合并K个排序链表
@@ -16,8 +17,8 @@
 
 时间复杂度：$O(kn)$ 因为每选出一个元素都需要 k 次比较
 空间复杂度：
-    - 递归实现：$O(logn)$ 
-    - 迭代实现：$O(1)$ 
+- 递归实现：$O(logn)$ 
+- 迭代实现：$O(1)$ 
 
 #### 解法1.1:实现: 递归
 
@@ -92,8 +93,6 @@ class Solution:
 
 ##### 解法2: c++
 
-参考了 [1]
-
 ```
 class Solution {
 public:
@@ -123,18 +122,119 @@ public:
 };
 ```
 
+##### 解法2: python
+
+```
+import heapq
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        k = len(lists)
+        if k == 0: return None
+        if k == 1: return lists[0]
+
+        heap = []
+
+        for i in range(k):
+            if lists[i]:
+                heapq.heappush(heap, (lists[i].val, i))
+
+        virtualHead = ListNode(-1)
+        p = virtualHead
+
+        while heap:
+            val, i = heap[0]
+            p.next = lists[i]
+            p = p.next
+            heapq.heappop(heap)
+
+            lists[i] = lists[i].next
+            if lists[i]:
+                heapq.heappush(heap, (lists[i].val, i))
+        return virtualHead.next
+```
+
+##### 解法2: python 猴子补丁
+
+```
+import heapq
+
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        k = len(lists)
+        if k == 0: return None
+        if k == 1: return lists[0]
+
+        # 自定义排序规则
+        ListNode.__lt__ = lambda this, that: this.val < that.val
+        heap = []
+
+        for head in lists:
+            if head: heapq.heappush(heap, head)
+        
+        virtualHead = ListNode(-1)
+        p = virtualHead
+
+        while heap:
+            node = heap[0]
+            p.next = node
+            p = p.next
+            heapq.heappop(heap)
+            if node.next:
+                heapq.heappush(heap, node.next)
+        return virtualHead.next
+```
+
+
 ### 解法3: 分治
 
-转化为两个两个合并。
+#### 复杂度分析
 
-# Todo - 2020-04-26 23:28 -- by ed 这个复杂度分析不会！
+假设n 是 平均每个链表的长度，k 是链表的个数，下面进行复杂度分析
 
-时间复杂度：$O( )$ 
-空间复杂度：$$ 
+##### 时间复杂度： $O(nklogk)$
 
-#### 解法3:实现
+假设 k 个链表，每个链表的长度都是 n，则要求的时间复杂度为 $T(nk)$。将其分成两组链表，每组分别为 $k/2$ 个 长度为 n 的链表，因此，解决两个子问题的时间复杂度为 $2 T(nk/2)$。两个子问题解决后返回两个长度均为 $nk/2$ 的链表，将这两个链表合并的时间复杂度为 $O(nk/2)$，因此，有下面的公式：
 
-##### 解法3: 
+$$
+T(nk) = 2 T(nk/2) + O(nk/2)
+$$
+
+假设 $2^l = k$，并继续向下推导，有
+
+$$
+\begin{aligned}
+T(nk) &= 2T(nk/2) + O(nk/2) \\
+    &= 2(2T(nk/4) + O(nk/4)) + O(nk/2) \\
+    &=  4T(nk/4) + 2O(nk/4) + O(nk/2) \\
+    &= 4T(nk/4) + 2O(nk/2) \\
+    &= 2^2T(nk/2^2) + 2O(nk/2) \\
+    &= \cdots \\
+    &= 2^l T(nk/2^l) + l O(nk/2) \\
+    &= k T(n) + O(nkl/2)
+\end{aligned}
+$$
+
+$T(n)$ 表示有一个长度为 n 的链表对其合并，时间复杂度为 $O(1)$（因为只有一个，不需要任何操作直接返回就好）。
+
+因此，有
+
+$$
+\begin{aligned}
+T(nk) &= 2T(nk/2) + O(nk/2) \\
+    &= k T(n) + O(nkl/2) \\
+    &=  k O(1) + O(nkl/2) \\
+    &= O(k) + O(nk log k /2) （由于 2^l=k，因此 l=log k）\\ 
+    &= O(nklogk)
+\end{aligned}
+$$ 
+
+最后一步是因为（$O(k)$ 和 $O(nklogk/2)$ 相比可以忽略，同时 $O(nk logk/ 2）$中的常数 2 也可以忽略）
+
+##### 空间复杂度
+
+递归需要用到栈，深度为 $O(log k)$
+
+#### 解法3:c++
 
 ```
 class Solution {
@@ -162,5 +262,47 @@ public:
 };
 ```
 
+#### 解法3: 实现
+
+##### 解法3: python
+
+```
+class Solution:
+    def merge(self, head1, head2):
+        if not head1: return head2
+        if not head2: return head1
+        virtualHead = ListNode(-1)
+        p = virtualHead
+        while head1 and head2:
+            if head1.val < head2.val:
+                p.next = head1
+                head1 = head1.next
+            else:
+                p.next = head2
+                head2 = head2.next
+            p = p.next
+        if head1:
+            p.next = head1
+        else:
+            p.next = head2
+        return virtualHead.next
+
+    def mergeKLists(self, lists):
+        return self._mergeKLists(0, len(lists), lists)
+
+    # 对 lists[low: high] 之间的链表排序，返回链表
+    def _mergeKLists(self, low, high, lists) -> ListNode:
+        if low == high:
+            return None
+        elif low + 1 == high:
+            return lists[low]
+        else:
+            mid = (low + high)// 2
+            head1 = self._mergeKLists(low, mid, lists)
+            head2 = self._mergeKLists(mid, high ,lists)
+            return self.merge(head1, head2)
+```
 # References
 1. [C++ 二次遍历(超时)/分治思想/优先队列 - 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/c-er-ci-bian-li-chao-shi-fen-zhi-si-xiang-by-yizhe/)
+2. [合并 K 个排序链表 - 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/leetcode-23-he-bing-kge-pai-xu-lian-biao-by-powcai/)
+

@@ -2,6 +2,10 @@
 
 # Leetcode 60. 第 k 个排列
 
+## 问题描述
+
+[60. 第k个排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutation-sequence/)
+
 ## 算法
 
 ### 解法1: 回溯法
@@ -53,6 +57,3 @@ public:
     }
 };
 ```
-
-# References
-1. [60. 第k个排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutation-sequence/)
