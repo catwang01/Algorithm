@@ -6,8 +6,14 @@
 1. [experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
 2. [experence17-飞书算法.md](experence17-飞书算法.md)
 3. [experience2-京东算法.md](experience2-京东算法.md)  
-
 4. [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+
+5. [ experience7-京东算法.md ]( experience7-京东算法.md )
+
+## 排序相关
+
+1. 各种排序算法说下，写个插入排序。 [912. 排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-an-array/)
+相关企业：[ experience7-京东算法.md ]( experience7-京东算法.md )
 
 ## dp 相关
 
@@ -26,8 +32,12 @@
 ## 快排相关
 
 1. 给一个无序数组，找到其中位数（快排，O(n)）：[中位数_牛客网](https://www.nowcoder.com/practice/2364ff2463984f09904170cf6f67f69a?tpId=40&&tqId=21367&rp=1&ru=/activity/oj&qru=/ta/kaoyan/question-ranking) 
+
+求第k大数
+
 相关企业：[experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
 云从科技：[experience13-推荐秋招.md]( experience13-推荐秋招.md ) 面试官给了一个白板链接，根据出的题目在上面写代码，题目是求数组中位数，分别用快排和最大最小堆写，分析时间、空间复杂度
+[ experience7-京东算法.md ]( experience7-京东算法.md )
 
 ## 链表相关
 
@@ -40,7 +50,6 @@
 
 3. 代码：反转链表 [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/)
 相关企业：京东 [experience13-推荐秋招.md]( experience13-推荐秋招.md )
-
 
 ## 二分法
 

@@ -21,3 +21,4 @@
 |  | [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/) | [Leetcode 206. 反转链表.md]( Leetcode/Leetcode-206.%20反转链表.md ) | |    推荐  | 
 |  |   | [Leetcode-206. 反转链表.md](Leetcode/Leetcode-206.%20反转链表.md) |       |      | 
 |  |   | [Leetcode-144. 二叉树的前序遍历.md](Leetcode/Leetcode-144.%20二叉树的前序遍历.md) |       |      | 
+|  |   | [Leetcode-567. 字符串的排列.md](Leetcode/Leetcode-567.%20字符串的排列.md) |       |      | 
