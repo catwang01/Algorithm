@@ -7,16 +7,27 @@
 2. [experence17-飞书算法.md](experence17-飞书算法.md)
 3. [experience2-京东算法.md](experience2-京东算法.md)  
 
+4. [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+
 ## dp 相关
 
 1. (unfinished) m*n矩阵从左上角走到右下角一共有多少种走法？如果有障碍物的话怎么求？求最大的路径和？先从左上到右下在从右下返回到左上，重复走的节点值为0，求两条路径加和最大值？（都是DP）
 相关企业：[experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
 
+2. [5. 最长回文子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-substring/)
+相关企业：[experience13-推荐秋招.md]( experience13-推荐秋招.md )
+
+3. 数组的最大和 [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)
+相关企业： bigo [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+
+4. 数组的最大乘积 [152. 乘积最大子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/)
+相关企业： bigo [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+
 ## 快排相关
 
 1. 给一个无序数组，找到其中位数（快排，O(n)）：[中位数_牛客网](https://www.nowcoder.com/practice/2364ff2463984f09904170cf6f67f69a?tpId=40&&tqId=21367&rp=1&ru=/activity/oj&qru=/ta/kaoyan/question-ranking) 
-
 相关企业：[experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
+云从科技：[experience13-推荐秋招.md]( experience13-推荐秋招.md ) 面试官给了一个白板链接，根据出的题目在上面写代码，题目是求数组中位数，分别用快排和最大最小堆写，分析时间、空间复杂度
 
 ## 链表相关
 

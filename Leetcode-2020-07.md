@@ -15,3 +15,7 @@
 | 推荐 | [110. 平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/)  | [Leetcode-110. 平衡二叉树.md](Leetcode/Leetcode-110.%20平衡二叉树.md) |       | 二叉树     | 
 |  |  [202. 快乐数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/happy-number/) | [Leetcode-202. 快乐数.md](Leetcode/Leetcode-202.%20快乐数.md) |       |      | 
 |  | [剑指 Offer 18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)  | [Leetcode 面试题18. 删除链表的节点.md](Leetcode/Leetcode-面试题18.%20删除链表的节点.md ) |       |      | 
+|  | [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)  | [Leetcode-53. 最大子序和.md](Leetcode/Leetcode-53.%20最大子序和.md) |       |   经典 dp  | 
+|  | [152. 乘积最大子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/)  | [Leetcode-152. 乘积最大子数组.md](Leetcode/Leetcode-152.%20乘积最大子数组.md) |      |    推荐  | 
+|  | [5. 最长回文子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)  | [Leetcode-5. 最长回文子串.md](Leetcode/Leetcode-5.%20最长回文子串.md) | |    推荐  | 
+

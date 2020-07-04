@@ -289,7 +289,6 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 
 1. 推荐 dp [72. 编辑距离 - 力扣（LeetCode）](https://leetcode-cn.com/problems/edit-distance/)
 
-
 ### 子序列系列
 
 #### 只保存一个状态
@@ -302,10 +301,10 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 3. [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)
 
 4. dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)
-5. 
+
 #### 需要考虑多个状态
 
-1. [152. 乘积最大子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/submissions/) 
+1. 推荐：这个不太懂 [152. 乘积最大子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/submissions/) 
 2. [376. 摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/submissions/)
 
 ### 背包问题
