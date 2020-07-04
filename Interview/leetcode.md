@@ -29,3 +29,15 @@
 
 1. [Leetcode 470. 用 Rand7() 实现 Rand10().md](Leetcode/Leetcode%20470.%20用%20Rand7()%20实现%20Rand10().md) 
 相关企业：[experience2-京东算法.md](experience2-京东算法.md)  
+
+## 二叉树相关
+
+1. 算法题：二叉树最近公共祖先(进阶)，比常规的二叉树查最近公共祖先，这个要求查询多次，每次查询不同的两个节点。
+[Leetcode 236. 二叉树的最近公共祖先.md](Leetcode/Leetcode%20236.%20二叉树的最近公共祖先.md)
+相关企业：[ experience16-头条c++.md ](experience16-头条c++.md) 
+
+
+2. 二叉树高度 [104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+相关企业： [experence17-飞书算法.md](experence17-飞书算法.md)
+
+3. 判断是否平衡二叉树

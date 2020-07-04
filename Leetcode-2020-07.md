@@ -11,3 +11,4 @@
 | 2020-07-04 | || 
 | 京东算法 | [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/) | [Leetcode-69.x的平方根.md](Leetcode/Leetcode-69.%20x%20的平方根.md)| 二分法| 
 |  京东算法 | [470. 用 Rand7() 实现 Rand10() - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) | [Leetcode 470. 用 Rand7() 实现 Rand10().md](Leetcode/Leetcode%20470.%20用%20Rand7()%20实现%20Rand10().md) |       |      | 
+| 推荐  |   | [Leetcode 236. 二叉树的最近公共祖先.md](Leetcode/Leetcode%20236.%20二叉树的最近公共祖先.md) |     这个递归方法比较难理解  |  二叉树    | 
