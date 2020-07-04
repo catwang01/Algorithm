@@ -1,10 +1,10 @@
 [toc]
 
-# Leetcode 面试题18. 删除链表的节点
+# Leetcode 剑指 Offer 18. 删除链表的节点
 
 ## 问题描述
 
-[面试题18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
+[剑指 Offer 18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
 ## 算法
 
@@ -36,3 +36,18 @@ public:
 };
 ```
 
+
+##### 解法1: python
+
+```
+class Solution:
+    def deleteNode(self, head: ListNode, val: int) -> ListNode:
+        virualHead = ListNode(0)
+        virualHead.next = head
+        p = virualHead
+        while p and p.next.val != val:
+            p = p.next
+        if p:
+            p.next = p.next.next
+        return virualHead.next
+```

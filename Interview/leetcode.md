@@ -1,8 +1,11 @@
 
 [toc]
 
-| 题目 | 公司 | 来源 |
-| -- | -- | -- |
+## 有关的企业
+
+1. [experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
+2. [experence17-飞书算法.md](experence17-飞书算法.md)
+3. [experience2-京东算法.md](experience2-京东算法.md)  
 
 ## dp 相关
 
@@ -19,6 +22,9 @@
 
 1. [23. 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/) 
 相关企业：[experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
+2. 删除节点 [剑指 Offer 18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
+
+相关企业：[experience13-推荐秋招.md]( experience13-推荐秋招.md )
 
 ## 二分法
 
@@ -50,3 +56,5 @@
 
 1. 快乐数 [202. 快乐数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/happy-number/)
 相关企业：[experience13-推荐秋招.md]( experience13-推荐秋招.md )
+
+
