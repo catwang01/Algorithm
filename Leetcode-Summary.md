@@ -349,7 +349,7 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 推荐 [105. 从前序与中序遍历序列构造二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
-[236. 二叉树的最近公共祖先 - 力扣（LeetCode）](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+推荐： [236. 二叉树的最近公共祖先 - 力扣（LeetCode）](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 
 推荐 [104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 
@@ -361,7 +361,7 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 推荐 dp [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees/)
 
-[110. 平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/)
+推荐： [110. 平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/)
 
 ### 二叉搜索树
 

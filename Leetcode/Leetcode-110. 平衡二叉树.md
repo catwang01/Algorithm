@@ -35,6 +35,8 @@ class Solution:
 
 #### 解法2: 实现2: 递归
 
+在求二叉树的高度[104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) 基础上，使用 -1 来标记不平衡的情况。
+
 ```cpp
 class Solution {
 public:
@@ -45,9 +47,8 @@ public:
         if (!root) return 0;
         int leftHeight = getHeight(root->left);
         int rightHeight = getHeight(root->right);
-        if (leftHeight==-1 || rightHeight==-1) 
-            return -1; 
-        if (abs(leftHeight - rightHeight) > 1) 
+        // 在二叉树高度基础上添加了一个判断
+        if (leftHeight==-1 || rightHeight==-1 || abs(leftHeight - rightHeight) > 1) 
             return -1;
         else 
             return max(leftHeight, rightHeight) + 1;

@@ -41,3 +41,12 @@
 相关企业： [experence17-飞书算法.md](experence17-飞书算法.md)
 
 3. 判断是否平衡二叉树
+[110. 平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/)
+相关企业： [experence17-飞书算法.md](experence17-飞书算法.md)
+
+
+
+## 其它
+
+1. 快乐数 [202. 快乐数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/happy-number/)
+相关企业：[experience13-推荐秋招.md]( experience13-推荐秋招.md )
