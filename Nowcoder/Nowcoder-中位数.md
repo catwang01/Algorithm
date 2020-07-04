@@ -55,3 +55,73 @@ int main( ) {
     return 0;
 }
 ```
+
+### 解法二：使用小根堆
+
+#### 解法二：python
+
+```
+import heapq
+
+try:
+    while True:
+        n = int(input().strip())
+        if n == 0: 
+            break
+        h = []
+        heap_size = n // 2 + 1 
+        for i in range(n):
+            x = int(input().strip())
+            if len(h) < heap_size:
+                heapq.heappush(h, x)
+            else:
+                if x > h[0]:
+                    heapq.heapreplace(h, x)
+        if n & 1:
+            print(h[0])
+        else:
+            s = h[0]
+            heapq.heappop(h)
+            s += h[0]
+            print(s // 2)
+except:
+    pass
+```
+
+### 解法3: 快速选择
+
+比较坑的一点是python要加 try except 才能 ac，不知道是为什么。
+
+#### 解法3: python
+
+```
+def quickSelect(A, k, low, high):
+    # [low, i) <= pivot
+    # [i, j) > pivot
+    # [j, high) unknow
+    pivot = A[high-1]
+    i = j = low
+    while j < high:
+        if A[j] <= pivot:
+            A[i], A[j] = A[j], A[i]
+            i += 1
+        j += 1
+    if i == k:
+        return pivot
+    elif i > k:
+        return quickSelect(A, k, low, i-1)
+    else:
+        return quickSelect(A, k, i, high)
+    
+try:
+    while True:
+        n  = int(input().strip())
+        if n == 0: break
+        A = [int(input().strip()) for _ in range(n)]
+        if n & 1:
+            print(quickSelect(A, n // 2 + 1, 0, n))
+        else:
+            print((quickSelect(A, n // 2, 0, n) + quickSelect(A, n // 2 + 1, 0, n)) // 2)
+except:
+    pass
+```
