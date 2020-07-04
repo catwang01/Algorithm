@@ -102,3 +102,26 @@ class Solution:
             cur = _next
         return prev
 ```
+
+### 解法3: 头插法
+
+#### 解法3: 实现
+
+##### 解法3: c++
+
+```
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode virtualHead, *p = &virtualHead;
+        ListNode* next; // 用来保持 head->next 的指针
+        while (head) {
+            next = head->next;
+            head->next = p->next;
+            p->next = head;
+            head = next;
+        }
+        return virtualHead.next;
+    }
+};
+```

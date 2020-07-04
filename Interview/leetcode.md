@@ -35,7 +35,12 @@
 相关企业：[experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
 2. 删除节点 [剑指 Offer 18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
+
 相关企业：[experience13-推荐秋招.md]( experience13-推荐秋招.md )
+
+3. 代码：反转链表 [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/)
+相关企业：京东 [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+
 
 ## 二分法
 
