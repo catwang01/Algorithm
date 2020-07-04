@@ -62,11 +62,11 @@
 2. 二叉树高度 [104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 相关企业： [experence17-飞书算法.md](experence17-飞书算法.md)
 
-3. 判断是否平衡二叉树
-[110. 平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/)
+3. 判断是否平衡二叉树 [110. 平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/)
 相关企业： [experence17-飞书算法.md](experence17-飞书算法.md)
 
-
+4. 二叉树的前序遍历的递归和非递归、时间复杂度
+相关企业：百度 [experience13-推荐秋招.md]( experience13-推荐秋招.md )
 
 ## 其它
 
