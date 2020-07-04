@@ -107,8 +107,9 @@
 
 6. 推荐 [30. 串联所有单词的子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
 
-6. 推荐 [567. 字符串的排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutation-in-string/)
+7. 推荐 [567. 字符串的排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutation-in-string/)
 
+8. [151. 翻转字符串里的单词 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
 
 ## hash
 
