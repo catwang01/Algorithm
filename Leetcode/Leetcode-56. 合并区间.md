@@ -1,0 +1,76 @@
+[toc]
+
+# Leetcode 56. 合并区间
+
+## 问题描述
+
+[56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/)
+
+## 算法
+
+### 解法1：滑动窗口
+
+对区间进行sort。相当于对区间做出了限制：若 i < j，则 
+
+```
+1. intervals[i][0] <= intervals[i][1]
+2. intervals[j][0] <= intervals[j][1]
+3. intervals[i][0] <= intervals[j][0]
+```
+
+而 `intervals[i][1]` 和 `intervals[j][1]` 的大小是不定的。因此需要注意，合并后的区间的右端点并不一定是排序后靠后的区间的右端点。如 [[1,100], [2,3]]
+
+然后判断当前的区间的右端点是否比之后的区间的左端点小。如果是，就将之后的区间与当前区间合并，并更新左端点。
+
+
+#### 解法1:实现
+
+##### 解法1: c++
+
+```
+class Solution {
+public:
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        sort(intervals.begin(), intervals.end(), [](const vector<int>& x, const vector<int>& y) {
+            return x[0]==y[0] ? x[1] < y[1]: x[0] < y[0];
+        });
+        int i = 0, j, end;
+        vector<vector<int>> ret;
+        while (i < intervals.size()) {
+            j = i; end = intervals[i][1];
+            while (j < intervals.size()-1 && end >= intervals[j+1][0]) {
+                end = max(end, intervals[j+1][1]);
+                j++;
+            }
+            ret.push_back({intervals[i][0], end});
+            i = j+1;
+        }
+        return ret;
+    }
+};
+```
+
+##### 解法1: python
+
+```cpp
+class Solution:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        n = len(intervals)
+        if n <= 1: return intervals
+        
+        intervals.sort()
+        ret = []
+        i = 0
+        while i < n:
+            # [i, j) 合并
+            # [0, i) 合并完成的
+            j = i + 1
+            right_val = intervals[i][1]
+            while j < n and right_val >= intervals[j][0]:
+                right_val = max(right_val, intervals[j][1])
+                j += 1
+            # j == n or intervals[j-1][1] < intervals[j][0]
+            ret.append([intervals[i][0], right_val])
+            i = j
+        return ret
+```

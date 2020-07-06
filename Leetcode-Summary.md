@@ -113,6 +113,8 @@
 
 8. [151. 翻转字符串里的单词 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
 
+9. [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/)
+
 ## hash
 
 1. 推荐 [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)
