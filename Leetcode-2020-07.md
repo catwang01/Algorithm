@@ -21,7 +21,12 @@
 |  | [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/) | [Leetcode 206. 反转链表.md]( Leetcode/Leetcode-206.%20反转链表.md ) | |    推荐  | 
 |  | [144. 二叉树的前序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)  | [Leetcode-144. 二叉树的前序遍历.md](Leetcode/Leetcode-144.%20二叉树的前序遍历.md) |       |      | 
 |  |  [567. 字符串的排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutation-in-string/) | [Leetcode-567. 字符串的排列.md](Leetcode/Leetcode-567.%20字符串的排列.md) |       |      | 
-|  | [151. 翻转字符串里的单词 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-words-in-a-string/)  | [Leetcode-151. 翻转字符串里的单词.md](Leetcode/Leetcode-151.%20翻转字符串里的单词.md) |       |      | 
-|  |   | [Leetcode-674. 最长连续递增序列.md](Leetcode/Leetcode-674.%20最长连续递增序列.md) |       |      | 
+| Leetcode 头条专栏 | [151. 翻转字符串里的单词 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-words-in-a-string/)  | [Leetcode-151. 翻转字符串里的单词.md](Leetcode/Leetcode-151.%20翻转字符串里的单词.md) |       |      | 
+| Leetcode 头条专栏 |  [674. 最长连续递增序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | [Leetcode-674. 最长连续递增序列.md](Leetcode/Leetcode-674.%20最长连续递增序列.md) |       |      | 
+| 2020-07-05|||||
+| Leetcode 头条专栏 |   [547. 朋友圈 - 力扣（LeetCode）](https://leetcode-cn.com/problems/friend-circles/) | [Leetcode-547. 朋友圈.md](Leetcode/Leetcode-547.%20朋友圈.md) |   并查集的模板题    |  并查集    | 
+| | [71. 简化路径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/simplify-path/) | [Leetcode-71.%20简化路径.md](Leetcode/Leetcode-71.%20简化路径.md) |没有什么套路| 栈|
+| 2020-07-06|||||
+|  Leetcode 头条专栏 |   | [Leetcode-56. 合并区间.md](Leetcode/Leetcode-56.%20合并区间.md) |       |      | 
 
 

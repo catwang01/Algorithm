@@ -35,6 +35,8 @@
 
 5. [200. 岛屿数量 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-islands/)
 
+6. [547. 朋友圈 - 力扣（LeetCode）](https://leetcode-cn.com/problems/friend-circles/)
+
 ## bfs && dfs
 
 ### dfs
