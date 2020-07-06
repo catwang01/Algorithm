@@ -25,6 +25,7 @@
 | Leetcode 头条专栏 |  [674. 最长连续递增序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | [Leetcode-674. 最长连续递增序列.md](Leetcode/Leetcode-674.%20最长连续递增序列.md) |       |      | 
 | 2020-07-05|||||
 | Leetcode 头条专栏 |   [547. 朋友圈 - 力扣（LeetCode）](https://leetcode-cn.com/problems/friend-circles/) | [Leetcode-547. 朋友圈.md](Leetcode/Leetcode-547.%20朋友圈.md) |   并查集的模板题    |  并查集    | 
-| | [71. 简化路径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/simplify-path/) | [Leetcode-71.%20简化路径.md](Leetcode/Leetcode-71.%20简化路径.md) |没有什么套路| 栈|
+| | [71. 简化路径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/simplify-path/) | [Leetcode-71.%20简化路径.md](Leetcode/Leetcode-71.%20简化路径.md) | Leetcode 头条专栏, 没有什么套路| 栈|
 | 2020-07-06|||||
-|  | [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/) | [Leetcode-56. 合并区间.md](Leetcode/Leetcode-56.%20合并区间.md) |       |   滑动窗口   | 
+|  | [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/) | [Leetcode-56. 合并区间.md](Leetcode/Leetcode-56.%20合并区间.md) |   Leetcode 头条专栏    |   滑动窗口   | 
+|  | [148. 排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-list/)  | [Leetcode-148. 排序链表 .md](Leetcode/Leetcode-148.%20排序链表%20.md) |     Leetcode 头条专栏  |   有综合性，相当于两道小题   | 

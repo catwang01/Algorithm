@@ -406,7 +406,7 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)
 
-[15. 三数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/3sum/)
+推荐：[15. 三数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/3sum/)
 
 [16. 最接近的三数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/3sum-closest/)
 
