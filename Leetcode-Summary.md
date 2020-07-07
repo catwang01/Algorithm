@@ -34,6 +34,8 @@
 4. [并查集的实现_牛客网](https://www.nowcoder.com/practice/e7ed657974934a30b2010046536a5372?tpId=101&&tqId=33134&rp=1&ru=/activity/oj&qru=/ta/programmer-code-interview-guide/question-ranking)
 
 5. [200. 岛屿数量 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-islands/)
+[695. 岛屿的最大面积 - 力扣（LeetCode）](https://leetcode-cn.com/problems/max-area-of-island/)
+
 
 6. [547. 朋友圈 - 力扣（LeetCode）](https://leetcode-cn.com/problems/friend-circles/)
 
@@ -42,10 +44,15 @@
 ### dfs
 
 [200. 岛屿数量 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-islands/)
+[695. 岛屿的最大面积 - 力扣（LeetCode）](https://leetcode-cn.com/problems/max-area-of-island/)
+
 
 ### bfs
 
 [1377. T 秒后青蛙的位置 - 力扣（LeetCode）](https://leetcode-cn.com/problems/frog-position-after-t-seconds/) 
+
+[695. 岛屿的最大面积 - 力扣（LeetCode）](https://leetcode-cn.com/problems/max-area-of-island/)
+
 
 [图的遍历_美团_2019校招真题在线编程点评笔试题_牛客网](https://www.nowcoder.com/questionTerminal/5427af99168b45f4a14aec195b28a839?f=discussion)
 
