@@ -32,5 +32,4 @@
 |  | [15. 三数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/3sum/)   | [Leetcode-15. 三数之和.md](Leetcode/Leetcode-15.%20三数之和.md) |   Leetcode 头条专栏    |      双指针，注意去重！ | 
 | 2020-07-07|||||
 |  | [695. 岛屿的最大面积 - 力扣（LeetCode）](https://leetcode-cn.com/problems/max-area-of-island/) | [Leetcode-695. 岛屿的最大面积.md](Leetcode/Leetcode-695.%20岛屿的最大面积.md) | Leetcode 头条专栏  |    bfs dfs 并查集  | 
-
-
+|  |  [155. 最小栈 - 力扣（LeetCode）](https://leetcode-cn.com/problems/min-stack/) | [Leetcode-155. 最小栈.md](Leetcode/Leetcode-155.%20最小栈.md) |   Leetcode 头条专栏     |     单调栈 | 
