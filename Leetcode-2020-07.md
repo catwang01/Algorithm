@@ -33,3 +33,7 @@
 | 2020-07-07|||||
 |  | [695. 岛屿的最大面积 - 力扣（LeetCode）](https://leetcode-cn.com/problems/max-area-of-island/) | [Leetcode-695. 岛屿的最大面积.md](Leetcode/Leetcode-695.%20岛屿的最大面积.md) | Leetcode 头条专栏  |    bfs dfs 并查集  | 
 |  |  [155. 最小栈 - 力扣（LeetCode）](https://leetcode-cn.com/problems/min-stack/) | [Leetcode-155. 最小栈.md](Leetcode/Leetcode-155.%20最小栈.md) |   Leetcode 头条专栏     |     单调栈 | 
+| 2020-07-08|||||
+|  | [2. 两数相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-two-numbers/)
+  | [Leetcode-2. 两数相加.md](Leetcode/Leetcode-2.%20两数相加.md) |   Leetcode 头条专栏    |      | 
+|  | [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/) | [Leetcode 206. 反转链表.md]( Leetcode/Leetcode-206.%20反转链表.md ) | Leetcode头条专栏 |     | 

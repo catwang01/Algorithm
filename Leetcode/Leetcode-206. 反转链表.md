@@ -125,3 +125,17 @@ public:
     }
 };
 ```
+### 解法3: python
+
+```
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        virtualHead = ListNode(-1)
+        p = virtualHead
+        while head:
+            nextNode = head.next
+            head.next = p.next
+            p.next = head
+            head = nextNode
+        return virtualHead.next
+```
