@@ -447,6 +447,8 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 8. [1019. 链表中的下一个更大节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/)
 
+9. [901. 股票价格跨度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/online-stock-span/)
+
 ## 圆圈相关
 
 1. [1103. 分糖果 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/distribute-candies-to-people/)
