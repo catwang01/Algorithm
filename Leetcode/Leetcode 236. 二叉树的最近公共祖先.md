@@ -94,10 +94,7 @@ class Solution:
 
 ### 解法2: 利用父节点的指针 + 两个链表在第一个公共节点
 
-
 [剑指 Offer 52. 两个链表的第一个公共节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
-
-
 
 #### 解法2: python
 
@@ -169,9 +166,7 @@ right = lowestCommonAncestor(root.right, p, q)
 ```
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        if not root: return None
-        if root == p: return p
-        if root == q: return q
+        if not root or root == p or root == q: return None
         left = self.lowestCommonAncestor(root.left, p, q)
         right = self.lowestCommonAncestor(root.right, p, q)
         if not left: return right
