@@ -310,17 +310,21 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 
 2. [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/)
 
-3. [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)
-
 4. dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)
-
-5. 简单的dp [Leetcode-674. 最长连续递增序列.md](Leetcode/Leetcode-674.%20最长连续递增序列.md) 
-
 
 #### 需要考虑多个状态
 
 1. 推荐：这个不太懂 [152. 乘积最大子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/submissions/) 
+
 2. [376. 摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/submissions/)
+
+### 子串相关
+
+1.  简单的dp [Leetcode-674. 最长连续递增序列.md](Leetcode/Leetcode-674.%20最长连续递增序列.md) 
+
+2. [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)
+
+子串问题可以用 dp，有的题也可以用滑动窗口。
 
 ### 背包问题
 
