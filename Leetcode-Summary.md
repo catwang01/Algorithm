@@ -296,6 +296,9 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 5. [309. 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
 6. [714. 买卖股票的最佳时机含手续费 - 力扣（LeetCode）](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
 
+### 正方形问题
+
+1. 推荐 [221. 最大正方形 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximal-square/)
 
 ### 字符串相关
 
