@@ -299,6 +299,7 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 ### 正方形问题
 
 1. 推荐 [221. 最大正方形 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximal-square/)
+2. 和上面的很像 [1277. 统计全为 1 的正方形子矩阵 - 力扣（LeetCode）](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)
 
 ### 字符串相关
 
