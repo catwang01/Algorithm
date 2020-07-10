@@ -1,7 +1,10 @@
 [toc] 
 
 
-# Todo
+## 相关公司
+
+1. [experience2-京东算法.md](experience2-京东算法.md)
+2. [experience5-360 商业化ML 面经.md](experience5-360%20商业化ML%20面经.md)
 
 ## ML相关
 
@@ -49,6 +52,7 @@ one-hot、 label-encoder对于category类型变量的处理方式，
 ### 优化器相关
 
 6. 几种梯度下降的方法和优缺点？ (飞书算法)
+7. (todo) 平时怎么选择优化器？讲一下adam的优点 [experience2-京东算法.md](experience2-京东算法.md)
 
 ### 激活函数相关
 
@@ -58,18 +62,35 @@ one-hot、 label-encoder对于category类型变量的处理方式，
 
 Sigmoid，Tanh，Relu等激活函数的优缺点（这里之前没有复习到，后面想了想应该从梯度消失，数据压缩，0均值方面来解释；当然，说的越多越好，比如Relu的神经元dead啥的，越能体现你的知识广度）
 
-
 #### 5. dnn中如果把中间层的激活函数去掉会怎样？去掉激活函数的dnn与逻辑回归有什么区别？
 
 
+### CNN 相关
+
+2. (todo) resnet结构 [experience2-京东算法.md](experience2-京东算法.md)
+
 ### 1. Pooling种类，区别以及适用场景
 ### 4. 谈谈1*1卷积
+
+### RNN 相关
+
+#### LSTM 和 GRU
+
+1. lstm结构 [experience2-京东算法.md](experience2-京东算法.md)
+
+2. (todo) gru跟lstm有什么区别？ [experience2-京东算法.md](experience2-京东算法.md)
+
+
+### BN
+
+### 其它
+
+1. bn怎么实现的？inference时候具体怎么做的？ [experience2-京东算法.md](experience2-京东算法.md)
+
+2. 然后又讲到神经网络，BN层的作用？每个Batch_size的样本的均值的问题？ （这个不太理解是什么问题了，我答的是根据大数定律batch均值期望跟所有样本均值相接近，答完就觉得很扯。。。面试官说其实是动量，计算时会用到之前的batch_size的均值）
+[experience5-360 商业化ML 面经.md](experience5-360%20商业化ML%20面经.md)
+
 ### 7. Attention机制
-#### resnet结构
-#### bn怎么实现的？inference时候具体怎么做的？
-#### 平时怎么选择优化器？讲一下adam的优点
-#### lstm结构
-#### gru跟lstm有什么区别？
 
 ## 推荐系统相关
 
