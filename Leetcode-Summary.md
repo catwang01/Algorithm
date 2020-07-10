@@ -201,7 +201,9 @@
 
 1. 推荐 [876. 链表的中间结点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
 
-2. [19. 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/)
+2. 
+    - [19. 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/)
+    - [面试题 02.02. 返回倒数第 k 个节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/)
 
 3. [141. 环形链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/linked-list-cycle/)
 
@@ -231,7 +233,7 @@
 
 3. 进阶：推荐：[148. 排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-list/)
 
-4. [147. 对链表进行插入排序 - 力扣（LeetCode）](https://leetcode-cn.com/problems/insertion-sort-list/) | [Leetcode 147. 对链表进行插入排序.md](Leetcode/Leetcode%20147.%20对链表进行插入排序.md) 
+4. [147. 对链表进行插入排序 - 力扣（LeetCode）](https://leetcode-cn.com/problems/insertion-sort-list/)
 
 5. [61. 旋转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/rotate-list/) 
 
