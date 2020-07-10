@@ -49,3 +49,4 @@
 |  | [309. 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)  | [Leetcode-309. 最佳买卖股票时机含冷冻期.md](Leetcode/Leetcode-309.%20最佳买卖股票时机含冷冻期.md) |       |   股票问题   | 
 |  | [面试题 02.02. 返回倒数第 k 个节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/)  | [Leetcode-面试题 02.02. 返回倒数第 k 个节点.md](Leetcode/Leetcode-面试题%2002.02.%20返回倒数第%20k%20个节点.md) |       |    链表  | 
 |  | [122. 买卖股票的最佳时机 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  | [Leetcode-122. 买卖股票的最佳时机 II.md](Leetcode/Leetcode-122.%20买卖股票的最佳时机%20II.md) |   Leetcode 专栏    |   dp   | 
+|  | [120. 三角形最小路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/triangle/)  | [LeetCode-120. 三角形最小路径和.md](Leetcode/LeetCode-120.%20三角形最小路径和.md) |   Leetcode 探索    |    dp  | 
