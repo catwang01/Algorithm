@@ -51,3 +51,4 @@
 |  | [122. 买卖股票的最佳时机 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  | [Leetcode-122. 买卖股票的最佳时机 II.md](Leetcode/Leetcode-122.%20买卖股票的最佳时机%20II.md) |   Leetcode 专栏    |   dp   | 
 |  | [120. 三角形最小路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/triangle/)  | [LeetCode-120. 三角形最小路径和.md](Leetcode/LeetCode-120.%20三角形最小路径和.md) |   Leetcode 探索    |    dp  | 
 |  | [23. 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/)  | [Leetcode/Leetcode 23. 合并K个排序链表.md]( Leetcode/Leetcode-23.%20合并K个排序链表.md ) |   Leetcode 探索    |    dp  | 
+|  |  [146. LRU缓存机制 - 力扣（LeetCode）](https://leetcode-cn.com/problems/lru-cache/) | [Leetcode-146. LRU缓存机制.md](Leetcode/Leetcode-146.%20LRU缓存机制.md) | leetcode 探索      |      | 
