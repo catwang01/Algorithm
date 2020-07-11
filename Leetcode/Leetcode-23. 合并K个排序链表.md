@@ -156,31 +156,28 @@ class Solution:
 ##### 解法2: python 猴子补丁
 
 ```
-import heapq
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
 
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
-        k = len(lists)
-        if k == 0: return None
-        if k == 1: return lists[0]
-
-        # 自定义排序规则
-        ListNode.__lt__ = lambda this, that: this.val < that.val
-        heap = []
-
-        for head in lists:
-            if head: heapq.heappush(heap, head)
-        
         virtualHead = ListNode(-1)
         p = virtualHead
-
-        while heap:
-            node = heap[0]
+        h = []
+        
+        ListNode.__lt__ = lambda this, that: this.val < other.val
+        
+        for head in lists:
+            if head: 
+                heapq.heappush(h, head)
+        while h:
+            node = heapq.heappop(h)
             p.next = node
+            if node.next: heapq.heappush(h, node.next)
             p = p.next
-            heapq.heappop(heap)
-            if node.next:
-                heapq.heappush(heap, node.next)
         return virtualHead.next
 ```
 
@@ -223,7 +220,7 @@ $$
 T(nk) &= 2T(nk/2) + O(nk/2) \\
     &= k T(n) + O(nkl/2) \\
     &=  k O(1) + O(nkl/2) \\
-    &= O(k) + O(nk log k /2) （由于 2^l=k，因此 l=log k）\\ 
+    &= O(k) + O(nk log k /2)  (2^l=k => l=log k)\\ 
     &= O(nklogk)
 \end{aligned}
 $$ 
@@ -234,7 +231,10 @@ $$
 
 递归需要用到栈，深度为 $O(log k)$
 
-#### 解法3:c++
+
+#### 解法3: 实现
+
+##### 解法3:c++
 
 ```
 class Solution {
@@ -261,16 +261,23 @@ public:
     }
 };
 ```
-
-#### 解法3: 实现
-
 ##### 解法3: python
 
 ```
 class Solution:
-    def merge(self, head1, head2):
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        n = len(lists)
+        if n==0: return None
+        if n==1: return lists[0]
+        mid = n // 2
+        left = self.mergeKLists(lists[:mid])
+        right = self.mergeKLists(lists[mid:])
+        return self.mergeTwoLists(left, right)
+        
+    def mergeTwoLists(self, head1, head2):
         if not head1: return head2
         if not head2: return head1
+        
         virtualHead = ListNode(-1)
         p = virtualHead
         while head1 and head2:
@@ -286,21 +293,6 @@ class Solution:
         else:
             p.next = head2
         return virtualHead.next
-
-    def mergeKLists(self, lists):
-        return self._mergeKLists(0, len(lists), lists)
-
-    # 对 lists[low: high] 之间的链表排序，返回链表
-    def _mergeKLists(self, low, high, lists) -> ListNode:
-        if low == high:
-            return None
-        elif low + 1 == high:
-            return lists[low]
-        else:
-            mid = (low + high)// 2
-            head1 = self._mergeKLists(low, mid, lists)
-            head2 = self._mergeKLists(mid, high ,lists)
-            return self.merge(head1, head2)
 ```
 # References
 1. [C++ 二次遍历(超时)/分治思想/优先队列 - 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/c-er-ci-bian-li-chao-shi-fen-zhi-si-xiang-by-yizhe/)
