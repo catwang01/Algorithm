@@ -49,6 +49,9 @@
 |  | [309. 最佳买卖股票时机含冷冻期 - 力扣（LeetCode）](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)  | [Leetcode-309. 最佳买卖股票时机含冷冻期.md](Leetcode/Leetcode-309.%20最佳买卖股票时机含冷冻期.md) |       |   股票问题   | 
 |  | [面试题 02.02. 返回倒数第 k 个节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/)  | [Leetcode-面试题 02.02. 返回倒数第 k 个节点.md](Leetcode/Leetcode-面试题%2002.02.%20返回倒数第%20k%20个节点.md) |       |    链表  | 
 |  | [122. 买卖股票的最佳时机 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  | [Leetcode-122. 买卖股票的最佳时机 II.md](Leetcode/Leetcode-122.%20买卖股票的最佳时机%20II.md) |   Leetcode 专栏    |   dp   | 
+| 2020-07-11|||||
 |  | [120. 三角形最小路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/triangle/)  | [LeetCode-120. 三角形最小路径和.md](Leetcode/LeetCode-120.%20三角形最小路径和.md) |   Leetcode 探索    |    dp  | 
 |  | [23. 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/)  | [Leetcode/Leetcode 23. 合并K个排序链表.md]( Leetcode/Leetcode-23.%20合并K个排序链表.md ) |   Leetcode 探索    |    dp  | 
 |  |  [146. LRU缓存机制 - 力扣（LeetCode）](https://leetcode-cn.com/problems/lru-cache/) | [Leetcode-146. LRU缓存机制.md](Leetcode/Leetcode-146.%20LRU缓存机制.md) | leetcode 探索      |      | 
+| 2020-07-12|||||
+|  |  [567. 字符串的排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutation-in-string/) | [Leetcode/Leetcode-567. 字符串的排列.md](Leetcode/Leetcode-567.%20字符串的排列.md) | leetcode 探索      |      | 
