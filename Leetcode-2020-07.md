@@ -55,3 +55,6 @@
 |  |  [146. LRU缓存机制 - 力扣（LeetCode）](https://leetcode-cn.com/problems/lru-cache/) | [Leetcode-146. LRU缓存机制.md](Leetcode/Leetcode-146.%20LRU缓存机制.md) | leetcode 探索      |      | 
 | 2020-07-12|||||
 |  |  [567. 字符串的排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutation-in-string/) | [Leetcode/Leetcode-567. 字符串的排列.md](Leetcode/Leetcode-567.%20字符串的排列.md) | leetcode 探索      |      | 
+|  | [215. 数组中的第K个最大元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/submissions/)  | [Leetcode-215. 数组中的第K个最大元素.md](Leetcode/Leetcode-215.%20数组中的第K个最大元素.md) |  leetcode 探索     |      | 
+|  |  [221. 最大正方形 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximal-square/) | [Leetcode-221. 最大正方形.md](Leetcode/Leetcode-221.%20最大正方形.md) |    Leetcode 头条专栏   |  dp    | 
+| | [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Leetcode 33. 搜索旋转排序数组.md](Leetcode/Leetcode%2033.%20搜索旋转排序数组.md) |    leetcode 探索 |  |  二分法   | 
