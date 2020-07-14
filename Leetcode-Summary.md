@@ -18,6 +18,8 @@
 
 [1386. 安排电影院座位 - 力扣（LeetCode）](https://leetcode-cn.com/problems/cinema-seat-allocation/)
 
+[不用算术运算符实现整数的加减乘除运算_牛客网](https://www.nowcoder.com/practice/7c478cdfbacb4fd38ca063aa2ac35b6f?tpId=101&tags=&title=&diffculty=0&judgeStatus=0&rp=1&ru=/activity/oj&qru=/ta/programmer-code-interview-guide/question-ranking)
+
 ## 贪心
 
 1. [1405. 最长快乐字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-happy-string/)
