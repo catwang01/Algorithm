@@ -58,3 +58,5 @@
 |  | [215. 数组中的第K个最大元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/submissions/)  | [Leetcode-215. 数组中的第K个最大元素.md](Leetcode/Leetcode-215.%20数组中的第K个最大元素.md) |  leetcode 探索     |      | 
 |  |  [221. 最大正方形 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximal-square/) | [Leetcode-221. 最大正方形.md](Leetcode/Leetcode-221.%20最大正方形.md) |    Leetcode 头条专栏   |  dp    | 
 | | [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Leetcode 33. 搜索旋转排序数组.md](Leetcode/Leetcode%2033.%20搜索旋转排序数组.md) |    leetcode 探索 |  |  二分法   | 
+| 2020-07-14|||||
+|  | [704. 二分查找 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-search/)  | [Leetcode-704. 二分查找.md](Leetcode/Leetcode-704.%20二分查找.md) |       |    二分法  | 
