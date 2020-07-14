@@ -60,3 +60,5 @@
 | | [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Leetcode 33. 搜索旋转排序数组.md](Leetcode/Leetcode%2033.%20搜索旋转排序数组.md) |    leetcode 探索 |  |  二分法   | 
 | 2020-07-14|||||
 |  | [704. 二分查找 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-search/)  | [Leetcode-704. 二分查找.md](Leetcode/Leetcode-704.%20二分查找.md) |       |    二分法  | 
+|  |  [34. 在排序数组中查找元素的第一个和最后一个位置 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Leetcode-34. 在排序数组中查找元素的第一个和最后一个位置.md](Leetcode/Leetcode-34.%20在排序数组中查找元素的第一个和最后一个位置.md) |       |      | 
+
