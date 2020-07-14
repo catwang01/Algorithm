@@ -61,4 +61,5 @@
 | 2020-07-14|||||
 |  | [704. 二分查找 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-search/)  | [Leetcode-704. 二分查找.md](Leetcode/Leetcode-704.%20二分查找.md) |       |    二分法  | 
 |  |  [34. 在排序数组中查找元素的第一个和最后一个位置 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Leetcode-34. 在排序数组中查找元素的第一个和最后一个位置.md](Leetcode/Leetcode-34.%20在排序数组中查找元素的第一个和最后一个位置.md) |       |      | 
-
+|  | [153. 寻找旋转排序数组中的最小值 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/submissions/)   | [Leetcode-153. 寻找旋转排序数组中的最小值.md](Leetcode/Leetcode-153.%20寻找旋转排序数组中的最小值.md) |       |      | 
+|  |   | [Nowcoder-中位数.md](Leetcode/Nowcoder-中位数.md) |       |    二分法  | 
