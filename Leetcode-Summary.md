@@ -158,9 +158,10 @@
 
 4. 不推荐，过于简单 [374. 猜数字大小 - 力扣（LeetCode）](https://leetcode-cn.com/problems/guess-number-higher-or-lower/submissions/)
 
-5. 推荐，比较简单的二分法，可以使用来练习模板 [153. 寻找旋转排序数组中的最小值 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/submissions/)
-
-7. [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+7. 旋转排序数组系列
+    - [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+    - [153. 寻找旋转排序数组中的最小值 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/submissions/)
+    - [154. 寻找旋转排序数组中的最小值 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 
 8. 前缀和 + 二分法 [209. 长度最小的子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
 
