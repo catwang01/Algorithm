@@ -4,10 +4,9 @@
 
 ## 字符串
 
-
 1. 比较简单 [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/)
+2. 推荐：[43. 字符串相乘 - 力扣（LeetCode）](https://leetcode-cn.com/problems/multiply-strings/)
 
-2. 
 
 ## 排序
 

@@ -66,4 +66,5 @@
 |  | [不用算术运算符实现整数的加减乘除运算_牛客网](https://www.nowcoder.com/practice/7c478cdfbacb4fd38ca063aa2ac35b6f?tpId=101&tags=&title=&diffculty=0&judgeStatus=0&rp=1&ru=/activity/oj&qru=/ta/programmer-code-interview-guide/question-ranking)  | [Nowcoder-不用算术运算符实现整数的加减乘除运算.md](Nowcoder/Nowcoder-不用算术运算符实现整数的加减乘除运算.md) |       |    位运算  | 
 |  |  [371. 两整数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sum-of-two-integers/) | [ Leetcode/Leetcode-371. 两整数之和.md ](Leetcode/Leetcode-371.%20两整数之和.md) |       |    位运算  | 
 | 2020-07-15|        |        |      |        |
-|  |  [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/) | [Leetcode-415. 字符串相加.md](Leetcode/Leetcode-415.%20字符串相加.md) |       |   位运算 | 
+|  |  [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/) | [Leetcode-415. 字符串相加.md](Leetcode/Leetcode-415.%20字符串相加.md) |       |   | 
+|  | [43. 字符串相乘 - 力扣（LeetCode）](https://leetcode-cn.com/problems/multiply-strings/) | [Leetcode-43. 字符串相乘.md](Leetcode/Leetcode-43.%20字符串相乘.md) |    leetcode 专栏   |      | 
