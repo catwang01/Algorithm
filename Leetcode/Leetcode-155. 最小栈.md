@@ -46,3 +46,36 @@ class MinStack:
 # param_3 = obj.top() 
 # param_4 = obj.getMin()
 ```
+
+#### 解法1: c++
+
+```cpp
+class MinStack {
+public:
+    stack<int> st;
+    stack<int> min_st;
+    /** initialize your data structure here. */
+    MinStack() {
+    }
+    
+    void push(int x) {
+        st.push(x);
+        if (min_st.empty() || min_st.top() >= x) 
+            min_st.push(x);
+    }
+    
+    void pop() {
+        if (min_st.top() == st.top()) 
+            min_st.pop();
+        st.pop();
+    }
+    
+    int top() {
+        return st.top();
+    }
+    
+    int getMin() {
+        return min_st.top();
+    }
+};
+```

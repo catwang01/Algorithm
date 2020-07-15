@@ -68,3 +68,5 @@
 | 2020-07-15|        |        |      |        |
 |  |  [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/) | [Leetcode-415. 字符串相加.md](Leetcode/Leetcode-415.%20字符串相加.md) |       |   | 
 |  | [43. 字符串相乘 - 力扣（LeetCode）](https://leetcode-cn.com/problems/multiply-strings/) | [Leetcode-43. 字符串相乘.md](Leetcode/Leetcode-43.%20字符串相乘.md) |    leetcode 专栏   |      | 
+|  |  [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/submissions/) | [Leetcode-69. x 的平方根.md](Leetcode/Leetcode-69.%20x%20的平方根.md) |   leetcode 专栏    |      | 
+|  |  [155. 最小栈 - 力扣（LeetCode）](https://leetcode-cn.com/problems/min-stack/) | [Leetcode-155. 最小栈.md](Leetcode/Leetcode-155.%20最小栈.md) |   Leetcode 头条专栏     |     单调栈 | 

@@ -10,7 +10,7 @@
 
 题目相当于求 $x = k^2$ 的解，输出 $[k]$，可以使用二分法。
 
-#### 解法1: 实现
+#### 解法1: 实现1
 
 ##### 解法1：python
 
@@ -59,4 +59,27 @@ public:
         return low;   
     }
 }; 
+```
+
+#### 解法2: 二分法实现2 闭区间 2个元素时退出 while
+
+##### 解法1: 实现2: python
+
+```
+class Solution:
+    def mySqrt(self, x: int) -> int:
+        if x <= 1: return x
+        low, high = 0, x
+        while low + 1 < high:
+            mid = (low + high) // 2  
+            val = mid * mid
+            if val == x:
+                return mid
+            elif val < x:
+                low = mid
+            else:
+                high = mid - 1
+        if high * high <= x:
+            return high
+        return low
 ```
