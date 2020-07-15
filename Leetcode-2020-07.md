@@ -65,4 +65,5 @@
 |  | [154. 寻找旋转排序数组中的最小值 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)  | [Leetcode-154. 寻找旋转排序数组中的最小值 II.md](Leetcode/Leetcode-154.%20寻找旋转排序数组中的最小值%20II.md) |       |    二分法  | 
 |  | [不用算术运算符实现整数的加减乘除运算_牛客网](https://www.nowcoder.com/practice/7c478cdfbacb4fd38ca063aa2ac35b6f?tpId=101&tags=&title=&diffculty=0&judgeStatus=0&rp=1&ru=/activity/oj&qru=/ta/programmer-code-interview-guide/question-ranking)  | [Nowcoder-不用算术运算符实现整数的加减乘除运算.md](Nowcoder/Nowcoder-不用算术运算符实现整数的加减乘除运算.md) |       |    位运算  | 
 |  |  [371. 两整数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sum-of-two-integers/) | [ Leetcode/Leetcode-371. 两整数之和.md ](Leetcode/Leetcode-371.%20两整数之和.md) |       |    位运算  | 
-
+| 2020-07-15|        |        |      |        |
+|  |  [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/) | [Leetcode-415. 字符串相加.md](Leetcode/Leetcode-415.%20字符串相加.md) |       |   位运算 | 

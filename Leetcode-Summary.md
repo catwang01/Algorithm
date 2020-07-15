@@ -2,6 +2,13 @@
 
 # Leetcode 题目分类总结
 
+## 字符串
+
+
+1. 比较简单 [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/)
+
+2. 
+
 ## 排序
 
 自定义排序规则 [面试题45. 把数组排成最小的数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)
