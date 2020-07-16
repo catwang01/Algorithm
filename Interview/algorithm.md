@@ -148,7 +148,8 @@ w2v的原理，
 2. 矩阵求逆是如何操作的？【答：高斯消元】描述过程？【答：左边一个A，右边一个I，消消消，消到左边的A变成I，右边的I就变成了A的逆矩阵】为什么可以这样算？如何证明？ [experience19-头条推荐.md](experience19-头条推荐.md)
 答：高斯消元由矩阵行变换组成，矩阵行变换等价于左乘另外一个系数矩阵，所以当左边的A变到I，A就左乘了A的逆矩阵，同时右边的I也左乘了A的逆矩阵得到A的逆矩阵。这就是高斯消元法的原理。（马后炮分析，面试的时候没答上来，是面试官提示的）
 
-3. 一个负载均衡里面产生的数学问题：现在有两台服务器A和B，后台算法是A和B都有1/2的概率被访问，如果访问的服务器宕机，则会以1/2的概率继续请求两个服务器。现在服务器B宕机了，求平均访问的次数？ [experience19-头条推荐.md](experience19-头条推荐.md)
+3. 一个负载均衡里面产生的数学问题：现在有两台服务器A和B，后台算法是A和B都有1/2的概率被访问，如果访问的服务器宕机，则会以1/2的概率继续请求两个服务器。现在服务器B宕机了，求平均访问的次数？
+[experience19-头条推荐.md](experience19-头条推荐.md)
 答：这是一个随机变量求期望的问题。记平均访问的次数为p，
 
 ​ p = 1/2 * 1 + (1/2)^2 * 2 + (1/2)^3 * 3 + … + (1/2)^n * n + …
@@ -156,6 +157,38 @@ w2v的原理，
 令q = 1/2 * p = (1/2)^2 * 1 + (1/2)^3 * 2 + … + (1/2)^n * (n-1) + …
 
 故p = 2 (p - q) = 2 * [1/2 + (1/2)^2 + (1/2)^3 + …] = 2 * (1/2)/[1 - (1/2)] = 2
+
+4. 如果让你设计推荐系统，将100个图片按顺序推荐给100个用户，如何设计算法？【答：什么什么矩阵，术语忘了。。。】100万个图片和100万个用户呢？【答：稀疏矩阵】计算这个矩阵的时候，用户的哪些信息可以利用？【浏览、点击、搜索；个人信息】社交媒体可以利用吗？【可以，好友偏好，群组偏好】
+[experience19-头条推荐.md](experience19-头条推荐.md)
+
+5. Python的shuffle函数内部是如何实现的？【呃。。。没有读过shuffle的源码】说说如果你来实现，你会如何实现？【每次random出一个index，和shuffle过的数组未shuffle部分的头交换】如何评价你提出的算法shuffle的性能？【首先定义两个数组间的“相似度”为两数组各个位置相同的数的个数，运行N次shuffle算法，计算得到的N个无序数组两两之间的相似度之和S，S越小，shuffle算法的无序性越好】
+
+附：Python内置模块random.py的Random类的shuffle方法的实现：
+
+```
+def shuffle(self, x, random=None):
+        """Shuffle list x in place, and return None.
+
+        Optional argument random is a 0-argument function returning a
+        random float in [0.0, 1.0); if it is the default None, the
+        standard random.random will be used.
+
+        """
+
+        if random is None:
+            randbelow = self._randbelow
+            for i in reversed(range(1, len(x))):
+                # pick an element in x[:i+1] with which to exchange x[i]
+                j = randbelow(i+1)
+                x[i], x[j] = x[j], x[i]
+        else:
+            _int = int
+            for i in reversed(range(1, len(x))):
+                # pick an element in x[:i+1] with which to exchange x[i]
+                j = _int(random() * (i+1))
+                x[i], x[j] = x[j], x[i]
+```
+[experience19-头条推荐.md](experience19-头条推荐.md)
 
 ## HR
 

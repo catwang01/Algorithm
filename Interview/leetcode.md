@@ -16,7 +16,7 @@
 1. 各种排序算法说下，写个插入排序。 [912. 排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-an-array/)
 相关企业：[ experience7-京东算法.md ]( experience7-京东算法.md )
 
-2. merge两个有序数组，写代码，写测试用例，【有bug抛了个ArrayIndexOutOfBound异常，于是改改改】改了哪里？这里的while替换成if可不可以？【答：可以】
+2. merge两个有序数组，写代码，写测试用例，【有bug抛了个ArrayIndexOutOfBound异常，于是改改改】改了哪里？这里的while替换成if可不可以？【答：可以】 [88. 合并两个有序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-sorted-array/)
 相关企业： [experience19-头条推荐.md](experience19-头条推荐.md)
 
 ## dp 相关
@@ -33,18 +33,19 @@
 4. 数组的最大乘积 [152. 乘积最大子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/)
 相关企业： bigo [experience13-推荐秋招.md]( experience13-推荐秋招.md )
 
-5. 给定数组nums和整数target，求最少用nums中的整数多少次，使得这些数之和为target。比如给定nums = [3, 5, 12], target = 13, 答案为3 (13 = 3 + 5 + 5)
+5. (todo) 给定数组nums和整数target，求最少用nums中的整数多少次，使得这些数之和为target。比如给定nums = [3, 5, 12], target = 13, 答案为3 (13 = 3 + 5 + 5)
 相关企业： [experience19-头条推荐.md](experience19-头条推荐.md)
 
-6. 两个字符串的编辑距离：给定两个字符串s1, s2，定义三种操作：增（一个字符）、删（一个字符）、改（一个字符变另一字符），求从s1变到s2最少需要的操作次数？【答：动态规划】写出状态转移方程？【写了伪码】看看这一行是不是可以优化？【想想想，好像是可以优化】嗯，是这样的
+6. [72. 编辑距离 - 力扣（LeetCode）](https://leetcode-cn.com/problems/edit-distance/)
 相关企业： [experience19-头条推荐.md](experience19-头条推荐.md)
+
+7. [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees/) 计算n个节点的二叉树有多少种形态？【答：递推，在面试官提醒下写出递推式】写代码，写测试用例
+相关企业：[experience19-头条推荐.md](experience19-头条推荐.md)
 
 ## 快排相关
 
 1. 给一个无序数组，找到其中位数（快排，O(n)）：[中位数_牛客网](https://www.nowcoder.com/practice/2364ff2463984f09904170cf6f67f69a?tpId=40&&tqId=21367&rp=1&ru=/activity/oj&qru=/ta/kaoyan/question-ranking) 
-
 求第k大数
-
 相关企业：[experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
 云从科技：[experience13-推荐秋招.md]( experience13-推荐秋招.md ) 面试官给了一个白板链接，根据出的题目在上面写代码，题目是求数组中位数，分别用快排和最大最小堆写，分析时间、空间复杂度
 [ experience7-京东算法.md ]( experience7-京东算法.md )
