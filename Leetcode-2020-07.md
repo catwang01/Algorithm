@@ -73,4 +73,8 @@
 | | [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Leetcode 33. 搜索旋转排序数组.md](Leetcode/Leetcode%2033.%20搜索旋转排序数组.md) |    leetcode 探索 |  |  二分法   | 
 | | [160. 相交链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Leetcode 160. 相交链表.md](Leetcode/Leetcode%20160.%20相交链表.md) | 面试题 | |
 |  | [88. 合并两个有序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-sorted-array/)  | [Leetcode-88. 合并两个有序数组.md](Leetcode/Leetcode-88.%20合并两个有序数组.md) |    面试题   |      | 
+|  |  [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees/) | [Leetcode-96. 不同的二叉搜索树.md](Leetcode/Leetcode-96.%20不同的二叉搜索树.md) |  面试题  |      | 
+
+
+
 

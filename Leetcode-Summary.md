@@ -288,6 +288,8 @@
 
 3. [44. 通配符匹配 - 力扣（LeetCode）](https://leetcode-cn.com/problems/wildcard-matching/)
 
+4. [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees/)
+
 ### 回文串相关
 
 [647. 回文子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindromic-substrings/)
