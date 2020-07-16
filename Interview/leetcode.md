@@ -16,6 +16,9 @@
 1. 各种排序算法说下，写个插入排序。 [912. 排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-an-array/)
 相关企业：[ experience7-京东算法.md ]( experience7-京东算法.md )
 
+2. merge两个有序数组，写代码，写测试用例，【有bug抛了个ArrayIndexOutOfBound异常，于是改改改】改了哪里？这里的while替换成if可不可以？【答：可以】
+相关企业： [experience19-头条推荐.md](experience19-头条推荐.md)
+
 ## dp 相关
 
 1. (unfinished) m*n矩阵从左上角走到右下角一共有多少种走法？如果有障碍物的话怎么求？求最大的路径和？先从左上到右下在从右下返回到左上，重复走的节点值为0，求两条路径加和最大值？（都是DP）
