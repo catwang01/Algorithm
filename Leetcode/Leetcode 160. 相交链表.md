@@ -153,3 +153,21 @@ class Solution:
            nodeB = nodeB.next if nodeB else headA
        return None
 ```
+
+##### 解法2: c++
+
+```
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        if (!headA || !headB) return NULL;
+        ListNode *p = headA, *q = headB;
+        while (p != q)
+        {
+            p = p ? p->next : headB;
+            q = q ? q->next : headA;
+        }
+        return p;
+    }
+};
+```

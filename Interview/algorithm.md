@@ -5,6 +5,7 @@
 
 1. [experience2-京东算法.md](experience2-京东算法.md)
 2. [experience5-360 商业化ML 面经.md](experience5-360%20商业化ML%20面经.md)
+3. [experience19-头条推荐.md](experience19-头条推荐.md)
 
 ## ML相关
 
@@ -51,23 +52,29 @@ one-hot、 label-encoder对于category类型变量的处理方式，
 
 ### 优化器相关
 
-6. 几种梯度下降的方法和优缺点？ (飞书算法)
-7. (todo) 平时怎么选择优化器？讲一下adam的优点 [experience2-京东算法.md](experience2-京东算法.md)
+1. 几种梯度下降的方法和优缺点？ (飞书算法)
+2. (todo) 平时怎么选择优化器？讲一下adam的优点 [experience2-京东算法.md](experience2-京东算法.md)
+3. Adam的原理、公式 (没答上来) [experience19-头条推荐.md](experience19-头条推荐.md)
 
 ### 激活函数相关
 
-8. sigmoid和relu的区别？平时用什么用的多？为什么用relu多呢？ （飞书算法）
+1. sigmoid和relu的区别？平时用什么用的多？为什么用relu多呢？ （飞书算法）
 
-8、口述了解的激活函数，为什么要激活函数 (京东算法)
-
+2. 口述了解的激活函数，为什么要激活函数 (京东算法)
 Sigmoid，Tanh，Relu等激活函数的优缺点（这里之前没有复习到，后面想了想应该从梯度消失，数据压缩，0均值方面来解释；当然，说的越多越好，比如Relu的神经元dead啥的，越能体现你的知识广度）
+
+3. 为什么要用ReLU替代tanh/sigmoid/softmax
+答：ReLU求导的值要么是0要么是1，不会引起梯度消失或梯度爆炸 [experience19-头条推荐.md](experience19-头条推荐.md)
 
 #### 5. dnn中如果把中间层的激活函数去掉会怎样？去掉激活函数的dnn与逻辑回归有什么区别？
 
 
 ### CNN 相关
 
-2. (todo) resnet结构 [experience2-京东算法.md](experience2-京东算法.md)
+1. (todo) resnet结构 [experience2-京东算法.md](experience2-京东算法.md)
+2. ResNet (todo) [experience19-头条推荐.md](experience19-头条推荐.md)
+答：通过x + f(x)的结果，让深层网络获得不差于浅层网络的学习能力，从而允许网络变得更深
+
 
 ### 1. Pooling种类，区别以及适用场景
 ### 4. 谈谈1*1卷积
@@ -83,12 +90,19 @@ Sigmoid，Tanh，Relu等激活函数的优缺点（这里之前没有复习到�
 
 ### BN
 
-### 其它
-
 1. bn怎么实现的？inference时候具体怎么做的？ [experience2-京东算法.md](experience2-京东算法.md)
 
 2. 然后又讲到神经网络，BN层的作用？每个Batch_size的样本的均值的问题？ （这个不太理解是什么问题了，我答的是根据大数定律batch均值期望跟所有样本均值相接近，答完就觉得很扯。。。面试官说其实是动量，计算时会用到之前的batch_size的均值）
 [experience5-360 商业化ML 面经.md](experience5-360%20商业化ML%20面经.md)
+
+3. Batch Normalization的原理
+答：在mini_batch上进行而不是在整个数据集上进行。在训练集上有BN测试集上没有BN，这样不会发生数值上的偏移，道理类似dropout，即记录下训练集上的BN参数（均值、标准差、\beta、\gamma）作为网络参数的一部分。
+[experience19-头条推荐.md](experience19-头条推荐.md)
+
+
+### Dropout
+
+1. (todo) Dropout的原理 (为什么训练时有dropout测试时没有dropout，这样会发生scale的偏移吗) [experience19-头条推荐.md](experience19-头条推荐.md)
 
 ### 7. Attention机制
 

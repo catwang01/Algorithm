@@ -9,6 +9,7 @@
 4. [experience13-推荐秋招.md]( experience13-推荐秋招.md )
 
 5. [ experience7-京东算法.md ]( experience7-京东算法.md )
+6. [experience19-头条推荐.md](experience19-头条推荐.md)
 
 ## 排序相关
 
@@ -29,6 +30,8 @@
 4. 数组的最大乘积 [152. 乘积最大子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/)
 相关企业： bigo [experience13-推荐秋招.md]( experience13-推荐秋招.md )
 
+5. 给定数组nums和整数target，求最少用nums中的整数多少次，使得这些数之和为target。比如给定nums = [3, 5, 12], target = 13, 答案为3 (13 = 3 + 5 + 5)
+
 ## 快排相关
 
 1. 给一个无序数组，找到其中位数（快排，O(n)）：[中位数_牛客网](https://www.nowcoder.com/practice/2364ff2463984f09904170cf6f67f69a?tpId=40&&tqId=21367&rp=1&ru=/activity/oj&qru=/ta/kaoyan/question-ranking) 
@@ -43,13 +46,15 @@
 
 1. [23. 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/) 
 相关企业：[experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
+
 2. 删除节点 [剑指 Offer 18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
-
-
 相关企业：[experience13-推荐秋招.md]( experience13-推荐秋招.md )
 
 3. 代码：反转链表 [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/)
 相关企业：京东 [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+
+4. [160. 相交链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
+相关企业：[160. 相交链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 
 ## 二分法
 

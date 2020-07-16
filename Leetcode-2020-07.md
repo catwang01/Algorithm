@@ -57,7 +57,6 @@
 |  |  [567. 字符串的排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutation-in-string/) | [Leetcode/Leetcode-567. 字符串的排列.md](Leetcode/Leetcode-567.%20字符串的排列.md) | leetcode 探索      |      | 
 |  | [215. 数组中的第K个最大元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/submissions/)  | [Leetcode-215. 数组中的第K个最大元素.md](Leetcode/Leetcode-215.%20数组中的第K个最大元素.md) |  leetcode 探索     |      | 
 |  |  [221. 最大正方形 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximal-square/) | [Leetcode-221. 最大正方形.md](Leetcode/Leetcode-221.%20最大正方形.md) |    Leetcode 头条专栏   |  dp    | 
-<<<<<<< HEAD
 | | [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Leetcode 33. 搜索旋转排序数组.md](Leetcode/Leetcode%2033.%20搜索旋转排序数组.md) |    leetcode 探索 |  |  二分法   | 
 | 2020-07-14|||||
 |  | [704. 二分查找 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-search/)  | [Leetcode-704. 二分查找.md](Leetcode/Leetcode-704.%20二分查找.md) |       |    二分法  | 
@@ -71,6 +70,5 @@
 |  | [43. 字符串相乘 - 力扣（LeetCode）](https://leetcode-cn.com/problems/multiply-strings/) | [Leetcode-43. 字符串相乘.md](Leetcode/Leetcode-43.%20字符串相乘.md) |    leetcode 专栏   |      | 
 |  |  [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/submissions/) | [Leetcode-69. x 的平方根.md](Leetcode/Leetcode-69.%20x%20的平方根.md) |   leetcode 专栏    |      | 
 |  |  [155. 最小栈 - 力扣（LeetCode）](https://leetcode-cn.com/problems/min-stack/) | [Leetcode-155. 最小栈.md](Leetcode/Leetcode-155.%20最小栈.md) |   Leetcode 头条专栏     |     单调栈 | 
-=======
 | | [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Leetcode 33. 搜索旋转排序数组.md](Leetcode/Leetcode%2033.%20搜索旋转排序数组.md) |    leetcode 探索 |  |  二分法   | 
->>>>>>> e2cdd746c55653654760188b8f3d090f29982396
+| | [160. 相交链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Leetcode 160. 相交链表.md](Leetcode/Leetcode%20160.%20相交链表.md) | 面试题 | |
