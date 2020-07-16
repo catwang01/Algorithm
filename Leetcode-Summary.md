@@ -415,6 +415,8 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 面试题 微软算法 [450. 删除二叉搜索树中的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/delete-node-in-a-bst/)
 
+[95. 不同的二叉搜索树 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)
+
 ### 路径相关
 
 #### 路径一定过根
