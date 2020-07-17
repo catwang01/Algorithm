@@ -7,9 +7,11 @@
 2. [experence17-飞书算法.md](experence17-飞书算法.md)
 3. [experience2-京东算法.md](experience2-京东算法.md)  
 4. [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+5. [experience19-头条推荐.md](experience19-头条推荐.md)
 
-5. [ experience7-京东算法.md ]( experience7-京东算法.md )
-6. [experience19-头条推荐.md](experience19-头条推荐.md)
+5. [experience7-京东算法.md]( experience7-京东算法.md )
+
+[experience18-新浪算法.md](experience18-新浪算法.md)
 
 ## 排序相关
 
@@ -96,7 +98,11 @@
 相关企业：[experience13-推荐秋招.md]( experience13-推荐秋招.md )
 
 2. 数组题，一个正整数数组如[23,456,789,457,453]，找出最小的两个数的拼接结果，如本题为 23和453 的拼接23453。例子只是用来说明，目标是求这样拼接的算法策略。
- 相关企业：[experience19-头条推荐.md](experience19-头条推荐.md)
+有点类似于：[面试题45. 把数组排成最小的数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)
+相关企业： [experience18-新浪算法.md](experience18-新浪算法.md)
 
-
-
+3. 数组题，寻找一个数组内所有符合如下规则的值：
+    1.某个值左侧的点都比这个值小
+    2某个值右侧的点都比这个值大
+    3.要求只遍历数组一遍，找出所有符合要求的值。 
+相关企业： [experience18-新浪算法.md](experience18-新浪算法.md)

@@ -6,6 +6,7 @@
 1. [experience2-京东算法.md](experience2-京东算法.md)
 2. [experience5-360 商业化ML 面经.md](experience5-360%20商业化ML%20面经.md)
 3. [experience19-头条推荐.md](experience19-头条推荐.md)
+4. [experience18-新浪算法.md](experience18-新浪算法.md)
 
 ## ML相关
 
@@ -20,9 +21,9 @@
 
 1. 在做特征工程时采用了哪些方法呢？ 常见的筛选特征的方法有哪些？ ( 飞书算法 )
 
-2. 如果模型发生过拟合，应该怎么样处理，如果调参后（已无法通过调参解决问题）还是过拟合，又该怎么办？ [experience19-头条推荐.md](experience19-头条推荐.md)
+2. 如果模型发生过拟合，应该怎么样处理，如果调参后（已无法通过调参解决问题）还是过拟合，又该怎么办？ [experience18-新浪算法.md](experience18-新浪算法.md)
 
-3. 属性选择的方法有哪些，具体说明。 [experience19-头条推荐.md](experience19-头条推荐.md)
+3. 属性选择的方法有哪些，具体说明。 [experience18-新浪算法.md](experience18-新浪算法.md)
 
 one-hot、 label-encoder对于category类型变量的处理方式，
 
@@ -34,16 +35,18 @@ one-hot、 label-encoder对于category类型变量的处理方式，
 
 ### XGBoost
 
-XGboost、lightgbm、Catboost三者介绍
-XGboost的原理及改进，
-
-4. GBDT+LR模型融合的方法，以及对比只用GBDT和用GBDT+LR有什么区别？哪种方法更加有效？ [experience19-头条推荐.md](experience19-头条推荐.md)
-
-5. GBDT，Xgboost，RF模型在实际应用中的参数，以及如何调参，Bagging和Boosting采样的区别，以及进行bagging和Boosting的数学意义是什么。 [experience19-头条推荐.md](experience19-头条推荐.md)
-
 1. 对xgboost的了解 ( 京东算法 )
 
-2. xgboost和lightgbm的区别 ( 京东算法x2 )
+2. (todo) xgboost和lightgbm的区别 ( 京东算法x2 )
+
+3. GBDT和Xgboost的区别，哪些是解决过拟合问题的。[experience18-新浪算法.md](experience18-新浪算法.md)
+
+4. (todo) GBDT+LR模型融合的方法，以及对比只用GBDT和用GBDT+LR有什么区别？哪种方法更加有效？ [experience18-新浪算法.md](experience18-新浪算法.md)
+
+5. GBDT，Xgboost，RF模型在实际应用中的参数，以及如何调参，Bagging和Boosting采样的区别，以及进行bagging和Boosting的数学意义是什么。 [experience18-新浪算法.md](experience18-新浪算法.md)
+
+XGboost、lightgbm、Catboost三者介绍
+XGboost的原理及改进，
 
 ### LR相关
 
