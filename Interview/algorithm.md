@@ -18,21 +18,32 @@
 
 ## 特征工程相关
 
-7. 在做特征工程时采用了哪些方法呢？ 常见的筛选特征的方法有哪些？ ( 飞书算法 )
- 
+1. 在做特征工程时采用了哪些方法呢？ 常见的筛选特征的方法有哪些？ ( 飞书算法 )
+
+2. 如果模型发生过拟合，应该怎么样处理，如果调参后（已无法通过调参解决问题）还是过拟合，又该怎么办？ [experience19-头条推荐.md](experience19-头条推荐.md)
+
+3. 属性选择的方法有哪些，具体说明。 [experience19-头条推荐.md](experience19-头条推荐.md)
+
+one-hot、 label-encoder对于category类型变量的处理方式，
+
 ### svm
+
+### 聚类相关
+
+3. 聚类算法了解程度、kmeans介绍、K值选择、kmeans++算法
 
 ### XGBoost
 
 XGboost、lightgbm、Catboost三者介绍
 XGboost的原理及改进，
-one-hot、 label-encoder对于category类型变量的处理方式，
 
-3. 聚类算法了解程度、kmeans介绍、K值选择、kmeans++算法
+4. GBDT+LR模型融合的方法，以及对比只用GBDT和用GBDT+LR有什么区别？哪种方法更加有效？ [experience19-头条推荐.md](experience19-头条推荐.md)
+
+5. GBDT，Xgboost，RF模型在实际应用中的参数，以及如何调参，Bagging和Boosting采样的区别，以及进行bagging和Boosting的数学意义是什么。 [experience19-头条推荐.md](experience19-头条推荐.md)
 
 1. 对xgboost的了解 ( 京东算法 )
 
-#### 2. xgboost和lightgbm的区别 ( 京东算法x2 )
+2. xgboost和lightgbm的区别 ( 京东算法x2 )
 
 ### LR相关
 

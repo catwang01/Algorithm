@@ -76,8 +76,8 @@
 |  |  [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees/) | [Leetcode-96. 不同的二叉搜索树.md](Leetcode/Leetcode-96.%20不同的二叉搜索树.md) |  面试题  |      | 
 |  | [95. 不同的二叉搜索树 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)  | [Leetcode-95. 不同的二叉搜索树 II.md](Leetcode/Leetcode-95.%20不同的二叉搜索树%20II.md) |   面试题    |      | 
 |  | [72. 编辑距离 - 力扣（LeetCode）](https://leetcode-cn.com/problems/edit-distance/)  | [Leetcode-72. 编辑距离.md](Leetcode/Leetcode-72.%20编辑距离.md) |     面试题  |      | 
-
-
+|  |   | [Leetcode-96. 不同的二叉搜索树.md](Leetcode/Leetcode-96.%20不同的二叉搜索树.md) |       |      | 
+|  |  [面试题45. 把数组排成最小的数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | [Leetcode-面试题45. 把数组排成最小的数.md](Leetcode/Leetcode-面试题45.%20把数组排成最小的数.md) |       |      | 
 
 
 

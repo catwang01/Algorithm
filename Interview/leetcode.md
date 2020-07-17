@@ -95,4 +95,8 @@
 1. 快乐数 [202. 快乐数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/happy-number/)
 相关企业：[experience13-推荐秋招.md]( experience13-推荐秋招.md )
 
+2. 数组题，一个正整数数组如[23,456,789,457,453]，找出最小的两个数的拼接结果，如本题为 23和453 的拼接23453。例子只是用来说明，目标是求这样拼接的算法策略。
+ 相关企业：[experience19-头条推荐.md](experience19-头条推荐.md)
+
+
 
