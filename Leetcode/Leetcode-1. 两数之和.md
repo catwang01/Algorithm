@@ -17,9 +17,6 @@ leetcode [两数之和 - 两数之和 - 力扣（LeetCode）](https://leetcode-c
 因为 nums[0] + nums[1] = 2 + 7 = 9
 所以返回 [0, 1]
 
-
-本题还可以先排序后再查找，可以看输入有序数组的版本 [两数之和 II - 输入有序数组(C) - 两数之和 II - 输入有序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/solution/liang-shu-zhi-he-ii-shu-ru-you-xu-shu-zu-c-by-zed-/)
-
 ## 算法
 
 ### 解法一：bruteforce
@@ -105,6 +102,57 @@ public:
                 break;
             }
         }
+        return ret;
+    }
+};
+```
+
+### 解法3: 排序 + 双指针
+
+#### 解法3: 实现
+
+##### 解法3: c++
+
+```
+struct cmp 
+{
+    vector<int> nums;
+    cmp(vector<int>& A): nums(A) {}
+    bool operator() (int i, int j)
+    {
+        return nums[i] < nums[j];
+    }
+
+};
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        vector<int> ret;
+        if (nums.size()<=1) return ret;
+
+        vector<int> index(nums.size());
+        for(int i=0; i<nums.size(); i++) index[i] = i;
+        sort(begin(index), end(index), cmp(nums));
+        // [0, i) 遍历过
+        // (j, n-1] 遍历过
+        // [i, j] 没有遍历过
+        // i > j=> 循环结束
+        // i <=j 循环进行
+        int i = 0, j = nums.size()-1;
+        int s;
+        do 
+        {
+            s = nums[index[i]] + nums[index[j]];
+            if (s == target)
+            {
+                return {index[i], index[j]};
+            } else {
+                if (s > target) j--;
+                else i++;
+            }
+            
+        } while (i <= j);
+        
         return ret;
     }
 };

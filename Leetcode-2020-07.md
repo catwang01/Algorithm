@@ -78,6 +78,7 @@
 |  | [72. 编辑距离 - 力扣（LeetCode）](https://leetcode-cn.com/problems/edit-distance/)  | [Leetcode-72. 编辑距离.md](Leetcode/Leetcode-72.%20编辑距离.md) |     面试题  |      | 
 |  |   | [Leetcode-96. 不同的二叉搜索树.md](Leetcode/Leetcode-96.%20不同的二叉搜索树.md) |       |      | 
 |  |  [面试题45. 把数组排成最小的数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | [Leetcode-面试题45. 把数组排成最小的数.md](Leetcode/Leetcode-面试题45.%20把数组排成最小的数.md) |       |      | 
+| | [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)  | [Leetcode-1. 两数之和.md](Leetcode/Leetcode-1.%20两数之和.md) |       |    hash  | 
 
 
 
