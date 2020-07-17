@@ -113,12 +113,13 @@ class Solution:
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode virtualHead, *p = &virtualHead;
-        ListNode* next; // 用来保持 head->next 的指针
-        while (head) {
+        ListNode virtualHead;
+        ListNode* next;
+        while (head)
+        {
             next = head->next;
-            head->next = p->next;
-            p->next = head;
+            head->next = virtualHead.next;
+            virtualHead.next = head;
             head = next;
         }
         return virtualHead.next;

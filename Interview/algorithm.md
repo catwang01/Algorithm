@@ -9,6 +9,8 @@
 5. [experience1-京东算法.md](experience1-京东算法.md)
 
 6. [experience20-京东算法.md](experience20-京东算法.md)
+7. [experience22-京东.md](experience22-京东.md)
+
 
 ## ML相关
 
@@ -36,6 +38,9 @@
 5. one-hot、 label-encoder对于category类型变量的处理方式，
 
 ### svm
+
+1. 然后推导SVM的原理 [experience22-京东.md](experience22-京东.md)
+2. 然后logistic和SVM的区别 [experience22-京东.md](experience22-京东.md)
 
 ### 聚类相关
 
@@ -118,6 +123,7 @@ Sigmoid，Tanh，Relu等激活函数的优缺点（这里之前没有复习到�
 1. lstm结构 [experience2-京东算法.md](experience2-京东算法.md)
 
 2. (todo) gru跟lstm有什么区别？ [experience2-京东算法.md](experience2-京东算法.md)
+3. RNN公式 [experience22-京东.md](experience22-京东.md)
 
 
 ### BN
@@ -138,7 +144,8 @@ Sigmoid，Tanh，Relu等激活函数的优缺点（这里之前没有复习到�
 
 ### Attention
 
-7. Attention机制 [experience1-京东算法.md](experience1-京东算法.md)
+1. Attention机制 [experience1-京东算法.md](experience1-京东算法.md)
+2. Attention注意力机制的原理 [experience22-京东.md](experience22-京东.md)
 
 ### 其它
 

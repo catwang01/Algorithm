@@ -22,6 +22,11 @@
 [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)
 相关公司：[experience22-京东.md](experience22-京东.md)
 
+2. [75. 颜色分类 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-colors/)
+相关公司：[experience22-京东.md](experience22-京东.md)
+
+3. 第二个编程题也不是很难，就是坑比较多，一个有序的数组，寻找数组的中的两个数它们的和是否等于某个值target，返回这样的两个数的个数。 [experience22-京东.md](experience22-京东.md)
+
 ## 排序相关
 
 1. 各种排序算法说下，写个插入排序。 [912. 排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-an-array/)
@@ -70,7 +75,9 @@
 相关企业：[experience13-推荐秋招.md]( experience13-推荐秋招.md )
 
 3. 代码：反转链表 [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/)
-相关企业：京东 [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+相关企业：
+    1. 京东 [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+    2. [experience22-京东.md](experience22-京东.md)
 
 4. [160. 相交链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 相关企业：[160. 相交链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
@@ -100,6 +107,9 @@
 
 4. 二叉树的前序遍历的递归和非递归、时间复杂度
 相关企业：百度 [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+
+5. 第三个面试题也挺简单的，问1~n个数组成二叉搜索树，有多少种形状不同的二叉树。
+相关企业：[experience22-京东.md](experience22-京东.md)
 
 ## 其它
 
