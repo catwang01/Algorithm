@@ -13,6 +13,15 @@
 
 [experience18-新浪算法.md](experience18-新浪算法.md)
 
+6. [experience22-京东.md](experience22-京东.md)
+
+
+## 双指针
+
+1. 编程题也特别简单，一道题是一个有序的数组，寻找数组的中的两个数它们的和是否等于某个值target，返回True或者False，要求O(n)的复杂度。 
+[1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)
+相关公司：[experience22-京东.md](experience22-京东.md)
+
 ## 排序相关
 
 1. 各种排序算法说下，写个插入排序。 [912. 排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-an-array/)
