@@ -15,6 +15,11 @@
 [experience18-新浪算法.md](experience18-新浪算法.md)
 
 
+## 位运算
+
+1. 一个数组，所有数组都出现了两次，只有一个数出现了一次，返回这个数（位运算） [136. 只出现一次的数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/single-number/)
+相关企业：[experience21-bat面试题.md](experience21-bat面试题.md)
+
 ## 回溯
 
 1. 数组的全排列（空间复杂度O（1）） [46. 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/)
@@ -119,10 +124,11 @@
     - 百度 [experience13-推荐秋招.md]( experience13-推荐秋招.md )
     - [experience21-bat面试题.md](experience21-bat面试题.md)
 
-
 6. 层次遍历二叉树 [102. 二叉树的层序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 相关企业：[experience21-bat面试题.md](experience21-bat面试题.md)
 
+7.  [103. 二叉树的锯齿形层次遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
+相关企业：[experience21-bat面试题.md](experience21-bat面试题.md)
 
 
 ## 其它
@@ -149,8 +155,6 @@
 4、一堆钞票，尽可能均分（利用背包问题的思想）
 
 5、无向无环图中，最短路径的最大值（Floyd算法)
-
-8、树的前序遍历和zigzag遍历（非递归）
 
 9、一个数组，所有数组都出现了两次，只有一个数出现了一次，返回这个数（位运算）
 
