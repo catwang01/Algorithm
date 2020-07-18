@@ -9,7 +9,9 @@
 5. [experience1-京东算法.md](experience1-京东算法.md)
 
 6. [experience20-京东算法.md](experience20-京东算法.md)
+
 7. [experience22-京东.md](experience22-京东.md)
+
 
 
 ## ML相关
@@ -20,10 +22,8 @@
 
 2. bagging和boosting是什么，有什么区别，是怎么把弱模型变成强模型的 [experience20-京东算法.md](experience20-京东算法.md)
 
-#### aux 的具体含义
+auc 的具体含义
 
-京东 算法：GBDT的原理、LR的原理、对数据倾斜处理的方法
-样本不平衡的处理方法（涉及到业务知识）
 
 ## 特征工程相关
 
@@ -37,10 +37,17 @@
 
 5. one-hot、 label-encoder对于category类型变量的处理方式，
 
+6. 样本不平衡的处理方法（涉及到业务知识）
+
+京东 算法：GBDT的原理、LR的原理、对数据倾斜处理的方法
+
 ### svm
 
 1. 然后推导SVM的原理 [experience22-京东.md](experience22-京东.md)
+
 2. 然后logistic和SVM的区别 [experience22-京东.md](experience22-京东.md)
+
+3. SVM为什么需要核函数，以及用了核函数之后数据的维度是变低还是变高了； [experience22-京东.md](experience22-京东.md)
 
 ### 聚类相关
 
@@ -97,8 +104,8 @@ XGboost的原理及改进，
 
 2. 口述了解的激活函数，为什么要激活函数 (京东算法)
 
-3. Sigmoid，Tanh，Relu等激活函数的优缺点（这里之前没有复习到，后面想了想应该从梯度消失，数据压缩，0均值方面来解释；当然，说的越多越好，比如Relu的神经元dead啥的，越能体现你的知识广度）
-Sigmoid，Tanh，Relu等激活函数的优缺点（这里之前没有复习到，后面想了想应该从梯度消失，数据压缩，0均值方面来解释；当然，说的越多越好，比如Relu的神经元dead啥的，越能体现你的知识广度） [experience1-京东算法.md](experience1-京东算法.md)
+3. Sigmoid，Tanh，Relu等激活函数的优缺点（这里之前没有复习到，后面想了想应该从梯度消失，数据压缩，0均值方面来解释；当然，说的越多越好，比如Relu的神经元dead啥的，越能体现你的知识广度） [experience1-京东算法.md](experience1-京东算法.md)
+Relu、Sigmoid和tanh分别有什么不同； [experience22-京东.md](experience22-京东.md)
 
 3. 为什么要用ReLU替代tanh/sigmoid/softmax
 答：ReLU求导的值要么是0要么是1，不会引起梯度消失或梯度爆炸 [experience19-头条推荐.md](experience19-头条推荐.md)
@@ -110,11 +117,16 @@ Sigmoid，Tanh，Relu等激活函数的优缺点（这里之前没有复习到�
 
 1. (todo) resnet结构 [experience2-京东算法.md](experience2-京东算法.md)
 2. ResNet (todo) [experience19-头条推荐.md](experience19-头条推荐.md)
+
 答：通过x + f(x)的结果，让深层网络获得不差于浅层网络的学习能力，从而允许网络变得更深
 
+3. 用CNN去处理文本信息的时候，如果只有一层CNN，设计一个模型结构，以及参数的大小； [experience22-京东.md](experience22-京东.md)
 
-1. Pooling种类，区别以及适用场景 [experience1-京东算法.md](experience1-京东算法.md)
-4. 谈谈1*1卷积 [experience1-京东算法.md](experience1-京东算法.md)
+4. 为什么CNN作用这么强大，可以处理图像以及文本信息；还有几个编程题，不过都巨简单就不说了。 [experience22-京东.md](experience22-京东.md)
+
+5. Pooling种类，区别以及适用场景 [experience1-京东算法.md](experience1-京东算法.md)
+
+6. 谈谈1*1卷积 [experience1-京东算法.md](experience1-京东算法.md)
 
 ### RNN 相关
 
@@ -123,8 +135,10 @@ Sigmoid，Tanh，Relu等激活函数的优缺点（这里之前没有复习到�
 1. lstm结构 [experience2-京东算法.md](experience2-京东算法.md)
 
 2. (todo) gru跟lstm有什么区别？ [experience2-京东算法.md](experience2-京东算法.md)
+
 3. RNN公式 [experience22-京东.md](experience22-京东.md)
 
+4. 然后写了一下RNN（GRU）的公式 [experience22-京东.md](experience22-京东.md)
 
 ### BN
 
@@ -141,6 +155,8 @@ Sigmoid，Tanh，Relu等激活函数的优缺点（这里之前没有复习到�
 ### Dropout
 
 1. (todo) Dropout的原理 (为什么训练时有dropout测试时没有dropout，这样会发生scale的偏移吗) [experience19-头条推荐.md](experience19-头条推荐.md)
+
+2. Dropout，Layer Normalization， residual net的作用； [experience22-京东.md](experience22-京东.md)
 
 ### Attention
 
@@ -184,9 +200,13 @@ DIN中Attention机制实现 [experience1-京东算法.md](experience1-京东算�
 1. 谈谈Youtube的那篇《Deep Neural Networks for YouTube Recommendations》 [experience1-京东算法.md](experience1-京东算法.md)
 2. 谈谈FM与DeepFM [experience1-京东算法.md](experience1-京东算法.md)
 3. 谈谈FM的泛化能力 [experience1-京东算法.md](experience1-京东算法.md)
-5、FM模型与LR区别 (京东算法)
-3、口述deepfm (京东算法)
+4. FM模型与LR区别 (京东算法)
+5. 口述deepfm (京东算法)
 6. DeepFM与FM的关联，并描述DeepFM的结构 [experience1-京东算法.md](experience1-京东算法.md)
+7. 你平时有没有读过推荐算法的论文？
+[experience22-京东.md](experience22-京东.md)
+8. 聊一下一个你了解的推荐算法（本菜鸡只知道协同过滤算法）。
+[experience22-京东.md](experience22-京东.md)
 
 ## NLP相关
 
@@ -243,6 +263,22 @@ def shuffle(self, x, random=None):
                 x[i], x[j] = x[j], x[i]
 ```
 [experience19-头条推荐.md](experience19-头条推荐.md)
+
+4. 主要有MLP手动求梯度，
+5. [experience22-京东.md](experience22-京东.md)
+
+6. 给你十亿个用户的数据，寻找每个用户最相似的10个用户（要求可以有一个很好的分布式算法）。
+[experience22-京东.md](experience22-京东.md)
+
+7. 比如基于内容如何进行标题的改写（把看起来很平常的标题转为标题党的标题）； [experience22-京东.md](experience22-京东.md)
+
+8. 给定一个网页，如何推荐网页最后面的广告信息； [experience22-京东.md](experience22-京东.md)
+
+9. 如何设计一个命名实体识别的的Neural模型； [experience22-京东.md](experience22-京东.md)
+
+
+
+Map/Reduce原理。
 
 ## HR
 
