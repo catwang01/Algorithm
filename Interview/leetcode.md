@@ -10,9 +10,10 @@
 5. [experience19-头条推荐.md](experience19-头条推荐.md)
 6. [experience22-京东.md](experience22-京东.md)
 7. [experience21-bat面试题.md](experience21-bat面试题.md)
+8. [experience18-新浪算法.md](experience18-新浪算法.md)
+
 
 5. [experience7-京东算法.md]( experience7-京东算法.md )
-[experience18-新浪算法.md](experience18-新浪算法.md)
 
 ## 位运算
 
@@ -38,7 +39,7 @@
 ## 排序相关
 
 1. 各种排序算法说下，写个插入排序。 [912. 排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-an-array/)
-相关企业：[ experience7-京东算法.md ]( experience7-京东算法.md )
+相关企业：[experience7-京东算法.md](experience7-京东算法.md)
 
 2. merge两个有序数组，写代码，写测试用例，【有bug抛了个ArrayIndexOutOfBound异常，于是改改改】改了哪里？这里的while替换成if可不可以？【答：可以】 [88. 合并两个有序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-sorted-array/)
 相关企业： [experience19-头条推荐.md](experience19-头条推荐.md)
@@ -78,7 +79,9 @@
 相关企业：
     - [experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
     - 云从科技：[experience13-推荐秋招.md](experience13-推荐秋招.md ) 面试官给了一个白板链接，根据出的题目在上面写代码，题目是求数组中位数，分别用快排和最大最小堆写，分析时间、空间复杂度
-    - [experience7-京东算法.md](experience7-京东算法.md)
+    - [experience7-京东算法.md](experience7-京东算法.md) 求第k大数
+    - [experience7-京东算法.md](experience7-京东算法.md) 快排
+
 
 2. 一个数组，一个数出现了超过一半次数，返回这个数 [169. 多数元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/majority-element/)
 相关企业：
@@ -99,7 +102,12 @@
     2. [experience22-京东.md](experience22-京东.md)
 
 4. [160. 相交链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
-相关企业：[160. 相交链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
+相关企业：
+    - [experience21-bat面试题.md](experience21-bat面试题.md)
+
+5. [234. 回文链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindrome-linked-list/)
+相关企业：
+    - [experience21-bat面试题.md](experience21-bat面试题.md)
 
 ## 二分法
 
@@ -108,7 +116,7 @@
 
 ## 二叉树相关
 
-1. 算法题：二叉树最近公共祖先(进阶)，比常规的二叉树查最近公共祖先，这个要求查询多次，每次查询不同的两个节点。 [Leetcode 236. 二叉树的最近公共祖先.md](Leetcode/Leetcode%20236.%20二叉树的最近公共祖先.md)
+1. 算法题：二叉树最近公共祖先(进阶)，比常规的二叉树查最近公共祖先，这个要求查询多次，每次查询不同的两个节点。 [Leetcode 236. 二叉树的最近公共祖先.md](Leetcode/Leetcode-236.%20二叉树的最近公共祖先.md)
 相关企业：
     1. [ experience16-头条c++.md ](experience16-头条c++.md) 
     2. [experience21-bat面试题.md](experience21-bat面试题.md)
@@ -148,6 +156,7 @@
 相关企业： [experience18-新浪算法.md](experience18-新浪算法.md)
 
 4. 将除法的结果用字符串返回，如果能够除尽，则返回相除的结果，如果不能除尽，则无限循环部分用[]标记。
+[166. 分数到小数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/)
 相关企业：
     1. [experience21-bat面试题.md](experience21-bat面试题.md)
 
@@ -155,21 +164,17 @@
 相关企业：
     - [experience2-京东算法.md](experience2-京东算法.md)  
 
+6. 栈实现队列 [232. 用栈实现队列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+    - [experience7-京东算法.md]( experience7-京东算法.md )
 
+## todo
 
+1、K个有序数组，找一个长度最小的区间，在这个区间里至少包含每个数组各一个数 [experience21-bat面试题.md](experience21-bat面试题.md)
 
-1、K个有序数组，找一个长度最小的区间，在这个区间里至少包含每个数组各一个数
+2、n个[0,n)的数，求每个数的出现次数（不能开辟额外空间） [experience21-bat面试题.md](experience21-bat面试题.md)
 
-2、n个[0,n)的数，求每个数的出现次数（不能开辟额外空间）
+4、一堆钞票，尽可能均分（利用背包问题的思想） [experience21-bat面试题.md](experience21-bat面试题.md) 
 
-4、一堆钞票，尽可能均分（利用背包问题的思想）
+5、无向无环图中，最短路径的最大值（Floyd算法) [experience21-bat面试题.md](experience21-bat面试题.md)
 
-5、无向无环图中，最短路径的最大值（Floyd算法)
-
-12、数组排序，假设数组排序后的位次和排序前的位次绝对值差值小于K，有什么比快排好的算法？
-
-13、树中两个节点的第一个的公共祖先。
-
-14、判断是否是回文链表 [experience21-bat面试题.md](experience21-bat面试题.md)
-
-15、判断两个链表中是否有相同节点 [experience21-bat面试题.md](experience21-bat面试题.md)
+12、数组排序，假设数组排序后的位次和排序前的位次绝对值差值小于K，有什么比快排好的算法？ [experience21-bat面试题.md](experience21-bat面试题.md)

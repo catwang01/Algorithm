@@ -9,10 +9,9 @@
 5. [experience1-京东算法.md](experience1-京东算法.md)
 6. [experience22-京东.md](experience22-京东.md)
 
-6. [experience20-京东算法.md](experience20-京东算法.md)
-7. [experience21-bat面试题.md](experience21-bat面试题.md)
-
-
+7. [experience20-京东算法.md](experience20-京东算法.md)
+8. [experience21-bat面试题.md](experience21-bat面试题.md)
+9. [experience7-京东算法.md](experience7-京东算法.md)
 
 ## ML相关
 
@@ -80,7 +79,6 @@
 
 10. CART分类树和ID3以及C4.5有什么区别？ [experience21-bat面试题.md](experience21-bat面试题.md) 
 
-
 XGboost、lightgbm、Catboost三者介绍
 XGboost的原理及改进，
 
@@ -88,6 +86,7 @@ XGboost的原理及改进，
 
 1. LR的随机梯度实现
 3. 口述逻辑回归，写下其损失函数
+4. 口述逻辑回归 [experience7-京东算法.md](experience7-京东算法.md)
 2. 什么是线性模型？LR为什么是线性模型？ （飞书算法）
 4. 如何提升LR的模型性能？ （飞书算法）
 5. 对于LR来说，LR如果多了一维冗余特征，其权重和AUC会怎样变化（权重变为1/2, AUC不会变化） [experience1-京东算法.md](experience1-京东算法.md)
@@ -95,6 +94,7 @@ XGboost的原理及改进，
 7. 写交叉熵，Softmax [experience1-京东算法.md](experience1-京东算法.md)
 8. 神经网络里面的损失函数有哪些 [experience21-bat面试题.md](experience21-bat面试题.md)
 交叉熵损失函数，0-1分类的交叉熵损失函数的形式。什么是凸函数？0-1分类如果用平方损失为什么用交叉熵而不是平方损失？ [experience21-bat面试题.md](experience21-bat面试题.md)
+9. 用pytorch写下逻辑回归训练过程 [experience7-京东算法.md](experience7-京东算法.md)
 
 
 ### 正则相关
@@ -198,7 +198,8 @@ Relu、Sigmoid和tanh分别有什么不同； [experience22-京东.md](experienc
 
 ### 其它
 
-4. 神经网络中网络权重W初始化为0有什么问题？ [experience1-京东算法.md](experience1-京东算法.md)
+1. 说下神经网络正向和反向过程，最后面试官画了个图，让我求导。 [experience7-京东算法.md](experience7-京东算法.md)
+2. 神经网络中网络权重W初始化为0有什么问题？ [experience1-京东算法.md](experience1-京东算法.md)
 
 ## 推荐系统相关
 

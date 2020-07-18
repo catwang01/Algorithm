@@ -56,6 +56,36 @@ public:
 };
 ```
 
+##### 解法1:实现1: python
+
+```cpp
+class Solution:
+    def isPalindrome(self, head: ListNode) -> bool:
+        if not head or not head.next: return True
+        slow, fast = head, head.next
+        while fast and fast.next:
+            fast = fast.next.next
+            slow = slow.next
+        newhead = slow.next
+
+        slow.next = None
+        newhead = self.reverse(newhead)
+
+        while head and newhead:
+            if head.val != newhead.val:
+                return False
+            head = head.next
+            newhead = newhead.next
+        return True
+    
+    def reverse(self, head):
+        if not head or not head.next: return head
+        newhead = self.reverse(head.next)
+        head.next.next = head
+        head.next = None
+        return newhead
+```
+
 #### 解法1: 实现2: 利用栈reverse
 
 ##### 解法1.2: c++
