@@ -18,14 +18,14 @@
 ```
 class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
-        result = []
+        ret = []
         def preorder(node):
-            if node: # if node is not None
-                result.append(node.val)
-                preorder(node.left)
-                preorder(node.right)
+            if not node: return
+            ret.append(node.val)
+            preorder(node.left)
+            preorder(node.right)
         preorder(root)
-        return result
+        return ret
 ```
 
 ##### 解法1：c++
@@ -67,11 +67,11 @@ class Solution {
 }
 ```
 
-### 解法2.1：非递归实现 
+### 解法2：非递归实现 
 
-#### 解法2.1：实现
+#### 解法2：实现1
 
-##### 解法2.1：python
+##### 解法2：python
 
 ```
 class Solution:
@@ -80,18 +80,15 @@ class Solution:
         stack = [root]
         while stack: # while stack != []
             node = stack.pop()
-            if node: # if node is not None
-                result.append(node.val)
-                stack.append(node.right)
-                stack.append(node.left)
+            result.append(node.val)
+            if node.right: stack.append(node.right)
+            if node.left: stack.append(node.left)
         return result
 ```
 
-### 解法2.2：非递归实现（常规解法）
+#### 解法2:实现2 常规解法
 
-#### 解法2.2:实现
-
-##### 解法2.2:python
+##### 解法2:python
 
 ```
 class Solution:
@@ -107,9 +104,7 @@ class Solution:
         return result
 ```
 
-#### 解法2.2：非递归实现
-
-##### 解法2.2:java
+##### 解法2:java
 
 ```
 class Solution {
@@ -127,4 +122,28 @@ class Solution {
         return result;
     }
 }
+```
+
+#### 解法2: 实现3 颜色标记法
+
+##### 解法2:实现3 python
+
+```
+class Solution:
+    def preorderTraversal(self, root: TreeNode) -> List[int]:
+        ret = []
+        if not root: return ret
+        black, white = 0, 1
+        st = [(root, white)]
+        while st:
+            node, color = st.pop()
+            if color == white:
+                if node.right: 
+                    st.append((node.right,  white))
+                if node.left: 
+                    st.append((node.left, white))
+                st.append((node, black))
+            else:
+                ret.append(node.val)
+        return ret
 ```

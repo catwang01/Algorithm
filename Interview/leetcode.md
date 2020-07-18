@@ -61,6 +61,11 @@
 
 7. [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees/) 计算n个节点的二叉树有多少种形态？【答：递推，在面试官提醒下写出递推式】写代码，写测试用例
 相关企业：[experience19-头条推荐.md](experience19-头条推荐.md)
+相关企业：[experience22-京东.md](experience22-京东.md)
+
+8. 字符串的最长公共子序列（动态规划）
+[1143. 最长公共子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-common-subsequence/submissions/)
+相关企业：[experience22-京东.md](experience22-京东.md)
 
 ## 快排相关
 
@@ -110,10 +115,10 @@
 相关企业： [experence17-飞书算法.md](experence17-飞书算法.md)
 
 4. 二叉树的前序遍历的递归和非递归、时间复杂度
-相关企业：百度 [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+相关企业：
+    - 百度 [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+    - [experience21-bat面试题.md](experience21-bat面试题.md)
 
-5. 第三个面试题也挺简单的，问1~n个数组成二叉搜索树，有多少种形状不同的二叉树。 [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees/)
-相关企业：[experience22-京东.md](experience22-京东.md)
 
 6. 层次遍历二叉树 [102. 二叉树的层序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 相关企业：[experience21-bat面试题.md](experience21-bat面试题.md)
@@ -144,10 +149,6 @@
 4、一堆钞票，尽可能均分（利用背包问题的思想）
 
 5、无向无环图中，最短路径的最大值（Floyd算法)
-
-6、层次遍历二叉树
-
-7、字符串的最长公共子序列（动态规划）
 
 8、树的前序遍历和zigzag遍历（非递归）
 
