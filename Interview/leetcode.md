@@ -106,15 +106,12 @@
 1. [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/) 
 相关企业：[experience2-京东算法.md](experience2-京东算法.md)  
 
-## 其它
-
-1. [Leetcode 470. 用 Rand7() 实现 Rand10().md](Leetcode/Leetcode%20470.%20用%20Rand7()%20实现%20Rand10().md) 
-相关企业：[experience2-京东算法.md](experience2-京东算法.md)  
-
 ## 二叉树相关
 
 1. 算法题：二叉树最近公共祖先(进阶)，比常规的二叉树查最近公共祖先，这个要求查询多次，每次查询不同的两个节点。 [Leetcode 236. 二叉树的最近公共祖先.md](Leetcode/Leetcode%20236.%20二叉树的最近公共祖先.md)
-相关企业：[ experience16-头条c++.md ](experience16-头条c++.md) 
+相关企业：
+    1. [ experience16-头条c++.md ](experience16-头条c++.md) 
+    2. [experience21-bat面试题.md](experience21-bat面试题.md)
 
 
 2. 二叉树高度 [104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
@@ -150,6 +147,15 @@
     3.要求只遍历数组一遍，找出所有符合要求的值。 
 相关企业： [experience18-新浪算法.md](experience18-新浪算法.md)
 
+4. 将除法的结果用字符串返回，如果能够除尽，则返回相除的结果，如果不能除尽，则无限循环部分用[]标记。
+相关企业：
+    1. [experience21-bat面试题.md](experience21-bat面试题.md)
+
+5. [Leetcode 470. 用 Rand7() 实现 Rand10().md](Leetcode/Leetcode%20470.%20用%20Rand7()%20实现%20Rand10().md) 
+相关企业：
+    - [experience2-京东算法.md](experience2-京东算法.md)  
+
+
 
 
 1、K个有序数组，找一个长度最小的区间，在这个区间里至少包含每个数组各一个数
@@ -159,9 +165,6 @@
 4、一堆钞票，尽可能均分（利用背包问题的思想）
 
 5、无向无环图中，最短路径的最大值（Floyd算法)
-
-
-11、将除法的结果用字符串返回，如果能够除尽，则返回相除的结果，如果不能除尽，则无限循环部分用[]标记。
 
 12、数组排序，假设数组排序后的位次和排序前的位次绝对值差值小于K，有什么比快排好的算法？
 

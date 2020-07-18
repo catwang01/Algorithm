@@ -52,13 +52,6 @@
 这里利用了 bfs 来进行一次遍历（也可以用dfs），从而给所有的结点添加 parent属性，为了之后找公共父结点的方便，还添加了 level 属性；
 
 ```
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
 from collections import deque
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
@@ -94,7 +87,7 @@ class Solution:
 
 ### 解法2: 利用父节点的指针 + 两个链表在第一个公共节点
 
-[剑指 Offer 52. 两个链表的第一个公共节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
+如果将hash表看做是从子节点到父结点的一个链接的话，那么这个hash表实际上定义了一个链表。链表有两个头 p 和 q。现在想找到 p 和 q 的相遇的节点，实际上是下面的这问题 [剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
 
 #### 解法2: python
 
@@ -161,7 +154,11 @@ right = lowestCommonAncestor(root.right, p, q)
 
 可以看到，当 left 和 right 中有一个为 None 时，直接返回另一个即可（对应上面的1、2）；当 left 和 right 中两个同时不为 None 时，对应上面的第3、4，因此返回 root 即.
 
-#### 解法3: python
+时间复杂度：$O(n)$，最坏情况下遍历所有节点
+空间复杂度： $O(n)$，最坏情况下栈深为 N
+
+#### 解法3: 实现
+##### 解法3: python
 
 ```
 class Solution:
