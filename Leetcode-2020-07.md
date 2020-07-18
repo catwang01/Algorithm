@@ -92,3 +92,7 @@
 |  | [144. 二叉树的前序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)  | [Leetcode-144. 二叉树的前序遍历.md](Leetcode/Leetcode-144.%20二叉树的前序遍历.md) |       |      | 
 |  |   [103. 二叉树的锯齿形层次遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [Leetcode-103. 二叉树的锯齿形层次遍历.md](Leetcode/Leetcode-103.%20二叉树的锯齿形层次遍历.md) |   面试题 |      | 
 |  | [136. 只出现一次的数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/single-number/) | [Leetcode-136-只出现一次的数字.md](Leetcode/Leetcode-136-只出现一次的数字.md) |    面试题   |   位运算 | 
+|  | [169. 多数元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/majority-element/)   | [Leetcode-169. 多数元素.md](Leetcode/Leetcode-169.%20多数元素.md) |     面试题  |      | 
+|  | [166. 分数到小数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/) | [Leetcode-166. 分数到小数.md](Leetcode/Leetcode-166.%20分数到小数.md) |       |      | 
+
+

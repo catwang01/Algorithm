@@ -14,7 +14,6 @@
 5. [experience7-京东算法.md]( experience7-京东算法.md )
 [experience18-新浪算法.md](experience18-新浪算法.md)
 
-
 ## 位运算
 
 1. 一个数组，所有数组都出现了两次，只有一个数出现了一次，返回这个数（位运算） [136. 只出现一次的数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/single-number/)
@@ -76,9 +75,15 @@
 
 1. 给一个无序数组，找到其中位数（快排，O(n)）：[中位数_牛客网](https://www.nowcoder.com/practice/2364ff2463984f09904170cf6f67f69a?tpId=40&&tqId=21367&rp=1&ru=/activity/oj&qru=/ta/kaoyan/question-ranking) 
 求第k大数
-相关企业：[experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
-云从科技：[experience13-推荐秋招.md]( experience13-推荐秋招.md ) 面试官给了一个白板链接，根据出的题目在上面写代码，题目是求数组中位数，分别用快排和最大最小堆写，分析时间、空间复杂度
-[ experience7-京东算法.md ]( experience7-京东算法.md )
+相关企业：
+    - [experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
+    - 云从科技：[experience13-推荐秋招.md](experience13-推荐秋招.md ) 面试官给了一个白板链接，根据出的题目在上面写代码，题目是求数组中位数，分别用快排和最大最小堆写，分析时间、空间复杂度
+    - [experience7-京东算法.md](experience7-京东算法.md)
+
+2. 一个数组，一个数出现了超过一半次数，返回这个数 [169. 多数元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/majority-element/)
+相关企业：
+    - [experience21-bat面试题.md](experience21-bat面试题.md)
+
 
 ## 链表相关
 
@@ -108,8 +113,7 @@
 
 ## 二叉树相关
 
-1. 算法题：二叉树最近公共祖先(进阶)，比常规的二叉树查最近公共祖先，这个要求查询多次，每次查询不同的两个节点。
-[Leetcode 236. 二叉树的最近公共祖先.md](Leetcode/Leetcode%20236.%20二叉树的最近公共祖先.md)
+1. 算法题：二叉树最近公共祖先(进阶)，比常规的二叉树查最近公共祖先，这个要求查询多次，每次查询不同的两个节点。 [Leetcode 236. 二叉树的最近公共祖先.md](Leetcode/Leetcode%20236.%20二叉树的最近公共祖先.md)
 相关企业：[ experience16-头条c++.md ](experience16-头条c++.md) 
 
 
@@ -156,9 +160,6 @@
 
 5、无向无环图中，最短路径的最大值（Floyd算法)
 
-9、一个数组，所有数组都出现了两次，只有一个数出现了一次，返回这个数（位运算）
-
-10、一个数组，一个数出现了超过一半次数，返回这个数
 
 11、将除法的结果用字符串返回，如果能够除尽，则返回相除的结果，如果不能除尽，则无限循环部分用[]标记。
 
