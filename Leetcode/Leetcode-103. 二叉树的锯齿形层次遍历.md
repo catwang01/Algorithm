@@ -61,3 +61,39 @@ class Solution:
 
         return ret   
 ```
+
+### 解法2: 使用deque
+
+#### 解法2:实现
+
+##### 解法2: python
+
+```
+class Solution:
+    def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
+        ret = []
+        if not root: return ret
+        dq = deque([root])
+        is_pop_left = True
+        while dq:
+            levelsize = len(dq)
+            levelret = []
+            for i in range(levelsize):
+                if is_pop_left:
+                    node = dq.popleft()
+                    levelret.append(node.val)
+                    if node.left:
+                        dq.append(node.left)
+                    if node.right:
+                        dq.append(node.right)
+                else:
+                    node = dq.pop()
+                    levelret.append(node.val)
+                    if node.right:
+                        dq.appendleft(node.right)
+                    if node.left:
+                        dq.appendleft(node.left)
+            is_pop_left = not is_pop_left
+            ret.append(levelret)
+        return ret
+```
