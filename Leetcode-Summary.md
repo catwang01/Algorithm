@@ -323,6 +323,16 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 1. [120. 三角形最小路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/triangle/)
 
 
+### 子串问题
+
+子串问题可以用 dp，有的题也可以用滑动窗口。
+
+1.  简单的dp [Leetcode-674. 最长连续递增序列.md](Leetcode/Leetcode-674.%20最长连续递增序列.md) 
+
+2. [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)
+
+3. [718. 最长重复子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)
+
 ### 子序列系列
 
 #### 只保存一个状态
@@ -339,14 +349,6 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 1. 推荐：这个不太懂 [152. 乘积最大子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/submissions/) 
 
 2. [376. 摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/submissions/)
-
-### 子串相关
-
-1.  简单的dp [Leetcode-674. 最长连续递增序列.md](Leetcode/Leetcode-674.%20最长连续递增序列.md) 
-
-2. [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)
-
-子串问题可以用 dp，有的题也可以用滑动窗口。
 
 ### 背包问题
 

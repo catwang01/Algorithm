@@ -87,3 +87,4 @@
 | 2020-07-18|        |        |      |        |
 | | [46. 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/)  | [Leetcode-46. 全排列.md](Leetcode/Leetcode-46.%20全排列.md) |   标准的回溯，懂套路之后很简单  |   回溯 |
 |  | [102. 二叉树的层序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)  | [Leetcode-102. 二叉树的层序遍历.md](Leetcode/Leetcode-102.%20二叉树的层序遍历.md) |       |      | 
+|  | [1143. 最长公共子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-common-subsequence/submissions/)  | [Leetcode-1143. 最长公共子序列.md](Leetcode/Leetcode-1143.%20最长公共子序列.md) |     面试题 | dp     | 

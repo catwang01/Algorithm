@@ -112,10 +112,13 @@
 4. 二叉树的前序遍历的递归和非递归、时间复杂度
 相关企业：百度 [experience13-推荐秋招.md]( experience13-推荐秋招.md )
 
-5. 第三个面试题也挺简单的，问1~n个数组成二叉搜索树，有多少种形状不同的二叉树。
+5. 第三个面试题也挺简单的，问1~n个数组成二叉搜索树，有多少种形状不同的二叉树。 [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees/)
 相关企业：[experience22-京东.md](experience22-京东.md)
 
-6. 层次遍历二叉树
+6. 层次遍历二叉树 [102. 二叉树的层序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+相关企业：[experience21-bat面试题.md](experience21-bat面试题.md)
+
+
 
 ## 其它
 
