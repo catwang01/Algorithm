@@ -8,13 +8,17 @@
 3. [experience2-京东算法.md](experience2-京东算法.md)  
 4. [experience13-推荐秋招.md]( experience13-推荐秋招.md )
 5. [experience19-头条推荐.md](experience19-头条推荐.md)
+6. [experience22-京东.md](experience22-京东.md)
+7. [experience21-bat面试题.md](experience21-bat面试题.md)
 
 5. [experience7-京东算法.md]( experience7-京东算法.md )
-
 [experience18-新浪算法.md](experience18-新浪算法.md)
 
-6. [experience22-京东.md](experience22-京东.md)
 
+## 回溯
+
+1. 数组的全排列（空间复杂度O（1）） [46. 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/)
+相关企业：[experience21-bat面试题.md](experience21-bat面试题.md)
 
 ## 双指针
 
@@ -111,6 +115,8 @@
 5. 第三个面试题也挺简单的，问1~n个数组成二叉搜索树，有多少种形状不同的二叉树。
 相关企业：[experience22-京东.md](experience22-京东.md)
 
+6. 层次遍历二叉树
+
 ## 其它
 
 1. 快乐数 [202. 快乐数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/happy-number/)
@@ -125,3 +131,33 @@
     2某个值右侧的点都比这个值大
     3.要求只遍历数组一遍，找出所有符合要求的值。 
 相关企业： [experience18-新浪算法.md](experience18-新浪算法.md)
+
+
+
+1、K个有序数组，找一个长度最小的区间，在这个区间里至少包含每个数组各一个数
+
+2、n个[0,n)的数，求每个数的出现次数（不能开辟额外空间）
+
+4、一堆钞票，尽可能均分（利用背包问题的思想）
+
+5、无向无环图中，最短路径的最大值（Floyd算法)
+
+6、层次遍历二叉树
+
+7、字符串的最长公共子序列（动态规划）
+
+8、树的前序遍历和zigzag遍历（非递归）
+
+9、一个数组，所有数组都出现了两次，只有一个数出现了一次，返回这个数（位运算）
+
+10、一个数组，一个数出现了超过一半次数，返回这个数
+
+11、将除法的结果用字符串返回，如果能够除尽，则返回相除的结果，如果不能除尽，则无限循环部分用[]标记。
+
+12、数组排序，假设数组排序后的位次和排序前的位次绝对值差值小于K，有什么比快排好的算法？
+
+13、树中两个节点的第一个的公共祖先。
+
+14、判断是否是回文链表 [experience21-bat面试题.md](experience21-bat面试题.md)
+
+15、判断两个链表中是否有相同节点 [experience21-bat面试题.md](experience21-bat面试题.md)

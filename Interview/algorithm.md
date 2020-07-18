@@ -7,10 +7,10 @@
 3. [experience19-头条推荐.md](experience19-头条推荐.md)
 4. [experience18-新浪算法.md](experience18-新浪算法.md)
 5. [experience1-京东算法.md](experience1-京东算法.md)
+6. [experience22-京东.md](experience22-京东.md)
 
 6. [experience20-京东算法.md](experience20-京东算法.md)
-
-7. [experience22-京东.md](experience22-京东.md)
+7. [experience21-bat面试题.md](experience21-bat面试题.md)
 
 
 
@@ -21,9 +21,10 @@
 1.过拟合、欠拟合是什么，有什么解决方案 [experience20-京东算法.md](experience20-京东算法.md)
 
 2. bagging和boosting是什么，有什么区别，是怎么把弱模型变成强模型的 [experience20-京东算法.md](experience20-京东算法.md)
+- boosting和bagging的区别？ [experience21-bat面试题.md](experience21-bat面试题.md)
+- bagging为什么能减小方差？ [experience21-bat面试题.md](experience21-bat面试题.md)
 
-auc 的具体含义
-
+3. AUC的原理介绍一下 [experience21-bat面试题.md](experience21-bat面试题.md)
 
 ## 特征工程相关
 
@@ -53,17 +54,32 @@ auc 的具体含义
 
 3. 聚类算法了解程度、kmeans介绍、K值选择、kmeans++算法
 
-### XGBoost
+### XGBoost && GBDT && RF
 
 1. 对xgboost的了解 ( 京东算法 )
 
 2. (todo) xgboost和lightgbm的区别 ( 京东算法x2 )
 
-3. GBDT和Xgboost的区别，哪些是解决过拟合问题的。[experience18-新浪算法.md](experience18-新浪算法.md)
+3. GBDT和Xgboost的区别，哪些是解决过拟合问题的。[experience18-新浪算法.md](experience18-j新浪算法.md)
+
+- XGBOOst和GBDT的区别。 [experience21-bat面试题.md](experience21-bat面试题.md)
+
+- GBDT+LR是怎么做的? [experience21-bat面试题.md](experience21-bat面试题.md)
 
 4. (todo) GBDT+LR模型融合的方法，以及对比只用GBDT和用GBDT+LR有什么区别？哪种方法更加有效？ [experience18-新浪算法.md](experience18-新浪算法.md)
 
 5. GBDT，Xgboost，RF模型在实际应用中的参数，以及如何调参，Bagging和Boosting采样的区别，以及进行bagging和Boosting的数学意义是什么。 [experience18-新浪算法.md](experience18-新浪算法.md)
+
+6. GBDT和随机森林有什么区别 [experience21-bat面试题.md](experience21-bat面试题.md)
+
+7. GBDT的原理，如何做分类和回归 [experience21-bat面试题.md](experience21-bat面试题.md)
+
+8. 随机森林的随机体现在哪方面 [experience21-bat面试题.md](experience21-bat面试题.md)
+
+9. 树集成模型有哪几种实现方式：Bagging和Boosting，回答过程中又问到了很多细节。AdaBoost是如何改变样本权重，随机森林的随机体现在哪方面，GBDT分类树拟合的是什么？ [experience21-bat面试题.md](experience21-bat面试题.md) 
+
+10. CART分类树和ID3以及C4.5有什么区别？ [experience21-bat面试题.md](experience21-bat面试题.md) 
+
 
 XGboost、lightgbm、Catboost三者介绍
 XGboost的原理及改进，
@@ -77,6 +93,9 @@ XGboost的原理及改进，
 5. 对于LR来说，LR如果多了一维冗余特征，其权重和AUC会怎样变化（权重变为1/2, AUC不会变化） [experience1-京东算法.md](experience1-京东算法.md)
 6. 写出LR的损失函数（交叉熵损失函数） [experience1-京东算法.md](experience1-京东算法.md)
 7. 写交叉熵，Softmax [experience1-京东算法.md](experience1-京东算法.md)
+8. 神经网络里面的损失函数有哪些 [experience21-bat面试题.md](experience21-bat面试题.md)
+交叉熵损失函数，0-1分类的交叉熵损失函数的形式。什么是凸函数？0-1分类如果用平方损失为什么用交叉熵而不是平方损失？ [experience21-bat面试题.md](experience21-bat面试题.md)
+
 
 ### 正则相关
 
@@ -85,6 +104,14 @@ XGboost的原理及改进，
 
 3. 从原理上解释L1, L2正则（如L1正则为什么能够起到特征选择的作用） [experience1-京东算法.md](experience1-京东算法.md)
 4. L1和L2的区别？L1有什么缺点？L2呢？平时用L1多还是用L2多？为什么正则化选L2呢？为什么不选L1？L1为什么产生稀疏解？ （飞书算法）
+
+5. L1和L2有什么区别，从数学角度解释L2为什么能提升模型的泛化能力。 [experience21-bat面试题.md](experience21-bat面试题.md)
+6. 深度学习中，L2和dropout有哪些区别？ [experience21-bat面试题.md](experience21-bat面试题.md)
+7. L1正则化有哪些好处 [experience21-bat面试题.md](experience21-bat面试题.md)
+8. early stop对参数有什么影响？ [experience21-bat面试题.md](experience21-bat面试题.md)
+
+
+
 
 ## DL相关
 
@@ -111,6 +138,8 @@ Relu、Sigmoid和tanh分别有什么不同； [experience22-京东.md](experienc
 答：ReLU求导的值要么是0要么是1，不会引起梯度消失或梯度爆炸 [experience19-头条推荐.md](experience19-头条推荐.md)
 
 5. dnn中如果把中间层的激活函数去掉会怎样？去掉激活函数的dnn与逻辑回归有什么区别？ [experience1-京东算法.md](experience1-京东算法.md)
+
+- [experience21-bat面试题.md](experience21-bat面试题.md)
 
 
 ### CNN 相关
@@ -139,6 +168,10 @@ Relu、Sigmoid和tanh分别有什么不同； [experience22-京东.md](experienc
 3. RNN公式 [experience22-京东.md](experience22-京东.md)
 
 4. 然后写了一下RNN（GRU）的公式 [experience22-京东.md](experience22-京东.md)
+
+- LSTM的公式 [experience21-bat面试题.md](experience21-bat面试题.md)
+
+- RNN为什么出现梯度消失及BPTT的推导 [experience21-bat面试题.md](experience21-bat面试题.md)
 
 ### BN
 
@@ -175,6 +208,10 @@ Relu、Sigmoid和tanh分别有什么不同； [experience22-京东.md](experienc
 
 ### 百度 系统设计：推荐系统还有融合框架，假如通过两种不同的召回和ranking系统得到结果，如何在两种备选结果中最终给用户推荐出最适合的十个广告
 
+### dp & wide
+
+1. Wide &Deep的原理 [experience21-bat面试题.md](experience21-bat面试题.md)
+
 ### DIN
 
 DIN结构，DIN提出动机以及与之前模型的区别 [experience1-京东算法.md](experience1-京东算法.md)
@@ -207,6 +244,9 @@ DIN中Attention机制实现 [experience1-京东算法.md](experience1-京东算�
 [experience22-京东.md](experience22-京东.md)
 8. 聊一下一个你了解的推荐算法（本菜鸡只知道协同过滤算法）。
 [experience22-京东.md](experience22-京东.md)
+9. DeepFM介绍 [experience21-bat面试题.md](experience21-bat面试题.md)
+10. FM推导 [experience21-bat面试题.md](experience21-bat面试题.md)
+
 
 ## NLP相关
 
