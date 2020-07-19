@@ -8,10 +8,10 @@
 4. [experience18-新浪算法.md](experience18-新浪算法.md)
 5. [experience1-京东算法.md](experience1-京东算法.md)
 6. [experience22-京东.md](experience22-京东.md)
+7. [experience7-京东算法.md](experience7-京东算法.md)
 
 7. [experience20-京东算法.md](experience20-京东算法.md)
 8. [experience21-bat面试题.md](experience21-bat面试题.md)
-9. [experience7-京东算法.md](experience7-京东算法.md)
 
 ## ML相关
 
@@ -60,27 +60,24 @@
 2. (todo) xgboost和lightgbm的区别 ( 京东算法x2 )
 
 3. GBDT和Xgboost的区别，哪些是解决过拟合问题的。[experience18-新浪算法.md](experience18-j新浪算法.md)
-
 - XGBOOst和GBDT的区别。 [experience21-bat面试题.md](experience21-bat面试题.md)
 
-- GBDT+LR是怎么做的? [experience21-bat面试题.md](experience21-bat面试题.md)
+4. GBDT和随机森林有什么区别 [experience21-bat面试题.md](experience21-bat面试题.md)
 
 4. (todo) GBDT+LR模型融合的方法，以及对比只用GBDT和用GBDT+LR有什么区别？哪种方法更加有效？ [experience18-新浪算法.md](experience18-新浪算法.md)
+- GBDT+LR是怎么做的? [experience21-bat面试题.md](experience21-bat面试题.md)
 
-5. GBDT，Xgboost，RF模型在实际应用中的参数，以及如何调参，Bagging和Boosting采样的区别，以及进行bagging和Boosting的数学意义是什么。 [experience18-新浪算法.md](experience18-新浪算法.md)
+5. GBDT，Xgboost，RF模型在实际应用中的参数，以及如何调参，Bagging和Boosting采样的区别，[experience18-新浪算法.md](experience18-新浪算法.md)
 
-6. GBDT和随机森林有什么区别 [experience21-bat面试题.md](experience21-bat面试题.md)
+6. 进行bagging和Boosting的数学意义是什么。 [experience18-新浪算法.md](experience18-新浪算法.md)
 
 7. GBDT的原理，如何做分类和回归 [experience21-bat面试题.md](experience21-bat面试题.md)
 
 8. 随机森林的随机体现在哪方面 [experience21-bat面试题.md](experience21-bat面试题.md)
 
-9. 树集成模型有哪几种实现方式：Bagging和Boosting，回答过程中又问到了很多细节。AdaBoost是如何改变样本权重，随机森林的随机体现在哪方面，GBDT分类树拟合的是什么？ [experience21-bat面试题.md](experience21-bat面试题.md) 
+9. 树集成模型有哪几种实现方式：Bagging和Boosting，回答过程中又问到了很多细节。AdaBoost是如何改变样本权重，GBDT分类树拟合的是什么？ [experience21-bat面试题.md](experience21-bat面试题.md) 
 
 10. CART分类树和ID3以及C4.5有什么区别？ [experience21-bat面试题.md](experience21-bat面试题.md) 
-
-XGboost、lightgbm、Catboost三者介绍
-XGboost的原理及改进，
 
 ### LR相关
 
@@ -104,14 +101,10 @@ XGboost的原理及改进，
 
 3. 从原理上解释L1, L2正则（如L1正则为什么能够起到特征选择的作用） [experience1-京东算法.md](experience1-京东算法.md)
 4. L1和L2的区别？L1有什么缺点？L2呢？平时用L1多还是用L2多？为什么正则化选L2呢？为什么不选L1？L1为什么产生稀疏解？ （飞书算法）
-
 5. L1和L2有什么区别，从数学角度解释L2为什么能提升模型的泛化能力。 [experience21-bat面试题.md](experience21-bat面试题.md)
 6. 深度学习中，L2和dropout有哪些区别？ [experience21-bat面试题.md](experience21-bat面试题.md)
 7. L1正则化有哪些好处 [experience21-bat面试题.md](experience21-bat面试题.md)
 8. early stop对参数有什么影响？ [experience21-bat面试题.md](experience21-bat面试题.md)
-
-
-
 
 ## DL相关
 
@@ -124,6 +117,10 @@ XGboost的原理及改进，
 3. Adam的原理、公式 (没答上来) [experience19-头条推荐.md](experience19-头条推荐.md)
 
 4. 说说Adam等优化器的区别（从Momentum到RMSprop到Adam以及Adam可能不会收敛，还说了NAG和AdaGrad） [experience1-京东算法.md](experience1-京东算法.md)
+
+5. 推导梯度下降公式 [experience7-京东算法.md](experience7-京东算法.md)
+
+6. sgd和batch梯度下降区别, 一个batch指的什么 [experience7-京东算法.md](experience7-京东算法.md)
 
 ### 激活函数相关
 
@@ -156,6 +153,9 @@ Relu、Sigmoid和tanh分别有什么不同； [experience22-京东.md](experienc
 5. Pooling种类，区别以及适用场景 [experience1-京东算法.md](experience1-京东算法.md)
 
 6. 谈谈1*1卷积 [experience1-京东算法.md](experience1-京东算法.md)
+
+7. dnn和cnn区别 [experience7-京东算法.md](experience7-京东算法.md)
+8. cnn为什么参数共享 [experience7-京东算法.md](experience7-京东算法.md)
 
 ### RNN 相关
 

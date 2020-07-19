@@ -274,6 +274,10 @@
 
 比较难的 [887. 鸡蛋掉落 - 力扣（LeetCode）](https://leetcode-cn.com/problems/super-egg-drop/)
 
+### 三维 dp
+
+1. 推荐：[688. “马”在棋盘上的概率 - 力扣（LeetCode）](https://leetcode-cn.com/problems/knight-probability-in-chessboard/)
+
 ### 博弈论
 
 1. [486. 预测赢家 - 力扣（LeetCode）](https://leetcode-cn.com/problems/predict-the-winner/)
