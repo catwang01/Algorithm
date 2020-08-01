@@ -138,7 +138,6 @@ Relu、Sigmoid和tanh分别有什么不同； [experience22-京东.md](experienc
 
 - [experience21-bat面试题.md](experience21-bat面试题.md)
 
-
 ### CNN 相关
 
 1. (todo) resnet结构 [experience2-京东算法.md](experience2-京东算法.md)
@@ -181,13 +180,12 @@ Relu、Sigmoid和tanh分别有什么不同； [experience22-京东.md](experienc
 [experience5-360 商业化ML 面经.md](experience5-360%20商业化ML%20面经.md)
 
 3. Batch Normalization的原理
-答：在mini_batch上进行而不是在整个数据集上进行。在训练集上有BN测试集上没有BN，这样不会发生数值上的偏移，道理类似dropout，即记录下训练集上的BN参数（均值、标准差、\beta、\gamma）作为网络参数的一部分。
+答：在mini_batch上进行而不是在整个数据集上进行。在训练集上有BN测试集上没有BN，这样不会发生数值上的偏移，道理类似dropout，即记录下训练集上的BN参数（均值、标准差、\beta、\gamma）作为网络参数的一部分。 
 [experience19-头条推荐.md](experience19-头条推荐.md)
-
 
 ### Dropout
 
-1. (todo) Dropout的原理 (为什么训练时有dropout测试时没有dropout，这样会发生scale的偏移吗) [experience19-头条推荐.md](experience19-头条推荐.md)
+1. Dropout的原理 (为什么训练时有dropout测试时没有dropout，这样会发生scale的偏移吗) [experience19-头条推荐.md](experience19-头条推荐.md)
 
 2. Dropout，Layer Normalization， residual net的作用； [experience22-京东.md](experience22-京东.md)
 
