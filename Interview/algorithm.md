@@ -179,7 +179,6 @@ Relu、Sigmoid和tanh分别有什么不同； [experience22-京东.md](experienc
 5. LSTM各个门的作用？我口头讲了一下LSTM的计算公式，然后又问为什么用sigmoid&tanh？然后衍生到LSTM为了解决RNN的什么问题&GRU是否了解？然后我又口述了GRU的计算公式以及两个门的作用
 [experience5-360 商业化ML 面经.md](experience5-360%20商业化ML%20面经.md)
 
-
 ### BN
 
 1. bn怎么实现的？inference时候具体怎么做的？ [experience2-京东算法.md](experience2-京东算法.md)
@@ -200,11 +199,13 @@ Relu、Sigmoid和tanh分别有什么不同； [experience22-京东.md](experienc
 ### Attention
 
 1. Attention机制 [experience1-京东算法.md](experience1-京东算法.md)
+
 2. Attention注意力机制的原理 [experience22-京东.md](experience22-京东.md)
 
 ### 其它
 
 1. 说下神经网络正向和反向过程，最后面试官画了个图，让我求导。 [experience7-京东算法.md](experience7-京东算法.md)
+
 2. 神经网络中网络权重W初始化为0有什么问题？ [experience1-京东算法.md](experience1-京东算法.md)
 
 ## 推荐系统相关
@@ -221,14 +222,12 @@ Relu、Sigmoid和tanh分别有什么不同； [experience22-京东.md](experienc
 
 ### DIN
 
-DIN结构，DIN提出动机以及与之前模型的区别 [experience1-京东算法.md](experience1-京东算法.md)
-
 CTR预估模型的演化过程中的着手点 [experience1-京东算法.md](experience1-京东算法.md)
-DIN中Attention机制实现 [experience1-京东算法.md](experience1-京东算法.md
 
-1. DIN 和 DIEN 网络结构介绍 [experience1-京东算法.md](experience1-京东算法.md)
+1. DIN结构，DIN提出动机以及与之前模型的区别 [experience1-京东算法.md](experience1-京东算法.md)
+2. DIN中Attention机制实现 [experience1-京东算法.md](experience1-京东算法.md
+3. DIN 和 DIEN 网络结构介绍 [experience1-京东算法.md](experience1-京东算法.md)
 
-### 3. 谈谈Youtube的那篇《Deep Neural Networks for YouTube Recommendations》
 ### 4. DIN结构，DIN提出动机以及与之前模型的区别
 ### 6. DIN中Attention机制实现
 ### 4、deepwalk优缺点 (京东算法)
@@ -244,9 +243,13 @@ DIN中Attention机制实现 [experience1-京东算法.md](experience1-京东算�
 1. 谈谈Youtube的那篇《Deep Neural Networks for YouTube Recommendations》 [experience1-京东算法.md](experience1-京东算法.md)
 2. 谈谈FM与DeepFM [experience1-京东算法.md](experience1-京东算法.md)
 3. 谈谈FM的泛化能力 [experience1-京东算法.md](experience1-京东算法.md)
+
 4. FM模型与LR区别 (京东算法)
+
 5. 口述deepfm (京东算法)
+
 6. DeepFM与FM的关联，并描述DeepFM的结构 [experience1-京东算法.md](experience1-京东算法.md)
+
 7. 你平时有没有读过推荐算法的论文？
 [experience22-京东.md](experience22-京东.md)
 8. 聊一下一个你了解的推荐算法（本菜鸡只知道协同过滤算法）。
