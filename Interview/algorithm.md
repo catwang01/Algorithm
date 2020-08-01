@@ -79,6 +79,10 @@
 
 10. CART分类树和ID3以及C4.5有什么区别？ [experience21-bat面试题.md](experience21-bat面试题.md) 
 
+12. 比赛相关：lgb&xgb，这两个模型相较于gbdt的优化？boosting的过程？boosting中每一轮loss是怎么样计算的？（这一部分之前看过，但是没特意去看。。。）
+[experience5-360 商业化ML 面经.md](experience5-360%20商业化ML%20面经.md)
+
+
 ### LR相关
 
 1. LR的随机梯度实现
@@ -171,6 +175,10 @@ Relu、Sigmoid和tanh分别有什么不同； [experience22-京东.md](experienc
 - LSTM的公式 [experience21-bat面试题.md](experience21-bat面试题.md)
 
 - RNN为什么出现梯度消失及BPTT的推导 [experience21-bat面试题.md](experience21-bat面试题.md)
+
+5. LSTM各个门的作用？我口头讲了一下LSTM的计算公式，然后又问为什么用sigmoid&tanh？然后衍生到LSTM为了解决RNN的什么问题&GRU是否了解？然后我又口述了GRU的计算公式以及两个门的作用
+[experience5-360 商业化ML 面经.md](experience5-360%20商业化ML%20面经.md)
+
 
 ### BN
 
