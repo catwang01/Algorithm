@@ -76,5 +76,46 @@ public:
 };
 ```
 
+### 实现2：c++
+
+```
+class Solution {
+public:
+    TreeNode* deleteNode(TreeNode* root, int key) {
+        if (!root) return root;
+        if (root->val == key)
+        {
+            if (root->right)
+            {
+                leftmost(root->right)->left = root->left;
+                return root->right;
+            }
+            else 
+            {
+                return root->left;
+            }
+        } 
+        else
+        {
+            if (root->val < key)
+            {
+                root->right = deleteNode(root->right, key);
+            }
+            else 
+            {
+                root->left = deleteNode(root->left, key);
+            }
+            return root;
+        }
+    }
+
+    TreeNode* leftmost(TreeNode* root)
+    {
+        if (!root->left) return root;
+        return leftmost(root->left);
+    }
+};
+```
+
 # References
 1. [450. 删除二叉搜索树中的节点 - 删除二叉搜索树中的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/delete-node-in-a-bst/solution/450-shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dia-6/)
