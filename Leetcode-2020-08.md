@@ -8,5 +8,8 @@
 | 2020-08-02|||||
 |  |  [面试题51. 数组中的逆序对 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | [Leetcode 剑指 Offer-51. 数组中的逆序对.md](Leetcode/Leetcode%20剑指%20Offer-51.%20数组中的逆序对.md) |       |  归并排序 | 
 |  |  [328. 奇偶链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/odd-even-linked-list/) | [Leetcode-328. 奇偶链表.md](Leetcode/Leetcode-328.%20奇偶链表.md) |       |      | 
+| 2020-08-03|||||
 | 面试题 微软算法| [450. 删除二叉搜索树中的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/delete-node-in-a-bst/) | [Leetcode 450. 删除二叉搜索树中的节点.md](Leetcode/Leetcode%20450.%20删除二叉搜索树中的节点.md) |       |      | 
 | 面试题 微软算法 | [Leetcode-121. 买卖股票的最佳时机.md](Leetcode/Leetcode-121.%20买卖股票的最佳时机.md) | [Leetcode-121. 买卖股票的最佳时机.md](Leetcode/Leetcode-121.%20买卖股票的最佳时机.md) |       |      | 
+|  |  [34. 在排序数组中查找元素的第一个和最后一个位置 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Leetcode-34. 在排序数组中查找元素的第一个和最后一个位置.md](Leetcode/Leetcode-34.%20在排序数组中查找元素的第一个和最后一个位置.md) |       |      | 
+| 面试题 微软算法 | [35. 搜索插入位置 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-insert-position/) | [Leetcode-35. 搜索插入位置.md](Leetcode/Leetcode-35.%20搜索插入位置.md) |       |      | 

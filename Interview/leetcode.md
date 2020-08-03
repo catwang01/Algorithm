@@ -13,10 +13,18 @@
 8. [experience18-新浪算法.md](experience18-新浪算法.md)
 9. [experience7-京东算法.md]( experience7-京东算法.md )
 
+10. [experience23-didi算法.md](experience23-didi算法.md)
+11. [expereince24-微软面试.md](expereince24-微软面试.md)
+
 ## 位运算
 
 1. 一个数组，所有数组都出现了两次，只有一个数出现了一次，返回这个数（位运算） [136. 只出现一次的数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/single-number/)
 相关企业：[experience21-bat面试题.md](experience21-bat面试题.md)
+
+## 分治
+
+1. 归并排序求逆序对个数，并记录每个元素对应的逆序对个数； [面试题51. 数组中的逆序对 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
+[experience23-didi算法.md](experience23-didi算法.md)
 
 ## 回溯
 
@@ -66,9 +74,15 @@
 相关企业：[experience19-头条推荐.md](experience19-头条推荐.md)
 相关企业：[experience22-京东.md](experience22-京东.md)
 
-8. 字符串的最长公共子序列（动态规划）
-[1143. 最长公共子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-common-subsequence/submissions/)
-相关企业：[experience22-京东.md](experience22-京东.md)
+8. [1143. 最长公共子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-common-subsequence/submissions/)
+相关企业：[experience22-京东.md](experience22-京东.md) 字符串的最长公共子序列（动态规划）
+
+9. 题目：绳子剪成m段，最大乘积 [剑指 Offer 14- I. 剪绳子 - 力扣（LeetCode）](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)
+相关企业：[experience23-didi算法.md](experience23-didi算法.md)
+
+10. 股票问题 
+
+相关企业：[expereince24-微软面试.md](expereince24-微软面试.md)
 
 ## 快排相关
 
@@ -112,6 +126,11 @@
 1. [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/) 
 相关企业：[experience2-京东算法.md](experience2-京东算法.md)  
 
+2. [34. 在排序数组中查找元素的第一个和最后一个位置 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+相关企业：[expereince24-微软面试.md](expereince24-微软面试.md)
+
+3. 
+
 ## 二叉树相关
 
 1. 算法题：二叉树最近公共祖先(进阶)，比常规的二叉树查最近公共祖先，这个要求查询多次，每次查询不同的两个节点。 [Leetcode 236. 二叉树的最近公共祖先.md](Leetcode/Leetcode-236.%20二叉树的最近公共祖先.md)
@@ -136,6 +155,10 @@
 
 7.  [103. 二叉树的锯齿形层次遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
 相关企业：[experience21-bat面试题.md](experience21-bat面试题.md)
+
+8. 然后问了一个BST树的某节点删除 [450. 删除二叉搜索树中的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/delete-node-in-a-bst/)
+相关企业： [expereince24-微软面试.md]( expereince24-微软面试.md )
+
 
 
 ## 其它
