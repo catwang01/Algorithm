@@ -12,9 +12,10 @@
 7. [experience21-bat面试题.md](experience21-bat面试题.md)
 8. [experience18-新浪算法.md](experience18-新浪算法.md)
 9. [experience7-京东算法.md]( experience7-京东算法.md )
+10. [expereince24-微软面试.md](expereince24-微软面试.md)
 
 10. [experience23-didi算法.md](experience23-didi算法.md)
-11. [expereince24-微软面试.md](expereince24-微软面试.md)
+11. [experience25-微软实习.md](experience25-微软实习.md)
 
 ## 位运算
 
@@ -159,7 +160,11 @@
 8. 然后问了一个BST树的某节点删除 [450. 删除二叉搜索树中的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/delete-node-in-a-bst/)
 相关企业： [expereince24-微软面试.md]( expereince24-微软面试.md )
 
+9. [124. 二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
+然后是两道算法题，都是力扣上的。一题hard，一题medium。leetcode 124，22
+相关企业：[experience25-微软实习.md](experience25-微软实习.md)
 
+算法题：rotate一次的数组，找target，例如 [3,4,0,1,2] 找4所在的位置，如果不存在返回-1，要求logn时间 (LeetCode medium原题，直接二分即可，写代码之前记得问有没有重复元素这类二分可能会遇到坑，面试官很nice 很乐意多交流，另外ms的面试风格，一定要自己想test case，尽可能的覆盖所有边界条件)
 
 ## 其它
 
