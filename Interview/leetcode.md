@@ -13,9 +13,10 @@
 8. [experience18-新浪算法.md](experience18-新浪算法.md)
 9. [experience7-京东算法.md]( experience7-京东算法.md )
 10. [expereince24-微软面试.md](expereince24-微软面试.md)
+11. [experience25-微软实习.md](experience25-微软实习.md)
 
 10. [experience23-didi算法.md](experience23-didi算法.md)
-11. [experience25-微软实习.md](experience25-微软实习.md)
+12. [experience27-微软算法.md](experience27-微软算法.md)
 
 ## 位运算
 
@@ -93,13 +94,16 @@
     - [experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
     - 云从科技：[experience13-推荐秋招.md](experience13-推荐秋招.md ) 面试官给了一个白板链接，根据出的题目在上面写代码，题目是求数组中位数，分别用快排和最大最小堆写，分析时间、空间复杂度
     - [experience7-京东算法.md](experience7-京东算法.md) 求第k大数
-    - [experience7-京东算法.md](experience7-京东算法.md) 快排
 
 
 2. 一个数组，一个数出现了超过一半次数，返回这个数 [169. 多数元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/majority-element/)
 相关企业：
     - [experience21-bat面试题.md](experience21-bat面试题.md)
 
+3. [912. 排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-an-array/) 快排 
+相关企业：
+    - [experience7-京东算法.md](experience7-京东算法.md) 快排
+    - [experience27-微软算法.md](experience27-微软算法.md) 写快排，问时间复杂度和空间复杂度，然后要求输出排序后对应元素的原下标（这个相当于对下标排序，需要在原来快排的基础上有些小修改）
 
 ## 链表相关
 
@@ -131,6 +135,7 @@
 相关企业：[expereince24-微软面试.md](expereince24-微软面试.md)
 
 3. 
+算法题：rotate一次的数组，找target，例如 [3,4,0,1,2] 找4所在的位置，如果不存在返回-1，要求logn时间 (LeetCode medium原题，直接二分即可，写代码之前记得问有没有重复元素这类二分可能会遇到坑，面试官很nice 很乐意多交流，另外ms的面试风格，一定要自己想test case，尽可能的覆盖所有边界条件)
 
 ## 二叉树相关
 
@@ -164,7 +169,6 @@
 然后是两道算法题，都是力扣上的。一题hard，一题medium。leetcode 124，22
 相关企业：[experience25-微软实习.md](experience25-微软实习.md)
 
-算法题：rotate一次的数组，找target，例如 [3,4,0,1,2] 找4所在的位置，如果不存在返回-1，要求logn时间 (LeetCode medium原题，直接二分即可，写代码之前记得问有没有重复元素这类二分可能会遇到坑，面试官很nice 很乐意多交流，另外ms的面试风格，一定要自己想test case，尽可能的覆盖所有边界条件)
 
 ## 其它
 
@@ -181,10 +185,9 @@
     3.要求只遍历数组一遍，找出所有符合要求的值。 
 相关企业： [experience18-新浪算法.md](experience18-新浪算法.md)
 
-4. 将除法的结果用字符串返回，如果能够除尽，则返回相除的结果，如果不能除尽，则无限循环部分用[]标记。
-[166. 分数到小数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/)
+4. [166. 分数到小数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/)
 相关企业：
-    1. [experience21-bat面试题.md](experience21-bat面试题.md)
+    1. [experience21-bat面试题.md](experience21-bat面试题.md) 将除法的结果用字符串返回，如果能够除尽，则返回相除的结果，如果不能除尽，则无限循环部分用[]标记。
 
 5. [Leetcode 470. 用 Rand7() 实现 Rand10().md](Leetcode/Leetcode%20470.%20用%20Rand7()%20实现%20Rand10().md) 
 相关企业：
@@ -192,6 +195,12 @@
 
 6. 栈实现队列 [232. 用栈实现队列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
     - [experience7-京东算法.md]( experience7-京东算法.md )
+
+### bfs
+
+1. [200. 岛屿数量 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-islands/)
+相关企业：
+    - [experience29-self-didi算法工程师.md](experience29-self-didi算法工程师.md)
 
 ## todo
 
@@ -204,3 +213,13 @@
 5、无向无环图中，最短路径的最大值（Floyd算法) [experience21-bat面试题.md](experience21-bat面试题.md)
 
 12、数组排序，假设数组排序后的位次和排序前的位次绝对值差值小于K，有什么比快排好的算法？ [experience21-bat面试题.md](experience21-bat面试题.md)
+
+13. [137. 只出现一次的数字 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/single-number-ii/?utm_source=LCUS&utm_medium=ip_redirect_q_uns&utm_campaign=transfer2china)
+相关企业：
+    - [experience27-微软算法.md](experience27-微软算法.md) 第一题leetcode137，写通用解法，要求时间复杂度O(n)，空间复杂度O(1)
+    
+14. 第二题长度为n的环，走k步，从原点到原点有多少种走法
+相关企业：
+    - [experience27-微软算法.md](experience27-微软算法.md) 第一题leetcode137，写通用解法，要求时间复杂度O(n)，空间复杂度O(1)
+
+
