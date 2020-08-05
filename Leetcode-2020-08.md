@@ -20,5 +20,8 @@
 | 2020-08-05|||||
 |  | [145. 二叉树的后序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)  | [Leetcode-145. 二叉树的后序遍历.md](Leetcode/Leetcode-145.%20二叉树的后序遍历.md) |       |      | 
 | | [200. 岛屿数量 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-islands/) | || bfs 或 并查集|
+|  |  [剑指 Offer 22. 链表中倒数第k个节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [Leetcode 剑指 Offer 22. 链表中倒数第k个节点.md](Leetcode/Leetcode%20剑指%20Offer%2022.%20链表中倒数第k个节点.md) |       |      | 
+|  |  [677. 键值映射 - 力扣（LeetCode）](https://leetcode-cn.com/problems/map-sum-pairs/) | [Leetcode-677. 键值映射.md](Leetcode/Leetcode-677.%20键值映射.md) |       |   trie   | 
+
 
 
