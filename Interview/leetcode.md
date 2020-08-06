@@ -15,9 +15,10 @@
 10. [expereince24-微软面试.md](expereince24-微软面试.md)
 11. [experience25-微软实习.md](experience25-微软实习.md)
 12. [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md)
+13. [experience27-微软算法.md](experience27-微软算法.md)
 
 10. [experience23-didi算法.md](experience23-didi算法.md)
-12. [experience27-微软算法.md](experience27-微软算法.md)
+12. 
 
 ## 位运算
 
@@ -143,6 +144,10 @@
 3. 
 算法题：rotate一次的数组，找target，例如 [3,4,0,1,2] 找4所在的位置，如果不存在返回-1，要求logn时间 (LeetCode medium原题，直接二分即可，写代码之前记得问有没有重复元素这类二分可能会遇到坑，面试官很nice 很乐意多交流，另外ms的面试风格，一定要自己想test case，尽可能的覆盖所有边界条件)
 
+4. [4. 寻找两个正序数组的中位数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
+相关企业：
+    - [experience27-微软算法.md](experience27-微软算法.md) 手撕代码，两个有序数组找第k大
+
 ## 二叉树相关
 
 1. 算法题：二叉树最近公共祖先(进阶)，比常规的二叉树查最近公共祖先，这个要求查询多次，每次查询不同的两个节点。 [Leetcode 236. 二叉树的最近公共祖先.md](Leetcode/Leetcode-236.%20二叉树的最近公共祖先.md)
@@ -237,14 +242,15 @@
 相关企业：
     - [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md)
 
-3. 有几十G的文件，其中是电话号码。只有8G内存，问如何进行排序。我说了使用归并排序来进行外部排序。面试官说可以，但是有更好的方法。然后满满引导我，电话号码的特点是什么，是唯一性。我下去想了想，可能是用前缀树来保存。所有的电话号码，然后遍历一边就可以输出，但是当时没有回答出来就结束面试了。
-相关企业：
-    - [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md)
-
 
 
 ## Trie
 
 1. 有 n 个无重复字符串，需要找到这些字符串的前缀，满足两个条件：1. 一个前缀只对应一个字符串；2. 前缀长度尽可能短。
+相关企业：
+    - [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md)
+
+
+2. 有几十G的文件，其中是电话号码。只有8G内存，问如何进行排序。我说了使用归并排序来进行外部排序。面试官说可以，但是有更好的方法。然后满满引导我，电话号码的特点是什么，是唯一性。我下去想了想，可能是用前缀树来保存。所有的电话号码，然后遍历一边就可以输出，但是当时没有回答出来就结束面试了。
 相关企业：
     - [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md)

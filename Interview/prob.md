@@ -4,6 +4,7 @@
 
 1. [experience22-京东.md](experience22-京东.md)
 2. [experience21-bat面试题.md]( experience21-bat面试题.md )
+3. [experience27-微软算法.md](experience27-微软算法.md)
 
 ## 问题
 
@@ -36,3 +37,7 @@ $$
     方法是抽取到第 k 个数的时间，以 1/k 的概率选择。
 相关企业： 
     1. [experience21-bat面试题.md]( experience21-bat面试题.md ) 信息流采样，有n份数据，但是n的长度并不知道，设计一个采样算法，使得每份被选择的概率是相同的。
+
+3. 模型融合的时候，如果每个分类器正确率为0.5，投票法能不能得到正确率0.95
+相关企业：
+    - [experience27-微软算法.md](experience27-微软算法.md)
