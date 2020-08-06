@@ -14,6 +14,7 @@
 9. [experience7-京东算法.md]( experience7-京东算法.md )
 10. [expereince24-微软面试.md](expereince24-微软面试.md)
 11. [experience25-微软实习.md](experience25-微软实习.md)
+12. [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md)
 
 10. [experience23-didi算法.md](experience23-didi算法.md)
 12. [experience27-微软算法.md](experience27-微软算法.md)
@@ -126,6 +127,11 @@
 相关企业：
     - [experience21-bat面试题.md](experience21-bat面试题.md)
 
+6. [剑指 Offer 22. 链表中倒数第k个节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
+相关企业：
+    - [experience28-self-微软nlp算法.md]( experience28-self-微软nlp算法.md )
+
+
 ## 二分法
 
 1. [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/) 
@@ -140,9 +146,11 @@
 ## 二叉树相关
 
 1. 算法题：二叉树最近公共祖先(进阶)，比常规的二叉树查最近公共祖先，这个要求查询多次，每次查询不同的两个节点。 [Leetcode 236. 二叉树的最近公共祖先.md](Leetcode/Leetcode-236.%20二叉树的最近公共祖先.md)
+
 相关企业：
     1. [ experience16-头条c++.md ](experience16-头条c++.md) 
     2. [experience21-bat面试题.md](experience21-bat面试题.md)
+    3. [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md) 我用递归实现了。让用非递归做。我说保存父结点的指针。还不满意，然后就没有做出来。
 
 
 2. 二叉树高度 [104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
@@ -222,4 +230,21 @@
 相关企业：
     - [experience27-微软算法.md](experience27-微软算法.md) 第一题leetcode137，写通用解法，要求时间复杂度O(n)，空间复杂度O(1)
 
+15. 算法题：设计一个栈。要求
+    1. 栈的底层只能用大小为 n 的数组，不能有其他空间开销
+    2. 实现 O(1) 的pop 和 O(1) 的 append。其中 append 支持无限次调用，如果append 的元素超过n个，会覆盖掉最开始 append 入栈的元素
+    3. pop 最多将最近 append 的 n 个元素输出。
+相关企业：
+    - [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md)
 
+3. 有几十G的文件，其中是电话号码。只有8G内存，问如何进行排序。我说了使用归并排序来进行外部排序。面试官说可以，但是有更好的方法。然后满满引导我，电话号码的特点是什么，是唯一性。我下去想了想，可能是用前缀树来保存。所有的电话号码，然后遍历一边就可以输出，但是当时没有回答出来就结束面试了。
+相关企业：
+    - [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md)
+
+
+
+## Trie
+
+1. 有 n 个无重复字符串，需要找到这些字符串的前缀，满足两个条件：1. 一个前缀只对应一个字符串；2. 前缀长度尽可能短。
+相关企业：
+    - [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md)

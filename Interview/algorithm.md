@@ -12,6 +12,7 @@
 
 7. [experience20-京东算法.md](experience20-京东算法.md)
 8. [experience21-bat面试题.md](experience21-bat面试题.md)
+9. [experience23-didi算法.md](experience23-didi算法.md)
 
 ## ML相关
 
@@ -38,6 +39,8 @@
 5. one-hot、 label-encoder对于category类型变量的处理方式，
 
 6. 样本不平衡的处理方法（涉及到业务知识）
+
+7. 样本不平衡怎么做 [experience23-didi算法.md](experience23-didi算法.md)
 
 京东 算法：GBDT的原理、LR的原理、对数据倾斜处理的方法
 
@@ -82,6 +85,11 @@
 12. 比赛相关：lgb&xgb，这两个模型相较于gbdt的优化？boosting的过程？boosting中每一轮loss是怎么样计算的？（这一部分之前看过，但是没特意去看。。。）
 [experience5-360 商业化ML 面经.md](experience5-360%20商业化ML%20面经.md)
 
+13. lightgbm相对xgboost的改进 [experience23-didi算法.md](experience23-didi算法.md)
+
+14. 介绍bagging和boosting
+相关企业：
+    - [experience27-微软算法.md](experience27-微软算法.md)
 
 ### LR相关
 
@@ -96,6 +104,8 @@
 8. 神经网络里面的损失函数有哪些 [experience21-bat面试题.md](experience21-bat面试题.md)
 交叉熵损失函数，0-1分类的交叉熵损失函数的形式。什么是凸函数？0-1分类如果用平方损失为什么用交叉熵而不是平方损失？ [experience21-bat面试题.md](experience21-bat面试题.md)
 9. 用pytorch写下逻辑回归训练过程 [experience7-京东算法.md](experience7-京东算法.md)
+10. 如果逻辑回归的所有样本的都是正样本， 那么它学出来的超平面是怎样的？ [experience21-bat面试题.md](experience21-bat面试题.md)
+11. 哪些场景下的分类问题不适用于交叉熵损失函数？ [experience21-bat面试题.md](experience21-bat面试题.md)
 
 
 ### 正则相关
@@ -256,7 +266,8 @@ CTR预估模型的演化过程中的着手点 [experience1-京东算法.md](expe
 [experience22-京东.md](experience22-京东.md)
 9. DeepFM介绍 [experience21-bat面试题.md](experience21-bat面试题.md)
 10. FM推导 [experience21-bat面试题.md](experience21-bat面试题.md)
-
+11. LR和FM的区别？FM需要进行交叉特征的选择么？如果在LR选了一部分特征做交叉之后，取得了比FM更好的效果，这是为什么？如果FM变成DeepFM之后，效果超过了LR，这又是为什么？ [experience21-bat面试题.md](experience21-bat面试题.md)
+12. deepFM相对wide&deep改进 [experience23-didi算法.md](experience23-didi算法.md)
 
 ## NLP相关
 
@@ -326,9 +337,18 @@ def shuffle(self, x, random=None):
 
 9. 如何设计一个命名实体识别的的Neural模型； [experience22-京东.md](experience22-京东.md)
 
+10. 如果你想往模型中加入一个特征，如何判定这个特征是否有效？ [experience21-bat面试题.md](experience21-bat面试题.md)
 
 
-Map/Reduce原理。
+14. 推荐系统中你认为最重要的环节是什么？ [experience21-bat面试题.md](experience21-bat面试题.md)
+
+15. 多臂老虎机中，有许多方法，比如e-greedy，timponson采样，UCB，这些方法都有哪些适用场景？ [experience21-bat面试题.md](experience21-bat面试题.md)
+
+16. 如何预测一家店分品类的销量 [experience21-bat面试题.md](experience21-bat面试题.md)
+
+18. 模型在线下评估和线上使用时，往往出现线上实际效果不如线下效果的情况，请分析可能的原因。 [experience21-bat面试题.md](experience21-bat面试题.md)
+
+19. 在CTR预估问题中，假设训练数据的正负样本数为1:4，测试数据中的正负样本数也为1:4，那么此时模型对测试集，学到的平均点击率为1/（1+4）,假设此时采取了欠采样策略，使正负样本数为1:1，对同样的测试集进行预测，平均点击率应该是多少？（样本量很大，初始总样本数为10亿） [experience21-bat面试题.md](experience21-bat面试题.md)
 
 ## HR
 
@@ -338,4 +358,6 @@ Map/Reduce原理。
 4. 你觉得如果你来实习的话，你最想提升自己的哪些方面？或者说相比其他人，你的优势和劣势在哪里？
 5. 目前还有公司在面试吗？进展如何？
 
+
+在做模型优化的时候动机是什么？样本不平衡有没有考虑采样？数据量多大，跑了多久；
 
