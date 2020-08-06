@@ -171,5 +171,54 @@ class Solution:
         return root
 ```
 
+### 解法4: 非递归 保存路径
+
+遇到 p 或 q 就保存根结点到他们的路径，最==这两条路径上最后一个相同的节点即是 lca
+
+可以使用后序遍历来保存路径。后序遍历有一个特点：当某个节点被处理时，此时栈中的元素是该节点的祖先。利用这个特点可以保存路径。
+
+#### 解法4: 实现
+
+##### 解法4: python
+
+```
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        if root is None:
+            return None
+        st = []
+        lastprocessed = None
+        pAncestor, qAncestor = None, None
+        finished = 0
+        while root or st:
+            while root:
+                st.append(root)
+                root = root.left
+            root = st[-1]
+            if root.right is None or root.right == lastprocessed:
+                if root is p:
+                    pAncestor = st[:]
+                    finished += 1
+                if root is q:
+                    qAncestor = st[:]
+                    finished += 1
+                if finished == 2:
+                    break
+                st.pop()
+                lastprocessed = root
+                root = None
+            else:
+                root = root.right
+        length = min(len(pAncestor), len(qAncestor))
+        if pAncestor and qAncestor:
+            for i in range(length):
+                if pAncestor[i] != qAncestor[i]:
+                    if i == 0:
+                        return None
+                    else:
+                        return pAncestor[i-1]
+        return pAncestor[length-1]
+```
+        
 # References
 1. [236. 二叉树的最近公共祖先（后序遍历 DFS ，清晰图解） - 二叉树的最近公共祖先 - 力扣（LeetCode）](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/236-er-cha-shu-de-zui-jin-gong-gong-zu-xian-hou-xu/)
