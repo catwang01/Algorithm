@@ -18,7 +18,8 @@
 13. [experience27-微软算法.md](experience27-微软算法.md)
 
 10. [experience23-didi算法.md](experience23-didi算法.md)
-12. 
+11. [experience26-微软算法.md](experience26-微软算法.md)
+12. [experience30-面试题总结.md](experience30-面试题总结.md)
 
 ## 位运算
 
@@ -42,9 +43,14 @@
 相关公司：[experience22-京东.md](experience22-京东.md)
 
 2. [75. 颜色分类 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-colors/)
-相关公司：[experience22-京东.md](experience22-京东.md)
+相关公司：
+    - [experience22-京东.md](experience22-京东.md)
 
 3. 第二个编程题也不是很难，就是坑比较多，一个有序的数组，寻找数组的中的两个数它们的和是否等于某个值target，返回这样的两个数的个数。 [experience22-京东.md](experience22-京东.md)
+
+4. [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面 - 力扣（LeetCode）](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) 
+相关企业：
+    1. [experience30-面试题总结.md](experience30-面试题总结.md)
 
 ## 排序相关
 
@@ -62,8 +68,10 @@
 2. [5. 最长回文子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-substring/)
 相关企业：[experience13-推荐秋招.md]( experience13-推荐秋招.md )
 
-3. 数组的最大和 [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)
-相关企业： bigo [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+3. [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)
+相关企业： 
+    1. bigo [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+    2. [experience26-微软算法.md](experience26-微软算法.md) 算法题：最大子数组和 (LeetCode原题，n时间1空间) 
 
 4. 数组的最大乘积 [152. 乘积最大子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/)
 相关企业： bigo [experience13-推荐秋招.md]( experience13-推荐秋招.md )
@@ -141,8 +149,10 @@
 2. [34. 在排序数组中查找元素的第一个和最后一个位置 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 相关企业：[expereince24-微软面试.md](expereince24-微软面试.md)
 
-3. 
-算法题：rotate一次的数组，找target，例如 [3,4,0,1,2] 找4所在的位置，如果不存在返回-1，要求logn时间 (LeetCode medium原题，直接二分即可，写代码之前记得问有没有重复元素这类二分可能会遇到坑，面试官很nice 很乐意多交流，另外ms的面试风格，一定要自己想test case，尽可能的覆盖所有边界条件)
+3. [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+相关企业：
+    1. [experience26-微软算法.md](experience26-微软算法.md) 算法题：rotate一次的数组，找target，例如 [3,4,0,1,2] 找4所在的位置，如果不存在返回-1，要求logn时间 (LeetCode medium原题，直接二分即可，写代码之前记得问有没有重复元素这类二分可能会遇到坑，面试官很nice 很乐意多交流，另外ms的面试风格，一定要自己想test case，尽可能的覆盖所有边界条件)
+
 
 4. [4. 寻找两个正序数组的中位数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
 相关企业：
@@ -179,8 +189,10 @@
 相关企业： [expereince24-微软面试.md]( expereince24-微软面试.md )
 
 9. [124. 二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
-然后是两道算法题，都是力扣上的。一题hard，一题medium。leetcode 124，22
-相关企业：[experience25-微软实习.md](experience25-微软实习.md)
+相关企业：
+    1. [experience25-微软实习.md](experience25-微软实习.md) 然后是两道算法题，都是力扣上的。一题hard，一题medium。leetcode 124，22
+
+10. 前序遍历 中序遍历 后序遍历 知道那些可以恢复二叉树，只知道前序和后序可以吗？原因？
 
 
 ## 其它
@@ -209,7 +221,11 @@
 6. 栈实现队列 [232. 用栈实现队列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
     - [experience7-京东算法.md]( experience7-京东算法.md )
 
-### bfs
+7. [697. 数组的度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/degree-of-an-array/)
+相关企业：
+    - [experience30-面试题总结.md](experience30-面试题总结.md)
+
+## bfs
 
 1. [200. 岛屿数量 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-islands/)
 相关企业：
@@ -241,7 +257,6 @@
     3. pop 最多将最近 append 的 n 个元素输出。
 相关企业：
     - [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md)
-
 
 
 ## Trie

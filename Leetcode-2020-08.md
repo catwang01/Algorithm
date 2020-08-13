@@ -1,5 +1,6 @@
 [toc]
 
+
 # Leetcode-2020-08
 
 
@@ -24,4 +25,12 @@
 |  |  [677. 键值映射 - 力扣（LeetCode）](https://leetcode-cn.com/problems/map-sum-pairs/) | [Leetcode-677. 键值映射.md](Leetcode/Leetcode-677.%20键值映射.md) |       |   trie   | 
 | 2020-08-06|||||
 | 推荐  |   [236. 二叉树的最近公共祖先 - 力扣（LeetCode）](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)| [Leetcode 236. 二叉树的最近公共祖先.md](Leetcode/Leetcode%20236.%20二叉树的最近公共祖先.md) |     这个递归方法比较难理解  |  二叉树    | 
+| 2020-08-11|||||
+|  | [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)  | [Leetcode-53. 最大子序和.md](Leetcode/Leetcode-53.%20最大子序和.md) |       |   经典 dp  | 
+|  | [130. 被围绕的区域 - 力扣（LeetCode）](https://leetcode-cn.com/problems/surrounded-regions/)  | [Leetcode-130. 被围绕的区域.md](Leetcode/Leetcode-130.%20被围绕的区域.md) |       |      | 
+| 2020-08-12|||||
+|  | [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面 - 力扣（LeetCode）](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)  | [Leetcode 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.md](Leetcode/Leetcode%20剑指%20Offer%2021.%20调整数组顺序使奇数位于偶数前面.md) |       |      | 
+|  |   [697. 数组的度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/degree-of-an-array/) | [Leetcode-697. 数组的度.md](Leetcode/Leetcode-697.%20数组的度.md) |       |      | 
+
+
 
