@@ -9,11 +9,12 @@
 5. [experience1-京东算法.md](experience1-京东算法.md)
 6. [experience22-京东.md](experience22-京东.md)
 7. [experience7-京东算法.md](experience7-京东算法.md)
+8. [experience27-微软算法.md](experience27-微软算法.md)
 
 7. [experience20-京东算法.md](experience20-京东算法.md)
 8. [experience21-bat面试题.md](experience21-bat面试题.md)
 9. [experience23-didi算法.md](experience23-didi算法.md)
-[experience27-微软算法.md](experience27-微软算法.md)
+10. [experience26-微软算法.md](experience26-微软算法.md)
 
 ## ML相关
 
@@ -64,7 +65,10 @@
 2. (todo) xgboost和lightgbm的区别 ( 京东算法x2 )
 
 3. GBDT和Xgboost的区别，哪些是解决过拟合问题的。[experience18-新浪算法.md](experience18-j新浪算法.md)
-- XGBOOst和GBDT的区别。 [experience21-bat面试题.md](experience21-bat面试题.md)
+相关企业：
+    - [experience21-bat面试题.md](experience21-bat面试题.md) XGBOOst和GBDT的区别。 
+    - [experience26-微软算法.md](experience26-微软算法.md) xgb和gbdt的区别 (几乎必问的题目，提前准备一下，说的要有条理，有哪些算法优化，哪些工程实现优化，可以适当扩展提一下lgb)
+
 
 4. GBDT和随机森林有什么区别 [experience21-bat面试题.md](experience21-bat面试题.md)
 
@@ -87,6 +91,7 @@
 [experience5-360 商业化ML 面经.md](experience5-360%20商业化ML%20面经.md)
 
 13. lightgbm相对xgboost的改进 [experience23-didi算法.md](experience23-didi算法.md)
+
 
 14. 介绍bagging和boosting
 相关企业：

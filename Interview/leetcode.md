@@ -36,6 +36,10 @@
 1. 数组的全排列（空间复杂度O（1）） [46. 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/)
 相关企业：[experience21-bat面试题.md](experience21-bat面试题.md)
 
+2. [698. 划分为k个相等的子集 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)
+相关企业：
+    1. 将一个整数数组划分为 K 个相等的子集问题 [experience30-面试题总结.md](experience30-面试题总结.md)
+
 ## 双指针
 
 1. 编程题也特别简单，一道题是一个有序的数组，寻找数组的中的两个数它们的和是否等于某个值target，返回True或者False，要求O(n)的复杂度。 
@@ -166,7 +170,6 @@
     1. [ experience16-头条c++.md ](experience16-头条c++.md) 
     2. [experience21-bat面试题.md](experience21-bat面试题.md)
     3. [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md) 我用递归实现了。让用非递归做。我说保存父结点的指针。还不满意，然后就没有做出来。
-
 
 2. 二叉树高度 [104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 相关企业： [experence17-飞书算法.md](experence17-飞书算法.md)
