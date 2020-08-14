@@ -109,3 +109,22 @@ class Solution:
         # 此时 low + 1 == high
         return min(nums[low], nums[high])
 ```
+
+### 解法三：暴力法
+
+#### 解法三：实现
+
+最暴力的方法，逐个比较 nums[i] 和 nums[i-1]， 如果 nums[i-1] 小于 nums[i] 那么就是最小值。
+
+##### 解法三：实现：c++
+
+```
+class Solution {
+public:
+    int findMin(vector<int>& nums) {
+        for (int i=1; i<nums.size(); i++)
+            if (nums[i] < nums[i-1]) return nums[i];
+        return nums[0]; // nums 只有一个元素 or nums 单调
+    }
+};
+```

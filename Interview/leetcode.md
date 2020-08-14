@@ -31,6 +31,10 @@
 1. 归并排序求逆序对个数，并记录每个元素对应的逆序对个数； [面试题51. 数组中的逆序对 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
 [experience23-didi算法.md](experience23-didi算法.md)
 
+2. [74. 搜索二维矩阵 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+相关企业：
+    1. [experience30-面试题总结.md](experience30-面试题总结.md)
+
 ## 回溯
 
 1. 数组的全排列（空间复杂度O（1）） [46. 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/)
@@ -229,6 +233,12 @@
 7. [697. 数组的度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/degree-of-an-array/)
 相关企业：
     - [experience30-面试题总结.md](experience30-面试题总结.md)
+
+## hash
+
+1. [剑指 Offer 03. 数组中重复的数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/comments/)
+相关企业：
+    1. [experience30-面试题总结.md](experience30-面试题总结.md)
 
 ## bfs
 
