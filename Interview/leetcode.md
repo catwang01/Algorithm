@@ -82,7 +82,9 @@
     2. [experience26-微软算法.md](experience26-微软算法.md) 算法题：最大子数组和 (LeetCode原题，n时间1空间) 
 
 4. 数组的最大乘积 [152. 乘积最大子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/)
-相关企业： bigo [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+相关企业： 
+    1. bigo [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+    2. [experience30-面试题总结.md](experience30-面试题总结.md)
 
 5. (todo) 给定数组nums和整数target，求最少用nums中的整数多少次，使得这些数之和为target。比如给定nums = [3, 5, 12], target = 13, 答案为3 (13 = 3 + 5 + 5)
 相关企业： [experience19-头条推荐.md](experience19-头条推荐.md)

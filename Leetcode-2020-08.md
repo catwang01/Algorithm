@@ -36,3 +36,4 @@
 |  | [154. 寻找旋转排序数组中的最小值 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)  | [Leetcode-154. 寻找旋转排序数组中的最小值 II.md](Leetcode/Leetcode-154.%20寻找旋转排序数组中的最小值%20II.md) |       |    二分法  | 
 |  |  [74. 搜索二维矩阵 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [Leetcode-74. 搜索二维矩阵.md](Leetcode/Leetcode-74.%20搜索二维矩阵.md) |       |      | 
 |  | [剑指 Offer 03. 数组中重复的数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/comments/)  | [Leetcode 剑指 Offer 03. 数组中重复的数字.md](Leetcode/Leetcode%20剑指%20Offer%2003.%20数组中重复的数字.md) |       |      | 
+|  | [152. 乘积最大子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/)  | [Leetcode-152. 乘积最大子数组.md](Leetcode/Leetcode-152.%20乘积最大子数组.md) |      |    推荐  | 
