@@ -134,3 +134,78 @@ public:
     }
 };
 ```
+
+### 解法四：二分法 左闭右开 剩两个元素退出
+
+#### 解法四：实现1
+
+由于 mid 在左边和右边的单调性不同，因此需要分开讨论。
+
+得到一个 mid 后，看这个mid是否满足条件，如果满足条件，就 return。否则收缩边界。
+
+这个思想和最原始的二分法的思想类似，其中都有一个判断 mid 是否**满足条件**的操作。而下面的实现2，并没有这个操作。相反，它只关心 mid 是否**不满足**条件。
+
+##### 解法四：实现1: c++
+
+```
+class Solution {
+public:
+    int findMin(vector<int>& nums) {
+        int low = 0, high = nums.size();
+        // 只有一个元素 或者没有旋转
+        if (high-low==1 || nums[0] <= nums[high-1]) return nums[0];
+
+        while (high - low > 2)
+        {
+            int mid = low + (high - low) / 2;
+            if (nums[mid] < nums[0]) // mid在左边
+            {
+                if (nums[mid-1] > nums[mid])
+                    return nums[mid];
+                else
+                    high = mid;
+            }
+            else // mid 在右边
+            {
+                if (nums[mid+1] < nums[mid])
+                    return nums[mid+1];
+                else
+                    low = mid + 1;
+            }
+        }
+        return (nums[low] <= nums[high-1]) ? nums[low] : nums[high-1];
+    }
+};
+```
+
+#### 解法四：实现2；
+
+实现2和实现1有所不同。实现2是减治的思想，在得到一个 mid 后不关心它是否满足条件，而是看它是否不满足条件，如果不满足，则收缩边界。反正可以保证一定是有解的，那么排除完剩下的就是解。
+
+##### 解法四：实现2: c++
+
+```
+class Solution {
+public:
+    int findMin(vector<int>& nums) {
+        int low = 0, high = nums.size();
+        if (high-low==1 || nums[0] < nums[high-1]) return nums[0];
+
+        while (high - low > 2)
+        {
+            int mid = low + (high - low) / 2;
+            if (nums[mid] < nums[0]) // mid在右边
+            {
+                high = mid + 1;
+            }
+            else // mid 在左边
+            {
+                low = mid + 1;
+            }
+        }
+        return min(nums[low], nums[high-1]);
+    }
+};
+```
+
+对于有些问题，判断满足条件比较困难时，就需要使用减治法（或者称为排除法更亲切一些）

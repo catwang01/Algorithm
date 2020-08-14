@@ -31,6 +31,7 @@
 | 2020-08-12|||||
 |  | [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面 - 力扣（LeetCode）](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)  | [Leetcode 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.md](Leetcode/Leetcode%20剑指%20Offer%2021.%20调整数组顺序使奇数位于偶数前面.md) |       |      | 
 |  |   [697. 数组的度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/degree-of-an-array/) | [Leetcode-697. 数组的度.md](Leetcode/Leetcode-697.%20数组的度.md) |       |      | 
-
+| 2020-08-14|||||
+|  | [153. 寻找旋转排序数组中的最小值 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/submissions/)   | [Leetcode-153. 寻找旋转排序数组中的最小值.md](Leetcode/Leetcode-153.%20寻找旋转排序数组中的最小值.md) |       | 二分法     | 
 
 

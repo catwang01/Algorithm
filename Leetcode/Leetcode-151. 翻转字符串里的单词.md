@@ -28,6 +28,32 @@ class Solution {
 }
 ```
 
+##### 解法1: c++
+
+c++ 没有 split 函数，但是可以用 cin 来进行分割。c++ 没有 join 函数，可以用 for 循环来累加。
+
+```
+class Solution {
+public:
+    string reverseWords(string s) {
+        stringstream ss(s);
+        vector<string> words;
+        string word;
+        while(ss >> word)
+        {
+            words.push_back(word);
+        }
+        string ret;
+        for_each(
+            words.rbegin(), 
+            words.rend(), 
+            [&ret](const string& word){ret += word + " ";}
+        );
+        return ret.substr(0, ret.size()-1);
+    }
+};
+```
+
 ### 解法二：滑动窗口 + stack
 
 这个用到了滑动窗口的思想
