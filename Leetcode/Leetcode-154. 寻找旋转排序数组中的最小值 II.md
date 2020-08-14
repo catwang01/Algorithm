@@ -29,24 +29,51 @@ class Solution:
 
         low, high = 0, n - 1
 
-        if nums[0] == nums[high]: # 预处理
-            while low < high and nums[high] == nums[0]:
-                high -= 1
-            # low > high or nums[high] < head
-            if low > high:
-                return head
+        while low < high and nums[high] == nums[0]:
+            high -= 1
 
         if nums[0] < nums[high]: # 单调递增时返回最左侧的值
             return nums[0]
             
-        while low + 1 < high: # 区间长度为2时返回
+        while high - low > 1: # 区间长度小于2时返回
             mid = (low + high) // 2
             if nums[mid] >= nums[0]:
                 low = mid + 1
             else:
                 high = mid
-        # 此时 low + 1 == high
         return min(nums[low], nums[high])
+```
+
+#### 解法1:实现2
+
+##### 解法1: 实现2: c++
+
+```
+class Solution {
+public:
+    int findMin(vector<int>& nums) {
+        int low = 0, high = nums.size();
+        while (low < high && nums[low]==nums[high-1])
+        {
+            high--;
+        }
+        if (low == high) return nums[0]; // 说明nums中所有元素都相等
+        if (nums[0] < nums[high-1]) return nums[0]; //  说明删除掉末尾和nums[0] 相同掉数字后，剩下的是一个单调递增的。
+        while (high - low > 2)
+        {
+            int mid = low + (high - low) / 2;
+            if (nums[mid] < nums[0]) // 左侧
+            {
+                high = mid + 1;
+            }
+            else  // 右侧
+            {
+                low = mid + 1;
+            }
+        }
+        return min(nums[low], nums[high-1]);
+    }
+};
 ```
 
 ### 解法2：二分法 
