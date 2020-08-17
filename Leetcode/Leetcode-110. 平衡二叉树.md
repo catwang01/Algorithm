@@ -56,9 +56,15 @@ public:
 };
 ```
 
-#### 解法2: 实现2: 非递归
+### 解法3: postorder 非递归
 
-##### 解法2：实现2: python
+#### 解法3:实现
+
+使用 postorder 来进行遍历。因为某个节点要在它的左右子节点处理完成之后进行处理。
+
+而且为了保存中间结果，还需要使用一个 hash 表。
+
+##### 解法3：实现: python
 
 ```
 from collections import deque
@@ -91,40 +97,43 @@ class Solution:
 
 ```
 class Solution {
-    struct Item {
-        TreeNode* node;
-        int color;
-    };
 public:
-    bool isBalanced(TreeNode* root) {
-        if (!root) return true;
+    enum Color {white, black};
 
-        unordered_map<TreeNode*, int> heights;
-        int white =0, black=1;
-        stack<Item> s;
-        s.push({root, white});
-        while (!s.empty()) {
-            TreeNode* node = s.top().node;
-            int color = s.top().color; 
-            s.pop();
-            if (color == white) {
-                s.push({node, black});
-                if (node->right) 
-                    s.push({node->right, white});
-                if (node->left) 
-                    s.push({node->left, white});
-            } else {
-                if (!node->left && !node->right) {
-                    heights[node] = 1;
-                } else {
-                    if (abs(heights[node->left] - heights[node->right]) > 1) 
-                        return false;
-                    else 
-                        heights[node] = max(heights[node->left], heights[node->right]) + 1;
-                }
+    struct Item
+    {
+        TreeNode* node;
+        Color color;
+    };
+
+    bool isBalanced(TreeNode* root) {
+        if (root==nullptr) return true;
+        unordered_map<TreeNode*, int> height;
+
+        stack<Item> st;
+        st.push({root, white});
+        while (!st.empty())
+        {
+            Item item = st.top(); st.pop();
+            TreeNode* node = item.node;
+            Color color = item.color;
+
+            if (color == white)
+            {
+                st.push({node, black});
+                if (node->right) st.push({node->right, white});
+                if (node->left) st.push({node->left, white});
+            }
+            else
+            {
+                // postorder
+                if (abs(height[node->left] - height[node->right]) > 1)
+                    return false;
+                else
+                    height[node] = max(height[node->left], height[node->right]) + 1;
             }
         }
-        return true;
+        return true; 
     }
 };
 ```
