@@ -17,6 +17,9 @@ leetcode [两数之和 - 两数之和 - 力扣（LeetCode）](https://leetcode-c
 因为 nums[0] + nums[1] = 2 + 7 = 9
 所以返回 [0, 1]
 
+
+本题还可以先排序后再查找，可以看输入有序数组的版本 [两数之和 II - 输入有序数组(C) - 两数之和 II - 输入有序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/solution/liang-shu-zhi-he-ii-shu-ru-you-xu-shu-zu-c-by-zed-/)
+
 ## 算法
 
 ### 解法一：bruteforce
@@ -78,11 +81,11 @@ class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashtab = {}
         for i in range(len(nums)):
-            if target-nums[i] in hash_map:
-                return [hashtab[target-nums[i]], i]
+            if target - nums[i] in hashtab:
+                return [hashtab[target - nums[i]], i]
             else:
-                if nums[i] not in hash_map:
-                    hashtab[nums[i]] = i
+                hashtab[nums[i]] = i
+        return [-1, -1]
 ```
 
 #### 解法二一次hash表c++
@@ -109,38 +112,31 @@ public:
 
 ### 解法3: 排序 + 双指针
 
+需要注意的点：
+1. 对index排序，而不是对 nums 本身排序
+ 2. 要防止 left==right 情况的出现。实际上，如果可以保证nums 中一定有两个数之和为 target 时，不可能出现 left==right 的情况。因为在 left == right 之前就返回了。但是，如果不能保证nums 中 一定有两个数之和为 target 时，还是应该防止 left ==right 情况的出现。
+
 #### 解法3: 实现
 
 ##### 解法3: c++
 
 ```
-struct cmp 
-{
-    vector<int> nums;
-    cmp(vector<int>& A): nums(A) {}
-    bool operator() (int i, int j)
-    {
-        return nums[i] < nums[j];
-    }
-
-};
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        vector<int> ret;
-        if (nums.size()<=1) return ret;
+        if (nums.size()<=1) return {-1, -1};
 
         vector<int> index(nums.size());
         for(int i=0; i<nums.size(); i++) index[i] = i;
-        sort(begin(index), end(index), cmp(nums));
-        // [0, i) 遍历过
-        // (j, n-1] 遍历过
-        // [i, j] 没有遍历过
-        // i > j=> 循环结束
-        // i <=j 循环进行
+        sort(begin(index), end(index), [&](int i, int j) {return nums[i] < nums[j];});
+        // [0, i) 左侧排除的结果
+        // (j, n-1] 右侧排除的结果
+        // [i, j] 可能的结果
+        // i == j=> 循环结束
+        // i < j 循环进行
         int i = 0, j = nums.size()-1;
         int s;
-        do 
+        while (i < j) 
         {
             s = nums[index[i]] + nums[index[j]];
             if (s == target)
@@ -150,10 +146,36 @@ public:
                 if (s > target) j--;
                 else i++;
             }
-            
-        } while (i <= j);
+        }
         
-        return ret;
+        return {-1, -1};
     }
 };
 ```
+
+##### 解法3: python
+
+```
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        index = list(range(len(nums)))
+        index.sort(key=lambda idx: nums[idx])
+        left, right = 0, len(nums) - 1
+        # [0, left) 左侧排除的结果
+        # (right, high-1] 右侧排除的结果
+        # [left, right] 可能的结果集合
+        # 当可能当结果集合中只有一个数时停止，因为不能出现重复使用一个数的情况，即停止条件 left == right 
+        while left < right:
+            s = nums[index[left]] + nums[index[right]]
+            if s == target:
+                if index[left] > index[right]:
+                    return [index[right], index[left]]
+                else:
+                    return [index[left], index[right]]
+            elif s > target:
+                right -= 1
+            else:
+                left += 1
+        return [-1, -1]
+```
+

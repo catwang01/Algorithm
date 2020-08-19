@@ -41,3 +41,5 @@
 | 推荐 | [110. 平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/)  | [Leetcode-110. 平衡二叉树.md](Leetcode/Leetcode-110.%20平衡二叉树.md) |       | 二叉树     | 
 | 2020-08-18|||||
 |  | [124. 二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)  | [Leetcode-124. 二叉树中的最大路径和.md](Leetcode/Leetcode-124.%20二叉树中的最大路径和.md) |       |      | 
+| 2020-08-19|||||
+| | [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)  | [Leetcode-1. 两数之和.md](Leetcode/Leetcode-1.%20两数之和.md) |       |    hash  | 

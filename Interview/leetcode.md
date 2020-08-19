@@ -46,9 +46,10 @@
 
 ## 双指针
 
-1. 编程题也特别简单，一道题是一个有序的数组，寻找数组的中的两个数它们的和是否等于某个值target，返回True或者False，要求O(n)的复杂度。 
-[1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)
-相关公司：[experience22-京东.md](experience22-京东.md)
+1. [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)
+相关公司：
+    - [experience22-京东.md](experience22-京东.md) 编程题也特别简单，一道题是一个有序的数组，寻找数组的中的两个数它们的和是否等于某个值target，返回True或者False，要求O(n)的复杂度。 
+    - 算法题：两数之和 [experience32-京东算法.md](experience32-京东算法.md) 
 
 2. [75. 颜色分类 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-colors/)
 相关公司：
