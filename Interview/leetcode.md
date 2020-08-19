@@ -165,6 +165,7 @@
 相关企业：
     1. [experience26-微软算法.md](experience26-微软算法.md) 算法题：rotate一次的数组，找target，例如 [3,4,0,1,2] 找4所在的位置，如果不存在返回-1，要求logn时间 (LeetCode medium原题，直接二分即可，写代码之前记得问有没有重复元素这类二分可能会遇到坑，面试官很nice 很乐意多交流，另外ms的面试风格，一定要自己想test case，尽可能的覆盖所有边界条件)
     2.  旋转数组中的最小数字 [experience30-面试题总结.md](experience30-面试题总结.md)
+    3. 算法题： 旋转数组中查找某给定数（二分查找） [experience30-面试题总结.md](experience30-面试题总结.md)
 
 
 4. [4. 寻找两个正序数组的中位数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)

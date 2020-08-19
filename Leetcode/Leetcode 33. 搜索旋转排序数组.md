@@ -182,3 +182,39 @@ class Solution:
                 low = mid + 1
         return -1
 ```
+
+
+下面是比较通俗的实现方式
+
+```
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        low, high = 0, len(nums)
+        while high - low > 2:
+            mid =(low + high) // 2
+            if nums[mid] >= nums[0]:        # nums[mid] 在左侧
+                if nums[mid] == target:
+                    return mid
+                elif target < nums[mid]:    # 此时有两种情况
+                    if target >= nums[0]:   # target 在左侧
+                        high = mid
+                    else:                   # target 在右侧
+                        low = mid + 1
+                else:
+                    low = mid + 1
+            else:                           # nums[mid] 在右侧
+                if nums[mid] == target:
+                    return mid
+                elif target < nums[mid]:
+                    high = mid
+                else:                       # 此时有两种情况
+                    if target >= nums[0]:   # target 在左侧
+                        high = mid
+                    else:                   # target 在右侧
+                        low = mid + 1
+        if nums[low] == target: 
+            return low
+        if nums[high-1]==target: 
+            return high-1
+        return -1
+```
