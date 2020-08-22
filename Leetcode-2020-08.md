@@ -49,3 +49,4 @@
 | 2020-08-22|||||
 |  | [47. 全排列 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations-ii/) | [Leetcode-47. 全排列 II.md](Leetcode/Leetcode-47.%20全排列%20II.md) |       |      | 
 | | [46. 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/)  | [Leetcode-46. 全排列.md](Leetcode/Leetcode-46.%20全排列.md) |   |  |
+|  | [5. 最长回文子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)  | [Leetcode-5. 最长回文子串.md](Leetcode/Leetcode-5.%20最长回文子串.md) | |    推荐  | 

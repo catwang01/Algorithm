@@ -17,7 +17,6 @@
 |  | [剑指 Offer 18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)  | [Leetcode 面试题18. 删除链表的节点.md](Leetcode/Leetcode-面试题18.%20删除链表的节点.md ) |       |      | 
 |  | [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)  | [Leetcode-53. 最大子序和.md](Leetcode/Leetcode-53.%20最大子序和.md) |       |   经典 dp  | 
 |  | [152. 乘积最大子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/)  | [Leetcode-152. 乘积最大子数组.md](Leetcode/Leetcode-152.%20乘积最大子数组.md) |      |    推荐  | 
-|  | [5. 最长回文子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)  | [Leetcode-5. 最长回文子串.md](Leetcode/Leetcode-5.%20最长回文子串.md) | |    推荐  | 
 |  | [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/) | [Leetcode 206. 反转链表.md]( Leetcode/Leetcode-206.%20反转链表.md ) | |    推荐  | 
 |  | [144. 二叉树的前序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)  | [Leetcode-144. 二叉树的前序遍历.md](Leetcode/Leetcode-144.%20二叉树的前序遍历.md) |       |      | 
 |  |  [567. 字符串的排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutation-in-string/) | [Leetcode-567. 字符串的排列.md](Leetcode/Leetcode-567.%20字符串的排列.md) |       |      | 

@@ -42,7 +42,7 @@
 [47. 全排列 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations-ii/)
 相关企业：
     - [experience21-bat面试题.md](experience21-bat面试题.md)
-    - [experience30-面试题总结.md](experience30-面试题总结.md)
+    - [experience30-面试题总结.md](experience30-面试题总结.md) **字符串的排列与组合**
 
 2. [698. 划分为k个相等的子集 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)
 相关企业：
@@ -79,7 +79,9 @@
 相关企业：[experience14-飞书算法-提前批.md](experience14-飞书算法-提前批.md) 
 
 2. [5. 最长回文子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-substring/)
-相关企业：[experience13-推荐秋招.md]( experience13-推荐秋招.md )
+相关企业：
+    1. [experience13-推荐秋招.md]( experience13-推荐秋招.md )
+    2. [experience30-面试题总结.md](experience30-面试题总结.md)
 
 3. [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)
 相关企业： 

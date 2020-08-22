@@ -179,6 +179,52 @@ class Solution:
         return ret
 ```
 
+#### 解法3: 实现2:
+
+由于有两种情况。第一种情况比较直观。第二种情况可以添加一个虚拟元素转换为第一种情况。
+
+添加一个虚拟元素的目的是可以简化问题。假设下标是在虚拟数组（就是原数组添加虚拟元素后的数组）上进行加减，只需要在取数的时候根据映射关系将虚拟数组上面的数映射到原数组上。
+
+##### 解法3: 实现2:python
+
+```
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        n = len(s)
+        if n <= 1: return s
+
+        max_length = 1
+        ret = s[0]
+
+        for i in range(n):
+            left, right = i - 1, i + 1
+            while left>=0 and right < n and s[left] == s[right]:
+                left -= 1
+                right += 1
+            left += 1
+            right -= 1
+
+            if right - left + 1 > max_length:
+                max_length = right - left + 1
+                ret = s[left: right+1]
+
+            # 假设多了一个元素
+            left, right = i, i + 2
+            # 因此 right < n + 1 而非 right < n
+            # 在取数时，需要映射到原来的数组上
+            while left >= 0 and right < n+1 and s[left]==s[right-1]:
+                left -= 1
+                right +=1
+            left += 1
+            right -= 1
+
+            # 计算长度时要减 1，因为要减去虚拟元素
+            if right - left > max_length:
+                max_length = right - left
+                ret = s[left: right]
+        return ret
+```
+
 ##### 解法3: 中心拓展法 改进
 
 将向两边拓展的逻辑抽象成一个 extend 函数，有
