@@ -46,3 +46,6 @@
 | 面试题 | [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Leetcode 33. 搜索旋转排序数组.md](Leetcode/Leetcode%2033.%20搜索旋转排序数组.md) |       |  二分法   | 
 | 2020-08-21|||||
 |  | [581. 最短无序连续子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)  | [Leetcode 581. 最短无序连续子数组.md](Leetcode/Leetcode%20581.%20最短无序连续子数组.md) |       |      | 
+| 2020-08-22|||||
+|  | [47. 全排列 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations-ii/) | [Leetcode-47. 全排列 II.md](Leetcode/Leetcode-47.%20全排列%20II.md) |       |      | 
+| | [46. 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/)  | [Leetcode-46. 全排列.md](Leetcode/Leetcode-46.%20全排列.md) |   |  |

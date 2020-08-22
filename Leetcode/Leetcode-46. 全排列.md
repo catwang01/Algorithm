@@ -111,6 +111,39 @@ class Solution:
         return result
 ```
 
+### 解法3: 回溯法： 交换法
+
+参考了 [ 4 ]
+
+这个解法的好处是，不需要 $O(n)$ 的空间来存储中间结果。坏处是得到的结果不是按照顺序的。
+
+对于数组 nums[i:]，利用 for 循环遍历所有的数，将其交换到 nums[i] 的位置做头，然后递归 nums[i+1:]
+
+需要注意的一点是，当 nums[i+1:] 递归调用结束后，需要在此 swap 以恢复现场。
+
+#### 解法3: 实现
+
+##### 解法3: python
+
+```
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        def swap(i, j):
+            nums[i], nums[j] = nums[j], nums[i]
+
+        ret = []
+        def helper(i): # [0, i) 处理过
+            if i == len(nums):
+                ret.append(nums[:])
+                return 
+            for j in range(i, len(nums)):
+                swap(j, i)
+                helper(i+1)
+                swap(j, i)
+        helper(0)
+        return ret
+```
+
 # References
 
 1. [【HOT 100】46.全排列 Python3 回溯 step by step理解回溯 要画图！ - 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/solution/hot-100-46quan-pai-lie-python3-hui-su-step-by-step/)
@@ -118,3 +151,5 @@ class Solution:
 2. [回溯算法详解 - 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-xiang-jie-by-labuladong-2/)
 
 3. [从全排列问题开始理解“回溯搜索”算法（深度优先遍历 + 状态重置 + 剪枝） - 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/)
+
+4. [【46】C++ 回溯法/交换法/stl 简洁易懂的全排列 - 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/solution/c-hui-su-fa-jiao-huan-fa-stl-jian-ji-yi-dong-by-sm/)

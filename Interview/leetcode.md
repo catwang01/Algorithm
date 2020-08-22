@@ -37,8 +37,12 @@
 
 ## 回溯
 
-1. 数组的全排列（空间复杂度O（1）） [46. 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/)
-相关企业：[experience21-bat面试题.md](experience21-bat面试题.md)
+1. 数组的全排列（空间复杂度O（1）） 
+[46. 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/)
+[47. 全排列 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations-ii/)
+相关企业：
+    - [experience21-bat面试题.md](experience21-bat面试题.md)
+    - [experience30-面试题总结.md](experience30-面试题总结.md)
 
 2. [698. 划分为k个相等的子集 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/)
 相关企业：
