@@ -15,6 +15,7 @@
 8. [experience21-bat面试题.md](experience21-bat面试题.md)
 9. [experience23-didi算法.md](experience23-didi算法.md)
 10. [experience26-微软算法.md](experience26-微软算法.md)
+11. [experiences33-京东算法.md](experiences33-京东算法.md)
 
 ## ML相关
 
@@ -64,7 +65,7 @@
 
 2. (todo) xgboost和lightgbm的区别 ( 京东算法x2 )
 
-3. GBDT和Xgboost的区别，哪些是解决过拟合问题的。[experience18-新浪算法.md](experience18-j新浪算法.md)
+3. GBDT和Xgboost的区别，哪些是解决过拟合问题的。[experience18-新浪算法.md](experience18-新浪算法.md)
 相关企业：
     - [experience21-bat面试题.md](experience21-bat面试题.md) XGBOOst和GBDT的区别。 
     - [experience26-微软算法.md](experience26-微软算法.md) xgb和gbdt的区别 (几乎必问的题目，提前准备一下，说的要有条理，有哪些算法优化，哪些工程实现优化，可以适当扩展提一下lgb)
@@ -108,10 +109,11 @@
 6. 写出LR的损失函数（交叉熵损失函数） [experience1-京东算法.md](experience1-京东算法.md)
 7. 写交叉熵，Softmax [experience1-京东算法.md](experience1-京东算法.md)
 8. 神经网络里面的损失函数有哪些 [experience21-bat面试题.md](experience21-bat面试题.md)
-交叉熵损失函数，0-1分类的交叉熵损失函数的形式。什么是凸函数？0-1分类如果用平方损失为什么用交叉熵而不是平方损失？ [experience21-bat面试题.md](experience21-bat面试题.md)
 9. 用pytorch写下逻辑回归训练过程 [experience7-京东算法.md](experience7-京东算法.md)
 10. 如果逻辑回归的所有样本的都是正样本， 那么它学出来的超平面是怎样的？ [experience21-bat面试题.md](experience21-bat面试题.md)
 11. 哪些场景下的分类问题不适用于交叉熵损失函数？ [experience21-bat面试题.md](experience21-bat面试题.md)
+12. 交叉熵损失函数，0-1分类的交叉熵损失函数的形式。什么是凸函数？0-1分类如果用平方损失为什么用交叉熵而不是平方损失？ [experience21-bat面试题.md](experience21-bat面试题.md)
+13. 为什么分类用交叉熵？ 感觉这个问题很常见，整个秋招被问了很多次， 具体的我就说了一下 预测结果和实际采样之间的距离可以用 kl散度让后化简到到交叉熵的过程 大概是这样
 
 
 ### 正则相关

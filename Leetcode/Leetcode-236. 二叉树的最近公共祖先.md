@@ -204,11 +204,13 @@ class Solution:
                     finished += 1
                 if finished == 2:
                     break
+                # 因为 p 和 q 都有可能成为最近公共祖先，因此 pAncestor 和 qAncestor 中包含 p 和 q
                 st.pop()
                 lastprocessed = root
                 root = None
             else:
                 root = root.right
+
         length = min(len(pAncestor), len(qAncestor))
         if pAncestor and qAncestor:
             for i in range(length):
