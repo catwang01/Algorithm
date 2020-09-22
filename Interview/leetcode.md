@@ -22,9 +22,8 @@
 12. [experience30-面试题总结.md](experience30-面试题总结.md)
 13. [experience34-头条算法.md](experience34-头条算法.md)
 
-2、编程题（链表反转，二叉树中序遍历递归+非递归）
-3、3种颜色砖块，单位长宽，铺满单位宽，长m的地板有多少种铺法？
-
+二叉树最大深度
+地图中找出大陆的个数（一道BFS题）
 
 ## 位运算
 
@@ -194,7 +193,10 @@
     3. [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md) 我用递归实现了。让用非递归做。我说保存父结点的指针。还不满意，然后就没有做出来。
 
 2. 二叉树高度 [104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
-相关企业： [experence17-飞书算法.md](experence17-飞书算法.md)
+相关企业： 
+    1. [experience34-头条算法.md](experience34-头条算法.md)
+    2. [experence17-飞书算法.md](experence17-飞书算法.md)
+
 
 3. 判断是否平衡二叉树 [110. 平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/)
 相关企业： [experence17-飞书算法.md](experence17-飞书算法.md)
@@ -292,6 +294,9 @@
     3. pop 最多将最近 append 的 n 个元素输出。
 相关企业：
     - [experience28-self-微软nlp算法.md](experience28-self-微软nlp算法.md)
+
+16. 3种颜色砖块，单位长宽，铺满单位宽，长m的地板有多少种铺法？
+    - [experience34-头条算法.md](experience34-头条算法.md)
 
 
 ## Trie

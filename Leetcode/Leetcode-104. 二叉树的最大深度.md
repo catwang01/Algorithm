@@ -8,7 +8,6 @@
 
 ## 算法
 
-
 ### 解法一：dfs postorder
 
 postorder 的思想比较自然：
@@ -100,7 +99,6 @@ public:
             }
             root = s.top(); s.pop();
             depth--;
-            cout << depth;
             // postorder processing
             maxDepth = max(maxDepth, depth);
             if (!s.empty() && s.top() -> left == root) {
@@ -153,7 +151,9 @@ public:
 ### 解法二：dfs preorder 非递归
 
 
-#### 解法二python
+#### 解法二：实现1
+
+##### 解法2: 实现1: python
 
 ```
 class Solution:
@@ -173,6 +173,31 @@ class Solution:
         return maxDepth
 ```
 
+#### 解法二：dfs preorder 非递归
+
+##### 解法2: 实现2: python2
+
+1. 所谓都高度实际上可以理解为叶节点所在处层数，我们约定根节点的层数为 0
+2. 上面是实现 1 在每次遇到新的节点时都进行 max 操作。而实际上，只需需要在叶节点处进行 max 操作即可。
+
+```
+lass Solution:
+    def maxDepth(self, root: TreeNode) -> int:
+        if not root: return 0
+        ret = 0
+        st = []
+        curdepth = 0
+        while st or root:
+            while root:
+                st.append((root.right, curdepth + 1))
+                root = root.left
+                curdepth += 1
+            # 此时 root == None 表示遇到了叶节点
+            # 叶节点处进行记录
+            ret = max(ret, curdepth)
+            root, curdepth = st.pop()
+        return ret
+```
 
 ### 解法3: bfs——层次遍历
 
