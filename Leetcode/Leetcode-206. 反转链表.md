@@ -113,16 +113,15 @@ class Solution:
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode virtualHead;
-        ListNode* next;
+        ListNode *p = NULL, *next = NULL;
         while (head)
         {
             next = head->next;
-            head->next = virtualHead.next;
-            virtualHead.next = head;
+            head->next = p;
+            p = head;
             head = next;
         }
-        return virtualHead.next;
+        return p;
     }
 };
 ```
