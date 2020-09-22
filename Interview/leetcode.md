@@ -20,6 +20,11 @@
 10. [experience23-didi算法.md](experience23-didi算法.md)
 11. [experience26-微软算法.md](experience26-微软算法.md)
 12. [experience30-面试题总结.md](experience30-面试题总结.md)
+13. [experience34-头条算法.md](experience34-头条算法.md)
+
+2、编程题（链表反转，二叉树中序遍历递归+非递归）
+3、3种颜色砖块，单位长宽，铺满单位宽，长m的地板有多少种铺法？
+
 
 ## 位运算
 
@@ -144,6 +149,7 @@
 相关企业：
     1. 京东 [experience13-推荐秋招.md]( experience13-推荐秋招.md )
     2. [experience22-京东.md](experience22-京东.md)
+    3. 编程题（链表反转)
 
 4. [160. 相交链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 相关企业：
@@ -197,6 +203,10 @@
 相关企业：
     - 百度 [experience13-推荐秋招.md]( experience13-推荐秋招.md )
     - [experience21-bat面试题.md](experience21-bat面试题.md)
+
+5. 二叉树中序遍历递归+非递归） [94. 二叉树的中序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/submissions/)
+
+    1. [experience34-头条算法.md](experience34-头条算法.md)
 
 6. 层次遍历二叉树 [102. 二叉树的层序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 相关企业：[experience21-bat面试题.md](experience21-bat面试题.md)
