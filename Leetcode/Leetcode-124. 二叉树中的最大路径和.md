@@ -109,3 +109,32 @@ public:
     }
 };
 ```
+
+##### 解法2: postorder： python
+
+```
+class Solution:
+    def maxPathSum(self, root: TreeNode) -> int:
+        if not root: return 0
+
+        hashtab = {None: 0}
+        ret = -float("inf")
+        st = []
+        lastpreprocessed = None
+        while st or root:
+            while root:
+                st.append(root)
+                root = root.left
+            root = st[-1]
+            if root.right is None or root.right == lastpreprocessed:
+                # preprocess root
+                hashtab[root] = max(hashtab[root.left], hashtab[root.right], 0) + root.val
+                ret = max(ret, root.val + max(hashtab[root.left], 0) + max(hashtab[root.right], 0))
+                lastpreprocessed = root
+                st.pop()
+                root = None
+            else:
+                root = root.right
+
+        return ret
+```
