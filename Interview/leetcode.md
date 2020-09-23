@@ -22,8 +22,6 @@
 12. [experience30-面试题总结.md](experience30-面试题总结.md)
 13. [experience34-头条算法.md](experience34-头条算法.md)
 
-二叉树最大深度
-地图中找出大陆的个数（一道BFS题）
 
 ## 位运算
 
@@ -266,7 +264,9 @@
 
 1. [200. 岛屿数量 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-islands/)
 相关企业：
-    - [experience29-self-didi算法工程师.md](experience29-self-didi算法工程师.md)
+    1. [experience29-self-didi算法工程师.md](experience29-self-didi算法工程师.md)
+
+    2. 地图中找出大陆的个数（一道BFS题） [experience34-头条算法.md](experience34-头条算法.md)
 
 ## todo
 
