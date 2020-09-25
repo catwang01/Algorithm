@@ -10,9 +10,33 @@
 
 ### 解法1: 递归
 
-# Todo - 2020-04-26 17:17 -- by ed 明天再说吧。今天这个脑壳疼。
-
 #### 解法1:实现1: 断链
+
+##### 解法1: python
+
+```
+class Solution:
+    def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
+        i = 1
+        p = head
+        while p and i < k:
+            p = p.next
+            i += 1
+        if p is None: return head
+        newhead = self.reverseKGroup(p.next, k)
+        p.next = None
+        self.reverse(head)
+        head.next = newhead
+        return p
+
+    def reverse(self, head):
+        if head is None or head.next is None:
+            return head
+        newhead = self.reverse(head.next)
+        head.next.next = head
+        head.next = None
+        return newhead
+```
 
 ##### 解法1: c++
 
@@ -20,30 +44,31 @@
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
-        ListNode node(0), 
-            *virtualHead = &node;
-        virtualHead->next = head; 
-        ListNode *cur = virtualHead;
-        for (int i=0; i<k; i++) {
-            if (!cur) return virtualHead->next;
+        if (head == NULL) return head;
+        ListNode* cur = head;
+        int i = 0;
+        while (i < k-1 && cur->next != NULL) {
             cur = cur->next;
+            i++;
         }
-        if (!cur) return virtualHead->next;
-
-        ListNode* newHead1 = reverseKGroup(cur->next, k);
-        cur->next = NULL; // 断链
-        ListNode* newHead2 = reverse(virtualHead->next);
-        virtualHead->next->next = newHead1;
-        virtualHead->next = newHead2;
-        return virtualHead->next;
+        if (i==k-1) {
+            ListNode* newhead = reverseKGroup(cur->next, k);
+            cur->next = NULL;
+            reverse(head);
+            head->next = newhead;
+            return cur;
+        }
+        return head;  
     }
 
     ListNode* reverse(ListNode* head) {
-        if (!head || !head->next) return head;
-        ListNode* newHead1 = reverse(head->next);
+        if (head==NULL || head->next == NULL) {
+            return head;
+        }
+        ListNode* newhead = reverse(head->next);
         head->next->next = head;
         head->next = NULL;
-        return newHead1;
+        return newhead;
     }
 };
 ```
@@ -79,4 +104,3 @@ class Solution:
         head.next.next = head
         return newHead
 ```
-
