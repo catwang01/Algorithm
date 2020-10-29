@@ -12,3 +12,6 @@
 | 2020-10-27|||||
 |  | [144. 二叉树的前序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)  | [Leetcode-144. 二叉树的前序遍历.md](Leetcode/Leetcode-144.%20二叉树的前序遍历.md) |       |      | 
 |  | [869. 重新排序得到 2 的幂 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reordered-power-of-2/)  | [Leetcode 869. 重新排序得到 2 的幂.md](Leetcode/Leetcode%20869.%20重新排序得到%202%20的幂.md) |       |      | 
+|  |  [190. 颠倒二进制位 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-bits/) | [Leetcode 190. 颠倒二进制位.md](Leetcode/Leetcode%20190.%20颠倒二进制位.md) |       |      | 
+| 2020-10-29|||||
+|  | [124. 二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)  | [Leetcode-124. 二叉树中的最大路径和.md](Leetcode/Leetcode-124.%20二叉树中的最大路径和.md) |       |  更新了缓存节点结果的算法  | 

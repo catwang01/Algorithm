@@ -43,7 +43,7 @@ class Solution:
 
 
 
-#### 解法一：实现：c++
+##### 解法一：实现：c++
 
 ```
 class Solution {
@@ -70,7 +70,7 @@ public:
 
 ### 解法2: postorder 非递归
 
-#### 解法2: postorder 实现
+#### 解法2: postorder 实现1
 
 ##### 解法2: postorder：c++
 
@@ -137,4 +137,48 @@ class Solution:
                 root = root.right
 
         return ret
+```
+
+### 解法3: 非递归 使用结果栈缓存左右节点的结果
+
+#### 解法3: 实现
+
+##### 解法3: 实现 python
+
+```
+class Solution:
+    def maxPathSum(self, root: TreeNode) -> int:
+        if not root: return 0
+
+        result_stack = []
+        max_result = root.val
+        st = []
+        lastprocessed = None
+
+        def process(node):
+            nonlocal max_result
+            if node.right:
+                right = result_stack.pop()
+            else:
+                right = 0
+            if node.left:
+                left = result_stack.pop()
+            else:
+                left = 0
+            max_result = max(max_result, node.val + max(0, right) + max(0, left))
+            result_stack.append(max(left, right, 0) + node.val)
+
+        while root or st:
+            while root:
+                st.append(root)
+                root = root.left
+            root = st[-1]
+            if root.right is None or root.right == lastprocessed:
+                process(root)
+                lastprocessed = root
+                st.pop()
+                root = None
+            else:
+                root = root.right
+        return max_result
 ```
