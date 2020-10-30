@@ -400,7 +400,6 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 推荐 [104. 二叉树的最大深度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 
-推荐 [543. 二叉树的直径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/diameter-of-binary-tree/)
 
 遍历的运用 [100. 相同的树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/same-tree/)
 
@@ -434,9 +433,13 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 #### 路径不一定过根
 
+下面三个题目很相似
+
 [687. 最长同值路径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-univalue-path/)
 
 [124. 二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
+
+推荐 [543. 二叉树的直径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/diameter-of-binary-tree/)
 
 ## 分治
 
@@ -453,6 +456,8 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 [16. 最接近的三数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/3sum-closest/)
 
 [560. 和为K的子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
+
+[LCP 18. 早餐组合 - 力扣（LeetCode）](https://leetcode-cn.com/problems/2vYnGI/)
 
 ## 单调队列
 
