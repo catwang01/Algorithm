@@ -19,5 +19,8 @@
 | 2020-10-30|||||
 |  | [LCP 18. 早餐组合 - 力扣（LeetCode）](https://leetcode-cn.com/problems/2vYnGI/)  | [Leetcode LCP 18. 早餐组合.md](Leetcode/Leetcode%20LCP%2018.%20早餐组合.md) |       |      | 
 |  | [348. 判定井字棋胜负 - 力扣（LeetCode）](https://leetcode-cn.com/problems/design-tic-tac-toe/)   | [Leetcode 348. 判定井字棋胜负.md](Leetcode/Leetcode%20348.%20判定井字棋胜负.md) |       |      | 
+| 2020-10-31|||||
+|  | [41. 缺失的第一个正数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/first-missing-positive/)  | [Leetcode-41. 缺失的第一个正数.md](Leetcode/Leetcode-41.%20缺失的第一个正数.md) |       |   原地hash   | 
+|  |  [3. 无重复字符的最长子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [Leetcode 3. 无重复字符的最长子串.md](Leetcode/Leetcode%203.%20无重复字符的最长子串.md) |       |      | 
 
 
