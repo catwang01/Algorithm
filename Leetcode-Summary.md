@@ -12,6 +12,10 @@
 
 自定义排序规则 [面试题45. 把数组排成最小的数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)
 
+## 计数问题
+
+[348. 判定井字棋胜负 - 力扣（LeetCode）](https://leetcode-cn.com/problems/design-tic-tac-toe/)
+
 ## 加法进位类型
 
 如果不考虑进位，每一位是 a + b。如果考虑进位，每一位是 a + b + carry(carry表示进位）
