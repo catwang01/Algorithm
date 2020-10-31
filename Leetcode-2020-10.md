@@ -1,4 +1,4 @@
-# Leetcode-2020-08
+# Leetcode 2020-08
 
 
 | 时间| 题目链接 | 题解| 备注| tag |
@@ -10,17 +10,17 @@
 |  | [58. 最后一个单词的长度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/length-of-last-word/) | [Leetcode 58. 最后一个单词的长度.md](Leetcode/Leetcode%2058.%20最后一个单词的长度.md) |       |      | 
 |  | [38. 外观数列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/count-and-say/)  | [Leetcode 38. 外观数列.md](Leetcode/Leetcode%2038.%20外观数列.md) |       |      | 
 | 2020-10-27|||||
-|  | [144. 二叉树的前序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)  | [Leetcode-144. 二叉树的前序遍历.md](Leetcode/Leetcode-144.%20二叉树的前序遍历.md) |       |      | 
+|  | [144. 二叉树的前序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)  | [Leetcode 144. 二叉树的前序遍历.md](Leetcode/Leetcode 144.%20二叉树的前序遍历.md) |       |      | 
 |  | [869. 重新排序得到 2 的幂 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reordered-power-of-2/)  | [Leetcode 869. 重新排序得到 2 的幂.md](Leetcode/Leetcode%20869.%20重新排序得到%202%20的幂.md) |       |      | 
 |  |  [190. 颠倒二进制位 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-bits/) | [Leetcode 190. 颠倒二进制位.md](Leetcode/Leetcode%20190.%20颠倒二进制位.md) |       |      | 
 | 2020-10-29|||||
-|  | [124. 二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)  | [Leetcode-124. 二叉树中的最大路径和.md](Leetcode/Leetcode-124.%20二叉树中的最大路径和.md) |       |  更新了缓存节点结果的算法  | 
+|  | [124. 二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)  | [Leetcode 124. 二叉树中的最大路径和.md](Leetcode/Leetcode 124.%20二叉树中的最大路径和.md) |       |  更新了缓存节点结果的算法  | 
 |  | [543. 二叉树的直径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/diameter-of-binary-tree/)  | [Leetcode 543. 二叉树的直径.md](Leetcode/Leetcode%20543.%20二叉树的直径.md) |       |      | 
 | 2020-10-30|||||
 |  | [LCP 18. 早餐组合 - 力扣（LeetCode）](https://leetcode-cn.com/problems/2vYnGI/)  | [Leetcode LCP 18. 早餐组合.md](Leetcode/Leetcode%20LCP%2018.%20早餐组合.md) |       |      | 
 |  | [348. 判定井字棋胜负 - 力扣（LeetCode）](https://leetcode-cn.com/problems/design-tic-tac-toe/)   | [Leetcode 348. 判定井字棋胜负.md](Leetcode/Leetcode%20348.%20判定井字棋胜负.md) |       |      | 
 | 2020-10-31|||||
-|  | [41. 缺失的第一个正数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/first-missing-positive/)  | [Leetcode-41. 缺失的第一个正数.md](Leetcode/Leetcode-41.%20缺失的第一个正数.md) |       |   原地hash   | 
+|  | [41. 缺失的第一个正数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/first-missing-positive/)  | [Leetcode 41. 缺失的第一个正数.md](Leetcode/Leetcode 41.%20缺失的第一个正数.md) |       |   原地hash   | 
 |  |  [3. 无重复字符的最长子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [Leetcode 3. 无重复字符的最长子串.md](Leetcode/Leetcode%203.%20无重复字符的最长子串.md) |       |      | 
 
 

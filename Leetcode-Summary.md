@@ -336,7 +336,7 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 
 子串问题可以用 dp，有的题也可以用滑动窗口。
 
-1.  简单的dp [Leetcode-674. 最长连续递增序列.md](Leetcode/Leetcode-674.%20最长连续递增序列.md) 
+1.  简单的dp [Leetcode 674. 最长连续递增序列.md](Leetcode/Leetcode 674.%20最长连续递增序列.md) 
 
 2. [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)
 

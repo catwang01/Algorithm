@@ -92,14 +92,14 @@
 | | [590. N叉树的后序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) | | | |
 | 剑指offer | [二叉树的深度_牛客网](https://www.nowcoder.com/practice/435fb86331474282a3499955f0a41e8b?tpId=13&tqId=11191&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tPage=2) | | 看了关于颜色标记法的题目 | 
 | 2020-04-24 | |
-| Leetcode-剑指offer | [面试题51. 数组中的逆序对 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | | | 这个比较难 |
-| Leetcode-剑指offer | [面试题58 - I. 翻转单词顺序 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)| | | 滑动窗口 |
-| Leetcode-剑指offer | [面试题58 - II. 左旋转字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) | | | 很简单 |
-| Leetcode-剑指offer | [面试题61. 扑克牌中的顺子.md](Leetcode/Leetcode%20面试题61.%20扑克牌中的顺子.md)| | 没有什么知识点|
+| Leetcode 剑指offer | [面试题51. 数组中的逆序对 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | | | 这个比较难 |
+| Leetcode 剑指offer | [面试题58 - I. 翻转单词顺序 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)| | | 滑动窗口 |
+| Leetcode 剑指offer | [面试题58 - II. 左旋转字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) | | | 很简单 |
+| Leetcode 剑指offer | [面试题61. 扑克牌中的顺子.md](Leetcode/Leetcode%20面试题61.%20扑克牌中的顺子.md)| | 没有什么知识点|
 | 2020-04-25 | |
-| Leetcode-剑指offer | [Leetcode 343. 整数拆分.md](Leetcode/Leetcode%20343.%20整数拆分.md) | | ||
-| Leetcode-剑指offer | [Leetcode 160. 相交链表.md](Leetcode/Leetcode%20160.%20相交链表.md) | | ||
-| Leetcode-剑指offer | [面试题41. 数据流中的中位数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/) | [面试题41. 数据流中的中位数.md](Leetcode/面试题41.%20数据流中的中位数.md) | | 堆;二分法;中位数 |
+| Leetcode 剑指offer | [Leetcode 343. 整数拆分.md](Leetcode/Leetcode%20343.%20整数拆分.md) | | ||
+| Leetcode 剑指offer | [Leetcode 160. 相交链表.md](Leetcode/Leetcode%20160.%20相交链表.md) | | ||
+| Leetcode 剑指offer | [面试题41. 数据流中的中位数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/) | [面试题41. 数据流中的中位数.md](Leetcode/面试题41.%20数据流中的中位数.md) | | 堆;二分法;中位数 |
 | Nowcoder-剑指offer | [Nowcoder 两个链表的第一个公共结点.md](Leetcode/Nowcoder%20两个链表的第一个公共结点.md) | | ||
 | 2020-04-26 | | | |
 | | [Leetcode 21. 合并两个有序链表.md](Leetcode/Leetcode%2021.%20合并两个有序链表.md) | | 基础的链表题；注意设置头指针| 链表 |
@@ -108,7 +108,7 @@
 | Leetcode 周赛| [5180. 带限制的子序列和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/constrained-subset-sum/) | [Leetcode 5180. 带限制的子序列和.md](Leetcode/Leetcode%205180.%20带限制的子序列和.md) | | 单调队列 |
 | Leetcode 周赛| [5392. 分割字符串的最大得分 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/) | [Leetcode 5392. 分割字符串的最大得分.md](Leetcode/Leetcode%205392.%20分割字符串的最大得分.md) | | 这个比较简单。没有什么知识点 |
 | 推荐Leetcode 周赛| [5180. 带限制的子序列和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/constrained-subset-sum/) | | | 单调队列 |
-| Leetcode-剑指offer | [面试题41. 数据流中的中位数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/) | [Leetcode 面试题41. 数据流中的中位数.md](Leetcode/Leetcode%20面试题41.%20数据流中的中位数.md) | | 单调队列 |
+| Leetcode 剑指offer | [面试题41. 数据流中的中位数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/) | [Leetcode 面试题41. 数据流中的中位数.md](Leetcode/Leetcode%20面试题41.%20数据流中的中位数.md) | | 单调队列 |
 | 推荐 面试被问到了 | [25. K 个一组翻转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Leetcode 25. K 个一组翻转链表.md](Leetcode/Leetcode%2025.%20K%20个一组翻转链表.md) | 学到了断链操作 | 链表 |
 | 推荐 | [92. 反转链表 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list-ii/)| [Leetcode 92. 反转链表 II.md](Leetcode/Leetcode%2092.%20反转链表%20II.md) | | 链表 |
 | 2020-04-27 | | | |
@@ -121,12 +121,12 @@
 | 推荐！可以综合三个链表题的知识 |    [143. 重排链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reorder-list/) | [Leetcode 143. 重排链表.md](Leetcode/Leetcode%20143.%20重排链表.md) |       |   链表  |  
 | 比较推荐 |  [83. 删除排序链表中的重复元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [Leetcode 83. 删除排序链表中的重复元素.md](Leetcode/Leetcode%2083.%20删除排序链表中的重复元素.md) | 比较简单的链表  |   链表  |  
 | 比较推荐 |  [82. 删除排序链表中的重复元素 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) | [Leetcode 82. 删除排序链表中的重复元素 II.md](Leetcode/Leetcode%2082.%20删除排序链表中的重复元素%20II.md) |       |    链表  |       
-| Leetcode-剑指offer  | [面试题18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | [Leetcode 面试题18. 删除链表的节点.md](Leetcode/Leetcode%20面试题18.%20删除链表的节点.md) |       |    链表  |  
-| Leetcode-剑指offer| [面试题35. 复杂链表的复制 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/) | [Leetcode 面试题35. 复杂链表的复制.md](Leetcode/Leetcode%20面试题35.%20复杂链表的复制.md) |    这个比较难想到   |   链表 |     
+| Leetcode 剑指offer  | [面试题18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | [Leetcode 面试题18. 删除链表的节点.md](Leetcode/Leetcode%20面试题18.%20删除链表的节点.md) |       |    链表  |  
+| Leetcode 剑指offer| [面试题35. 复杂链表的复制 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/) | [Leetcode 面试题35. 复杂链表的复制.md](Leetcode/Leetcode%20面试题35.%20复杂链表的复制.md) |    这个比较难想到   |   链表 |     
 | | [86. 分隔链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-list/) | [Leetcode 86. 分隔链表.md](Leetcode/Leetcode%2086.%20分隔链表.md) |    注意断链！   |    链表  |  
 |   |  [234. 回文链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindrome-linked-list/)   | [Leetcode 234. 回文链表.md](Leetcode/Leetcode%20234.%20回文链表.md) |       |   链表   |     
 | 2020-04-28 | | | |
-| Leetcode-剑指offer | [面试题52. 两个链表的第一个公共节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/comments/) | [Leetcode 面试题52. 两个链表的第一个公共节点.md](Leetcode/Leetcode%20面试题52.%20两个链表的第一个公共节点.md) |   套路    |    链表  |   
+| Leetcode 剑指offer | [面试题52. 两个链表的第一个公共节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/comments/) | [Leetcode 面试题52. 两个链表的第一个公共节点.md](Leetcode/Leetcode%20面试题52.%20两个链表的第一个公共节点.md) |   套路    |    链表  |   
 | 面试题 |  [284. 顶端迭代器 - 力扣（LeetCode）](https://leetcode-cn.com/problems/peeking-iterator/) | [Leetcode 284. 顶端迭代器.md](Leetcode/Leetcode%20284.%20顶端迭代器.md) |       |      | 
 | 面试题 | [105. 从前序与中序遍历序列构造二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Leetcode 105. 从前序与中序遍历序列构造二叉树.md](Leetcode/Leetcode%20105.%20从前序与中序遍历序列构造二叉树.md) |       |      | 
 | 面试题 | [面试题45. 把数组排成最小的数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | [Leetcode 面试题45. 把数组排成最小的数.md](Leetcode/Leetcode%20面试题45.%20把数组排成最小的数.md) |       |      | 

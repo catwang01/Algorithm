@@ -44,9 +44,9 @@ class Solution:
         for i in range(n):
             if nums[i] > 0:
                 dpMax[i] = max(dpMax[i-1] * nums[i], nums[i])
-                dpMin[i] = dpMin[i-1] * nums[i]
+                dpMin[i] = min(dpMin[i-1] * nums[i], nums[i])
             else:
-                dpMax[i] = dpMin[i-1] * nums[i]
+                dpMax[i] = max(dpMin[i-1] * nums[i], nums[i])
                 dpMin[i] = min(dpMax[i-1] * nums[i], nums[i])
             ret = max(ret, dpMax[i])
         return ret
@@ -68,7 +68,7 @@ $$
 
 最终输出的值值需要在 imax 中求最大值就可以了。
 
-**这时不需要考虑正负号以及0。**
+**这时不需要考虑正负号0。**
 
 ##### 解法1: 实现2: c++
 
@@ -119,3 +119,5 @@ public:
 };
 ```
 
+# References
+1. [动态规划（理解无后效性） - 乘积最大子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/solution/dong-tai-gui-hua-li-jie-wu-hou-xiao-xing-by-liweiw/)
