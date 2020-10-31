@@ -23,6 +23,10 @@
 |  | [41. 缺失的第一个正数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/first-missing-positive/)  | [Leetcode 41. 缺失的第一个正数.md](Leetcode/Leetcode 41.%20缺失的第一个正数.md) |       |   原地hash   | 
 |  |  [3. 无重复字符的最长子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [Leetcode 3. 无重复字符的最长子串.md](Leetcode/Leetcode%203.%20无重复字符的最长子串.md) |       |      | 
 |  | [7. 整数反转 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-integer/) | [Leetcode 7. 整数反转.md](Leetcode/Leetcode%207.%20整数反转.md) |       |      | 
+| | [200. 岛屿数量 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-islands/) | [Leetcode/Leetcode 200. 岛屿数量.md](Leetcode/Leetcode%20200.%20岛屿数量.md) || bfs 或 并查集|
+|  | [8. 字符串转换整数 (atoi) - 力扣（LeetCode）](https://leetcode-cn.com/problems/string-to-integer-atoi/)  | [Leetcode 8. 字符串转换整数 (atoi).md](Leetcode/Leetcode%208.%20字符串转换整数%20(atoi).md) |       |      | 
+
+
 
 
 
