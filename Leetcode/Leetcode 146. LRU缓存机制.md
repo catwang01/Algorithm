@@ -118,3 +118,81 @@ class LRUCache:
             self.deque.push_back(key, val)
             self.history[key] = self.deque.tail()
 ```
+
+##### 解法1: 实现： c++
+
+```
+class LRUCache {
+public:
+    struct Node
+    {
+        Node *next, *last;
+        int key, val;
+        Node(int key=0, int val=0): key(key), val(val), next(nullptr), last(nullptr) {}
+    };
+    unordered_map<int, Node*> hash;
+    int capacity = 0;
+    int size = 0;
+    Node *head, *tail;
+
+    LRUCache(int capacity): capacity(capacity) {
+        head = new Node; tail = new Node;
+        head->next = tail;
+        tail->last = head;
+    }
+
+    ~LRUCache()
+    {
+        while (head==nullptr)
+        {
+            Node* delete_head = head;
+            head = head->next;
+            delete delete_head;
+        }
+    }
+
+    int empty() { return size==0;}
+    int full() { return size == capacity;}
+
+    void remove(Node* node)
+    {
+        node->last->next = node->next;
+        node->next->last = node->last;
+        hash.erase(node->key);
+        delete node;
+        size--;
+    }
+
+    void pop()
+    {
+        if (empty()) return;
+        remove(head->next);
+    }
+
+    void push(int key, int val)
+    {
+        if (full()) return;
+        Node* node = new Node(key, val);
+        tail->last->next = node; 
+        node->last = tail->last;
+        node->next = tail;
+        tail->last = node;
+        hash[key] = node;
+        size++;
+    }
+
+    int get(int key) {
+        if (hash.find(key)==hash.end()) return -1;
+        int val = hash[key]->val;
+        remove(hash[key]);
+        push(key, val);
+        return val;
+    }
+
+    void put(int key, int val) {
+        if (hash.find(key)!=hash.end()) remove(hash[key]);
+        else if (full()) pop();
+        push(key, val);
+    }
+};
+ ```
