@@ -11,4 +11,6 @@
 |  |  [445. 两数相加 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-two-numbers-ii/) | [Leetcode-445. 两数相加 II.md](Leetcode/Leetcode-445.%20两数相加%20II.md) |       |       链表 | 
 |  |  [116. 填充每个节点的下一个右侧节点指针 - 力扣（LeetCode）](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | [Leetcode 116. 填充每个节点的下一个右侧节点指针.md](Leetcode/Leetcode%20116.%20填充每个节点的下一个右侧节点指针.md) |       |      | 
 | | [94. 二叉树的中序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/submissions/) | [Leetcode 94. 二叉树的中序遍历.md](Leetcode/Leetcode%2094.%20二叉树的中序遍历.md) |      |     递归    |
+|  |  [98. 验证二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Leetcode 98. 验证二叉搜索树.md](Leetcode/Leetcode%2098.%20验证二叉搜索树.md) |       |      | 
+
 
