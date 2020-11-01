@@ -77,6 +77,8 @@ class TicTacToe:
 
 ### 解法2: 计数法改进
 
+解法1 每个 path 用有两个状态，一个是 player1，一个是 player2. 我们可以用压缩要只保存一个用符号来表示 player1 or player2.
+
 #### 解法2: 实现
 
 ##### 解法2: 实现1： python
