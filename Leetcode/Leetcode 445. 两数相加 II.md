@@ -158,41 +158,28 @@ public:
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        // 特判
-        if (l1==nullptr) return l2;
-        if (l2==nullptr) return l1;
-        
-        // 入栈
-        stack<ListNode*> s1, s2;
-        while (l1) {
-            s1.push(l1);
-            l1 = l1 -> next;
-        }
-        while (l2) {
-            s2.push(l2);
-            l2 = l2->next;
-        }
-        
-        
-        int carry = 0, val, val1, val2;
-        ListNode* tmpNode, *head = nullptr;
-        // 不断从 s1 和 s2 取出对应位相加。直到某个栈空
-        while (!s1.empty() || !s2.empty() || carry != 0) {
-            val1 = s1.empty() ? 0 : s1.top() -> val;
-            val2 = s2.empty() ? 0 : s2.top() -> val;
-            val = val1 + val2 + carry;
-            carry = val / 10;
-            val %= 10;
-            tmpNode = new ListNode(val);
-            tmpNode->next = head;
-            head = tmpNode;
-            if (!s1.empty()) s1.pop(); 
-            if (!s2.empty()) s2.pop();
+        stack<ListNode*> st1, st2;
+        while (l1) 
+        { st1.push(l1); l1 = l1->next; }
+        while (l2)
+        { st2.push(l2); l2 = l2->next; }
+        ListNode* head = NULL;
+        int s=0, carry=0;
+        while (st1.size() || st2.size() || carry)
+        {
+            s = 0;
+            s += carry;
+            if (st1.size()) { s += st1.top()->val; st1.pop(); }
+            if (st2.size()) { s += st2.top()->val; st2.pop(); }
+            carry = s / 10;
+            s %= 10;
+            ListNode* p = new ListNode(s);
+            p->next = head;
+            head = p;
         }
         return head;
     }
 };
-
 ```
 
 # References
