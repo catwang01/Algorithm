@@ -19,3 +19,6 @@
 | |  [Leetcode 4. 寻找两个正序数组的中位数.md](Leetcode/Leetcode%204.%20寻找两个正序数组的中位数.md%20) | [4. 寻找两个正序数组的中位数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) |  |       |      | 
 | | [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Leetcode 33. 搜索旋转排序数组.md](Leetcode/Leetcode%2033.%20搜索旋转排序数组.md) |       |  二分法   | 
 |  | [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/) | [Leetcode 56. 合并区间.md](Leetcode/Leetcode 56.%20合并区间.md) |   Leetcode 头条专栏    |   滑动窗口   | 
+| | [46. 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/)  | [Leetcode-46. 全排列.md](Leetcode/Leetcode-46.%20全排列.md) |   标准的回溯，懂套路之后很简单  |   回溯 |
+|  | [189. 旋转数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/rotate-array/)  | [Leetcode 189. 旋转数组.md](Leetcode/Leetcode%20189.%20旋转数组.md) |       |      | 
+
