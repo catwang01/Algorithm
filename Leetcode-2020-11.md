@@ -21,4 +21,6 @@
 |  | [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/) | [Leetcode 56. 合并区间.md](Leetcode/Leetcode 56.%20合并区间.md) |   Leetcode 头条专栏    |   滑动窗口   | 
 | | [46. 全排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/permutations/)  | [Leetcode-46. 全排列.md](Leetcode/Leetcode-46.%20全排列.md) |   标准的回溯，懂套路之后很简单  |   回溯 |
 |  | [189. 旋转数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/rotate-array/)  | [Leetcode 189. 旋转数组.md](Leetcode/Leetcode%20189.%20旋转数组.md) |       |      | 
+|  | [295. 数据流的中位数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-median-from-data-stream/)  | [Leetcode 295. 数据流的中位数.md](Leetcode/Leetcode%20295.%20数据流的中位数.md) |       |      | 
+
 
