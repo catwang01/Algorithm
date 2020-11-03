@@ -113,23 +113,24 @@ class Solution:
 ```
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        # window=[i, j)
-        i = j = 0
-        maxlen = 0
         n = len(s)
+        if n <= 1: return n
+        # [i, j)
         window = {}
-        while i < n:
+        i = j = 0
+        maxlen = 1
+        while j < n:
             while j < n and s[j] not in window:
                 window[s[j]] = j
                 j += 1
-            # j == n or s[j] in window
+            # j==n or s[j] in window
             maxlen = max(maxlen, j - i)
-            if j < n:
-                next_i = window[s[j]] + 1 # 下次 i 不包括第一个 s[j]，第一个 s[j] 的位置是 window[s[j]]。
+            if j != n: # s[j] in window
+                next_i = window[s[j]] + 1
                 for k in range(i, next_i):
                     del window[s[k]]
                 i = next_i
-            else:
-                break
+                window[s[j]] = j
+                j += 1
         return maxlen
 ```                 
