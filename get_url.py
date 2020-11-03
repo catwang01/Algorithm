@@ -1,5 +1,9 @@
 import subprocess
 import requests
+import os
+import sys
+
+current_root = os.path.dirname(__file__)
 
 def execute_cmd(cmd):
     completed_cmd = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE)
@@ -42,7 +46,10 @@ def getLink(output):
     # print(r.text)
 
 if __name__ == '__main__':
-    paths = ['/Users/ed/Git/Algorithm/Leetcode', "/Users/ed/Git/Algorithm/Nowcoder"] 
+    paths = [
+        os.path.join(current_root, 'Leetcode'), 
+        os.path.join(current_root, "Nowcoder")
+    ] 
 
     outputs = []
     for path in paths:
@@ -54,5 +61,9 @@ if __name__ == '__main__':
         output = '|  |   | [{description}]({url}) |       |      | '.format(description = description, url = url)
         outputs.append(output)
 
-    cmd = "echo '%s' | pbcopy" % '\n'.join(outputs)
-    execute_cmd(cmd)
+    if sys.platform == 'dawin':
+        copy_cmd = "pbcopy"
+        cmd = "echo '%s' | %s" % '\n'.join(outputs, copy_cmd)
+    else:
+        cmd = "echo '%s'" % '\n'.join(outputs)
+    print(execute_cmd(cmd))
