@@ -9,12 +9,12 @@
 
 ## 算法
 
-### 解法一：递归
+### 解法1：递归
 
 ![](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200925174823.png)
 
 
-#### 解法一python
+#### 解法1：实现1：python
 
 ```
 class Solution:
@@ -41,6 +41,38 @@ class Solution:
 
         _longestUnivaluePath(root)
         return num
+```
+
+#### 解法1:实现2:python
+
+```
+class Solution:
+    def longestUnivaluePath(self, root: TreeNode) -> int:
+        if not root: return 0
+
+        ret = 0
+        def postorder(node):
+            nonlocal ret
+            if not node: 
+                return 0
+
+            left = postorder(node.left)
+            if node.left and node.left.val == node.val:
+                left += 1
+            else:
+                left = 0
+            
+            right = postorder(node.right)
+            if node.right and node.right.val == node.val:
+                right += 1
+            else:
+                right = 0
+
+            ret = max(ret, left + right)
+            return max(left, right)
+        
+        postorder(root)
+        return ret
 ```
 
 ### 解法2: 转化为非递归
@@ -92,6 +124,3 @@ class Solution:
 
         return maxlen
 ```
-
-
-
