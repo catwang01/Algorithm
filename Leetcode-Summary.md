@@ -309,6 +309,8 @@
 
 4. [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees/)
 
+5. 难想到 [32. 最长有效括号 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-valid-parentheses/)
+
 ### 回文串相关
 
 [647. 回文子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindromic-substrings/)
