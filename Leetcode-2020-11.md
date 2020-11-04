@@ -26,3 +26,6 @@
 |  |  [3. 无重复字符的最长子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [Leetcode 3. 无重复字符的最长子串.md](Leetcode/Leetcode%203.%20无重复字符的最长子串.md) |       |      | 
 |  |  [365. 水壶问题 - 力扣（LeetCode）](https://leetcode-cn.com/problems/water-and-jug-problem/) | [Leetcode 365. 水壶问题.md](Leetcode/Leetcode%20365.%20水壶问题.md) |       |      | 
 |  |  [11. 盛最多水的容器 - 力扣（LeetCode）](https://leetcode-cn.com/problems/container-with-most-water/) | [Leetcode 11. 盛最多水的容器.md](Leetcode/Leetcode%2011.%20盛最多水的容器.md) |       |      | 
+|  |  [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/) | [Leetcode 300. 最长上升子序列.md](Leetcode/Leetcode%20300.%20最长上升子序列.md) |       |      | 
+
+

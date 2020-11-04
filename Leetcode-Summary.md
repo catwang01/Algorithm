@@ -5,7 +5,7 @@
 ## 贪心
 
 1. [11. 盛最多水的容器 - 力扣（LeetCode）](https://leetcode-cn.com/problems/container-with-most-water/)
-2. 
+2. [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/)
 
 ## 字符串
 
