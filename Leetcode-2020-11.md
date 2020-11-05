@@ -38,3 +38,5 @@
 |  |  [3. 无重复字符的最长子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [Leetcode 3. 无重复字符的最长子串.md](Leetcode/Leetcode%203.%20无重复字符的最长子串.md) |       |      | 
 | |  [25. K 个一组翻转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Leetcode 25. K 个一组翻转链表 - 力扣（LeetCode） ](Leetcode/Leetcode%2025.%20K%20个一组翻转链表.md)
 |  |  [687. 最长同值路径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-univalue-path/) | [Leetcode 687. 最长同值路径.md](Leetcode/Leetcode%20687.%20最长同值路径.md) |       |      | 
+| 2020-11-5|||||
+|  |  [42. 接雨水 - 力扣（LeetCode）](https://leetcode-cn.com/problems/trapping-rain-water/) | [Leetcode 42. 接雨水.md](Leetcode/Leetcode%2042.%20接雨水.md) |       |      | 
