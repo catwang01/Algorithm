@@ -516,3 +516,8 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 [470. 用 Rand7() 实现 Rand10() - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-rand10-using-rand7/)
 
+
+## 递归边界和直接返回不同
+
+[70. 爬楼梯 - 力扣（LeetCode）](https://leetcode-cn.com/problems/climbing-stairs/submissions/)
+
