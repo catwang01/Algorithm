@@ -61,7 +61,7 @@ if __name__ == '__main__':
         output = '|  |   | [{description}]({url}) |       |      | '.format(description = description, url = url)
         outputs.append(output)
 
-    if sys.platform == 'dawin':
+    if sys.platform == 'darwin':
         copy_cmd = "pbcopy"
         cmd = "echo '%s' | %s" % '\n'.join(outputs, copy_cmd)
     else:
