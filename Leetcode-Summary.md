@@ -370,6 +370,8 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 
 4. dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)
 
+5. [115. 不同的子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/distinct-subsequences/)
+
 #### 需要考虑多个状态
 
 1. 推荐：这个不太懂 [152. 乘积最大子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/submissions/) 
