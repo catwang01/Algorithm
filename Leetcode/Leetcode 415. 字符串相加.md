@@ -39,3 +39,30 @@ public:
     }
 };
 ```
+
+##### 解法1：实现：python
+
+```
+class Solution:
+    def addStrings(self, num1: str, num2: str) -> str:
+
+        st = []
+        n1, n2 = len(num1), len(num2)
+        i, j = n1 - 1, n2 - 1
+        carry = 0
+        while i >= 0 or j >= 0 or carry:
+            s = carry
+            if i >= 0:
+                s += ord(num1[i]) - ord('0')
+                i -= 1
+            if j >= 0:
+                s += ord(num2[j]) - ord('0')
+                j -= 1
+            carry = s // 10
+            s %= 10
+            st.append(str(s))
+        ret = ""
+        while st:
+            ret += st.pop()
+        return ret
+```
