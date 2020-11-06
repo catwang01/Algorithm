@@ -45,4 +45,5 @@
 |  | [948. 令牌放置 - 力扣（LeetCode）](https://leetcode-cn.com/problems/bag-of-tokens/)  | [Leetcode 948. 令牌放置.md](Leetcode/Leetcode%20948.%20令牌放置.md) |       |      | 
 | | [105. 从前序与中序遍历序列构造二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Leetcode 105. 从前序与中序遍历序列构造二叉树.md](Leetcode/Leetcode%20105.%20从前序与中序遍历序列构造二叉树.md) |       |      | 
 |  |  [226. 翻转二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/invert-binary-tree/) | [Leetcode 226. 翻转二叉树.md](Leetcode/Leetcode%20226.%20翻转二叉树.md) |       |      | 
-|  | [208. 实现 Trie (前缀树) - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)  | [Leetcode 208. 实现 Trie (前缀树).md](Leetcode/Leetcode 208.%20实现%20Trie%20(前缀树).md) |       |   trie   | 
+|  | [208. 实现 Trie (前缀树) - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)  | [Leetcode 208. 实现 Trie (前缀树).md](Leetcode/Leetcode%20208.%20实现%20Trie%20(前缀树).md) |       |   trie   | 
+|  |  [76. 最小覆盖子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-window-substring/) | [Leetcode 76. 最小覆盖子串.md](Leetcode/Leetcode%2076.%20最小覆盖子串.md) |       |      | 
