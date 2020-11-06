@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
     if sys.platform == 'darwin':
         copy_cmd = "pbcopy"
-        cmd = "echo '%s' | %s" % '\n'.join(outputs, copy_cmd)
+        cmd = "echo '{}' | {}".format('\n'.join(outputs), copy_cmd)
     else:
         cmd = "echo '%s'" % '\n'.join(outputs)
     print(execute_cmd(cmd))
