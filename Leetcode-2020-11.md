@@ -40,3 +40,9 @@
 |  |  [687. 最长同值路径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-univalue-path/) | [Leetcode 687. 最长同值路径.md](Leetcode/Leetcode%20687.%20最长同值路径.md) |       |      | 
 | 2020-11-5|||||
 |  |  [42. 接雨水 - 力扣（LeetCode）](https://leetcode-cn.com/problems/trapping-rain-water/) | [Leetcode 42. 接雨水.md](Leetcode/Leetcode%2042.%20接雨水.md) |       |      | 
+|剑指offer| [变态跳台阶_牛客网](https://www.nowcoder.com/practice/22243d016f6b47f2a6928b4313c85387?tpId=13&tqId=11162&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | | | dp，不难| 
+| 2020-11-6|||||
+|  | [948. 令牌放置 - 力扣（LeetCode）](https://leetcode-cn.com/problems/bag-of-tokens/)  | [Leetcode 948. 令牌放置.md](Leetcode/Leetcode%20948.%20令牌放置.md) |       |      | 
+| | [105. 从前序与中序遍历序列构造二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Leetcode 105. 从前序与中序遍历序列构造二叉树.md](Leetcode/Leetcode%20105.%20从前序与中序遍历序列构造二叉树.md) |       |      | 
+|  |  [226. 翻转二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/invert-binary-tree/) | [Leetcode 226. 翻转二叉树.md](Leetcode/Leetcode%20226.%20翻转二叉树.md) |       |      | 
+|  | [208. 实现 Trie (前缀树) - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)  | [Leetcode 208. 实现 Trie (前缀树).md](Leetcode/Leetcode 208.%20实现%20Trie%20(前缀树).md) |       |   trie   | 

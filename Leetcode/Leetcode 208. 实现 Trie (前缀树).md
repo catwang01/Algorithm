@@ -17,9 +17,10 @@
 
 ```
 class Node:
-    def __init__(self):
+    def __init__(self, val):
+        self.child = {}
+        self.val = val
         self.isword = False
-        self.next = {}
 
 class Trie:
 
@@ -27,45 +28,44 @@ class Trie:
         """
         Initialize your data structure here.
         """
-        self.root = Node()
-
+        self.root = Node('')
 
     def insert(self, word: str) -> None:
         """
         Inserts a word into the trie.
         """
-        n = len(word)
+        if word == "": return
         node = self.root
-        for i in range(n):
-            if word[i] not in node.next:
-                node.next[word[i]] = Node()
-            if i == n - 1:
-                node.next[word[i]].isword = True
-            node = node.next[word[i]]
-            
+        for ch in word:
+            if ch not in node.child:
+                node.child[ch] = Node(ch)
+            node = node.child[ch]
+        node.isword = True
 
     def search(self, word: str) -> bool:
         """
         Returns if the word is in the trie.
         """
-        n = len(word)
+        if word == "": return False
         node = self.root
-        for i in range(n):
-            if word[i] not in node.next:
+        for ch in word:
+            if ch in node.child:
+                node = node.child[ch]
+            else:
                 return False
-            if i == n - 1:
-                return node.next[word[i]].isword
-            node = node.next[word[i]]
+        return node.isword
+            
 
     def startsWith(self, prefix: str) -> bool:
         """
         Returns if there is any word in the trie that starts with the given prefix.
         """
-        n = len(prefix)
+        if prefix == "": return True
         node = self.root
-        for i in range(n):
-            if prefix[i] not in node.next:
+        for ch in prefix:
+            if ch in node.child:
+                node = node.child[ch]
+            else:
                 return False
-            node = node.next[prefix[i]]
         return True
 ```
