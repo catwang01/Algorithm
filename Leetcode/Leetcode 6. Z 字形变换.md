@@ -20,7 +20,7 @@ class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows == 1: return s
         n = len(s)
-        rows = ["" for i in range(numRows)]
+        rows = [""] * numRows
         row = 0
         UP, DOWN = 0, 1
         direction = UP
