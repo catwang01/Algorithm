@@ -50,4 +50,4 @@
 |  |  [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/) | [Leetcode 415. 字符串相加.md](Leetcode/Leetcode%20415.%20字符串相加.md) |       |   | 
 |  | [115. 不同的子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/distinct-subsequences/)  | [Leetcode 115. 不同的子序列.md](Leetcode/Leetcode%20115.%20不同的子序列.md) |       |      | 
 |  | [241. 为运算表达式设计优先级 - 力扣（LeetCode）](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/) | [Leetcode 241. 为运算表达式设计优先级.md](Leetcode/Leetcode%20241.%20为运算表达式设计优先级.md) |       |      | 
-
+|  | [491. 递增子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/increasing-subsequences/)  | [Leetcode 491. 递增子序列.md](Leetcode/Leetcode%20491.%20递增子序列.md) |       |      | 

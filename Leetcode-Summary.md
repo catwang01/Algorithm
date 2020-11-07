@@ -103,6 +103,7 @@
 7. [39. 组合总和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/combination-sum/)
 8. [77. 组合 - 力扣（LeetCode）](https://leetcode-cn.com/problems/combinations/submissions/)
 9. [种树_拼多多_2019校招真题在线编程_牛客网](https://www.nowcoder.com/practice/52f25c8a8d414f8f8fe46d4e62ef732c?tpId=98&tqId=32964&tPage=1&rp=1&ru=/ta/2019test&qru=/ta/2019test/question-ranking) 
+10. 这个去重的思路有些难 [491. 递增子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/increasing-subsequences/)
 
 ## 双指针
 
