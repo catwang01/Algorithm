@@ -52,4 +52,7 @@
 |  | [241. 为运算表达式设计优先级 - 力扣（LeetCode）](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/) | [Leetcode 241. 为运算表达式设计优先级.md](Leetcode/Leetcode%20241.%20为运算表达式设计优先级.md) |       |      | 
 |  | [491. 递增子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/increasing-subsequences/)  | [Leetcode 491. 递增子序列.md](Leetcode/Leetcode%20491.%20递增子序列.md) |       |      | 
 |  | [6. Z 字形变换 - 力扣（LeetCode）](https://leetcode-cn.com/problems/zigzag-conversion/) | [Leetcode 6. Z 字形变换](Leetcode/Leetcode%206.%20Z%20字形变换.md) |       |      | 
+|  |  [962. 最大宽度坡 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-width-ramp/) | [Leetcode 962. 最大宽度坡.md](Leetcode/Leetcode%20962.%20最大宽度坡.md) |       |      | 
+
+
 
