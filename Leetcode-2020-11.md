@@ -53,6 +53,4 @@
 |  | [491. 递增子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/increasing-subsequences/)  | [Leetcode 491. 递增子序列.md](Leetcode/Leetcode%20491.%20递增子序列.md) |       |      | 
 |  | [6. Z 字形变换 - 力扣（LeetCode）](https://leetcode-cn.com/problems/zigzag-conversion/) | [Leetcode 6. Z 字形变换](Leetcode/Leetcode%206.%20Z%20字形变换.md) |       |      | 
 |  |  [962. 最大宽度坡 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-width-ramp/) | [Leetcode 962. 最大宽度坡.md](Leetcode/Leetcode%20962.%20最大宽度坡.md) |       |      | 
-
-
-
+|  | [1209. 删除字符串中的所有相邻重复项 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/)  | [Leetcode 1209. 删除字符串中的所有相邻重复项 II.md](Leetcode/Leetcode%201209.%20删除字符串中的所有相邻重复项%20II.md) |       |      | 
