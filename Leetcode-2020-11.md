@@ -67,3 +67,4 @@
 |  | [198. 打家劫舍 - 力扣（LeetCode）](https://leetcode-cn.com/problems/house-robber/submissions/)  | [Leetcode 198. 打家劫舍.md](Leetcode/Leetcode%20198.%20打家劫舍.md) |       |      | 
  |  | [1027. 最长等差数列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-arithmetic-sequence/)  | [Leetcode 1027. 最长等差数列.md](Leetcode/Leetcode%201027.%20最长等差数列.md) |       |      | 
 |  | [673. 最长递增子序列的个数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/)  | [Leetcode 673. 最长递增子序列的个数.md](Leetcode/Leetcode%20673.%20最长递增子序列的个数.md) |       |      | 
+|  | [32. 最长有效括号 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [Leetcode 32. 最长有效括号.md](Leetcode/Leetcode%2032.%20最长有效括号.md) |       |      | 
