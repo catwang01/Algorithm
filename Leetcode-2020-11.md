@@ -61,3 +61,4 @@
 | 面试题 | [105. 从前序与中序遍历序列构造二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Leetcode 105. 从前序与中序遍历序列构造二叉树.md](Leetcode/Leetcode%20105.%20从前序与中序遍历序列构造二叉树.md) |       |      | 
 |  | [145. 二叉树的后序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)  | [Leetcode 145. 二叉树的后序遍历.md](Leetcode/Leetcode 145.%20二叉树的后序遍历.md) |       |      | 
 |  |  [117. 填充每个节点的下一个右侧节点指针 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/) | [Leetcode 117. 填充每个节点的下一个右侧节点指针 II.md](Leetcode/Leetcode%20117.%20填充每个节点的下一个右侧节点指针%20II.md) |       |      | 
+|  |  [384. 打乱数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shuffle-an-array/) | [Leetcode 384. 打乱数组.md](Leetcode/Leetcode%20384.%20打乱数组.md) |       |      | 
