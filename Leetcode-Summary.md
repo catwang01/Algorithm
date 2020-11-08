@@ -373,6 +373,8 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 
 2. [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/)
 
+3. [673. 最长递增子序列的个数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/) 
+
 4. dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)
 
 5. [115. 不同的子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/distinct-subsequences/)

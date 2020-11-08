@@ -66,4 +66,4 @@
 |  | [791. 自定义字符串排序 - 力扣（LeetCode）](https://leetcode-cn.com/problems/custom-sort-string/)  | [Leetcode 791. 自定义字符串排序.md](Leetcode/Leetcode%20791.%20自定义字符串排序.md) |       |      | 
 |  | [198. 打家劫舍 - 力扣（LeetCode）](https://leetcode-cn.com/problems/house-robber/submissions/)  | [Leetcode 198. 打家劫舍.md](Leetcode/Leetcode%20198.%20打家劫舍.md) |       |      | 
  |  | [1027. 最长等差数列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-arithmetic-sequence/)  | [Leetcode 1027. 最长等差数列.md](Leetcode/Leetcode%201027.%20最长等差数列.md) |       |      | 
-|  |   | [Nowcoder 质数因子.md](Leetcode/Nowcoder%20质数因子.md) |       |      | 
+|  | [673. 最长递增子序列的个数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/)  | [Leetcode 673. 最长递增子序列的个数.md](Leetcode/Leetcode%20673.%20最长递增子序列的个数.md) |       |      | 
