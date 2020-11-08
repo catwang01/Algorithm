@@ -97,7 +97,7 @@ class Solution {
 public:
     // nums[i] < nums[j] 时返回 true 否则返回 false
     // 可以处理下标越界时的比较问题
-    bool safecmp(int i, int j, vector<int>& nums) {
+    bool safe_less(int i, int j, vector<int>& nums) {
         int n = nums.size();
         if (i<0) return true;
         if (j>=n) return false;
@@ -109,10 +109,10 @@ public:
         int low = 0, high = n-1;
         while (low <= high) {
             int mid = low + (high - low >> 1);
-            if (safecmp(mid, mid+1, nums)) {
+            if (safe_less(mid, mid+1, nums)) {
                 low = mid + 1;
             } else {
-                if (safecmp(mid-1, mid, nums)) {
+                if (safe_less(mid-1, mid, nums)) {
                     return mid;
                 } else {
                     high = mid - 1;
@@ -122,4 +122,29 @@ public:
         return -1;
     }
 };
+```
+
+##### 解法2:实现：python
+
+```
+class Solution:
+    def findPeakElement(self, nums: List[int]) -> int:
+
+        def safe_less(i, j): # return the result of nums[i] < nums[j]
+            if i < 0: return True
+            if j >= len(nums): return False
+            return nums[i] < nums[j]
+
+        low, high = 0, len(nums)
+        while high - low > 2:
+            mid = (low + high) // 2
+            if safe_less(mid, mid+1):
+                low = mid + 1
+            elif safe_less(mid-1, mid):
+                return mid
+            else:
+                high = mid
+        if safe_less(high-2, high-1) and not safe_less(high-1, high):
+            return high - 1
+        return low
 ```
