@@ -57,3 +57,4 @@
 |  | [1209. 删除字符串中的所有相邻重复项 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/)  | [Leetcode 1209. 删除字符串中的所有相邻重复项 II.md](Leetcode/Leetcode%201209.%20删除字符串中的所有相邻重复项%20II.md) |       |      | 
 | 2020-11-8|||||
 |  |  [162. 寻找峰值 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-peak-element/) | [Leetcode 162. 寻找峰值.md](Leetcode/Leetcode%20162.%20寻找峰值.md) |       |      | 
+|  |  [64. 最小路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-path-sum/submissions/) | [Leetcode 64. 最小路径和.md](Leetcode/Leetcode%2064.%20最小路径和.md) |       |      | 
