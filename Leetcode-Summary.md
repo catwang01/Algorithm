@@ -80,7 +80,11 @@
 
 [200. 岛屿数量 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-islands/)
 
+### 多源 bfs
+
 [542. 01 矩阵 - 力扣（LeetCode）](https://leetcode-cn.com/problems/01-matrix/)
+
+[1162. 地图分析 - 力扣（LeetCode）](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)
 
 ### 状态图搜索
 

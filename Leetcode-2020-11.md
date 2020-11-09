@@ -74,3 +74,5 @@
 |  | [581. 最短无序连续子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)  | [Leetcode 581. 最短无序连续子数组.md](Leetcode/Leetcode%20581.%20最短无序连续子数组.md) |       |      | 
 |  |  [1497. 检查数组对是否可以被 k 整除 - 力扣（LeetCode）](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/) | [Leetcode 1497. 检查数组对是否可以被 k 整除.md](Leetcode/Leetcode%201497.%20检查数组对是否可以被%20k%20整除.md) |       |      | 
 |  |  [542. 01 矩阵 - 力扣（LeetCode）](https://leetcode-cn.com/problems/01-matrix/) | [Leetcode 542. 01 矩阵.md](Leetcode/Leetcode%20542.%2001%20矩阵.md) |       |      | 
+|  |  [1162. 地图分析 - 力扣（LeetCode）](https://leetcode-cn.com/problems/as-far-from-land-as-possible/) | [Leetcode 1162. 地图分析.md](Leetcode/Leetcode%201162.%20地图分析.md) |       |      | 
+
