@@ -80,6 +80,8 @@
 
 [200. 岛屿数量 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-islands/)
 
+[542. 01 矩阵 - 力扣（LeetCode）](https://leetcode-cn.com/problems/01-matrix/)
+
 ### 状态图搜索
 
 1. [433. 最小基因变化 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
