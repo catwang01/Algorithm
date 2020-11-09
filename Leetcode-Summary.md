@@ -501,7 +501,7 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 [LCP 18. 早餐组合 - 力扣（LeetCode）](https://leetcode-cn.com/problems/2vYnGI/)
 
-## 单调队列
+## 单调队列 && 单调栈
 
 1. [Leetcode 84. 柱状图中最大的矩形](https://app.yinxiang.com/shard/s54/nl/22483756/1816c0ef-b978-40ff-aeaf-170478c29d35/)
 
@@ -522,6 +522,8 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 8. [1019. 链表中的下一个更大节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/)
 
 9. [901. 股票价格跨度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/online-stock-span/)
+
+10. 利用单调栈求最左边第一个小于 nums[i] 的值和右边第一个大于 nums[i] 的值 [581. 最短无序连续子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)
 
 ## 圆圈相关
 
