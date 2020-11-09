@@ -160,6 +160,8 @@
 
 1. 推荐 [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)
 
+2. [1497. 检查数组对是否可以被 k 整除 - 力扣（LeetCode）](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/)
+
 ### 桶思想与抽屉原理
 
 1. [面试题03. 数组中重复的数字 题解 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/solution/)
