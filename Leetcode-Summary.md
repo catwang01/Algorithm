@@ -121,11 +121,14 @@
 
 7. 不那么双指针的双指针 [面试题58 - I. 翻转单词顺序 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)
 
-### 快拍思路
+### 快排
 
 1. 类似于快排中的双指针，只不过数组被分成三部分，而快排中是两部分 [75. 颜色分类 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-colors/)
 
 2. [80. 删除排序数组中的重复项 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
+
+3. 快速选择 [973. 最接近原点的 K 个点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/k-closest-points-to-origin/submissions/)
+
 
 ### 滑动窗口
 
