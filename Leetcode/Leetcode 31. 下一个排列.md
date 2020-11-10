@@ -22,6 +22,8 @@
 
 时间复杂度：$O(n)$，find 函数的部分可以写成二分查找，但是总的时间复杂度不变。
 
+##### 解法1: 实现： c++
+
 ```
 class Solution {
 public:
@@ -64,4 +66,49 @@ public:
         }
     }
 };
+```
+
+##### 解法1: 实现：python
+
+```
+class Solution:
+    def nextPermutation(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        n = len(nums)
+        j = n - 1
+        while j >= 1 and nums[j-1] >= nums[j]:
+            j -= 1
+        # j < 1 or nums[j-1] < nums[j]
+        if j == 0: # j < 1
+            self.reverse(nums, 0, n)
+            return
+        print(j)
+        # nums[j-1] < nums[j] 
+        # [j, n) 逆序
+        i = self.bisearch(nums, j, n, nums[j-1])
+        print(i)
+        nums[i], nums[j-1] = nums[j-1], nums[i]
+        self.reverse(nums, j, n)
+
+    def bisearch(self, A, low, high, x):
+        # A reverese order 
+        #  A[i] > x and A[i+1] <= x 
+        while high - low > 2:
+            mid = (low + high) // 2
+            if A[mid] > x:
+                low = mid
+            else:
+                high = mid
+        if A[high-1] > x:
+            return high - 1
+        return low
+
+    def reverse(self, A, low, high):
+        i, j = low, high-1
+        while i < j:
+            A[i], A[j] = A[j], A[i]
+            i += 1
+            j -= 1
 ```
