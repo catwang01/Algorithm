@@ -89,6 +89,7 @@
 |  | [452. 用最少数量的箭引爆气球 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)  | [Leetcode 452. 用最少数量的箭引爆气球.md](Leetcode/Leetcode%20452.%20用最少数量的箭引爆气球.md) |       |      | 
 |  | [55. 跳跃游戏 - 力扣（LeetCode）](https://leetcode-cn.com/problems/jump-game/)  | [Leetcode 55. 跳跃游戏.md](Leetcode/Leetcode%2055.%20跳跃游戏.md) |       |      | 
 |  | [1024. 视频拼接 - 力扣（LeetCode）](https://leetcode-cn.com/problems/video-stitching/)  | [Leetcode 1024. 视频拼接.md](Leetcode/Leetcode%201024.%20视频拼接.md) |       |      | 
+|  | [45. 跳跃游戏 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/jump-game-ii/)  | [Leetcode 45. 跳跃游戏 II.md](Leetcode/Leetcode%2045.%20跳跃游戏%20II.md) |       |      | 
 
 
 
