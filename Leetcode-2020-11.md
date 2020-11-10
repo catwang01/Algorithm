@@ -78,6 +78,6 @@
 |  | [994. 腐烂的橘子 - 力扣（LeetCode）](https://leetcode-cn.com/problems/rotting-oranges/)  | [Leetcode 994. 腐烂的橘子.md](Leetcode/Leetcode%20994.%20腐烂的橘子.md) |       |      | 
 |  | [48. 旋转图像 - 力扣（LeetCode）](https://leetcode-cn.com/problems/rotate-image/)  | [Leetcode 48. 旋转图像.md](Leetcode/Leetcode%2048.%20旋转图像.md) |       |      | 
 |  |  [1029. 两地调度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-city-scheduling/) | [Leetcode 1029. 两地调度.md](Leetcode/Leetcode%201029.%20两地调度.md) |       |      | 
-
+| 面试题 todo | [470. 用 Rand7() 实现 Rand10() - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) | [Leetcode 470. 用 Rand7() 实现 Rand10().md](Leetcode/Leetcode%20470.%20用%20Rand7()%20实现%20Rand10().md) |       |      | 
 
 
