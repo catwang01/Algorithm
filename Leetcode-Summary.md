@@ -28,6 +28,12 @@
 
 4. 很标准的贪心 [1029. 两地调度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-city-scheduling/)
 
+5. [452. 用最少数量的箭引爆气球 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+
+6.  和上一题有些相似 [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/)
+
+7. [1405. 最长快乐字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-happy-string/)
+
 ## 字符串
 
 1. 比较简单 [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/)
@@ -55,11 +61,6 @@
 [1386. 安排电影院座位 - 力扣（LeetCode）](https://leetcode-cn.com/problems/cinema-seat-allocation/)
 
 [不用算术运算符实现整数的加减乘除运算_牛客网](https://www.nowcoder.com/practice/7c478cdfbacb4fd38ca063aa2ac35b6f?tpId=101&tags=&title=&diffculty=0&judgeStatus=0&rp=1&ru=/activity/oj&qru=/ta/programmer-code-interview-guide/question-ranking)
-
-## 贪心
-
-1. [1405. 最长快乐字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-happy-string/)
-2.  [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/)
 
 ## 并查集
 
