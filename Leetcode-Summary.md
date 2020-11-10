@@ -10,6 +10,8 @@
 
 3. [948. 令牌放置 - 力扣（LeetCode）](https://leetcode-cn.com/problems/bag-of-tokens/)
 
+4. 很标准的贪心 [1029. 两地调度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-city-scheduling/)
+
 ## 字符串
 
 1. 比较简单 [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/)
