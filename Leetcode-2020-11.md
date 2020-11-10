@@ -80,5 +80,4 @@
 |  |  [1029. 两地调度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-city-scheduling/) | [Leetcode 1029. 两地调度.md](Leetcode/Leetcode%201029.%20两地调度.md) |       |      | 
 | 面试题 todo | [470. 用 Rand7() 实现 Rand10() - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) | [Leetcode 470. 用 Rand7() 实现 Rand10().md](Leetcode/Leetcode%20470.%20用%20Rand7()%20实现%20Rand10().md) |       |      | 
 |  | [31. 下一个排列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-permutation/)  | [Leetcode 31. 下一个排列.md](Leetcode/Leetcode%2031.%20下一个排列.md) |       |      | 
-
-
+|  | [648. 单词替换 - 力扣（LeetCode）](https://leetcode-cn.com/problems/replace-words/)  | [Leetcode 648. 单词替换.md](Leetcode/Leetcode 648.%20单词替换.md) |       |   trie   | 

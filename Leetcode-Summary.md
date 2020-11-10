@@ -2,6 +2,11 @@
 
 # Leetcode 题目分类总结
 
+## Trie 字典树 前缀树
+
+
+[648. 单词替换 - 力扣（LeetCode）](https://leetcode-cn.com/problems/replace-words/)
+
 ## 贪心
 
 1. [11. 盛最多水的容器 - 力扣（LeetCode）](https://leetcode-cn.com/problems/container-with-most-water/)

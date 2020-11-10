@@ -16,52 +16,48 @@
 ##### 解法1: python
 
 ```
-class Solution:
-def replaceWords(self, d: List[str], sentence: str) -> str:
-    trie = Trie()
-    for prefix in d:
-        trie.insert(prefix)
-
-    split_sentence = sentence.split()
-    for i in range(len(split_sentence)):
-        ret = trie.prefix(split_sentence[i])
-        if ret != "":
-            split_sentence[i] = ret
-    return " ".join(split_sentence)
-
-
 class Node:
-def __init__(self, val):
-    self.next = {}
-    self.isword = False
-    self.val = val
+    def __init__(self, val):
+        self.next = {}
+        self.val = val
+        self.isword = False
 
 class Trie:
-def __init__(self):
-    self.root = Node("")
 
-def insert(self, word):
-    n = len(word)
-    node = self.root
-    for i in range(n):
-        if word[i] not in node.next:
-            node.next[word[i]] = Node(word[i])
-        if i == n - 1:
-            node.next[word[i]].isword = True
-        node = node.next[word[i]]
+    def __init__(self):
+        self.root = Node("")
 
-def prefix(self, word):
-    n = len(word)
-    node = self.root
-    for i in range(n):
-        if word[i] not in node.next:
-            return ""
-        else:
-            if node.next[word[i]].isword:
-                return word[:i+1]
-        node = node.next[word[i]]
-    return ""
+    def add(self, word):
+        node = self.root
+        for ch in word:
+            if ch not in node.next:
+                node.next[ch] = Node(ch)
+            node = node.next[ch]
+        node.isword = True
+
+    def findPrefix(self, word):
+        # if find Prefix, return it; if not, return word
+        node = self.root
+        for i in range(len(word)):
+            ch = word[i]
+            if ch in node.next:
+                node = node.next[ch]
+                if node.isword: 
+                    return word[:i+1]
+            else: 
+                return word
+        return word
+        
+
+class Solution:
+    def replaceWords(self, dictionary: List[str], sentence: str) -> str:
+        words = sentence.split(" ")
+        trie = Trie()
+        for word in dictionary:
+            trie.add(word)
+    
+        for i in range(len(words)):
+            words[i] = trie.findPrefix(words[i])
+        
+        return " ".join(words)
 ```
-
-
-
