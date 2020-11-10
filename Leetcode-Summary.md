@@ -11,6 +11,9 @@
 
 [212. 单词搜索 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/word-search-ii/)
 
+[211. 添加与搜索单词 - 数据结构设计 - 力扣（LeetCode）](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/)
+
+
 ## 贪心
 
 1. [11. 盛最多水的容器 - 力扣（LeetCode）](https://leetcode-cn.com/problems/container-with-most-water/)
