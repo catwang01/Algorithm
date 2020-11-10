@@ -85,5 +85,6 @@
 |  | [720. 词典中最长的单词 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-word-in-dictionary/)  | [Leetcode 720. 词典中最长的单词.md](Leetcode/Leetcode%20720.%20词典中最长的单词.md) |       |      | 
 |  | [212. 单词搜索 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/word-search-ii/)  | [Leetcode 212. 单词搜索 II.md](Leetcode/Leetcode%20212.%20单词搜索%20II.md) |       |      | 
 |  |  [211. 添加与搜索单词 - 数据结构设计 - 力扣（LeetCode）](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/) | [Leetcode 211. 添加与搜索单词 - 数据结构设计.md](Leetcode/Leetcode%20211.%20添加与搜索单词%20-%20数据结构设计.md) |       |      | 
+|  |  [877. 石子游戏 - 力扣（LeetCode）](https://leetcode-cn.com/problems/stone-game/) | [Leetcode 877. 石子游戏.md](Leetcode/Leetcode%20877.%20石子游戏.md) |       |      | 
 
 

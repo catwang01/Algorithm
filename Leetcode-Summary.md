@@ -2,6 +2,10 @@
 
 # Leetcode 题目分类总结
 
+## 博弈论
+
+[877. 石子游戏 - 力扣（LeetCode）](https://leetcode-cn.com/problems/stone-game/)
+
 ## Trie 字典树 前缀树
 
 
