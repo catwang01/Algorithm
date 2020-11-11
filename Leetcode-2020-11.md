@@ -94,7 +94,8 @@
 |  | [59. 螺旋矩阵 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/spiral-matrix-ii/)  | [Leetcode 59. 螺旋矩阵 II.md](Leetcode/Leetcode%2059.%20螺旋矩阵%20II.md) |       |      | 
 |  | [18. 四数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/4sum/)   | [Leetcode 18. 四数之和.md](Leetcode/Leetcode%3018.%20四数之和.md) |       |      | 
 |  | [312. 戳气球 - 力扣（LeetCode）](https://leetcode-cn.com/problems/burst-balloons/)| [Leetcode 312. 戳气球.md](Leetcode/Leetcode%20312.%20戳气球.md) |       |      | 
-
+|  | [199. 二叉树的右视图 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-right-side-view/)  | [Leetcode 199. 二叉树的右视图.md](Leetcode/Leetcode%20199.%20二叉树的右视图.md) |       |      | 
+|  | [821. 字符的最短距离 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)  | [Leetcoce 821. 字符的最短距离.md](Leetcode/Leetcoce%20821.%20字符的最短距离.md) |       |      | 
 
 
 

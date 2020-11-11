@@ -2,6 +2,11 @@
 
 # Leetcode 题目分类总结
 
+
+## 左右两个方向算两次
+
+[821. 字符的最短距离 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)
+
 ## 博弈论
 
 [877. 石子游戏 - 力扣（LeetCode）](https://leetcode-cn.com/problems/stone-game/)
@@ -112,6 +117,8 @@
 [1162. 地图分析 - 力扣（LeetCode）](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)
 
 [994. 腐烂的橘子 - 力扣（LeetCode）](https://leetcode-cn.com/problems/rotting-oranges/)
+
+[821. 字符的最短距离 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)
 
 ### 状态图搜索
 
