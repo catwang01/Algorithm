@@ -354,11 +354,11 @@
 
 2. [1218. 最长定差子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/)
 
-3. [44. 通配符匹配 - 力扣（LeetCode）](https://leetcode-cn.com/problems/wildcard-matching/)
-
 4. [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees/)
 
 5. 难想到 [32. 最长有效括号 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-valid-parentheses/)
+
+6. [312. 戳气球 - 力扣（LeetCode）](https://leetcode-cn.com/problems/burst-balloons/)
 
 ### 回文串相关
 
