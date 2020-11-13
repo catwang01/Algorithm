@@ -64,3 +64,30 @@ public:
     }
 };
 ```
+
+##### 解法2:实现：python
+
+```
+class Solution:
+    def oddEvenList(self, head: ListNode) -> ListNode:
+        if not head: return head
+        evenHead = ListNode()
+        oddHead = ListNode()
+        pEven = evenHead
+        pOdd = oddHead
+        i = 1
+        while head:
+            if i % 2 == 0:
+                pEven.next = head
+                pEven = pEven.next
+                head = head.next
+                pEven.next = None
+            else:
+                pOdd.next = head
+                pOdd = pOdd.next
+                head = head.next
+                pOdd.next = None
+            i += 1
+        pOdd.next = evenHead.next
+        return oddHead.next
+```
