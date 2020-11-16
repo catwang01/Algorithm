@@ -94,6 +94,41 @@ public:
 };
 ```
 
+##### 解法2: 实现：python
+
+```
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        # strip head
+        start = 0
+        while start < len(s) and s[start] == ' ':
+            start += 1
+        # s[start]!= ' '
+
+        # strip tails
+        end = len(s)
+        while end - 1 >= 0 and s[end-1] == ' ':
+            end -= 1
+
+        # [start, end) 这里有效
+        i = start
+        st = []
+        while i < end:
+            j = i
+            while j < end and s[j] != ' ':
+                j += 1
+            st.append(s[i:j])
+            while j < end and s[j] == ' ':
+                j += 1
+            i = j
+
+        ret = ""
+        while st:
+            ret += st.pop() + " "
+
+        return ret[:len(ret)-1]
+```
+
 ### 解法3:stack
 
 #### 解法3:实现
