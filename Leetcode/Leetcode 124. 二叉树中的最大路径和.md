@@ -70,7 +70,7 @@ public:
 
 ### 解法2: postorder 非递归
 
-#### 解法2: postorder 实现1
+#### 解法2: postorder 实现1 使用 hashtab 保存结果
 
 ##### 解法2: postorder：c++
 
@@ -139,11 +139,9 @@ class Solution:
         return ret
 ```
 
-### 解法3: 非递归 使用结果栈缓存左右节点的结果
+#### 解法2: 实现2: 非递归 使用结果栈缓存左右节点的结果
 
-#### 解法3: 实现
-
-##### 解法3: 实现 python
+##### 解法2: 实现2: python
 
 ```
 class Solution:
