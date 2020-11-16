@@ -101,3 +101,4 @@
 |  | [688. “马”在棋盘上的概率 - 力扣（LeetCode）](https://leetcode-cn.com/problems/knight-probability-in-chessboard/)  | [Leetcode 688. “马”在棋盘上的概率.md](Leetcode/Leetcode 688.%20“马”在棋盘上的概率.md) |       |      | 
 | 2020-07-20|        |        |      |        |
 |  | [167. 两数之和 II - 输入有序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [Leetcode 167. 两数之和 II - 输入有序数组.md](Leetcode/Leetcode 167.%20两数之和%20II%20-%20输入有序数组.md) |       |      | 
+| | [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)  | [Leetcode 1. 两数之和.md](Leetcode/Leetcode 1.%20两数之和.md) |       |    hash  | 

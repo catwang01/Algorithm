@@ -114,7 +114,7 @@ public:
 
 需要注意的点：
 1. 对index排序，而不是对 nums 本身排序
- 2. 要防止 left==right 情况的出现。实际上，如果可以保证nums 中一定有两个数之和为 target 时，不可能出现 left==right 的情况。因为在 left == right 之前就返回了。但是，如果不能保证nums 中 一定有两个数之和为 target 时，还是应该防止 left ==right 情况的出现。
+ 2. 要防止 `left==right` 情况的出现。实际上，如果可以保证nums 中一定有两个数之和为 target 时，不可能出现 `left==right` 的情况。因为在 `left == right` 之前就返回了。但是，如果不能保证nums 中 一定有两个数之和为 target 时，还是应该防止 `left ==right` 情况的出现。
 
 #### 解法3: 实现
 
