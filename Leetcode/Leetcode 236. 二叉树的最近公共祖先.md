@@ -158,6 +158,7 @@ right = lowestCommonAncestor(root.right, p, q)
 空间复杂度： $O(n)$，最坏情况下栈深为 N
 
 #### 解法3: 实现
+
 ##### 解法3: python
 
 ```
@@ -184,42 +185,32 @@ class Solution:
 ```
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        if root is None:
-            return None
+        
         st = []
         lastprocessed = None
-        pAncestor, qAncestor = None, None
-        finished = 0
+        pparents, qparents = None, None
         while root or st:
             while root:
                 st.append(root)
                 root = root.left
             root = st[-1]
             if root.right is None or root.right == lastprocessed:
-                if root is p:
-                    pAncestor = st[:]
-                    finished += 1
-                if root is q:
-                    qAncestor = st[:]
-                    finished += 1
-                if finished == 2:
-                    break
-                # 因为 p 和 q 都有可能成为最近公共祖先，因此 pAncestor 和 qAncestor 中包含 p 和 q
-                st.pop()
+                # postorder processing
+                if root == p:
+                    pparents = st[:]
+                if root == q:
+                    qparents = st[:]
+                if pparents and qparents:
+                    i = 0
+                    while i < min(len(pparents), len(qparents)) and pparents[i] == qparents[i]:
+                        i += 1
+                    return pparents[i-1]
                 lastprocessed = root
+                st.pop()
                 root = None
             else:
                 root = root.right
-
-        length = min(len(pAncestor), len(qAncestor))
-        if pAncestor and qAncestor:
-            for i in range(length):
-                if pAncestor[i] != qAncestor[i]:
-                    if i == 0:
-                        return None
-                    else:
-                        return pAncestor[i-1]
-        return pAncestor[length-1]
+        return None
 ```
         
 # References

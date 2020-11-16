@@ -23,37 +23,96 @@
 
 ### 解法一：双指针
 
-#### 解法一python
+##### 解法1: 实现：python
 
 ```
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        n = len(nums)
-        if n <= 2: return []
-        ret = []
         nums.sort()
         i = 0
-        while i < n - 2:
-            j = i + 1
-            k = n - 1
+        n = len(nums)
+        ret = []
+
+        def next_bigger(i):
+            while i + 1 < len(nums) and nums[i] == nums[i+1]:
+                i += 1
+            i += 1
+            return i
+        
+        def next_smaller(j):
+            while j - 1 >= 0 and nums[j-1] == nums[j]:
+                j -= 1
+            j -= 1
+            return j
+
+        while i < n:
+            j, k = i + 1, n - 1
             while j < k:
                 s = nums[i] + nums[j] + nums[k]
-                if s <= 0:
-                    if s == 0:
-                        ret.append([nums[i], nums[j], nums[k]])
-                    while j+1 < k and nums[j] == nums[j+1]:
-                        j += 1
-                    j += 1
-                else:
-                    while j < k-1 and nums[k] == nums[k-1]:
-                        k -= 1
-                    k -= 1
-
-            # i 在更新的时候要选择下一个不同的值
-            while i + 1 < n and nums[i] == nums[i+1]:
-                i += 1
-            # 此时 i + 1 == n or nums[i] != nums[i+1]
-            i += 1
-            
+                if s == 0:
+                    ret.append([nums[i], nums[j], nums[k]])
+                    j = next_bigger(j)
+                elif s < 0:
+                    j = next_bigger(j)
+                elif s > 0:
+                    k = next_smaller(k)
+            i = next_bigger(i)
         return ret
+```
+
+
+##### 解法1: 实现：c++
+
+```
+class Solution {
+public:
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        vector<vector<int>> ret;
+        int n = nums.size();
+        if (n < 3) return ret;
+        sort(nums.begin(), nums.end());
+        int i = 0, j, k;
+        while ( i <= n - 3)
+        {
+            j = i + 1, k = n - 1;
+            while (j < k)
+            {
+                int s = nums[i] + nums[j] + nums[k] ;
+                if (s > 0) k = get_next(nums, k, true);
+                else if (s < 0)
+                {
+                    j = get_next(nums, j, false);
+                }
+                else 
+                {
+                    ret.push_back({nums[i], nums[j], nums[k]});
+                    j = get_next(nums, j, false);
+                }
+                if (j==n || k==n) break;
+            }
+            i = get_next(nums, i, false);
+        }
+        return ret;
+    }
+
+    int get_next(vector<int>& nums, int i, bool reverse)
+    {
+        if (reverse)
+        {
+            for (int j=i-1; j>=0; j--)
+            {
+                if (nums[j] < nums[i]) return j;
+            }
+        }
+        else
+        {
+            for (int j=i+1; j < nums.size(); j++)
+            {
+                if (nums[j] > nums[i]) return j;
+            }
+
+        }
+        return nums.size();
+    }
+};
 ```

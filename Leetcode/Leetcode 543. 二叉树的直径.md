@@ -39,26 +39,26 @@ None
 
 ### 解法一：dfs——postorder 递归
 
-#### 解法一python
+##### 解法1: 实现：python
 
 ```
 class Solution:
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
-        diameter = 0
+        if not root: return 0
+        ret = 0
+        def dfs(root):
+            nonlocal ret
+            if not root:
+                return -1 # root == None 返回 -1
+                            # 因为想要达到 root 为叶节点时返回 0 的效果
 
-        def dfs(node):
-            nonlocal diameter
-            if not node: 
-                return (0, 0)
+            left = dfs(root.left) + 1
+            right = dfs(root.right) + 1
+            ret = max(ret, left + right)
+            return max(left, right)
 
-            left = 1 + max(dfs(node.left)) if node.left else 0
-            right = 1 + max(dfs(node.right)) if node.right else 0
-            diameter = max(diameter, left+right)
-            
-            return left, right
-        
         dfs(root)
-        return diameter
+        return ret
 ```
 
 ### 解法一：dfs——postorder 非递归
