@@ -113,3 +113,4 @@
 | 面试题 微软算法 | [Leetcode 121. 买卖股票的最佳时机.md](Leetcode/Leetcode%20121.%20买卖股票的最佳时机.md) | [Leetcode 121. 买卖股票的最佳时机.md](Leetcode/Leetcode%20121.%20买卖股票的最佳时机.md) |       |      | 
 |  |  [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/) | [Leetcode 415. 字符串相加.md](Leetcode/Leetcode%20415.%20字符串相加.md) |       |   | 
 | | [200. 岛屿数量 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-islands/) | || bfs 或 并查集|
+| 微软面试题  |  [22. 括号生成 - 力扣（LeetCode）](https://leetcode-cn.com/problems/generate-parentheses/) | [Leetcode 22. 括号生成.md](Leetcode/Leetcode%2022.%20括号生成.md) |       |      | 

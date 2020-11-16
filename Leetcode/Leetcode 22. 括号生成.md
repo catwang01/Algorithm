@@ -48,7 +48,7 @@ def check(path):
 
 #### 解法1：实现
 
-##### 解法1: python
+##### 解法1: 实现1: python
 
 ```
 class Solution:
@@ -78,7 +78,7 @@ class Solution:
         return result
 ```
 
-##### 解法1：python
+##### 解法1：实现2：python
 
 ```
 class Solution:
@@ -103,7 +103,28 @@ class Solution:
             self.dfs(left-1, right, current + "(", path)
 ```
 
-##### 解法1: c++
+##### 解法1: 实现3: python
+
+```
+class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
+        ret = []
+        if n == 0: return
+        def dfs(nleft, nright, path):
+            # print(nleft, nright, cur)
+            if nleft == 0 and nright == 0:
+                ret.append(path)
+                return
+            if nleft > nright or nleft < 0: return
+            # 做选择
+            dfs(nleft-1, nright, path + "(")
+            dfs(nleft, nright-1, path + ")")
+                
+        dfs(n, n, "")
+        return ret
+```
+
+##### 解法1:实现2: c++
 
 ```
 class Solution {
