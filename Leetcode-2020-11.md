@@ -109,3 +109,4 @@
 |  | [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)  | [Leetcode 53. 最大子序和.md](Leetcode/Leetcode 53.%20最大子序和.md) |       |   经典 dp  | 
 |  | [15. 三数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/3sum/)   | [Leetcode 15. 三数之和.md](Leetcode/Leetcode 15.%20三数之和.md) |   Leetcode 头条专栏    |      双指针，注意去重！ | 
 |  | [468. 验证IP地址 - 力扣（LeetCode）](https://leetcode-cn.com/problems/validate-ip-address/)  | [Leetcode 468. 验证IP地址.md](Leetcode/Leetcode%20468.%20验证IP地址.md) |       |      | 
+|  |  [98. 验证二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Leetcode 98. 验证二叉搜索树.md](Leetcode/Leetcode%2098.%20验证二叉搜索树.md) |       |      | 

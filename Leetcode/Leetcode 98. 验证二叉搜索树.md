@@ -80,6 +80,25 @@ public:
 };
 ```
 
+##### 解法1: 实现2: python
+
+```
+class Solution:
+    def isValidBST(self, root: TreeNode) -> bool:
+        lastval = -float("inf")
+        st = []
+        while root or st:
+            while root:
+                st.append(root)
+                root = root.left
+            root = st.pop()
+            if lastval >= root.val:
+                return False
+            else:
+                lastval = root.val
+            root = root.right
+        return True
+```
 
 #### 解法1: 实现3: 递归
 
