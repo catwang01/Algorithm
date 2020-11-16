@@ -66,10 +66,10 @@
 |  | [不用算术运算符实现整数的加减乘除运算_牛客网](https://www.nowcoder.com/practice/7c478cdfbacb4fd38ca063aa2ac35b6f?tpId=101&tags=&title=&diffculty=0&judgeStatus=0&rp=1&ru=/activity/oj&qru=/ta/programmer-code-interview-guide/question-ranking)  | [Nowcoder-不用算术运算符实现整数的加减乘除运算.md](Nowcoder/Nowcoder-不用算术运算符实现整数的加减乘除运算.md) |       |    位运算  | 
 |  |  [371. 两整数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sum-of-two-integers/) | [ Leetcode/Leetcode 371. 两整数之和.md ](Leetcode/Leetcode 371.%20两整数之和.md) |       |    位运算  | 
 | 2020-07-15|        |        |      |        |
-|  |  [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/) | [Leetcode 415. 字符串相加.md](Leetcode/Leetcode 415.%20字符串相加.md) |       |   | 
-|  | [43. 字符串相乘 - 力扣（LeetCode）](https://leetcode-cn.com/problems/multiply-strings/) | [Leetcode 43. 字符串相乘.md](Leetcode/Leetcode 43.%20字符串相乘.md) |    leetcode 专栏   |      | 
-|  |  [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/submissions/) | [Leetcode 69. x 的平方根.md](Leetcode/Leetcode 69.%20x%20的平方根.md) |   leetcode 专栏    |      | 
-|  |  [155. 最小栈 - 力扣（LeetCode）](https://leetcode-cn.com/problems/min-stack/) | [Leetcode 155. 最小栈.md](Leetcode/Leetcode 155.%20最小栈.md) |   Leetcode 头条专栏     |     单调栈 | 
+|  |  [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/) | [Leetcode 415. 字符串相加.md](Leetcode/Leetcode%20415.%20字符串相加.md) |       |   | 
+|  | [43. 字符串相乘 - 力扣（LeetCode）](https://leetcode-cn.com/problems/multiply-strings/) | [Leetcode 43. 字符串相乘.md](Leetcode/Leetcode%2043.%20字符串相乘.md) |    leetcode 专栏   |      | 
+|  |  [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/submissions/) | [Leetcode 69. x 的平方根.md](Leetcode/Leetcode%2069.%20x%20的平方根.md) |   leetcode 专栏    |      | 
+|  |  [155. 最小栈 - 力扣（LeetCode）](https://leetcode-cn.com/problems/min-stack/) | [Leetcode 155. 最小栈.md](Leetcode/Leetcode%20155.%20最小栈.md) |   Leetcode 头条专栏     |     单调栈 | 
 | 2020-07-16|        |        |      |        |
 | | [33. 搜索旋转排序数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Leetcode 33. 搜索旋转排序数组.md](Leetcode/Leetcode%2033.%20搜索旋转排序数组.md) |    leetcode 探索 |  |  二分法   | 
 | | [160. 相交链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Leetcode 160. 相交链表.md](Leetcode/Leetcode%20160.%20相交链表.md) | 面试题 | |
