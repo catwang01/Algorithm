@@ -123,3 +123,48 @@ public:
     }
 };
 ```
+
+##### 解法1: 实现2: python
+
+```
+class Solution:
+    def __init__(self):
+        self.tmp = None
+
+    def reversePairs(self, nums: List[int]) -> int:
+        self.tmp = nums[:]
+        ret = self.mergeSort(nums, 0, len(nums))
+        print(nums)
+        return ret
+
+    def mergeSort(self, nums, low, high):
+        if high - low <= 1: return 0
+        mid = (low + high) // 2
+        ret = 0
+        ret += self.mergeSort(nums, low, mid)
+        ret += self.mergeSort(nums, mid, high)
+        i, j = low, mid
+        k = low
+        while i < mid and j < high:
+            if nums[i] <= nums[j]:
+                self.tmp[k] = nums[i]
+                i += 1
+                k += 1
+            else:
+                ret += mid - i
+                self.tmp[k] = nums[j]
+                j += 1
+                k += 1
+
+        while i < mid:
+            self.tmp[k] = nums[i]
+            i += 1
+            k += 1
+        while j < high:
+            self.tmp[k] = nums[j]
+            j += 1
+            k += 1
+        for k in range(low, high):
+            nums[k] = self.tmp[k]
+        return ret
+```
