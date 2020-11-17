@@ -76,3 +76,38 @@ public:
     }
 };
 ```
+
+### 解法2: dfs
+
+##### 解法2: 实现：python
+
+```
+class Node:
+    def __init__(self):
+        self.children = []
+        self.seen = 0
+
+class Solution:
+    def findCircleNum(self, M: List[List[int]]) -> int:
+        
+        n = len(M)
+        if n <= 1: return n
+        nodes = [Node() for i in range(n)]
+        for i in range(n):
+            for j in range(n):
+                if M[i][j] == 1:
+                    nodes[i].children.append(nodes[j])
+                    nodes[j].children.append(nodes[i])
+            
+        ret = 0
+        for node in nodes:
+            if node.seen == 0:
+                self.dfs(node)
+                ret += 1
+        return ret
+
+    def dfs(self, node):
+        node.seen = 1
+        for child in node.children:
+            if child.seen == 0: self.dfs(child)
+```
