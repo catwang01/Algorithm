@@ -366,6 +366,8 @@
 
 6. [312. 戳气球 - 力扣（LeetCode）](https://leetcode-cn.com/problems/burst-balloons/)
 
+7. [91. 解码方法 - 力扣（LeetCode）](https://leetcode-cn.com/problems/decode-ways/)
+
 ### 回文串相关
 
 [647. 回文子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindromic-substrings/)
