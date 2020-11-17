@@ -118,3 +118,5 @@
 |  |   | [Leetcode 151. 翻转字符串里的单词.md](Leetcode/Leetcode%20151.%20翻转字符串里的单词.md) |       |      | 
 | 2020-11-17|||||
 | Leetcode 头条专栏 |   [547. 朋友圈 - 力扣（LeetCode）](https://leetcode-cn.com/problems/friend-circles/) | [Leetcode 547. 朋友圈.md](Leetcode/Leetcode 547.%20朋友圈.md) |   并查集的模板题    |  并查集    | 
+|  |  [面试题51. 数组中的逆序对 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | [Leetcode 剑指 Offer-51. 数组中的逆序对.md](Leetcode/Leetcode%20剑指%20Offer-51.%20数组中的逆序对.md) |       |  归并排序 | 
+|  | [154. 寻找旋转排序数组中的最小值 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)  | [Leetcode 154. 寻找旋转排序数组中的最小值 II.md](Leetcode/Leetcode%20154.%20寻找旋转排序数组中的最小值%20II.md) |       |    二分法  | 
