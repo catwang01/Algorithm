@@ -125,3 +125,4 @@
 | 2020-11-18|||||
 |  | [1375. 灯泡开关 III - 力扣（LeetCode）](https://leetcode-cn.com/problems/bulb-switcher-iii/)  | [Leetcode 1375. 灯泡开关 III.md](Leetcode/Leetcode%201375.%20灯泡开关%20III.md) |       |      | 
 |  | [5. 最长回文子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)  | [Leetcode 5. 最长回文子串.md](Leetcode/Leetcode%205.%20最长回文子串.md) | |    推荐  | 
+| 面试题 微软算法| [450. 删除二叉搜索树中的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/delete-node-in-a-bst/) | [Leetcode 450. 删除二叉搜索树中的节点.md](Leetcode/Leetcode%20450.%20删除二叉搜索树中的节点.md) |       |      | 

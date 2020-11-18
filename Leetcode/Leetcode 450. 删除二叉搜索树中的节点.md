@@ -40,7 +40,7 @@ b. 另一种思路是参考 [1] 中的思路，将root->left 直接连接到 suc
 
 #### 解法1:实现
 
-##### 解法1: c++
+##### 解法1: 实现： c++
 
 参考了 [1]
 
@@ -76,7 +76,33 @@ public:
 };
 ```
 
-### 实现2：c++
+##### 解法1: 实现： python
+
+```
+class Solution:
+    def deleteNode(self, root: TreeNode, key: int) -> TreeNode:
+        if not root: return root
+        if root.val == key:
+            leftmost = self.leftmost(root.right)
+            if not leftmost: return root.left
+            leftmost.left = root.left
+            return root.right
+        elif root.val > key:  
+            root.left = self.deleteNode(root.left, key)
+        else:
+            root.right = self.deleteNode(root.right, key)
+        return root
+
+    def leftmost(self, root):
+        if not root: return root
+        while root.left:
+            root = root.left
+        return root
+```
+
+### 解法2：
+
+##### 解法2：实现： c++
 
 ```
 class Solution {
