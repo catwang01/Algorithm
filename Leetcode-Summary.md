@@ -161,6 +161,8 @@
 
 7. 不那么双指针的双指针 [面试题58 - I. 翻转单词顺序 - 力扣（LeetCode）](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)
 
+8. [1013. 将数组分成和相等的三个部分 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/submissions/)
+
 ### 快排
 
 1. 类似于快排中的双指针，只不过数组被分成三部分，而快排中是两部分 [75. 颜色分类 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-colors/)
