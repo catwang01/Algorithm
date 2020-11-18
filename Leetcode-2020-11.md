@@ -97,7 +97,7 @@
 |  | [199. 二叉树的右视图 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-right-side-view/)  | [Leetcode 199. 二叉树的右视图.md](Leetcode/Leetcode%20199.%20二叉树的右视图.md) |       |      | 
 |  | [821. 字符的最短距离 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)  | [Leetcoce 821. 字符的最短距离.md](Leetcode/Leetcoce%20821.%20字符的最短距离.md) |       |      | 
 | 2020-11-13|||||
-|  |  [328. 奇偶链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/odd-even-linked-list/) | [Leetcode 328. 奇偶链表.md](Leetcode/Leetcode 328.%20奇偶链表.md) |       |      | 
+|  |  [328. 奇偶链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/odd-even-linked-list/) | [Leetcode 328. 奇偶链表.md](Leetcode/Leetcode%20328.%20奇偶链表.md) |       |      | 
 |  | [454. 四数相加 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/4sum-ii/submissions/)  | [Leetcode 454. 四数相加 II.md](Leetcode/Leetcode%20454.%20四数相加%20II.md) |       |      | 
 | 2020-11-16|||||
 |  | [215. 数组中的第K个最大元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/submissions/)  | [Leetcode 215. 数组中的第K个最大元素.md](Leetcode/Leetcode%20215.%20数组中的第K个最大元素.md) |  leetcode 探索     |      | 
@@ -124,3 +124,4 @@
 |  | [572. 另一个树的子树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/subtree-of-another-tree/)  | [Leetcode 572. 另一个树的子树.md](Leetcode/Leetcode%20572.%20另一个树的子树.md) |       |      | 
 | 2020-11-18|||||
 |  | [1375. 灯泡开关 III - 力扣（LeetCode）](https://leetcode-cn.com/problems/bulb-switcher-iii/)  | [Leetcode 1375. 灯泡开关 III.md](Leetcode/Leetcode%201375.%20灯泡开关%20III.md) |       |      | 
+|  | [5. 最长回文子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)  | [Leetcode 5. 最长回文子串.md](Leetcode/Leetcode%205.%20最长回文子串.md) | |    推荐  | 

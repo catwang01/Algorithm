@@ -104,6 +104,11 @@ dp[i][j] = dp[i+1][j-1] if s[i]==s[j-1]
 ```
 dp[i][j] = False    if s[i]!=s[j-1]
 ```
+上面两个条件可以简化为
+
+```
+dp[i][j] = s[i] == s[j-1] and dp[i+1][j-1]
+```
 
 边界条件如下：
 
@@ -126,25 +131,24 @@ dp[i][i+1] = True # 单字符为回文
 ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
+        # dp[i][j] 表示 s[i:j] 是回文串
         n = len(s)
         if n <= 1: return s
-
-        # dp[i][j]表示s[i:j]是否是回文
-        dp = [[None]*(n+1) for _ in range(n)]
-        for i in range(n-1, -1, -1): # 从下往上填 [n-1,...,0]
-            for j in range(i, n+1):
-                if j-i<=1: # 空串和单字符是回文
-                    dp[i][j] = True
-                else:
-                    dp[i][j] = dp[i+1][j-1] if s[i]==s[j-1] else False
-        maxLen = 1
-        result = s[0]
-        for i in range(n):                     # i=[0,..,n-1]
-            for j in range(i+maxLen, n+1):      # j=[i+m,...,n]
-                if dp[i][j] and maxLen < j-i:
-                    maxLen = j - i 
-                    result = s[i:j]
-        return result
+        dp = [[0] * (n+1) for _ in range(n+1)]
+        maxlen = 1
+        ret = s[0]
+        for i in range(n): # 长度为0的子串是回文串
+            dp[i][i] = True
+        for i in range(n): # 长度为 1 的子串是回文串
+            dp[i][i+1] = True
+        for k in range(2, n+1):
+            for i in range(0, n - k + 1): # [i:i+k] i + k <= n -->i <= n - k
+                dp[i][i+k] = s[i] == s[i+k-1] and dp[i+1][i+k-1]
+                if dp[i][i+k]:
+                    if k > maxlen:
+                        maxlen = k
+                        ret = s[i:i+k]
+        return ret
 ```
 
 ### 解法三：中心拓展法
@@ -152,9 +156,9 @@ class Solution:
 时间复杂度： $O(n^2)$
 空间复杂度： $O(1)$
 
-#### 解法3: 实现
+#### 解法3: 实现1：左闭右开区间
 
-##### 解法3: python
+##### 解法3: 实现1: python
 
 ```
 class Solution:
@@ -179,13 +183,43 @@ class Solution:
         return ret
 ```
 
-#### 解法3: 实现2:
+#### 解法3: 实现2: 闭区间
+
+```
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        n = len(s)
+        ret = ""
+        maxlen = 0
+        for i in range(n):
+            left = right = i
+            while left - 1 >= 0 and right + 1 < n and s[left-1] == s[right + 1]:
+                left -= 1
+                right += 1
+            # left - 1 < 0 or right + 1 == n or s[left-1] != s[right + 1]
+            if right - left + 1 > maxlen:
+                maxlen = right - left + 1
+                ret = s[left:right+1]
+
+            left, right = i, i + 1
+            if i + 1 < n and s[left] == s[right]:
+                while left - 1 >= 0 and right + 1 < n and s[left-1] == s[right + 1]:
+                    left -= 1
+                    right += 1
+                # left - 1 < 0 or right + 1 == n or s[left-1] != s[right + 1]
+                if right - left + 1 > maxlen:
+                    maxlen = right - left + 1
+                    ret = s[left:right+1]
+        return ret
+```
+
+#### 解法3: 实现3: 添加虚拟元素化简情况
 
 由于有两种情况。第一种情况比较直观。第二种情况可以添加一个虚拟元素转换为第一种情况。
 
 添加一个虚拟元素的目的是可以简化问题。假设下标是在虚拟数组（就是原数组添加虚拟元素后的数组）上进行加减，只需要在取数的时候根据映射关系将虚拟数组上面的数映射到原数组上。
 
-##### 解法3: 实现2:python
+##### 解法3: 实现3:python
 
 ```
 class Solution:
@@ -225,9 +259,12 @@ class Solution:
         return ret
 ```
 
-##### 解法3: 中心拓展法 改进
+#### 解法3: 实现3： 中心拓展法 改进
 
-将向两边拓展的逻辑抽象成一个 extend 函数，有
+
+将向两边拓展的逻辑抽象成一个 extend 函数
+
+##### 解法3: 实现3: python
 
 ```
 class Solution:
