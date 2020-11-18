@@ -141,7 +141,7 @@ class Solution:
 
 #### 解法2: 实现2: 非递归 使用结果栈缓存左右节点的结果
 
-##### 解法2: 实现2: python
+##### 解法2: 实现 python
 
 ```
 class Solution:

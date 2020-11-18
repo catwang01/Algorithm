@@ -117,7 +117,10 @@
 |  |   [103. 二叉树的锯齿形层次遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [Leetcode 103. 二叉树的锯齿形层次遍历.md](Leetcode/Leetcode%20103.%20二叉树的锯齿形层次遍历.md) |   Leetcode 头条专栏    |      | 
 |  |   | [Leetcode 151. 翻转字符串里的单词.md](Leetcode/Leetcode%20151.%20翻转字符串里的单词.md) |       |      | 
 | 2020-11-17|||||
-| Leetcode 头条专栏 |   [547. 朋友圈 - 力扣（LeetCode）](https://leetcode-cn.com/problems/friend-circles/) | [Leetcode 547. 朋友圈.md](Leetcode/Leetcode 547.%20朋友圈.md) |   并查集的模板题    |  并查集    | 
+| Leetcode 头条专栏 |   [547. 朋友圈 - 力扣（LeetCode）](https://leetcode-cn.com/problems/friend-circles/) | [Leetcode 547. 朋友圈.md](Leetcode/Leetcode%20547.%20朋友圈.md) |   并查集的模板题    |  并查集    | 
 |  |  [面试题51. 数组中的逆序对 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | [Leetcode 剑指 Offer-51. 数组中的逆序对.md](Leetcode/Leetcode%20剑指%20Offer-51.%20数组中的逆序对.md) |       |  归并排序 | 
 |  | [154. 寻找旋转排序数组中的最小值 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)  | [Leetcode 154. 寻找旋转排序数组中的最小值 II.md](Leetcode/Leetcode%20154.%20寻找旋转排序数组中的最小值%20II.md) |       |    二分法  | 
 |  |  [848. 字母移位 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shifting-letters/) | [Leetcode 848. 字母移位.md](Leetcode/Leetcode%20848.%20字母移位.md) |       |      | 
+|  | [572. 另一个树的子树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/subtree-of-another-tree/)  | [Leetcode 572. 另一个树的子树.md](Leetcode/Leetcode%20572.%20另一个树的子树.md) |       |      | 
+| 2020-11-18|||||
+|  | [1375. 灯泡开关 III - 力扣（LeetCode）](https://leetcode-cn.com/problems/bulb-switcher-iii/)  | [Leetcode 1375. 灯泡开关 III.md](Leetcode/Leetcode%201375.%20灯泡开关%20III.md) |       |      | 
