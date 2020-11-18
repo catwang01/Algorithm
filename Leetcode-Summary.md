@@ -72,6 +72,8 @@
 
 [不用算术运算符实现整数的加减乘除运算_牛客网](https://www.nowcoder.com/practice/7c478cdfbacb4fd38ca063aa2ac35b6f?tpId=101&tags=&title=&diffculty=0&judgeStatus=0&rp=1&ru=/activity/oj&qru=/ta/programmer-code-interview-guide/question-ranking)
 
+[137. 只出现一次的数字 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/single-number-ii/)
+
 ## 并查集
 
 1. [集合合并_小米_2019校招真题在线编程_牛客网](https://www.nowcoder.com/practice/c747216a5db24df385392f1a6b90a084?tpId=98&&tqId=32922&rp=1&ru=/activity/oj&qru=/ta/2019test/question-ranking) 
