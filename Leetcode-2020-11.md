@@ -130,3 +130,5 @@
 |  | [1013. 将数组分成和相等的三个部分 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/submissions/) | [Leetcode 1013. 将数组分成和相等的三个部分.md](Leetcode/Leetcode%201013.%20将数组分成和相等的三个部分.md) |       |      | 
 | 2020-11-19|||||
 |  |  [42. 接雨水 - 力扣（LeetCode）](https://leetcode-cn.com/problems/trapping-rain-water/) | [Leetcode 42. 接雨水.md](Leetcode/Leetcode%2042.%20接雨水.md) |       |      | 
+|  | [剑指 Offer 46. 把数字翻译成字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)  | [Leetcode/Leetcode 剑指 Offer 46. 把数字翻译成字符串.md](Leetcode/Leetcode%20剑指%20Offer%2046.%20把数字翻译成字符串.md) |       |      | 
+
