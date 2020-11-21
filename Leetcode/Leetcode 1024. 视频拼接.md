@@ -8,6 +8,36 @@
 
 ## 算法
 
+### 解法1: dp
+
+`dp[i]` 表示 `[0, i)` 区间被覆盖的最少片段数
+
+则得到递推式
+
+```
+for j in range(0, len(clips)):
+    if clips[j][0] <= i <= clips[j][1]:
+        dp[i] = min(dp[i], dp[clips[j][0]] + 1) 
+```
+
+时间复杂度： $O(nT)$， n 是片段数
+空间复杂度： $O(T)$
+
+
+##### 解法1：实现：python
+
+```
+class Solution:
+    def videoStitching(self, clips: List[List[int]], T: int) -> int:
+        dp = [float('inf')] * (T + 1)
+        dp[0] = 0
+        for i in range(1, T+1):
+            for clip in clips:
+                if clip[0] <= i <= clip[1]:
+                    dp[i] = min(dp[i], dp[clip[0]] + 1)
+        return dp[T] if dp[T] != float('inf') else -1
+```
+
 ### 解法1：贪心
 
 ```

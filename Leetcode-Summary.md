@@ -2,6 +2,10 @@
 
 # Leetcode 题目分类总结
 
+## 区间相关
+
+[1024. 视频拼接 - 力扣（LeetCode）](https://leetcode-cn.com/problems/video-stitching/)
+
 ## 左右两个方向算两次
 
 [821. 字符的最短距离 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)

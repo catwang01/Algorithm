@@ -133,5 +133,5 @@
 |  | [剑指 Offer 46. 把数字翻译成字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)  | [Leetcode 剑指 Offer 46. 把数字翻译成字符串.md](Leetcode/Leetcode%20剑指%20Offer%2046.%20把数字翻译成字符串.md) |       |      | 
 |  | [572. 另一个树的子树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/subtree-of-another-tree/)  |  [Leetcode 572. 另一个树的子树.md](Leetcode/Leetcode%20572.%20另一个树的子树.md)
 |       |      | 
-
-
+| 2020-11-21|||||
+|  | [1024. 视频拼接 - 力扣（LeetCode）](https://leetcode-cn.com/problems/video-stitching/)  | [Leetcode 1024. 视频拼接.md](Leetcode/Leetcode%201024.%20视频拼接.md) |       |      | 
