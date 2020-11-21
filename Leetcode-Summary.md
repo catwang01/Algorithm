@@ -36,7 +36,7 @@
 
 4. 很标准的贪心 [1029. 两地调度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-city-scheduling/)
 
-5. [452. 用最少数量的箭引爆气球 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+5. 
 
 6.  和上一题有些相似 [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/)
 
@@ -51,6 +51,10 @@
 11. [455. 分发饼干 - 力扣（LeetCode）](https://leetcode-cn.com/problems/assign-cookies/)
 
 12. 经典贪心：活动选择问题 [435. 无重叠区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/non-overlapping-intervals/)
+
+13. 经典贪心：活动选择问题 [1235. 规划兼职工作 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-profit-in-job-scheduling/)
+
+14. 经典贪心：活动选择问题 [452. 用最少数量的箭引爆气球 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 
 ## 字符串
 

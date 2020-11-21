@@ -37,3 +37,23 @@ class Solution:
                 i = j
         return ret
 ```
+
+### 解法2: 贪心
+
+实际上这个问题也是活动选择问题。重复的区间会被其他的箭射掉。
+
+##### 解法2：实现：python
+
+```
+class Solution:
+    def findMinArrowShots(self, points: List[List[int]]) -> int:
+        points.sort(key=lambda point: (point[1], -point[0]))
+        curStart = -float("inf")
+        n = len(points)
+        ret = 0
+        for i in range(n):
+            if points[i][0] > curStart:
+                curStart = points[i][1]
+                ret += 1
+        return ret
+```
