@@ -136,3 +136,7 @@
 | 2020-11-21|||||
 |  | [1024. 视频拼接 - 力扣（LeetCode）](https://leetcode-cn.com/problems/video-stitching/)  | [Leetcode 1024. 视频拼接.md](Leetcode/Leetcode%201024.%20视频拼接.md) |       |      | 
 |  | [455. 分发饼干 - 力扣（LeetCode）](https://leetcode-cn.com/problems/assign-cookies/)  | [Leetcode 455. 分发饼干.md](Leetcode/Leetcode%20455.%20分发饼干.md) |       |      | 
+| | [55. 跳跃游戏 - 力扣（LeetCode）](https://leetcode-cn.com/problems/jump-game/) | [Leetcode/Leetcode 55. 跳跃游戏.md](Leetcode/Leetcode%2055.%20跳跃游戏.md)||使用dp过不了|
+
+
+
