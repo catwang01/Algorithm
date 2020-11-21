@@ -207,6 +207,7 @@
 8. [151. 翻转字符串里的单词 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
 
 9. [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/)
+[P1047 校门外的树 - 洛谷 | 计算机科学教育新生态](https://www.luogu.com.cn/problem/P1047)
 
 10. 难 [76. 最小覆盖子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-window-substring/)
 
