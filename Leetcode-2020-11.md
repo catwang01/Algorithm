@@ -142,3 +142,6 @@
 |  | [P1047 校门外的树 - 洛谷 | 计算机科学教育新生态](https://www.luogu.com.cn/problem/P1047)   | [P1047 校门外的树.md](Leetcode/P1047%20校门外的树.md) |       |      | 
 | 2020-11-24|||||
 |  | [451. 根据字符出现频率排序 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-characters-by-frequency/)  | [Leetcode 451. 根据字符出现频率排序.md](Leetcode/Leetcode%20451.%20根据字符出现频率排序.md) |       |      | 
+| 2020-11-25|||||
+|  | [1370. 上升下降字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/increasing-decreasing-string/)  | [Leetcode 1370. 上升下降字符串.md](Leetcode/Leetcode%201370.%20上升下降字符串.md) |       |      | 
+
