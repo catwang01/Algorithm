@@ -146,3 +146,4 @@
 |  | [1370. 上升下降字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/increasing-decreasing-string/)  | [Leetcode 1370. 上升下降字符串.md](Leetcode/Leetcode%201370.%20上升下降字符串.md) |       |      | 
 | 2020-11-26|||||
 |  |  [86. 分隔链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-list/) | [Leetcode 86. 分隔链表.md](Leetcode/Leetcode%2086.%20分隔链表.md) |       |      | 
+|  |  [42. 接雨水 - 力扣（LeetCode）](https://leetcode-cn.com/problems/trapping-rain-water/) | [Leetcode 42. 接雨水.md](Leetcode/Leetcode%2042.%20接雨水.md) |       |      | 

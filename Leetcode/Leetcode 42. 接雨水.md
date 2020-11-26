@@ -40,9 +40,9 @@ class Solution:
         n = len(height)
         water = 0
         for i in range(1, n-1):
-            max_left = max(height[:i])
-            max_right = max(height[i+1:])
-            shortest = min(max_left, max_right)
+            leftmax = max(height[:i])
+            rightmax = max(height[i+1:])
+            shortest = min(leftmax, rightmax)
             if height[i] < shortest:
                 water += shortest - height[i]
         return water
@@ -50,14 +50,14 @@ class Solution:
 
 #### 解法1:实现2：动态规划
 
-在上面的计算中，我们没有必要每次都遍历所有小于i的数和大于i的数来分别计算max_left 和 max_right，注意要有递推关系
+在上面的计算中，我们没有必要每次都遍历所有小于i的数和大于i的数来分别计算leftmax 和 rightmax，注意要有递推关系
 
 ```
-max_left[i] = max(max_left[i-1], height[i-1])
-max_right[i] = max(max_right[i+1], height[i+1])
+leftmax[i] = max(leftmax[i-1], height[i-1])
+rightmax[i] = max(rightmax[i+1], height[i+1])
 ```
 
-因此可以将 `max_left` 和 `max_right` 的值保存成列表以避免重复计算
+因此可以将 `leftmax` 和 `rightmax` 的值保存成列表以避免重复计算
 
 时间复杂度：$O(n)$
 空间复杂度：$O(n)$
@@ -69,16 +69,16 @@ class Solution:
     def trap(self, height: List[int]) -> int:
         n = len(height)
         water = 0
-        max_left = [0] * n
-        max_right  = [0] * n
+        leftmax = [0] * n
+        rightmax  = [0] * n
 
         for i in range(1, n-1): # O(n)
-            max_left[i] = max(max_left[i-1], height[i-1])
+            leftmax[i] = max(leftmax[i-1], height[i-1])
         for i in range(n-2, 0, -1): # O(n)
-            max_right[i] = max(max_right[i+1], height[i+1])
+            rightmax[i] = max(rightmax[i+1], height[i+1])
             
         for i in range(1, n-1): # O(n)
-            shortest = min(max_left[i], max_right[i])
+            shortest = min(leftmax[i], rightmax[i])
             if height[i] < shortest:
                 water += shortest - height[i]
         return water
@@ -86,88 +86,121 @@ class Solution:
 
 #### 解法1：实现3：滚动数组优化
 
-由于 max_left 和 max_right 只使用了一个，因此可考虑不使用数组来保存它们
+由于 leftmax 和 rightmax 只使用了一个，因此可考虑不使用数组来保存它们
 
-先保持max_right不动，将max_left换成一个变量，而非一个数组
+先保持rightmax不动，将leftmax换成一个变量，而非一个数组
 
 ```
 class Solution:
     def trap(self, height: List[int]) -> int:
         n = len(height)
         water = 0
-        max_left = 0
-        max_right  = [0] * n
+        leftmax = 0
+        rightmax  = [0] * n
         
         for i in range(n-2, 0, -1): # O(n)
-            max_right[i] = max(max_right[i+1], height[i+1])
+            rightmax[i] = max(rightmax[i+1], height[i+1])
             
         for i in range(1, n-1): # O(n)
-            max_left = max(max_left, height[i-1])
-            shortest = min(max_left, max_right[i])
+            leftmax = max(leftmax, height[i-1])
+            shortest = min(leftmax, rightmax[i])
             if height[i] < shortest:
                 water += shortest - height[i]
         return water
 ```
 
-##### 解法1: 实现4: 双指针空间优化
+#### 解法1: 实现4: 双指针空间优化
 
-上面成功地去掉了 max_left数组，但是 max_right数组没法去掉，因为max_right数组和max_left数组的更新方向是反的；
+上面成功地去掉了 `leftmax` 数组，但是 `rightmax` 数组没法去掉，因为 `rightmax` 数组和 `leftmax` 数组的更新方向是反的；
 
-因此要引用左右双指针i，j 分别表示遍历max_left和max_right的数组的下标，
+我们用两个指针 leftIdx 和 rightIdx 分别表示两个方向。 [0, leftIdx) 表示左侧遍历过的数字，并在遍历的过程中维护其最大值 leftmax，(rightIdx, n-1] 表示右侧遍历过的数字，并在遍历的过程中维护其最大值 rightmax。
 
-注意到下面的更新规则
+如果 `leftmax < rightmax`，那么我们就移动 `leftIdx`，在移动的过程中做两件事情：
 
-```
-shortest = min(max_left, max_right)
-而 max_left 和 max_right 都是单调递增的。
-```
-
-我们用两个指针 left 和 right 分别表示两个方向。 [0, left) 表示左侧遍历过的数字，并在遍历的过程中维护其最大值 max_left，(right, n-1] 表示右侧遍历过的数字，并在遍历的过程中维护其最大值 max_right。
-
-如果 max_left < max_right，那么我们就移动 left，在移动的过程中左两件事情：
-1. 如果 height[left] < max_left，说明 left 指针所在的柱子可以和 max_left 还有 max_right 形成水坑，因此
+1. 如果 `height[leftIdx] < leftmax`，说明 `leftIdx` 指针所在的柱子可以和 `leftmax` 还有 `rightmax` 形成水坑，因此
 
 ```
-ret += max_left - height[left]
-left += 1
+ret += leftmax - height[leftIdx]
+leftIdx += 1
 ```
 
-2. 如果 height[left] >= max_left 此时说明 left 指针所指的柱子左侧没有比它更高的柱子，因此不会形成水坑。此时 ret 不会累加，但是会更新 max_left
+2. 如果 `height[leftIdx] >= leftmax` 此时说明 `leftIdx` 指针所指的柱子左侧没有比它更高的柱子，因此不会形成水坑。此时 ret 不会累加，但是会更新 `leftmax`
 
-综上，当 max_left < max_right 时，我们的更新策略为
+综上，当 `leftmax < rightmax` 时，我们的更新策略为
 
 
 ```
-if height[left] < max_left:
-    ret += max_left - height[left]
+if height[leftIdx] < leftmax:
+    ret += leftmax - height[leftIdx]
 else:
-    max_left = height[left]
-left += 1
+    leftmax = height[leftIdx]
+leftIdx += 1
 ```
 
-max_left < max_right 时同理。
+`leftmax >= rightmax` 时同理。
+
+##### 一点点思考
+
+我们先想清楚为什么有优化的空间。
+
+我们在上面的过程中，维护了 leftmax 和 rightmax。
+
+而我们想要计算的是，对于所有的 i，如果 height[i] < min(max(height[:i]), max(height[i+1:]))，
+我们就累加
+
+```
+ret += min(max(height[:i]), max(height[i+1:])) - height[i]
+```
+
+这在这个过程中，假设 `leftmax = height[:i]`，而 `rightmax = max(height[j:])` 且 j >= i+1。
+
+如果 j = i + 1，那么 ret += min(max(leftmax, rightmax)) 是没有问题的，因为
+
+```
+min(max(height[:i]), max(height[i+1:])) = min(max(leftmax, rightmax)
+```
+
+但是，j 不一定等于 i + 1，j 可能比 i + 1 要大。这样 
+
+```
+min(max(height[:i]), max(height[i+1:])) = min(max(leftmax, rightmax)
+```
+
+就不一定成立。
+
+但是，如果加上某个条件，上式仍然成立。我们加上  `rightmax >= leftmax` 这个条件后，上式仍然成立。
+
+因为
+
+```
+leftmax <= rightmax = max(height[j:]) # 定义
+        <= max(height[i+1:]) # 因为 j >= i+1
+因此 min(leftmax, rightmax) = leftmax = min(left, max(height[i+1:])) = min(max(height[:i]), max(height[i+1:]))
+```
+
+##### 解法1: 实现4: python  
 
 ```
 class Solution:
     def trap(self, height: List[int]) -> int:
         n = len(height)
         if n < 3: return 0
-        left, right = 1, n-2
         leftmax, rightmax = height[0], height[n-1]
         ret = 0
-        while left <= right:
+        leftIdx, rightIdx = 1, n-2
+        while leftIdx <= rightIdx:
             if leftmax < rightmax:
-                if height[left] >= leftmax:
-                    leftmax = height[left]
+                if height[leftIdx] < leftmax:
+                    ret += leftmax - height[leftIdx]
                 else:
-                    ret += leftmax - height[left]
-                left += 1
+                    leftmax = height[leftIdx]
+                leftIdx += 1
             else:
-                if height[right] >= rightmax:
-                    rightmax = height[right]
+                if height[rightIdx] < rightmax:
+                    ret += rightmax - height[rightIdx]
                 else:
-                    ret += rightmax - height[right]
-                right -= 1
+                    rightmax = height[rightIdx]
+                rightIdx -= 1
         return ret
 ```
 
