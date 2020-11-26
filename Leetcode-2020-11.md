@@ -144,4 +144,5 @@
 |  | [451. 根据字符出现频率排序 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-characters-by-frequency/)  | [Leetcode 451. 根据字符出现频率排序.md](Leetcode/Leetcode%20451.%20根据字符出现频率排序.md) |       |      | 
 | 2020-11-25|||||
 |  | [1370. 上升下降字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/increasing-decreasing-string/)  | [Leetcode 1370. 上升下降字符串.md](Leetcode/Leetcode%201370.%20上升下降字符串.md) |       |      | 
-
+| 2020-11-26|||||
+|  |  [86. 分隔链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-list/) | [Leetcode 86. 分隔链表.md](Leetcode/Leetcode%2086.%20分隔链表.md) |       |      | 

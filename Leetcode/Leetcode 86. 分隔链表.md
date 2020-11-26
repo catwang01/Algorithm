@@ -40,3 +40,28 @@ public:
 };
 ```
 
+
+##### 解法1: 实现： python
+
+```
+class Solution:
+    def partition(self, head: ListNode, x: int) -> ListNode:
+        virtualHeadSmall = ListNode(-1)
+        virtualHeadBig = ListNode(-1)
+        curSmall, curBig = virtualHeadSmall, virtualHeadBig
+        while head:
+            if head.val < x:
+                curSmall.next = head
+                nextNode = head.next
+                head.next = None
+                head = nextNode
+                curSmall = curSmall.next
+            else:
+                curBig.next = head
+                nextNode = head.next
+                head.next = None
+                head = nextNode
+                curBig = curBig.next
+        curSmall.next = virtualHeadBig.next
+        return virtualHeadSmall.next
+```
