@@ -157,6 +157,8 @@
 |  | [1456. 定长子串中元音的最大数目 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)  | [Leetcode 1456. 定长子串中元音的最大数目.md](Leetcode/Leetcode%201456.%20定长子串中元音的最大数目.md) |       |      | 
 |  | [1458. 两个子序列的最大点积 - 力扣（LeetCode）](https://leetcode-cn.com/problems/max-dot-product-of-two-subsequences/)  | [Leetcode 1458. 两个子序列的最大点积.md](Leetcode/Leetcode%201458.%20两个子序列的最大点积.md) |       |      | 
 |  |  [817. 链表组件 - 力扣（LeetCode）](https://leetcode-cn.com/problems/linked-list-components/) | [Leetcode 817. 链表组件.md](Leetcode/Leetcode%20817.%20链表组件.md) |       |      | 
+|  |  [1290. 二进制链表转整数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [Leetcode 1290. 二进制链表转整数.md](Leetcode/Leetcode%201290.%20二进制链表转整数.md) |       |      | 
+
  
 
 
