@@ -449,6 +449,9 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 
 5. [115. 不同的子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/distinct-subsequences/)
 
+6. [1458. 两个子序列的最大点积 - 力扣（LeetCode）](https://leetcode-cn.com/problems/max-dot-product-of-two-subsequences/)
+
+
 #### 需要考虑多个状态
 
 1. 推荐：这个不太懂 [152. 乘积最大子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-product-subarray/submissions/) 
@@ -610,4 +613,7 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 ## 递归边界和直接返回不同
 
 [70. 爬楼梯 - 力扣（LeetCode）](https://leetcode-cn.com/problems/climbing-stairs/submissions/)
+
+[1458. 两个子序列的最大点积 - 力扣（LeetCode）](https://leetcode-cn.com/problems/max-dot-product-of-two-subsequences/)
+
 
