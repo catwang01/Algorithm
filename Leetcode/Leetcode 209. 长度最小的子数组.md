@@ -192,10 +192,10 @@ class Solution:
         window = 0
         while right < n:
             window += nums[right]
-            right += 1
             while window >= s:
-                ret = min(ret, right - left)
+                ret = min(ret, right - left + 1)
                 window -= nums[left]
                 left += 1
+            right += 1
         return ret if ret < n + 1 else 0
 ```
