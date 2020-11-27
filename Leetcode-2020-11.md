@@ -158,4 +158,6 @@
 |  | [1458. 两个子序列的最大点积 - 力扣（LeetCode）](https://leetcode-cn.com/problems/max-dot-product-of-two-subsequences/)  | [Leetcode 1458. 两个子序列的最大点积.md](Leetcode/Leetcode%201458.%20两个子序列的最大点积.md) |       |      | 
 |  |  [817. 链表组件 - 力扣（LeetCode）](https://leetcode-cn.com/problems/linked-list-components/) | [Leetcode 817. 链表组件.md](Leetcode/Leetcode%20817.%20链表组件.md) |       |      | 
 |  |  [1290. 二进制链表转整数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [Leetcode 1290. 二进制链表转整数.md](Leetcode/Leetcode%201290.%20二进制链表转整数.md) |       |      | 
-|  |   | [Leetcode 114. 二叉树展开为链表.md](Leetcode/Leetcode%20114.%20二叉树展开为链表.md) |       |      | 
+|  | [114. 二叉树展开为链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)  | [Leetcode 114. 二叉树展开为链表.md](Leetcode/Leetcode%20114.%20二叉树展开为链表.md) |       |      | 
+|  | [1004. 最大连续1的个数 III - 力扣（LeetCode）](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)  | [Leetcode 1004. 最大连续1的个数 III.md](Leetcode/Leetcode%201004.%20最大连续1的个数%20III.md) |       |      | 
+
