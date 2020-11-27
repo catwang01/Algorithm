@@ -9,7 +9,7 @@
 [424. 替换后的最长重复字符 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)
 
 
-### 解法1: 滑动窗口
+### 解法1: 滑动窗口 - 单调递减求最大值
 
 
 #### 解法1: 实现

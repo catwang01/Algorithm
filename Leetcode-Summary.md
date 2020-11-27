@@ -217,8 +217,9 @@
 
 13. 求最大窗口 [1004. 最大连续1的个数 III - 力扣（LeetCode）](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)
 
-14. 单调递减求最大窗口 [424. 替换后的最长重复字符 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)
+14. [424. 替换后的最长重复字符 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)
 
+15. 固定窗口 [1052. 爱生气的书店老板 - 力扣（LeetCode）](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)
 
 ## hash
 
