@@ -531,6 +531,10 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 [95. 不同的二叉搜索树 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)
 
+### 不知大什么系列
+
+[114. 二叉树展开为链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
+
 ### 路径相关
 
 #### 路径一定过根
