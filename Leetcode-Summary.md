@@ -187,10 +187,10 @@
 
 3. 快速选择 [973. 最接近原点的 K 个点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/k-closest-points-to-origin/submissions/)
 
-
 ### 滑动窗口
 
 1. 推荐 [209. 长度最小的子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
+和上一题类似：[713. 乘积小于K的子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/subarray-product-less-than-k/)
 
 2. 推荐 [3. 无重复字符的最长子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
