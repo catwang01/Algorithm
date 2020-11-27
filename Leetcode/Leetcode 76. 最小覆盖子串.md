@@ -22,7 +22,7 @@
 
 ### 解法一：滑动窗口
 
-#### 解法一python
+#### 解法1：实现1: python
 
 ```
 class Solution:
@@ -54,4 +54,37 @@ class Solution:
                     ret = s[i-1:j]
             if j == n: break
         return ret
- ```
+```
+
+#### 解法1：实现2: python
+
+```
+class Solution:
+    def minWindow(self, s: str, t: str) -> str:
+        target = {}
+        window = {}
+        for ch in t: 
+            target[ch] = target.get(ch, 0) + 1
+            window[ch] = 0
+
+        nonincluded = len(window)
+        n = len(s)
+        left = right = 0
+        ret = ""
+        while right < n:
+            if s[right] in window:
+                window[s[right]] += 1
+                if window[s[right]] == target[s[right]]:
+                    nonincluded -= 1
+            # 右指针移动
+            while nonincluded == 0: # 左指针移动
+                if ret == "" or len(ret) > right - left + 1:
+                    ret = s[left: right+1]
+                if s[left] in window:
+                    if window[s[left]] == target[s[left]]:
+                        nonincluded += 1
+                    window[s[left]] -= 1
+                left += 1
+            right += 1
+        return ret
+```
