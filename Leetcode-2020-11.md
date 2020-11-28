@@ -167,4 +167,5 @@
 |  | [438. 找到字符串中所有字母异位词 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/submissions/)  | [Leetcode 438. 找到字符串中所有字母异位词.md](Leetcode/Leetcode%20438.%20找到字符串中所有字母异位词.md) |       |      | 
 |  |  [76. 最小覆盖子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-window-substring/) | [Leetcode 76. 最小覆盖子串.md](Leetcode/Leetcode%2076.%20最小覆盖子串.md) |       |      | 
 | | [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/)| [Leetcode/Leetcode 56. 合并区间.md](Leetcode/Leetcode%2056.%20合并区间.md) | | 不是很难，贪心 | 
-
+| 2020-11-29|||||
+|  |  [30. 串联所有单词的子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) | [Leetcode 30. 串联所有单词的子串.md](Leetcode/Leetcode%2030.%20串联所有单词的子串.md) |       |      | 
