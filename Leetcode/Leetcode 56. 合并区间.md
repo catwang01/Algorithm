@@ -60,22 +60,18 @@ public:
 ```
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        n = len(intervals)
-        if n <= 1: return intervals
-        
         intervals.sort()
+        left = 0
         ret = []
-        i = 0
-        while i < n:
-            # [i, j) 合并
-            # [0, i) 合并完成的
-            j = i + 1
-            right_val = intervals[i][1]
-            while j < n and right_val >= intervals[j][0]:
-                right_val = max(right_val, intervals[j][1])
-                j += 1
-            # j == n or intervals[j-1][1] < intervals[j][0]
-            ret.append([intervals[i][0], right_val])
-            i = j
+        rightmax = intervals[left][1]
+        n = len(intervals)
+        while left < n:
+            right = left + 1
+            while right < n and intervals[right][0] <= rightmax:
+                rightmax = max(rightmax, intervals[right][1])
+                right += 1
+            ret.append([intervals[left][0], rightmax])
+            left = right
+            if left < n: rightmax = intervals[left][1]
         return ret
 ```

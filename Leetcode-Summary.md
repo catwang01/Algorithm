@@ -206,22 +206,30 @@
 
 8. [151. 翻转字符串里的单词 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
 
-9. [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/)
-[P1047 校门外的树 - 洛谷 | 计算机科学教育新生态](https://www.luogu.com.cn/problem/P1047)
-
-10. 难 [76. 最小覆盖子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-window-substring/)
-
 11. 标准的滑动窗口 [1208. 尽可能使字符串相等 - 力扣（LeetCode）](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/)
 
 13. 求最大窗口 [1004. 最大连续1的个数 III - 力扣（LeetCode）](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)
 
-14. 单调递减求最大值 [424. 替换后的最长重复字符 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)
 
-12. 固定窗口：[1456. 定长子串中元音的最大数目 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
+#### 贪心滑动窗口
 
-15. 固定窗口 [1052. 爱生气的书店老板 - 力扣（LeetCode）](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)
+9. [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/)
+[P1047 校门外的树 - 洛谷 | 计算机科学教育新生态](https://www.luogu.com.cn/problem/P1047)
+#### 单调递增求最小值 
 
-16. 固定窗口 [438. 找到字符串中所有字母异位词 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
+1. [76. 最小覆盖子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-window-substring/)
+
+
+#### 单调递减求最大值 
+
+1. [424. 替换后的最长重复字符 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)
+#### 固定窗口
+
+1. [1456. 定长子串中元音的最大数目 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
+
+2. [1052. 爱生气的书店老板 - 力扣（LeetCode）](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)
+
+3. [438. 找到字符串中所有字母异位词 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
 
 
 
@@ -438,7 +446,6 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 
 子串问题可以用 dp，有的题也可以用滑动窗口。
 
-1.  简单的dp [Leetcode 674. 最长连续递增序列.md](Leetcode/Leetcode 674.%20最长连续递增序列.md) 
 
 2. [53. 最大子序和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-subarray/)
 
@@ -461,6 +468,7 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 
 6. [1458. 两个子序列的最大点积 - 力扣（LeetCode）](https://leetcode-cn.com/problems/max-dot-product-of-two-subsequences/)
 
+7. [674. 最长连续递增序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
 
 #### 需要考虑多个状态
 

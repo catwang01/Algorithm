@@ -88,3 +88,51 @@ class Solution:
             right += 1
         return ret
 ```
+#### 解法1: 实现3: 面向对象的写法
+
+##### 解法1: 实现3: python
+
+```
+class Window:
+    def __init__(self, s, t):
+        self.left = self.right = 0
+        self.s = s
+        self.target = Counter(t)
+        self.window = {}
+        self.nmatched = 0
+
+    def moveright(self):
+        ch = self.s[self.right]
+        self.window[ch] = self.window.get(ch, 0) + 1
+        if ch in self.target and self.window[ch] == self.target[ch]:
+            self.nmatched += 1
+        self.right += 1
+
+    def moveleft(self):
+        ch = self.s[self.left]
+        self.window[ch] -= 1
+        if ch in self.target and self.target[ch] - self.window[ch] == 1:
+            self.nmatched -= 1
+        self.left += 1
+
+    def check(self):
+        return self.nmatched == len(self.target)
+
+    def size(self):
+        return self.right - self.left
+    
+    def string(self):
+        return self.s[self.left: self.right]
+
+class Solution:
+    def minWindow(self, s: str, t: str) -> str:
+        window = Window(s, t)
+        ret = ""
+        while window.right < len(s):
+            window.moveright()
+            while window.check():
+                if ret == "" or len(window.string()) < len(ret):
+                    ret = window.string()
+                window.moveleft()
+        return ret
+```
