@@ -169,3 +169,4 @@
 | | [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/)| [Leetcode/Leetcode 56. 合并区间.md](Leetcode/Leetcode%2056.%20合并区间.md) | | 不是很难，贪心 | 
 | 2020-11-29|||||
 |  |  [30. 串联所有单词的子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) | [Leetcode 30. 串联所有单词的子串.md](Leetcode/Leetcode%2030.%20串联所有单词的子串.md) |       |      | 
+|  | [424. 替换后的最长重复字符 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)  | [Leetcode 424. 替换后的最长重复字符.md](Leetcode/Leetcode%20424.%20替换后的最长重复字符.md) |       |      | 
