@@ -170,3 +170,5 @@
 | 2020-11-29|||||
 |  |  [30. 串联所有单词的子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) | [Leetcode 30. 串联所有单词的子串.md](Leetcode/Leetcode%2030.%20串联所有单词的子串.md) |       |      | 
 |  | [424. 替换后的最长重复字符 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)  | [Leetcode 424. 替换后的最长重复字符.md](Leetcode/Leetcode%20424.%20替换后的最长重复字符.md) |       |      | 
+| 2020-11-30|||||
+|  |  [767. 重构字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reorganize-string/) | [Leetcode 767. 重构字符串.md](Leetcode/Leetcode%20767.%20重构字符串.md) |       |      | 

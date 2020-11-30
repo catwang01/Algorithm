@@ -36,7 +36,7 @@
 
 4. 很标准的贪心 [1029. 两地调度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-city-scheduling/)
 
-5. 
+5. [767. 重构字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reorganize-string/)
 
 6.  和上一题有些相似 [56. 合并区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-intervals/)
 
