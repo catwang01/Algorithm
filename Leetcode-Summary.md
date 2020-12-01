@@ -2,6 +2,10 @@
 
 # Leetcode 题目分类总结
 
+## 设计
+
+[1670. 设计前中后队列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/design-front-middle-back-queue/)
+
 ## 区间相关
 
 [1024. 视频拼接 - 力扣（LeetCode）](https://leetcode-cn.com/problems/video-stitching/)
