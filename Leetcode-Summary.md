@@ -290,6 +290,8 @@
 
 13. [1385. 两个数组间的距离值 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-the-distance-value-between-two-arrays/)
 
+14. [1668. 最大重复子字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-repeating-substring/)
+
 ### 逆序对相关
 
 
@@ -334,6 +336,8 @@
 7. 比较简单 [83. 删除排序链表中的重复元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 
 [82. 删除排序链表中的重复元素 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) 
+
+[1669. 合并两个链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-in-between-linked-lists/)
 
 ### 其它
 

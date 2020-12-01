@@ -173,3 +173,5 @@
 | 2020-11-30|||||
 |  |  [767. 重构字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reorganize-string/) | [Leetcode 767. 重构字符串.md](Leetcode/Leetcode%20767.%20重构字符串.md) |       |      | 
 |  |  [34. 在排序数组中查找元素的第一个和最后一个位置 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Leetcode 34. 在排序数组中查找元素的第一个和最后一个位置.md](Leetcode/Leetcode%2034.%20在排序数组中查找元素的第一个和最后一个位置.md) |       |      | 
+|  | [1668. 最大重复子字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-repeating-substring/) | [Leetcode 1668. 最大重复子字符串.md](Leetcode/Leetcode%201668.%20最大重复子字符串.md) |       |      | 
+|  | [1669. 合并两个链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-in-between-linked-lists/) | [Leetcode 1669. 合并两个链表.md](Leetcode/Leetcode%201669.%20合并两个链表.md) |       |      | 
