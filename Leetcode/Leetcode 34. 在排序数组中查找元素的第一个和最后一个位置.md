@@ -23,16 +23,16 @@
 
 ## 算法
 
-### 解法一： 二分法1
+### 解法1： 二分法1 + 线性查找
 
 二分法，当找到 A[mid] == target 时，向两侧检查是否还有等于 target 的值
 
 时间复杂度： 当数组中所有的数都相等时，退化为线性情况，时间复杂度为： $O(n)$
 空间复杂度： $O(1)$
 
-#### 解法一： 二分法1 实现
+#### 解法一： 实现1
 
-##### 解法一： 二分法1 实现 python
+##### 解法一： 实现1:  python
 
 ```
 class Solution:
@@ -61,7 +61,11 @@ class Solution:
 
 ### 解法二：二分法2
 
+#### 解法2: 实现1: 闭区间 + 剩一个退出
+
 二分法，找到 upper_bound 和 low_bound 后，检查 A[upper_bound] 或 A[low_bound] 是否等于 target：如果是，说明 target 在数组中，则返回 low；如果不是，说明 target 不在数组中，此时返回 -1
+
+##### 解法2: 实现1: python
 
 ```
 class Solution:
@@ -88,11 +92,8 @@ class Solution:
         return low if A[low] == target else -1
 ```
 
-### 解法3:二分法3 闭区间 剩余两个元素时退出 while
-
-#### 解法3:二分法3 实现
-
-##### 解法3:二分法3 python
+#### 解法2: 实现2: 闭区间 + 剩两个退出
+##### 解法2:实现2: python
 
 ```
 class Solution:
@@ -133,4 +134,52 @@ class Solution:
         if A[low] == target:
             return low
         return -1
+```
+
+#### 解法2: 实现3: 开区间 + 剩两个退出
+##### 解法2: 实现3: c++
+
+```
+class Solution {
+public:
+    vector<int> searchRange(vector<int>& nums, int target) {
+        return {upper_bound(nums, 0, nums.size(), target), lower_bound(nums, 0, nums.size(), target)};
+    }
+
+    int lower_bound(vector<int>&nums, int low, int high, int target)
+    // max_i(nums[i] <= target)
+    {
+        if (high - low == 0) return -1;
+        auto condition = [&](int i){ return nums[i] <= target;};
+        while (high - low > 2)
+        {
+            int mid = low + (high - low) / 2;
+            if (condition(mid))
+                low = mid;
+            else
+                high = mid;
+        }
+        if (nums[high-1] == target) return high-1;
+        if (nums[low] == target) return low;
+        return -1;
+    }
+
+    int upper_bound(vector<int>&nums, int low, int high, int target)
+    // min_i(nums[i] >= target)
+    {
+        if (high - low == 0) return -1;
+        auto condition = [&](int i){ return nums[i] >= target;};
+        while (high - low > 2)
+        {
+            int mid = low + (high - low) / 2;
+            if (condition(mid))
+                high = mid + 1;
+            else
+                low = mid + 1;
+        }
+        if (nums[low] == target) return low;
+        if (nums[high-1] == target) return high-1;
+        return -1;
+    }
+};
 ```

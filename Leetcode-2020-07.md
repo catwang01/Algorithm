@@ -6,7 +6,7 @@
 | 时间| 题目链接 | 题解| 备注| tag |
 | :----: | ------------------------------------------------------------ | ---------------------------- | ----------------------------------------- | ------------ |
 | 2020-07-03|||||
-| 飞书算法-提前批 | [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)  | [Leetcode 1. 两数之和.md](Leetcode/Leetcode 1.%20两数之和.md) |       |    hash  | 
+| 飞书算法-提前批 | [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)  | [Leetcode 1. 两数之和.md](Leetcode/Leetcode%201.%20两数之和.md) |       |    hash  | 
 | 飞书算法-提前批 | [中位数_牛客网](https://www.nowcoder.com/practice/2364ff2463984f09904170cf6f67f69a?tpId=40&&tqId=21367&rp=1&ru=/activity/oj&qru=/ta/kaoyan/question-ranking) |[Nowcoder 中位数.md](Nowcoder/Nowcoder-中位数.md) |  | 注意堆的使用 |
 | 2020-07-04 | || 
 | 京东算法 | [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/) | [Leetcode 69.x的平方根.md](Leetcode/Leetcode 69.%20x%20的平方根.md)| 二分法| 

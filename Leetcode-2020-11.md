@@ -172,3 +172,4 @@
 |  | [424. 替换后的最长重复字符 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)  | [Leetcode 424. 替换后的最长重复字符.md](Leetcode/Leetcode%20424.%20替换后的最长重复字符.md) |       |      | 
 | 2020-11-30|||||
 |  |  [767. 重构字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reorganize-string/) | [Leetcode 767. 重构字符串.md](Leetcode/Leetcode%20767.%20重构字符串.md) |       |      | 
+|  |  [34. 在排序数组中查找元素的第一个和最后一个位置 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Leetcode 34. 在排序数组中查找元素的第一个和最后一个位置.md](Leetcode/Leetcode%2034.%20在排序数组中查找元素的第一个和最后一个位置.md) |       |      | 
