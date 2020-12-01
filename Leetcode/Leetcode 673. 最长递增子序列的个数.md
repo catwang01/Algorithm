@@ -23,7 +23,57 @@
 
 ## 算法
 
-### 解法1: dp
+### 解法1: dp LIS
+
+
+添加一个数据，记录以 nums[i] 结尾的最长递增子序列的个数。
+
+#### 解法1: 实现
+
+##### 解法1: 实现：python
+
+```
+class Solution {
+ public:
+    int findNumberOfLIS(vector<int>& nums) {
+        int n = nums.size();
+        if (n<=1) return n;
+        vector<int> dp(n, 1);
+        vector<int> count(n, 1);
+        int maxlen=1, maxcount=1;
+        for (int i=1; i<n; i++)
+        {
+            for (int j=0; j<i; j++)
+            {
+                if (nums[i] > nums[j]) 
+                {
+                    if (dp[j] + 1 > dp[i])
+                    {
+                        dp[i] = dp[j] + 1;
+                        count[i] = count[j];
+                    } else if (dp[i] == dp[j] + 1)
+                    {
+                        count[i] += count[j];
+                    }
+                }
+            }  
+            if (dp[i] > maxlen) 
+            {
+                maxlen = dp[i];
+                maxcount = count[i];
+            } else if (dp[i] == maxlen) 
+            {
+                maxcount += count[i];
+            }
+        }
+        // for_each(dp.begin(), dp.end(), [](int x){cout << x << endl;});
+        // for_each(count.begin(), count.end(), [](int x){cout << x << endl;});
+        return maxcount;
+    }
+};
+```
+
+##### 解法1: 实现：python
 
 
 ```

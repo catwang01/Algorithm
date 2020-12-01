@@ -176,4 +176,5 @@
 |  | [1668. 最大重复子字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-repeating-substring/) | [Leetcode 1668. 最大重复子字符串.md](Leetcode/Leetcode%201668.%20最大重复子字符串.md) |       |      | 
 |  | [1669. 合并两个链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-in-between-linked-lists/) | [Leetcode 1669. 合并两个链表.md](Leetcode/Leetcode%201669.%20合并两个链表.md) |       |      | 
 |  |  [1670. 设计前中后队列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/design-front-middle-back-queue/) | [Leetcode 1670. 设计前中后队列.md](Leetcode/Leetcode%201670.%20设计前中后队列.md) |       |      | 
-
+|  | [1671. 得到山形数组的最少删除次数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-number-of-removals-to-make-mountain-array/)  | [Leetcode 1671. 得到山形数组的最少删除次数.md](Leetcode/Leetcode%201671.%20得到山形数组的最少删除次数.md) |       |      | 
+|  | [673. 最长递增子序列的个数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/)  | [Leetcode 673. 最长递增子序列的个数.md](Leetcode/Leetcode%20673.%20最长递增子序列的个数.md) |       |      | 

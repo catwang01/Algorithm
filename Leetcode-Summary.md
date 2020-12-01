@@ -460,14 +460,18 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 
 ### 子序列系列
 
+#### LIS 问题
+
+2. [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/)
+
+[1671. 得到山形数组的最少删除次数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-number-of-removals-to-make-mountain-array/)
+
+3. [673. 最长递增子序列的个数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/) 
+
 #### 只保存一个状态
 
 1. [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)
 使用滚动数组进行空间优化值得参考.
-
-2. [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/)
-
-3. [673. 最长递增子序列的个数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/) 
 
 4. dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)
 
