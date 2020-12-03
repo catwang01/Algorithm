@@ -60,6 +60,9 @@
 
 14. 经典贪心：活动选择问题 [452. 用最少数量的箭引爆气球 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 
+### 贪心 + 滑动窗口 
+
+15. [402. 移掉K位数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-k-digits/)
 ## 字符串
 
 1. 比较简单 [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/)
