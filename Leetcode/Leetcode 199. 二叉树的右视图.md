@@ -46,6 +46,28 @@ public:
 
 #### 解法2： 实现
 
+##### 解法2: 实现： python
+
+```
+class Solution:
+    def rightSideView(self, root: TreeNode) -> List[int]:
+        
+        ret = []
+
+        def process(node, level):
+            if level == len(ret):
+                ret.append(node.val)
+
+        def preorder(node, level, process):
+            if not node: return
+            process(node, level)
+            preorder(node.right, level+1, process)
+            preorder(node.left, level+1, process)
+
+        preorder(root, 0, process)
+        return ret
+```
+
 ##### 解法2： 实现：c++
 
 ```

@@ -38,6 +38,7 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
         n = len(height)
+        if n < 3: return 0
         water = 0
         for i in range(1, n-1):
             leftmax = max(height[:i])
@@ -68,6 +69,7 @@ rightmax[i] = max(rightmax[i+1], height[i+1])
 class Solution:
     def trap(self, height: List[int]) -> int:
         n = len(height)
+        if n < 3: return 0
         water = 0
         leftmax = [0] * n
         rightmax  = [0] * n
