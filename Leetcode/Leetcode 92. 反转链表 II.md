@@ -28,23 +28,61 @@ class Solution:
         virtualHead.next = head
 
         cur = virtualHead
-        for i in range(m-1):
-            cur = cur.next
-        start = cur
-        
-        for i in range(n-m+2):
-            cur = cur.next
-        end = cur
-        newHead = self.reverse(start.next, end)
-        start.next.next = end
-        start.next = newHead
+        i = 0
+        while i + 1 < m:
+            cur = cur.next 
+            i += 1
+        newNext = self.reverse(cur.next, m, n)
+        cur.next.next = self.nextNode
+        cur.next = newNext
         return virtualHead.next
-    
-    def reverse(self, head, end):
-        if head is None or head.next is None or head.next == end:
+
+    def reverse(self, head, m, n):
+        if m == n:
+            self.nextNode = head.next
+            head.next = None
             return head
-        newHead = self.reverse(head.next, end)
+        newhead = self.reverse(head.next, m+1, n)
         head.next.next = head
-        return newHead
+        return newhead
 ```
 
+### 解法2: 迭代
+
+#### 解法2: 实现：
+
+##### 解法2: 实现： python
+
+```
+class Solution:
+    def reverseBetween(self, head: ListNode, m: int, n: int) -> ListNode:
+        if m == n: return head
+        virtualHead = ListNode(-1)
+        virtualHead.next = head
+        node = virtualHead
+        i = 0 # 表示当前 node 的编号
+        while i + 1 < m:
+            node = node.next
+            i += 1
+        nodeMm1 = node # 编号为 m - 1 的节点
+        # 指针前移，此时node是
+        node = node.next
+        i += 1
+        nodeM = node 
+
+        cur = None
+        
+        while i < n:
+            nextNode = node.next
+            node.next = cur
+            cur = node
+            node = nextNode
+            i += 1
+        # 此时 node 是编号为n的节点
+        nodeNp1 = node.next # node n+1
+        node.next = cur
+        cur = node
+        nodeMm1.next = cur
+        nodeM.next = nodeNp1
+        return virtualHead.next
+```

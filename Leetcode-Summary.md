@@ -318,7 +318,7 @@
 
 6. 面试：[25. K 个一组翻转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) 当时思路是对的，但还是没有做出来
 
-7. [92. 反转链表 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
+7. 这个也有一定难度 [92. 反转链表 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
 
 ### 链表 + 双指针
 

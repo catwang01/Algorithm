@@ -18,4 +18,4 @@
 |  | [122. 买卖股票的最佳时机 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)  | [Leetcode 122. 买卖股票的最佳时机 II.md](Leetcode/Leetcode 122.%20买卖股票的最佳时机%20II.md) |   Leetcode 专栏    |   dp   | 
 |  | [199. 二叉树的右视图 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-right-side-view/)  | [Leetcode 199. 二叉树的右视图.md](Leetcode/Leetcode%20199.%20二叉树的右视图.md) |       |      | 
 |  | [141. 环形链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/linked-list-cycle/)  | [Leetcode 141. 环形链表.md](Leetcode/Leetcode%20141.%20环形链表.md) |       |      | 
-
+|  | [92. 反转链表 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list-ii/)  | [Leetcode 92. 反转链表 II.md](Leetcode/Leetcode%2092.%20反转链表%20II.md) |       |      | 
