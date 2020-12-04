@@ -83,3 +83,25 @@ class Solution:
             return high
         return low
 ```
+
+#### 解法2: 实现3 左闭右开区间 2个元素时退出 while
+
+##### 解法2: 实现3: python
+
+```
+class Solution:
+    def mySqrt(self, x: int) -> int:
+        # max(i**2 <=x)
+        if x <= 1: return x
+        low, high = 0, x
+        condition = lambda i: i ** 2 <= x
+        while high - low > 2:
+            mid = (low + high) // 2
+            if condition(mid):
+                low = mid
+            else:
+                high = mid
+        if condition(high-1):
+            return high - 1
+        return low
+```

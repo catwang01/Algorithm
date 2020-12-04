@@ -22,3 +22,4 @@
 |  | [97. 交错字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/interleaving-string/)  | [Leetcode 97. 交错字符串.md](Leetcode/Leetcode%2097.%20交错字符串.md) |       |      | 
 |  |  [98. 验证二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Leetcode 98. 验证二叉搜索树.md](Leetcode/Leetcode%2098.%20验证二叉搜索树.md) |       |      | 
 |  | [113. 路径总和 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/path-sum-ii/)  | [Leetcode 113. 路径总和 II.md](Leetcode/Leetcode%20113.%20路径总和%20II.md) |       |      | 
+| 面试题 |  [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/submissions/) | [Leetcode 69. x 的平方根.md](Leetcode/Leetcode%2069.%20x%20的平方根.md) |       |      | 
