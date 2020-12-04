@@ -23,3 +23,5 @@
 |  |  [98. 验证二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Leetcode 98. 验证二叉搜索树.md](Leetcode/Leetcode%2098.%20验证二叉搜索树.md) |       |      | 
 |  | [113. 路径总和 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/path-sum-ii/)  | [Leetcode 113. 路径总和 II.md](Leetcode/Leetcode%20113.%20路径总和%20II.md) |       |      | 
 | 面试题 |  [69. x 的平方根 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sqrtx/submissions/) | [Leetcode 69. x 的平方根.md](Leetcode/Leetcode%2069.%20x%20的平方根.md) |       |      | 
+| | [200. 岛屿数量 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-islands/) | [ Leetcode 200. 岛屿数量.md ](Leetcode/Leetcode%20200.%20岛屿数量.md) || bfs 或 并查集|
+

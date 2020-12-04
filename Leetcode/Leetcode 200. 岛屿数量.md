@@ -63,9 +63,9 @@ public:
 
 将上面的bfs的队列修改为栈。
 
-#### 解法1.2: 实现
+#### 解法2: 实现1: 非递归
 
-##### 解法1.2:c++
+##### 解法2: 实现1: c++
 
 ```
 class Solution {
@@ -107,6 +107,69 @@ public:
         }
     }
 };
+```
+
+##### 解法2: 实现1: python
+
+```
+DIRECETIONS = [[0, 1], [0, -1], [1, 0], [-1, 0]]
+ISLAND, OCEAN, SEEN = '1', '0', '2'
+
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:
+        if (len(grid)==0 or len(grid[0])==0):
+            return 0
+        nrow, ncol = len(grid), len(grid[0])
+        ret = 0
+        for i in range(nrow):
+            for j in range(ncol):
+                if grid[i][j] == ISLAND:
+                    self.dfs(i, j, grid)
+                    ret += 1
+        return ret
+
+    def dfs(self, i, j, grid):
+        st = []
+        st.append((i, j))
+        grid[i][j] = SEEN
+        while st:
+            i, j = st.pop()
+            for dx, dy in DIRECETIONS:
+                x, y = i + dx, j + dy
+                if 0 <= x < len(grid) and 0 <= y < len(grid[0]) and grid[x][y] == ISLAND:
+                    st.append((x, y))
+                    grid[x][y] = SEEN
+```
+
+
+#### 解法2: 实现2: 递归
+
+##### 解法2: 实现2: python
+
+```
+DIRECETIONS = [[0, 1], [0, -1], [1, 0], [-1, 0]]
+ISLAND, OCEAN, SEEN = '1', '0', '2'
+
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:
+        if (len(grid)==0 or len(grid[0])==0):
+            return 0
+        nrow, ncol = len(grid), len(grid[0])
+        ret = 0
+        for i in range(nrow):
+            for j in range(ncol):
+                if grid[i][j] == ISLAND:
+                    self.dfs(i, j, grid)
+                    ret += 1
+        return ret
+
+    def dfs(self, i, j, grid):
+        grid[i][j] = SEEN
+        for dx, dy in DIRECETIONS:
+            x, y = i + dx, j + dy
+            if 0 <= x < len(grid) and 0 <= y < len(grid[0]) and grid[x][y] == ISLAND:
+                grid[x][y] = SEEN
+                self.dfs(x, y, grid)
 ```
 
 ### 解法2：并查集
