@@ -9,9 +9,11 @@
 
 ## 算法
 
-### 解法一python 递归
+### 解法1: 后序遍历
 
-#### 解法一python 递归
+#### 解法1: 实现1: 递归
+
+##### 解法1: 实现：python
 
 ```
 class Solution:
@@ -29,40 +31,9 @@ class Solution:
         return result
 ```
 
+#### 解法2:实现2：非递归（利用后序遍历的特性来得到路径）
 
-### 解法二：python dfs
-
-
-#### 解法二：python
-
-```
-class Solution:
-    def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
-        ret = []
-        if root is None:
-            return ret
-
-        def dfs(node, path, cursum):
-            if cursum == sum and node.left is None and node.right is None:
-                ret.append(path[:])
-            
-            for nextnode in [node.left, node.right]:
-                if nextnode is not None:
-                    path.append(nextnode.val)
-                    cursum += nextnode.val
-                    dfs(nextnode, path, cursum)
-                    cursum -= nextnode.val
-                    path.pop()
-        
-        dfs(root, [root.val], root.val)
-        return ret
-```
-
-### 解法3: 后序遍历 非递归
-
-#### 解法3:实现1
-
-##### 解法3:实现1: python
+##### 解法2:实现2: python
 
 ```
 class Solution:
@@ -90,5 +61,74 @@ class Solution:
                 node = None                                 # 赋值为 None，下个循环中会强制退栈
             else:                                           # 如果有右节点，并且还没有处理
                 node = node.right
+        return ret
+```
+
+#### 解法2:实现2：非递归
+
+##### 解法2:实现2: python
+
+```
+class Solution:
+    def pathSum(self, root: TreeNode, s: int) -> List[List[int]]:
+        if not root: return []
+        lastprocessed = None
+        st = []
+        retstack = []
+        while root or st:
+            while root:
+                st.append((root, s))
+                s -= root.val
+                root = root.left
+            root, s = st[-1]
+            if not root.right or root.right == lastprocessed:
+                # process root
+                # print(root.val)
+                # print(retstack)
+                if not root.right and not root.left:
+                    if root.val == s: # 叶节点
+                        retstack.append([[root.val]])
+                    else:
+                        retstack.append([])
+                else:
+                    node_ret = []
+                    if root.right: node_ret += retstack.pop()
+                    if root.left:  node_ret += retstack.pop()
+                    retstack.append([[root.val] + x for x in node_ret])
+                lastprocessed = root
+                st.pop()
+                root = None
+            else:
+                s -= root.val
+                root = root.right
+        return retstack.pop()
+```
+
+### 解法二：回溯（实际上是先序遍历）
+
+#### 解法二：实现
+
+##### 解法二：实现：python
+
+```
+class Solution:
+    def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
+        ret = []
+        if root is None:
+            return ret
+
+        def dfs(node, path, cursum):
+            if cursum == sum and node.left is None and node.right is None:
+                ret.append(path[:])
+            
+            for nextnode in [node.left, node.right]:
+                if nextnode is not None:
+                    path.append(nextnode.val)
+                    cursum += nextnode.val
+                    dfs(nextnode, path, cursum)
+                    cursum -= nextnode.val
+                    path.pop()
+        
+        dfs(root, [root.val], root.val)
         return ret
 ```
