@@ -394,6 +394,7 @@
 ### 正则匹配问题
 
 1. [44. 通配符匹配 - 力扣（LeetCode）](https://leetcode-cn.com/problems/wildcard-matching/)
+2. [10. 正则表达式匹配 - 力扣（LeetCode）](https://leetcode-cn.com/problems/regular-expression-matching/)
 
 ### 三维 dp
 

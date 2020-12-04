@@ -178,6 +178,3 @@
 |  |  [1670. 设计前中后队列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/design-front-middle-back-queue/) | [Leetcode 1670. 设计前中后队列.md](Leetcode/Leetcode%201670.%20设计前中后队列.md) |       |      | 
 |  | [1671. 得到山形数组的最少删除次数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-number-of-removals-to-make-mountain-array/)  | [Leetcode 1671. 得到山形数组的最少删除次数.md](Leetcode/Leetcode%201671.%20得到山形数组的最少删除次数.md) |       |      | 
 |  | [673. 最长递增子序列的个数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/)  | [Leetcode 673. 最长递增子序列的个数.md](Leetcode/Leetcode%20673.%20最长递增子序列的个数.md) |       |      | 
-| 2020-12-3|||||
-|  |  [402. 移掉K位数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-k-digits/) | [Leetcode 402. 移掉K位数字.md](Leetcode/Leetcode%20402.%20移掉K位数字.md) |       |      | 
-

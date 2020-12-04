@@ -8,7 +8,11 @@
 
 ## 算法
 
-### 解法1
+### 解法1：hashtab
+
+#### 解法1: 实现
+
+##### 解法1: 实现：c++
 
 ```
 class Solution {
@@ -30,8 +34,28 @@ public:
 };
 ```
 
+##### 解法1: 实现：python
+
+```
+class Solution:
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        hashtab = {None: None} # old2new
+        node = head
+        while node:
+            hashtab[node] = Node(node.val)
+            node = node.next
+        node = head
+        while node:
+            hashtab[node].next = hashtab[node.next]
+            hashtab[node].random = hashtab[node.random]
+            node = node.next
+        return hashtab[head]
+```
+
+
 ### 解法2: 利用next 关系来表示 hash
 
+#### 解法2: 实现
 ##### 解法2: 实现： c++
 
 ```
@@ -59,4 +83,36 @@ public:
         return newhead;
     }
 };
+```
+
+##### 解法2: 实现： python
+
+```
+class Solution:
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        node = head
+        while node:
+            nextNode = node.next
+            newNode = Node(node.val)
+            node.next = newNode
+            newNode.next = nextNode
+            node = nextNode
+        
+        node = head
+        while node:
+            if node.random: 
+                node.next.random = node.random.next
+            node = node.next.next
+        
+        virtualhead = Node(-1)
+        cur = virtualhead
+        node = head
+        while node:
+            cur.next = node.next
+            node.next = node.next.next
+            node = node.next
+            cur = cur.next
+        
+        return virtualhead.next
+
 ```

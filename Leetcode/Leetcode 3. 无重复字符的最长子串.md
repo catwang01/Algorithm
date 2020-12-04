@@ -98,14 +98,14 @@ class Solution:
         return ret
 ```
 
-### 解法二优化
+### 解法2: 空间优化
 
 用一个字典来记录字母出现的个数，
 
 时间复杂度： $O(n)$ 
 空间复杂度： $O(1)$ 字典的键为26个字母，因此字典最大为 26 个键值对，和问题规模无关
 
-#### 解法2：实现：python
+##### 解法2：实现：python
 
 ```
 class Solution:
@@ -153,7 +153,53 @@ public:
 };
 ```
 
+##### 解法2：实现2：面向对象写法
+##### 解法2：实现2：python
 
+
+```
+class Window:
+
+    def __init__(self, s):
+        self.s = s
+        self.left = self.right = 0
+        self.window = {}
+
+    def moveright(self):
+        ch = self.s[self.right]
+        self.window[ch] = self.window.get(ch, 0) + 1
+        self.right += 1
+
+    def moveleft(self):
+        ch = self.s[self.left]
+        self.window[ch] -= 1
+        if self.window[ch] == 0:
+            del self.window[ch]
+        self.left += 1
+
+    def nonfinished(self):
+        return self.right < len(self.s)
+
+    def size(self):
+        return self.right - self.left
+
+    def nunique(self):
+        return len(self.window)
+
+    def check(self):
+        return self.nunique() == self.size()
+
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        window = Window(s)
+        ret = 0
+        while window.nonfinished():
+            window.moveright()
+            while not window.check():
+                window.moveleft()
+            ret = max(ret, window.nunique())
+        return ret
+```
 ### 解法2：优化2
 
 #### 解法2：优化2：实现
