@@ -504,7 +504,11 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 
 #### 0-1 背包
 
-[416. 分割等和子集 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-equal-subset-sum/)
+1. [416. 分割等和子集 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-equal-subset-sum/)
+
+2. [474. 一和零 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ones-and-zeroes/)
+
+3. [494. 目标和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/target-sum/)
 
 #### 完全背包
 

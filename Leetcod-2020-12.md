@@ -30,6 +30,10 @@
 | 2020-12-5|||||
 |  | [416. 分割等和子集 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-equal-subset-sum/)  | [Leetcode 416. 分割等和子集.md](Leetcode/Leetcode%20416.%20分割等和子集.md) |       |      | 
 |  | [287. 寻找重复数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-the-duplicate-number/)  |  | [Leetcode/Leetcode 287. 寻找重复数.md](Leetcode/Leetcode%20287.%20寻找重复数.md)      |      | 
+|  | [474. 一和零 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ones-and-zeroes/)  | [Leetcode 474. 一和零.md](Leetcode/Leetcode%20474.%20一和零.md) |       |      | 
+|  | [494. 目标和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/target-sum/)  | [Leetcode 494. 目标和.md](Leetcode/Leetcode%20494.%20目标和.md) |       |      | 
+
+
 
 
 
