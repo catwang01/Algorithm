@@ -320,6 +320,14 @@
 
 7. 这个也有一定难度 [92. 反转链表 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
 
+### 链表找环
+
+1. [141. 环形链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/linked-list-cycle/)
+
+2. [142. 环形链表 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
+
+3. [287. 寻找重复数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-the-duplicate-number/)
+
 ### 链表 + 双指针
 
 1. 推荐 [876. 链表的中间结点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
@@ -328,7 +336,6 @@
     - [19. 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-by-l/)
     - [面试题 02.02. 返回倒数第 k 个节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/)
 
-3. [141. 环形链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/linked-list-cycle/)
 
 3. 推荐， [328. 奇偶链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/odd-even-linked-list/)
 
@@ -495,6 +502,9 @@ dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-c
 
 ### 背包问题
 
+#### 0-1 背包
+
+[416. 分割等和子集 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-equal-subset-sum/)
 
 #### 完全背包
 

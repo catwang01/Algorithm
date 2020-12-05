@@ -27,3 +27,9 @@
 |  | [637. 二叉树的层平均值 - 力扣（LeetCode）](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)  | [Leetcode 637. 二叉树的层平均值.md](Leetcode/Leetcode%20637.%20二叉树的层平均值.md) |       |      | 
 |  | [637. 二叉树的层平均值 - 力扣（LeetCode）](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)  | [Leetcode 637. 二叉树的层平均值.md](Leetcode/Leetcode%20637.%20二叉树的层平均值.md) |       |      | 
 |  | Leetcode/Leetcode 142. 环形链表 II.md  | [ Leetcode/Leetcode 142. 环形链表 II.md ](Leetcode/Leetcode%20142.%20环形链表%20II.md) |       |      | 
+| 2020-12-5|||||
+|  | [416. 分割等和子集 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-equal-subset-sum/)  | [Leetcode 416. 分割等和子集.md](Leetcode/Leetcode%20416.%20分割等和子集.md) |       |      | 
+|  | [287. 寻找重复数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-the-duplicate-number/)  |  | [Leetcode/Leetcode 287. 寻找重复数.md](Leetcode/Leetcode%20287.%20寻找重复数.md)      |      | 
+
+
+
