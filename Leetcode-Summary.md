@@ -225,6 +225,7 @@
 
 1. [76. 最小覆盖子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-window-substring/)
 
+2. 推荐 [209. 长度最小的子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
 
 #### 单调递减求最大值 
 
@@ -245,15 +246,15 @@
 
 2. [1497. 检查数组对是否可以被 k 整除 - 力扣（LeetCode）](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/)
 
-### 桶思想与抽屉原理
+### 原地hash
 
 1. [面试题03. 数组中重复的数字 题解 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/solution/)
 
-2. 推荐 桶思想+抽屉原理 [448. 找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)
+2. 推荐 [448. 找到所有数组中消失的数字](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)
 
-3. 推荐 桶思想+抽屉原理 [442. 数组中重复的数据](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/)
+3. 推荐 [442. 数组中重复的数据](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/)
 
-4. 推荐 桶思想 [220. 存在重复元素 III - 力扣（LeetCode）](https://leetcode-cn.com/problems/contains-duplicate-iii/submissions/)
+4. 推荐 [220. 存在重复元素 III - 力扣（LeetCode）](https://leetcode-cn.com/problems/contains-duplicate-iii/submissions/)
 
 5. [41. 缺失的第一个正数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/first-missing-positive/)
 

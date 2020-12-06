@@ -52,13 +52,17 @@ public:
 };
 ```
 
-### 解法一前缀数组优化
+### 解法2：前缀数组优化
 
 上面求部分和用了累加；有许多重复计算，可以利用前缀数组来代替，减低时间复杂度
 
 
 时间复杂度：$O(n^2)$
 空间复杂度：$O(n)$ 用了一个数组来保存前缀和
+
+#### 解法2：前缀数组优化
+
+##### 解法2：c++
 
 ```
 class Solution {
@@ -85,7 +89,7 @@ public:
 };
 ```
 
-### 解法一二分法优化
+### 解法3：二分法优化
 
 上面的解法一中遍历了 i,j；可以使用二分法来代替；思路如下：
 
@@ -96,7 +100,8 @@ public:
 时间复杂度： $O(nlogn)$
 空间复杂度： $O(n)$
 
-#### 解法一二分法优化c++
+#### 解法3: 实现: 闭区间 + 只剩一个元素退出
+##### 解法3: 实现1：c++
 
 ```
 class Solution {
@@ -140,18 +145,51 @@ public:
 };
 ```
 
-### 解法二：滑动窗口
+#### 解法3: 实现2: 左闭右开区间 + 只剩两个元素退出
+
+##### 解法3: 实现2: python
+
+```
+class Solution:
+    def minSubArrayLen(self, s: int, nums: List[int]) -> int:
+        n = len(nums)
+        preSum = [0] * (n+1)
+        # preSum[j] - preSum[i] [i:j)
+        for i in range(1, n+1):
+            preSum[i] = preSum[i-1] + nums[i-1]
+        def condition(k):
+            for i in range(n - k + 1): # [i, i+k) i+k <= n --> i <= n - k
+                if preSum[i + k] - preSum[i] >= s:
+                    return True
+
+        low, high = 1, n+1
+        while high - low > 2:
+            mid = (low + high) // 2
+            if condition(mid):
+                high = mid + 1
+            else:
+                low = mid + 1
+        if condition(low): 
+            return low
+        if condition(high-1):
+            return high - 1
+        return 0
+```
+
+
+
+### 解法4：滑动窗口
 
 时间复杂度： $O(n)$
 空间复杂度： $O(1)$
 
-#### 解法2: 实现1： while 循环扩展窗口
+#### 解法4: 实现1： while 循环扩展窗口
 
 ![098360058362399ca286eba309e5eddc.png](evernotecid://8E200321-31A9-427B-BECA-CC44235980BC/appyinxiangcom/22483756/ENResource/p10470)
  
 ![20589f37fc838e415e62b9eb07b81ed1.png](evernotecid://8E200321-31A9-427B-BECA-CC44235980BC/appyinxiangcom/22483756/ENResource/p10471)
 
-##### 解法2：实现1:python
+##### 解法4：实现1:python
 
 ```
 class Solution:
@@ -175,7 +213,7 @@ class Solution:
 ```
 
 
-#### 解法2: 实现2: while 循环收缩窗口
+#### 解法4: 实现2: while 循环收缩窗口
 
 扩张窗口：为了找到一个可行解，找到了就不再扩张
 收缩窗口：在长度上优化该可行解，直到条件被破坏
@@ -198,4 +236,47 @@ class Solution:
                 left += 1
             right += 1
         return ret if ret < n + 1 else 0
+```
+
+#### 解法4: 实现3: while 循环收缩窗口——面向对象解法
+
+##### 解法4: 实现3: python
+
+```
+class Window:
+    def __init__(self, s, nums):
+        self.s = s 
+        self.nums = nums
+        self.window = 0
+        self.left = self.right = 0
+
+    def nonfinished(self):
+        return self.right < len(self.nums)
+
+    def moveleft(self):
+        self.window -= self.nums[self.left]
+        self.left += 1
+    
+    def moveright(self):
+        self.window += self.nums[self.right]
+        self.right += 1
+
+    def check(self):
+        return self.window >= self.s
+
+    def size(self):
+        return self.right - self.left
+
+class Solution:
+    def minSubArrayLen(self, s: int, nums: List[int]) -> int:
+        # [i:j] 满足条件 --> [i:j+1] 也满足条件
+        # [i:j] 不满足条件 --> [i+1:j] 可能满足条件
+        ret = len(nums) + 1
+        window = Window(s, nums)
+        while window.nonfinished():
+            window.moveright()
+            while window.check():
+                ret = min(ret, window.size())
+                window.moveleft()
+        return 0 if ret == len(nums) + 1 else re
 ```

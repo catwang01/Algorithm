@@ -36,3 +36,9 @@
 | 2020-12-6|||||
 |  |  [226. 翻转二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/invert-binary-tree/) | [Leetcode 226. 翻转二叉树.md](Leetcode/Leetcode%20226.%20翻转二叉树.md) |       |      | 
 |  | [394. 字符串解码 - 力扣（LeetCode）](https://leetcode-cn.com/problems/decode-string/)  | [Leetcode 394. 字符串解码.md](Leetcode/Leetcode%20394.%20字符串解码.md) |       |      | 
+|  | [209. 长度最小的子数组 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)   | [Leetcode 209. 长度最小的子数组.md](Leetcode/Leetcode%20209.%20长度最小的子数组.md) |       |      | 
+| | [94. 二叉树的中序遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/submissions/) | [Leetcode 94. 二叉树的中序遍历.md](Leetcode/Leetcode%2094.%20二叉树的中序遍历.md) |      |     递归    |
+| | [105. 从前序与中序遍历序列构造二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Leetcode 105. 从前序与中序遍历序列构造二叉树.md](Leetcode/Leetcode%20105.%20从前序与中序遍历序列构造二叉树.md) |       |      | 
+| |  [25. K 个一组翻转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Leetcode 25. K 个一组翻转链表 - 力扣（LeetCode） ](Leetcode/Leetcode%2025.%20K%20个一组翻转链表.md)
+|  | [448. 找到所有数组中消失的数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)  | [Leetcode 448. 找到所有数组中消失的数字.md](Leetcode/Leetcode%20448.%20找到所有数组中消失的数字.md) |       |      | 
+|  | [41. 缺失的第一个正数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/first-missing-positive/)  | [Leetcode 41. 缺失的第一个正数.md](Leetcode/Leetcode%2041.%20缺失的第一个正数.md) |       |   原地hash   | 
