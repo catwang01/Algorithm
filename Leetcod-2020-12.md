@@ -35,3 +35,4 @@
 |  | [515. 在每个树行中找最大值 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)  | [Leetcode 515. 在每个树行中找最大值.md](Leetcode/Leetcode%20515.%20在每个树行中找最大值.md) |       |      | 
 | 2020-12-6|||||
 |  |  [226. 翻转二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/invert-binary-tree/) | [Leetcode 226. 翻转二叉树.md](Leetcode/Leetcode%20226.%20翻转二叉树.md) |       |      | 
+|  | [394. 字符串解码 - 力扣（LeetCode）](https://leetcode-cn.com/problems/decode-string/)  | [Leetcode 394. 字符串解码.md](Leetcode/Leetcode%20394.%20字符串解码.md) |       |      | 
