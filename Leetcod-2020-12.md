@@ -47,3 +47,6 @@
 |  |   [103. 二叉树的锯齿形层次遍历 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [Leetcode 103. 二叉树的锯齿形层次遍历.md](Leetcode/Leetcode%20103.%20二叉树的锯齿形层次遍历.md) |   Leetcode 头条专栏    |      | 
 |  | [503. 下一个更大元素 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-element-ii/) | [Leetcode 503. 下一个更大元素 II.md](Leetcode/Leetcode%20503.%20下一个更大元素%20II.md) |       |      | 
 |  |  [518. 零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/) | [Leetcode 518. 零钱兑换 II.md](Leetcode/Leetcode%20518.%20零钱兑换%20II.md) |       |      | 
+|  京东算法 | [470. 用 Rand7() 实现 Rand10() - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) | [Leetcode 470. 用 Rand7() 实现 Rand10().md](Leetcode/Leetcode%20470.%20用%20Rand7()%20实现%20Rand10().md) |       |      | 
+| | [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum)  | [Leetcode 1.%20两数之和.md](Leetcode/Leetcode%201.%20两数之和.md) |       |    hash  | 
+|  | [剑指 Offer 18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)  | [Leetcode 面试题18. 删除链表的节点.md](Leetcode/Leetcode%20面试题18.%20删除链表的节点.md ) |       |      | 

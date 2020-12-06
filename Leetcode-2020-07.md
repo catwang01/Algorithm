@@ -80,7 +80,7 @@
 |  |   | [Leetcode 96. 不同的二叉搜索树.md](Leetcode/Leetcode 96.%20不同的二叉搜索树.md) |       |     
 |  |  [面试题45. 把数组排成最小的数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | [Leetcode 面试题45. 把数组排成最小的数.md](Leetcode/Leetcode 面试题45.%20把数组排成最小的数.md) |       |      | 
 | 2020-07-17|||||
-| | [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum/)  | [Leetcode 1. 两数之和.md](Leetcode/Leetcode 1.%20两数之和.md) |       |    hash  | 
+| | [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum)  | [Leetcode 1. 两数之和.md](Leetcode/Leetcode 1.%20两数之和.md) |       |    hash  | 
 | 面试题 | [75. 颜色分类 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sort-colors/)  | [Leetcode 75. 颜色分类.md](Leetcode/Leetcode 75.%20颜色分类.md) |       |    hash  | 
 | | [206. 反转链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-linked-list/) | [Leetcode 206. 反转链表.md](Leetcode/Leetcode%20206.%20反转链表.md) | 面试题    |     递归    |
 |  |  [96. 不同的二叉搜索树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/unique-binary-search-trees/) | [Leetcode 96. 不同的二叉搜索树.md](Leetcode/Leetcode 96.%20不同的二叉搜索树.md) |  面试题  |      | 

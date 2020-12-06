@@ -8,7 +8,7 @@
 
 ## 算法
 
-### 解法1: 虚拟结点
+### 解法1: 迭代
 
 由于被删除的结点可能是头结点，所以需要设置虚拟结点。
 
@@ -42,12 +42,33 @@ public:
 ```
 class Solution:
     def deleteNode(self, head: ListNode, val: int) -> ListNode:
-        virualHead = ListNode(0)
-        virualHead.next = head
-        p = virualHead
-        while p and p.next.val != val:
-            p = p.next
-        if p:
-            p.next = p.next.next
-        return virualHead.next
+        virtualHead = ListNode(-1)
+        virtualHead.next = head
+        curNode = virtualHead
+        while curNode and curNode.next:
+            nextNode = curNode.next
+            while nextNode and nextNode.val == val:
+                nextNode = nextNode.next
+            curNode.next = nextNode
+            curNode = nextNode
+        return virtualHead.next
+```
+
+### 解法2: 递归
+
+递归就不需要虚拟节点了。
+
+#### 解法2: 实现：递归
+
+##### 解法2: 实现：python
+
+```
+class Solution:
+    def deleteNode(self, head: ListNode, val: int) -> ListNode:
+        if not head: return head
+        if head.val == val:
+            return self.deleteNode(head.next, val)
+        else:
+            head.next = self.deleteNode(head.next, val)
+            return head
 ```
