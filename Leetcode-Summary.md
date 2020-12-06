@@ -537,6 +537,8 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 [199. 二叉树的右视图 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
 
+[515. 在每个树行中找最大值 - 力扣（LeetCode）](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)
+
 ### 判断叶结点
 
 各种遍历都可 [111. 二叉树的最小深度 题解 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) 
