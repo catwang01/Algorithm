@@ -62,7 +62,7 @@ class Solution:
         return ret   
 ```
 
-### 解法2: 使用deque
+### 解法2: levelorder
 
 #### 解法2:实现
 
@@ -73,27 +73,51 @@ class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
         ret = []
         if not root: return ret
-        dq = deque([root])
-        is_pop_left = True
-        while dq:
-            levelsize = len(dq)
-            levelret = []
-            for i in range(levelsize):
-                if is_pop_left:
-                    node = dq.popleft()
-                    levelret.append(node.val)
-                    if node.left:
-                        dq.append(node.left)
-                    if node.right:
-                        dq.append(node.right)
+        st = []
+        q = deque([root])
+        level = -1
+        while q:
+            level += 1
+            ret.append(deque())
+            levelsize = len(q)
+            for _ in range(levelsize):
+                node = q.popleft()
+                if level & 1:
+                    ret[level].appendleft(node.val)
                 else:
-                    node = dq.pop()
-                    levelret.append(node.val)
-                    if node.right:
-                        dq.appendleft(node.right)
-                    if node.left:
-                        dq.appendleft(node.left)
-            is_pop_left = not is_pop_left
-            ret.append(levelret)
-        return ret
+                    ret[level].append(node.val)
+                if node.left: 
+                    q.append(node.left)
+                if node.right: 
+                    q.append(node.right)
+        return [list(l) for l in ret]
+```
+
+### 解法3: preorder
+
+对于奇数层，从头部插入，对于偶数层从尾部插入。为了提升速度，ret 中先存 deque，输出时转换为 list
+
+#### 解法3: 实现：非递归
+
+##### 解法3： 实现：python
+
+```
+class Solution:
+    def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
+        ret = []
+        level = 0
+        st = []
+        while st or root:
+            while root:
+                if len(ret) == level:
+                    ret.append(deque([]))
+                if level & 1:
+                    ret[level].appendleft(root.val)
+                else:
+                    ret[level].append(root.val)
+                st.append((root.right, level + 1))
+                root = root.left
+                level += 1
+            root, level = st.pop()
+        return [list(l) for l in ret]
 ```
