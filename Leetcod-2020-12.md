@@ -50,3 +50,5 @@
 |  京东算法 | [470. 用 Rand7() 实现 Rand10() - 力扣（LeetCode）](https://leetcode-cn.com/problems/implement-rand10-using-rand7/) | [Leetcode 470. 用 Rand7() 实现 Rand10().md](Leetcode/Leetcode%20470.%20用%20Rand7()%20实现%20Rand10().md) |       |      | 
 | | [1. 两数之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/two-sum)  | [Leetcode 1.%20两数之和.md](Leetcode/Leetcode%201.%20两数之和.md) |       |    hash  | 
 |  | [剑指 Offer 18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)  | [Leetcode 面试题18. 删除链表的节点.md](Leetcode/Leetcode%20面试题18.%20删除链表的节点.md ) |       |      | 
+|   |  [234. 回文链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindrome-linked-list/)   | [Leetcode 234. 回文链表.md](Leetcode/Leetcode%20234.%20回文链表.md) |       |   链表   |     
+| | [Leetcode 21. 合并两个有序链表.md](Leetcode/Leetcode%2021.%20合并两个有序链表.md) | | 基础的链表题；注意设置头指针| 链表 |

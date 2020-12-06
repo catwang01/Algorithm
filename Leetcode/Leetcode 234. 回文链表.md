@@ -58,31 +58,38 @@ public:
 
 ##### 解法1:实现1: python
 
-```cpp
+```
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
-        if not head or not head.next: return True
-        slow, fast = head, head.next
-        while fast and fast.next:
-            fast = fast.next.next
-            slow = slow.next
-        newhead = slow.next
+        if not head or not head.next:
+            return True
 
-        slow.next = None
-        newhead = self.reverse(newhead)
+        mid = self.findMid(head)
+        midNext = mid.next
+        mid.next = None
+        newhead = self.reverse(midNext)
 
         while head and newhead:
             if head.val != newhead.val:
                 return False
-            head = head.next
-            newhead = newhead.next
+            head, newhead = head.next, newhead.next
         return True
-    
+
+    def findMid(self, head):
+        slow, fast = head, head.next
+        while fast and fast.next:
+            fast = fast.next.next
+            slow = slow.next
+        return slow
+
     def reverse(self, head):
-        if not head or not head.next: return head
-        newhead = self.reverse(head.next)
-        head.next.next = head
-        head.next = None
+        newhead = None
+        cur = head
+        while cur:
+            nextNode = cur.next
+            cur.next = newhead
+            newhead = cur
+            cur = nextNode
         return newhead
 ```
 
