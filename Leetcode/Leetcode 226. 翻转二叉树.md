@@ -1,5 +1,3 @@
-
-
 [toc] 
 
 # Leetcode 226. 翻转二叉树
@@ -10,22 +8,75 @@
 
 ## 算法
 
-### 解法一：递归
+只需要遍历每个结点，交换其左右结点即可。使用 preorder、inorder、postorder、levelorder均可
 
-#### 解法一：实现
+### 解法1: preorder dfs
 
-##### 解法一：python
+#### 解法1: 实现：递归
+
+##### 解法1: 实现:python
 
 ```
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
-        if not root:
-            return None
-        tmp = root.left
-        root.left = self.invertTree(root.right)
-        root.right = self.invertTree(tmp)
+        
+        def process(node):
+            if not node: return 
+            node.left, node.right = node.right, node.left
+
+        def preorder(node, process):
+            if not node: return
+            process(node)
+            preorder(node.right, process)
+            preorder(node.left, process)
+
+        preorder(root, process)
         return root
 ```
+
+#### 解法1: 实现2: 非递归
+##### 解法1: 实现2: python
+
+```
+class Solution:
+    def invertTree(self, root: TreeNode) -> TreeNode:
+        node = root
+        stack = []
+        while stack or node:
+            while node:
+                # preorder processing
+                node.left, node.right = node.right, node.left  
+                stack.append(node.right)
+                node = node.left
+            node = stack.pop()
+        return root
+```
+
+### 解法2: postorder
+
+##### 解法二python inorder 非递归
+
+```
+class Solution:
+    def invertTree(self, root: TreeNode) -> TreeNode:
+        if not root: return root
+        node = root
+        stack = []
+        while stack or node:
+            while node:
+                stack.append(node)
+                node = node.left
+            node = stack.pop()
+            # inorder processing
+            node.left, node.right = node.right, node.left
+            node = node.left # 这里需要将框架的 node = node.right
+        return root
+```
+
+
+#### 解法2： 实现1: 递归
+
+##### 解法2： 实现1: python
 
 利用python的语言特性，可以省略保存 root.left 的步骤，直接交换
 
@@ -38,7 +89,7 @@ class Solution:
         return root
 ```
 
-##### 解法一：java
+##### 解法2：实现1: java
 
 ```
 class Solution {
@@ -57,11 +108,36 @@ class Solution {
 }
 ```
 
-### 解法二：遍历
+#### 解法2: 实现2: 非递归
 
-只需要遍历每个结点，交换其左右结点即可。使用 preorder、inorder、postorder、levelorder均可
+##### 解法2: 实现2: python
 
-#### 解法二：实现
+```
+class Solution:
+    def invertTree(self, root: TreeNode) -> TreeNode:
+        if not root: return root
+        node = root
+        stack = []
+        while stack or node:
+            while node:
+                stack.append(node)
+                node = node.left if node.left else node.right
+            node = stack.pop()
+            node.left, node.right = node.right, node.left
+            if stack and stack[-1].left == node:
+                node = stack[-1].right
+            else:
+                node = None
+        return root
+```
+
+### 解法3：inorder dfs
+
+
+```
+```
+
+### 解法4: level order
 
 ##### 解法一python bfs 非递归
 
@@ -84,62 +160,3 @@ class Solution:
                 q.append(node.right)
         return root
 ```
-
-
-##### 解法二python preorder 非递归
-
-```
-class Solution:
-    def invertTree(self, root: TreeNode) -> TreeNode:
-        node = root
-        stack = []
-        while stack or node:
-            while node:
-                # preorder processing
-                node.left, node.right = node.right, node.left  
-                stack.append(node.right)
-                node = node.left
-            node = stack.pop()
-        return root
-```
-
-##### 解法二python inorder 非递归
-
-```
-class Solution:
-    def invertTree(self, root: TreeNode) -> TreeNode:
-        if not root: return root
-        node = root
-        stack = []
-        while stack or node:
-            while node:
-                stack.append(node)
-                node = node.left
-            node = stack.pop()
-            # inorder processing
-            node.left, node.right = node.right, node.left
-            node = node.left # 这里需要将框架的 node = node.right
-        return root
-```
-
-##### 解法二python postorder 非递归
-
-```
-class Solution:
-    def invertTree(self, root: TreeNode) -> TreeNode:
-        if not root: return root
-        node = root
-        stack = []
-        while stack or node:
-            while node:
-                stack.append(node)
-                node = node.left if node.left else node.right
-            node = stack.pop()
-            node.left, node.right = node.right, node.left
-            if stack and stack[-1].left == node:
-                node = stack[-1].right
-            else:
-                node = None
-        return root
-```
-
