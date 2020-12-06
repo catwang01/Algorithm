@@ -647,7 +647,11 @@ inorder traversal的简单应用 [98. 验证二叉搜索树 - 力扣（LeetCode�
 
 7. 和上面的很像 [496. 下一个更大元素 I - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-element-i/)
 
+[503. 下一个更大元素 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-element-ii/)
+
 8. [1019. 链表中的下一个更大节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/)
+
+
 
 9. [901. 股票价格跨度 - 力扣（LeetCode）](https://leetcode-cn.com/problems/online-stock-span/)
 

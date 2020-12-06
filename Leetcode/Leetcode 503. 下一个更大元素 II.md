@@ -8,6 +8,7 @@
 
 ## 算法
 
+
 ### 解法1: 单调栈
 
 首先，由于元素是可以重复的，因此需要往栈中压入 index，而不是值。
@@ -20,7 +21,7 @@
 
 #### 解法1:实现
 
-##### 解法1: c++
+##### 解法1: 实现1： c++
 
 
 ```
@@ -44,5 +45,21 @@ public:
 };
 ```
 
+##### 解法2: 实现1：python
+
+```
+class Solution:
+    def nextGreaterElements(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+        ret = [-1] * n
+        for i in range(n):
+            for j in range(i+1, i + n + 1):
+                if nums[j % n] > nums[i]:
+                    ret[i] = nums[j % n]
+                    break
+        return ret
+```
+
 # References
 1. [单调栈解决 Next Greater Number 一类问题 - 下一个更大元素 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/next-greater-element-ii/solution/dan-diao-zhan-jie-jue-next-greater-number-yi-lei-2/)
+
