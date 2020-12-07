@@ -15,12 +15,14 @@
 
 ### 解法二：堆
 
-时间复杂度：$NO(logk)$
+#### 解法2:实现1: 大根堆1
+
+时间复杂度：$O(Nlogk)$
 空间复杂度： $O(k)$
 
 建立一个k个元素的大根堆，每次往堆中插入一个元素，最后弹出堆中最后的一个元素。
 
-#### 解法二c++
+##### 解法2: 实现1: c++
 
 
 ```cpp
@@ -39,7 +41,44 @@ public:
 };
 ```
 
+#### 解法2:实现1: 大根堆2
 
+
+这次用一个大小为 N-k+1 大根堆，当所有数字遍历完之后，没有入堆的元素有 `k-1` 个，这写元素大于等于堆中元素。而堆顶的元素就是最大的第 k 个元素。
+
+##### 解法2: 实现2： python
+
+```
+class Heap:
+    def __init__(self, smallRoot = True):
+        self.data = []
+        self.sign = 1 if smallRoot else -1
+
+    def push(self, val):
+        heapq.heappush(self.data, val * self.sign)
+    
+    def pop(self):
+        return heapq.heappop(self.data) * self.sign
+
+    def top(self):
+        return self.data[0] * self.sign
+    
+    def size(self):
+        return len(self.data)
+
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        n = len(nums)
+        heap = Heap(smallRoot=False)
+        for x in nums:
+            if heap.size() < n - k + 1:
+                heap.push(x)
+            else:
+                if heap.top() > x:
+                    heap.pop()
+                    heap.push(x)
+        return heap.top()
+```
 
 ### 解法三：快速选择
 
@@ -188,4 +227,34 @@ class Solution:
                 return self.quickSelect(A, i+1, high, k)
         else: # low = high = k
             return A[k]
+```
+
+#### 解法3: 实现2：左闭右开区间
+##### 解法3: 实现2：python
+
+```
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        return self.quickSelect(nums, 0, len(nums), k)
+
+    def quickSelect(self, nums, low, high, k):
+        i = j = low
+        # [low, i) <= pivot
+        randomIdx = random.randint(low, high-1)
+        pivot = nums[randomIdx]
+        nums[high-1], nums[randomIdx] = nums[randomIdx], nums[high-1]
+        while j < high:
+            if nums[j] >= pivot:
+                nums[i], nums[j] = nums[j], nums[i]
+                i += 1
+            j += 1
+        # i - 1 == pivot:
+        if i == k:
+            return nums[i-1]
+        elif i < k:
+            return self.quickSelect(nums, i, high, k)
+        else:
+            return self.quickSelect(nums, low, i-1, k)
+
+
 ```
