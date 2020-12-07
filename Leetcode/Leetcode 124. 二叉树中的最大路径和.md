@@ -9,7 +9,7 @@
 
 ## 算法
 
-### 解法一：递归
+### 解法1： postorder
 
 这个题和 [687. 最长同值路径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-univalue-path/) 的思路一样
 
@@ -21,9 +21,8 @@
 
 ![](https://gitee.com/EdwardElric_1683260718/picture_bed/raw/master/img/20200803140550.png)
 
-#### 解法一: 实现
-
-##### 解法1: 实现： python
+#### 解法1: 实现1: 递归
+##### 解法1: 实现1： python
 
 ```
 class Solution:
@@ -41,9 +40,7 @@ class Solution:
         return curMax
 ```
 
-
-
-##### 解法一：实现：c++
+##### 解法1：实现1：c++
 
 ```
 class Solution {
@@ -68,11 +65,8 @@ public:
 };
 ```
 
-### 解法2: postorder 非递归
-
-#### 解法2: postorder 实现1 使用 hashtab 保存结果
-
-##### 解法2: postorder：c++
+#### 解法1: 实现2: 非递归 使用 hashtab 保存结果
+##### 解法1: 实现2：c++
 
 ```
 class Solution {
@@ -110,7 +104,7 @@ public:
 };
 ```
 
-##### 解法2: postorder： python
+##### 解法1: 实现2： python
 
 ```
 class Solution:
@@ -139,9 +133,9 @@ class Solution:
         return ret
 ```
 
-#### 解法2: 实现2: 非递归 使用结果栈缓存左右节点的结果
+#### 解法1: 实现3: 非递归 使用结果栈缓存左右节点的结果
 
-##### 解法2: 实现 python
+##### 解法1: 实现3: python
 
 ```
 class Solution:
