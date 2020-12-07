@@ -33,33 +33,29 @@ class Solution:
 
 直接套用就可以。
 
+但是有一些特殊的地方
+
+1. 这个问题相当于已经按照区间起点排好序了
+2. 不会出现无法覆盖的问题。
+3. 这个返回的是最小跳跃次数，是最小区间数 - 1。
+
 ##### 解法2: 实现：python
 
 ```
 class Solution:
     def jump(self, nums: List[int]) -> int:
-        n = len(nums)
-        if n <= 1: return 0
-
-        left = right = 0
-        i = 0
+        start = 0
         ret = 0
-        while i < n:
+        i = 0
+        while i < len(nums):
             j = i
-            isupdated = False
-            while j < n and j <= left:
-                if j + nums[j] > right:
-                    isupdated = True
-                    right = j + nums[j]
+            end = start
+            while j < len(nums) and j <= start:
+                if j + nums[j] > end:
+                    end = j + nums[j]
                 j += 1
-            if isupdated:
-                ret += 1
-                left = right
-                if right >= n-1:
-                    return ret
-                i = j
-            else:
-                return -1
-        
-        return ret
+            ret += 1
+            i = j
+            start = end
+        return ret - 1
 ```

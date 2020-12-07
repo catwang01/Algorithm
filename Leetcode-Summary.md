@@ -6,10 +6,6 @@
 
 [1670. 设计前中后队列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/design-front-middle-back-queue/)
 
-## 区间相关
-
-[1024. 视频拼接 - 力扣（LeetCode）](https://leetcode-cn.com/problems/video-stitching/)
-
 ## 左右两个方向算两次
 
 [821. 字符的最短距离 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)
@@ -46,23 +42,34 @@
 
 7. [1405. 最长快乐字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-happy-string/)
 
+
+11. [455. 分发饼干 - 力扣（LeetCode）](https://leetcode-cn.com/problems/assign-cookies/)
+
+### 贪心 + 区间
+
+[1024. 视频拼接 - 力扣（LeetCode）](https://leetcode-cn.com/problems/video-stitching/)
+
+### 贪心 + 滑动窗口 
+
+15. [402. 移掉K位数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-k-digits/)
+
+#### 活动选择
+
+1. 经典贪心：活动选择问题 [435. 无重叠区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/non-overlapping-intervals/)
+
+2. 经典贪心：活动选择问题 [1235. 规划兼职工作 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-profit-in-job-scheduling/)
+
+3. 经典贪心：活动选择问题 [452. 用最少数量的箭引爆气球 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+
+
+#### 最小区间覆盖问题
+
 8. [55. 跳跃游戏 - 力扣（LeetCode）](https://leetcode-cn.com/problems/jump-game/)
 
 9. [1024. 视频拼接 - 力扣（LeetCode）](https://leetcode-cn.com/problems/video-stitching/)
 
 10. [45. 跳跃游戏 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/jump-game-ii/)
 
-11. [455. 分发饼干 - 力扣（LeetCode）](https://leetcode-cn.com/problems/assign-cookies/)
-
-12. 经典贪心：活动选择问题 [435. 无重叠区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/non-overlapping-intervals/)
-
-13. 经典贪心：活动选择问题 [1235. 规划兼职工作 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-profit-in-job-scheduling/)
-
-14. 经典贪心：活动选择问题 [452. 用最少数量的箭引爆气球 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
-
-### 贪心 + 滑动窗口 
-
-15. [402. 移掉K位数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-k-digits/)
 ## 字符串
 
 1. 比较简单 [415. 字符串相加 - 力扣（LeetCode）](https://leetcode-cn.com/problems/add-strings/)
