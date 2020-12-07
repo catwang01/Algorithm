@@ -27,13 +27,44 @@ class Solution:
 ```
 
 
-### 解法2: dp
+### 解法2: 01背包
 
 这个问题是 0-1 背包问题
 
-#### 解法1: 实现
+#### 解法1: 实现1
 
-##### 解法1: 实现：python
+##### 解法1: 实现1：python
+
+```
+def cache(func):
+    memo = {}
+    def wrapper(*args):
+        if args not in memo:
+            memo[args] = func(*args)
+        return memo[args]
+    return wrapper
+
+class Solution:
+    def canPartition(self, nums: List[int]) -> bool:
+        s = sum(nums)
+        if s & 1 or len(nums) < 2: return False
+        target = s // 2
+
+        @cache
+        def helper(i, target):
+            if i < 0 or target < 0: 
+                return False
+            if target == 0:
+                return True
+            return helper(i-1, target - nums[i]) or helper(i-1, target)
+
+        return helper(len(nums)-1, target)
+```
+
+#### 解法1: 实现2
+
+##### 解法1: 实现2：python
+
 
 ```
 class Solution:

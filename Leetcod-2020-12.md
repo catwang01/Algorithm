@@ -52,3 +52,6 @@
 |  | [剑指 Offer 18. 删除链表的节点 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)  | [Leetcode 面试题18. 删除链表的节点.md](Leetcode/Leetcode%20面试题18.%20删除链表的节点.md ) |       |      | 
 |   |  [234. 回文链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindrome-linked-list/)   | [Leetcode 234. 回文链表.md](Leetcode/Leetcode%20234.%20回文链表.md) |       |   链表   |     
 | | [Leetcode 21. 合并两个有序链表.md](Leetcode/Leetcode%2021.%20合并两个有序链表.md) | | 基础的链表题；注意设置头指针| 链表 |
+| 2020-12-7|||||
+| | [23. 合并K个排序链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/merge-k-sorted-lists/)| [Leetcode 23. 合并K个排序链表.md](Leetcode/Leetcode%2023.%20合并K个排序链表.md) | | 学习了c++中priority_queue 的使用 | 堆;分治|
+|  | [416. 分割等和子集 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-equal-subset-sum/)  | [Leetcode 416. 分割等和子集.md](Leetcode/Leetcode%20416.%20分割等和子集.md) |       |      | 
