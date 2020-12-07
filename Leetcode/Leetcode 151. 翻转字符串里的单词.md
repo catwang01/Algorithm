@@ -9,7 +9,7 @@
 
 ## 算法
 
-### 解法一：split+join
+### 解法一： 调用 api split+join
 
 #### 解法一：实现
 
@@ -58,9 +58,9 @@ public:
 
 这个用到了滑动窗口的思想
 
-#### 解法二：实现
+#### 解法2：实现1: 滑动窗口 + stack
 
-##### 解法二：c++
+##### 解法2： 实现1： c++
 
 ``` 
 class Solution {
@@ -94,7 +94,7 @@ public:
 };
 ```
 
-##### 解法2: 实现：python
+##### 解法2: 实现1：python
 
 ```
 class Solution:
@@ -129,27 +129,42 @@ class Solution:
         return ret[:len(ret)-1]
 ```
 
-### 解法3:stack
+#### 解法2:实现: 滑动窗口 + 2次reverse
 
-#### 解法3:实现
-
-##### 解法3:c++
+##### 解法2：实现: python
 
 ```
-class Solution {
-public:
-    string reverseWords(string str) {
-        stack<string> s;
-        string word, ret;
-        stringstream ss(str);
-        while(ss >> word) {
-            s.push(word);
-        }
-        while (!s.empty()) {
-            ret += s.top() + “ “;
-            s.pop();
-        }
-        return ret.substr(0, ret.size()-1_;
-    }
-};
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        list_s = list(s)
+        end = self.removeSpace(list_s, 0, len(list_s))
+        self.reverse(list_s, 0, end)
+        i = 0
+        while i < end:
+            j = i
+            while j < end and list_s[j] != ' ':
+                j += 1
+            self.reverse(list_s, i, j)
+            i = j + 1
+        return "".join(list_s[:end])
+
+    def reverse(self, s, low, high):
+        while high - low >= 2:
+            s[low], s[high-1] = s[high-1], s[low]
+            low += 1
+            high -= 1
+
+    def removeSpace(self, s, low, high):
+        i = j = low
+        # [low, i) normal string
+        # [i, j) repeated spaces
+        while j < high:
+            if s[j] != ' ' or (i - 1 >= 0 and s[i-1] != ' '):
+                s[j], s[i] = s[i], s[j]
+                i += 1
+            j += 1
+        if s[i-1] == ' ':
+            return i - 1
+        else:
+            return i
 ```

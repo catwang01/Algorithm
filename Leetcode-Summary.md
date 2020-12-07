@@ -49,10 +49,6 @@
 
 [1024. 视频拼接 - 力扣（LeetCode）](https://leetcode-cn.com/problems/video-stitching/)
 
-### 贪心 + 滑动窗口 
-
-15. [402. 移掉K位数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-k-digits/)
-
 #### 活动选择
 
 1. 经典贪心：活动选择问题 [435. 无重叠区间 - 力扣（LeetCode）](https://leetcode-cn.com/problems/non-overlapping-intervals/)
@@ -62,7 +58,7 @@
 3. 经典贪心：活动选择问题 [452. 用最少数量的箭引爆气球 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 
 
-#### 最小区间覆盖问题
+#### 最小区间覆盖问题（贪心 + 滑动窗口）
 
 8. [55. 跳跃游戏 - 力扣（LeetCode）](https://leetcode-cn.com/problems/jump-game/)
 
