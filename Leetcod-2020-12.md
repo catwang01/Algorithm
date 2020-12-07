@@ -57,3 +57,4 @@
 |  | [416. 分割等和子集 - 力扣（LeetCode）](https://leetcode-cn.com/problems/partition-equal-subset-sum/)  | [Leetcode 416. 分割等和子集.md](Leetcode/Leetcode%20416.%20分割等和子集.md) |       |      | 
 |  | [215. 数组中的第K个最大元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/submissions/)  | [Leetcode 215. 数组中的第K个最大元素.md](Leetcode/Leetcode%20215.%20数组中的第K个最大元素.md) |  leetcode 探索     |      | 
 |  | [124. 二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)  | [Leetcode 124. 二叉树中的最大路径和.md](Leetcode/Leetcode 124.%20二叉树中的最大路径和.md) |       |      | 
+| 推荐  |   [236. 二叉树的最近公共祖先 - 力扣（LeetCode）](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)| [Leetcode 236. 二叉树的最近公共祖先.md](Leetcode/Leetcode%20236.%20二叉树的最近公共祖先.md) |     这个递归方法比较难理解  |  二叉树    | 

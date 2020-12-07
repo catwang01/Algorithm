@@ -36,7 +36,7 @@
 
 ## 算法
 
-### 解法一：利用父结点的指针
+### 解法1：利用父结点的指针
 
 
 关键是如果记录每个结点的父结点；
@@ -89,7 +89,9 @@ class Solution:
 
 如果将hash表看做是从子节点到父结点的一个链接的话，那么这个hash表实际上定义了一个链表。链表有两个头 p 和 q。现在想找到 p 和 q 的相遇的节点，实际上是下面的这问题 [剑指 Offer 52. 两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
 
-#### 解法2: python
+
+#### 解法2： 实现1: 非递归 bfs + hashtab 保存父节点
+##### 解法2: 实现1: python
 
 ```
 from collections import deque
@@ -109,10 +111,35 @@ class Solution:
         # 这里使用了 剑指 Offer 52. 两个链表的第一个公共节点 的思路
         curp, curq = p, q
         while curp != curq:
-            print("val: %d, val: %d" %(curp.val, curq.val))
             curp = parentDict[curp] if curp else q
             curq = parentDict[curq] if curq else p
         return curp
+```
+
+#### 解法2： 实现2: 非递归preorder + hashtab 保存父节点
+
+##### 解法2： 实现2: python
+
+```
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        hashtab = {root: None}
+        st = []
+        while root or st:
+            while root:
+                if root.right: hashtab[root.right] = root
+                if root.left: hashtab[root.left] = root
+                st.append(root.right)
+                root = root.left
+            root = st.pop()
+        return self.findFirstCommon(hashtab, p, q)
+        
+    def findFirstCommon(self, hashtab, p, q):
+        nodep, nodeq = p, q
+        while nodep != nodeq:
+            nodep = hashtab[nodep] if nodep else q
+            nodeq = hashtab[nodeq] if nodeq else p
+        return nodep
 ```
 
 ### 解法3: 递归（这个比较好，但是难理解）
