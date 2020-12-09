@@ -404,6 +404,12 @@
 
 比较难的 [887. 鸡蛋掉落 - 力扣（LeetCode）](https://leetcode-cn.com/problems/super-egg-drop/)
 
+
+### 区间 dp
+
+[1312. 让字符串成为回文串的最少插入次数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
+
+
 ### 正则匹配问题
 
 1. [44. 通配符匹配 - 力扣（LeetCode）](https://leetcode-cn.com/problems/wildcard-matching/)
@@ -437,9 +443,12 @@
 
 ### 回文串相关
 
+
 [647. 回文子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/palindromic-substrings/)
 
 dp 推荐 [516. 最长回文子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)
+
+[1312. 让字符串成为回文串的最少插入次数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
 
 推荐 [5. 最长回文子串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)
 

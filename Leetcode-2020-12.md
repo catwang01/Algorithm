@@ -68,4 +68,6 @@
 |  | [540. 有序数组中的单一元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)  | [Leetcode 540. 有序数组中的单一元素.md](Leetcode/Leetcode%20540.%20有序数组中的单一元素.md) |       |      | 
 |  | [204. 计数质数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/count-primes/)  | [Leetcode/Leetcode 204. 计数质数.md](Leetcode/Leetcode%20204.%20计数质数.md) |       |      | 
 |  |  [150. 逆波兰表达式求值 - 力扣（LeetCode）](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [Leetcode 150. 逆波兰表达式求值.md](Leetcode/Leetcode%20150.%20逆波兰表达式求值.md) |       |      | 
+|  | [1312. 让字符串成为回文串的最少插入次数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)  | [Leetcode 1312. 让字符串成为回文串的最少插入次数.md](Leetcode/Leetcode%201312.%20让字符串成为回文串的最少插入次数.md) |       |      | 
+
 
