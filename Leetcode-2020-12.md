@@ -62,3 +62,7 @@
 |  | [45. 跳跃游戏 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/jump-game-ii/)  | [Leetcode 45. 跳跃游戏 II.md](Leetcode/Leetcode%2045.%20跳跃游戏%20II.md) |       |      | 
 | | [160. 相交链表 - 力扣（LeetCode）](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Leetcode 160. 相交链表.md](Leetcode/Leetcode%20160.%20相交链表.md) | 面试题 | |
 | Leetcode 头条专栏 | [151. 翻转字符串里的单词 - 力扣（LeetCode）](https://leetcode-cn.com/problems/reverse-words-in-a-string/)  | [Leetcode 151. 翻转字符串里的单词.md](Leetcode/Leetcode%20151.%20翻转字符串里的单词.md) |       |      | 
+| 2020-12-8|||||
+|  | [1024. 视频拼接 - 力扣（LeetCode）](https://leetcode-cn.com/problems/video-stitching/)  | [Leetcode 1024. 视频拼接.md](Leetcode/Leetcode%201024.%20视频拼接.md) |       |      | 
+| 2020-12-9|||||
+|  | [540. 有序数组中的单一元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)  | [Leetcode 540. 有序数组中的单一元素.md](Leetcode/Leetcode%20540.%20有序数组中的单一元素.md) |       |      | 
