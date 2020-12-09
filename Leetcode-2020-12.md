@@ -66,3 +66,5 @@
 |  | [1024. 视频拼接 - 力扣（LeetCode）](https://leetcode-cn.com/problems/video-stitching/)  | [Leetcode 1024. 视频拼接.md](Leetcode/Leetcode%201024.%20视频拼接.md) |       |      | 
 | 2020-12-9|||||
 |  | [540. 有序数组中的单一元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)  | [Leetcode 540. 有序数组中的单一元素.md](Leetcode/Leetcode%20540.%20有序数组中的单一元素.md) |       |      | 
+|  | [204. 计数质数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/count-primes/)  | [Leetcode/Leetcode 204. 计数质数.md](Leetcode/Leetcode%20204.%20计数质数.md) |       |      | 
+

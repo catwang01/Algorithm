@@ -74,9 +74,9 @@ public:
 
 对于一个质数来说 prime 来说，prime 的倍数都应该被排除。
 
-#### 解法2:实现
+#### 解法2:实现1
 
-##### 解法2: 
+##### 解法2: 实现1：c++
 
 ```
 class Solution {
@@ -99,3 +99,21 @@ public:
 };
 ```
 
+##### 解法2: 实现1：python
+
+```
+class Solution:
+    def countPrimes(self, n: int) -> int:
+        if n <= 1:
+            return 0
+        hashtab = [1] * n
+        ret = n - 2
+        for i in range(2, n):
+            x = i + i
+            while x < n:
+                if hashtab[x]: 
+                    hashtab[x] = 0
+                    ret -= 1
+                x += i
+        return ret
+```
