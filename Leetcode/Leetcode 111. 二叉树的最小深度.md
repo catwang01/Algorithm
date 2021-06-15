@@ -94,11 +94,11 @@ public:
     }
 };
 ```
-### 解法2: dfs
+### 解法2: preorder
 
-#### 解法2： 实现
+#### 解法2： 实现1:preorder 颜色标记
 
-##### 解法2: python preorder 颜色标记
+##### 解法2: 实现1: python
 
 ```
 class Solution:
@@ -122,14 +122,30 @@ class Solution:
         return ret
 ```
 
-##### python inorder 非递归
+#### 解法2: 实现2: 非递归
+
+##### 解法2: 实现2: python
 
 ```
+class Solution:
+    def minDepth(self, root: TreeNode) -> int:
+        ret = float("inf")
+        level = 1
+        st = []
+        while st or root:
+            while root:
+                if not root.left and not root.right:
+                    ret = min(ret, level)
+                st.append((root.right, level+1))
+                root = root.left
+                level += 1
+            root, level = st.pop()
+        return ret if ret != float("inf") else 0
 ```
 
 ### 解法3： postorder
 
-#### 解法3： 非递归
+#### 解法3： 实现1: 非递归
 
 ##### 解法3: 实现： python
 
@@ -158,7 +174,7 @@ class Solution:
         return minDepth
 ```
 
-#### 解法3： 实现：c++
+##### 解法3： 实现：c++
 
 ```
 class Solution {

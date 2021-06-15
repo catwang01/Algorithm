@@ -305,6 +305,8 @@
 
 14. [1668. 最大重复子字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/maximum-repeating-substring/)
 
+15. [540. 有序数组中的单一元素 - 力扣（LeetCode）](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/)
+
 ### 逆序对相关
 
 

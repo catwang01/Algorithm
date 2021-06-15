@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "哈哈哈",
+    "version": "1.0",
+    "description": "哈哈哈",
+    "content_scripts": [
+        {
+            "matches": ["https://leetcode-cn.com/*/" ],
+            "js": ["test.js"]
+        }
+    ]
+}
